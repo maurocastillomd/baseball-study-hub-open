@@ -1,0 +1,15 @@
+name: Idea or request
+description: A topic, tool or improvement you would like to see.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help you?
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Your role (optional)
+      description: For example student, S&C coach, athletic trainer, sports scientist.

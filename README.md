@@ -6,7 +6,17 @@ pitching and hitting breakdowns, and a 3D sports-anatomy lab.
 
 Built by Mauro Castillo (CSCS, RSCC, CPSS). Educational use only. Not medical advice.
 
-## Run it
+## Use it
+
+Live site: https://maurocastillomd.github.io/baseball-study-hub-open/
+
+## Feedback
+
+Found a mistake or have an idea? [Open an issue](https://github.com/maurocastillomd/baseball-study-hub-open/issues/new/choose).
+See `CONTRIBUTING.md`. Lessons were drafted with AI tools from cited sources and are still being
+checked, so corrections with a source are especially welcome.
+
+## Run it yourself
 
 It is a static site. From this folder:
 
@@ -18,8 +28,8 @@ Then open http://localhost:8000. Progress is saved in your browser only.
 
 ## Host it
 
-Any static host works (Cloudflare Pages or Workers static assets, GitHub
-Pages, Netlify). Publish the `app/` folder. Device sync is not included in the
+This repository deploys itself to GitHub Pages on every push (`.github/workflows/pages.yml`).
+Any other static host works too: publish the `app/` folder. Device sync is not included in the
 open edition; it needs your own Worker, database and Cloudflare Access.
 
 ## Licences

@@ -1,0 +1,21 @@
+name: The site is broken
+description: A page will not load, looks wrong, or a button does nothing.
+labels: [bug]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Page address
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      description: For example iPhone Safari, or Windows Chrome.

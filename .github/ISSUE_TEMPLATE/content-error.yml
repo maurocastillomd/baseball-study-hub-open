@@ -1,0 +1,22 @@
+name: Something is wrong in a lesson or figure
+description: A fact, number, citation, drawing or 3D model that looks incorrect.
+labels: [content]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is it?
+      description: Paste the page address or the lesson, figure or structure name.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what should it say?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (paper, textbook chapter or link)
+      description: A source makes the fix much faster.
