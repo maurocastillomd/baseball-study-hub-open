@@ -1,0 +1,488 @@
+[
+  {
+    "lesson": "strength-force-power",
+    "graphic": "mechanical-quantities",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/strength-force-power--mechanical-quantities.svg",
+      "assets/lesson-graphics/strength-force-power--mechanical-quantities.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-force-power",
+    "graphic": "same-power",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/strength-force-power--same-power.svg",
+      "assets/lesson-graphics/strength-force-power--same-power.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-force-power",
+    "graphic": "transfer-chain",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/strength-force-power--transfer-chain.svg",
+      "assets/lesson-graphics/strength-force-power--transfer-chain.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-sprint-brake",
+    "graphic": "running-questions",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/strength-sprint-brake--running-questions.svg",
+      "assets/lesson-graphics/strength-sprint-brake--running-questions.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-sprint-brake",
+    "graphic": "braking-momentum",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/strength-sprint-brake--braking-momentum.svg",
+      "assets/lesson-graphics/strength-sprint-brake--braking-momentum.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-sprint-brake",
+    "graphic": "running-progression",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/strength-sprint-brake--running-progression.svg",
+      "assets/lesson-graphics/strength-sprint-brake--running-progression.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-conditioning-mobility",
+    "graphic": "overlapping-energy",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/strength-conditioning-mobility--overlapping-energy.svg",
+      "assets/lesson-graphics/strength-conditioning-mobility--overlapping-energy.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-conditioning-mobility",
+    "graphic": "same-load-different",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/strength-conditioning-mobility--same-load-different.svg",
+      "assets/lesson-graphics/strength-conditioning-mobility--same-load-different.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "strength-conditioning-mobility",
+    "graphic": "usable-range",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/strength-conditioning-mobility--usable-range.svg",
+      "assets/lesson-graphics/strength-conditioning-mobility--usable-range.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-needs-season",
+    "graphic": "planning-chain",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/programming-needs-season--planning-chain.svg",
+      "assets/lesson-graphics/programming-needs-season--planning-chain.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-needs-season",
+    "graphic": "planning-levels",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/programming-needs-season--planning-levels.svg",
+      "assets/lesson-graphics/programming-needs-season--planning-levels.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-needs-season",
+    "graphic": "review-loop",
+    "type": "cycle",
+    "files": [
+      "assets/lesson-graphics/programming-needs-season--review-loop.svg",
+      "assets/lesson-graphics/programming-needs-season--review-loop.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-pitcher-microcycle",
+    "graphic": "pitcher-record",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/programming-pitcher-microcycle--pitcher-record.svg",
+      "assets/lesson-graphics/programming-pitcher-microcycle--pitcher-record.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-pitcher-microcycle",
+    "graphic": "reliever-options",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/programming-pitcher-microcycle--reliever-options.svg",
+      "assets/lesson-graphics/programming-pitcher-microcycle--reliever-options.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-pitcher-microcycle",
+    "graphic": "anchor-cycle",
+    "type": "cycle",
+    "files": [
+      "assets/lesson-graphics/programming-pitcher-microcycle--anchor-cycle.svg",
+      "assets/lesson-graphics/programming-pitcher-microcycle--anchor-cycle.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-position-players",
+    "graphic": "capacity-exposure",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/programming-position-players--capacity-exposure.svg",
+      "assets/lesson-graphics/programming-position-players--capacity-exposure.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-position-players",
+    "graphic": "roster-plans",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/programming-position-players--roster-plans.svg",
+      "assets/lesson-graphics/programming-position-players--roster-plans.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "programming-position-players",
+    "graphic": "integration-loop",
+    "type": "cycle",
+    "files": [
+      "assets/lesson-graphics/programming-position-players--integration-loop.svg",
+      "assets/lesson-graphics/programming-position-players--integration-loop.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-testing-reliability",
+    "graphic": "same-noise-action",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/science-testing-reliability--same-noise-action.svg",
+      "assets/lesson-graphics/science-testing-reliability--same-noise-action.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-testing-reliability",
+    "graphic": "reliability-distinctions",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/science-testing-reliability--reliability-distinctions.svg",
+      "assets/lesson-graphics/science-testing-reliability--reliability-distinctions.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-testing-reliability",
+    "graphic": "synthetic-jump-change",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/science-testing-reliability--synthetic-jump-change.svg",
+      "assets/lesson-graphics/science-testing-reliability--synthetic-jump-change.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-workload-limits",
+    "graphic": "four-c-record",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/science-workload-limits--four-c-record.svg",
+      "assets/lesson-graphics/science-workload-limits--four-c-record.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-workload-limits",
+    "graphic": "mound-counts",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/science-workload-limits--mound-counts.svg",
+      "assets/lesson-graphics/science-workload-limits--mound-counts.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-workload-limits",
+    "graphic": "same-product",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/science-workload-limits--same-product.svg",
+      "assets/lesson-graphics/science-workload-limits--same-product.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-interpret-communicate",
+    "graphic": "claims-ladder",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/science-interpret-communicate--claims-ladder.svg",
+      "assets/lesson-graphics/science-interpret-communicate--claims-ladder.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-interpret-communicate",
+    "graphic": "r-squared-example",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/science-interpret-communicate--r-squared-example.svg",
+      "assets/lesson-graphics/science-interpret-communicate--r-squared-example.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "science-interpret-communicate",
+    "graphic": "staff-report",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/science-interpret-communicate--staff-report.svg",
+      "assets/lesson-graphics/science-interpret-communicate--staff-report.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-01",
+    "graphic": "structure-to-question",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-01--structure-to-question.svg",
+      "assets/lesson-graphics/rehab-shoulder-01--structure-to-question.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-01",
+    "graphic": "rotation-arc",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-01--rotation-arc.svg",
+      "assets/lesson-graphics/rehab-shoulder-01--rotation-arc.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-01",
+    "graphic": "image-to-decision",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-01--image-to-decision.svg",
+      "assets/lesson-graphics/rehab-shoulder-01--image-to-decision.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-02",
+    "graphic": "pathway-constraints",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-02--pathway-constraints.svg",
+      "assets/lesson-graphics/rehab-shoulder-02--pathway-constraints.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-02",
+    "graphic": "exercise-demand",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-02--exercise-demand.svg",
+      "assets/lesson-graphics/rehab-shoulder-02--exercise-demand.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-02",
+    "graphic": "shoulder-handoff",
+    "type": "cycle",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-02--shoulder-handoff.svg",
+      "assets/lesson-graphics/rehab-shoulder-02--shoulder-handoff.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-03",
+    "graphic": "return-destination",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-03--return-destination.svg",
+      "assets/lesson-graphics/rehab-shoulder-03--return-destination.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-03",
+    "graphic": "ratio-trap",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-03--ratio-trap.svg",
+      "assets/lesson-graphics/rehab-shoulder-03--ratio-trap.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-shoulder-03",
+    "graphic": "role-evidence",
+    "type": "cycle",
+    "files": [
+      "assets/lesson-graphics/rehab-shoulder-03--role-evidence.svg",
+      "assets/lesson-graphics/rehab-shoulder-03--role-evidence.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-01",
+    "graphic": "ucl-connections",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-01--ucl-connections.svg",
+      "assets/lesson-graphics/rehab-elbow-01--ucl-connections.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-01",
+    "graphic": "elbow-contributors",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-01--elbow-contributors.svg",
+      "assets/lesson-graphics/rehab-elbow-01--elbow-contributors.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-01",
+    "graphic": "handoff-columns",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-01--handoff-columns.svg",
+      "assets/lesson-graphics/rehab-elbow-01--handoff-columns.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-02",
+    "graphic": "support-system",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-02--support-system.svg",
+      "assets/lesson-graphics/rehab-elbow-02--support-system.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-02",
+    "graphic": "treatment-pathways",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-02--treatment-pathways.svg",
+      "assets/lesson-graphics/rehab-elbow-02--treatment-pathways.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-02",
+    "graphic": "actual-exposure",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-02--actual-exposure.svg",
+      "assets/lesson-graphics/rehab-elbow-02--actual-exposure.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-03",
+    "graphic": "return-outcomes",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-03--return-outcomes.svg",
+      "assets/lesson-graphics/rehab-elbow-03--return-outcomes.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-03",
+    "graphic": "actual-throws",
+    "type": "bars",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-03--actual-throws.svg",
+      "assets/lesson-graphics/rehab-elbow-03--actual-throws.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-elbow-03",
+    "graphic": "role-demands",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-elbow-03--role-demands.svg",
+      "assets/lesson-graphics/rehab-elbow-03--role-demands.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-01",
+    "graphic": "joint-span",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-01--joint-span.svg",
+      "assets/lesson-graphics/rehab-hamstring-01--joint-span.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-01",
+    "graphic": "force-length-speed",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-01--force-length-speed.svg",
+      "assets/lesson-graphics/rehab-hamstring-01--force-length-speed.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-01",
+    "graphic": "tissue-task",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-01--tissue-task.svg",
+      "assets/lesson-graphics/rehab-hamstring-01--tissue-task.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-02",
+    "graphic": "two-lanes",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-02--two-lanes.svg",
+      "assets/lesson-graphics/rehab-hamstring-02--two-lanes.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-02",
+    "graphic": "exercise-variables",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-02--exercise-variables.svg",
+      "assets/lesson-graphics/rehab-hamstring-02--exercise-variables.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-02",
+    "graphic": "repair-vs-strain",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-02--repair-vs-strain.svg",
+      "assets/lesson-graphics/rehab-hamstring-02--repair-vs-strain.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-03",
+    "graphic": "running-demand",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-03--running-demand.svg",
+      "assets/lesson-graphics/rehab-hamstring-03--running-demand.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-03",
+    "graphic": "hamstring-ratio",
+    "type": "compare",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-03--hamstring-ratio.svg",
+      "assets/lesson-graphics/rehab-hamstring-03--hamstring-ratio.mobile.svg"
+    ]
+  },
+  {
+    "lesson": "rehab-hamstring-03",
+    "graphic": "baseball-return",
+    "type": "flow",
+    "files": [
+      "assets/lesson-graphics/rehab-hamstring-03--baseball-return.svg",
+      "assets/lesson-graphics/rehab-hamstring-03--baseball-return.mobile.svg"
+    ]
+  }
+]

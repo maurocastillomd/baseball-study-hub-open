@@ -1,0 +1,93 @@
+[
+ {
+  "id": "bb-savant-bat-tracking",
+  "title": "Statcast Bat Tracking — official metric documentation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; reviewed 2026",
+  "url": "https://baseballsavant.mlb.com/leaderboard/bat-tracking",
+  "type": "Official measurement documentation · descriptive reference",
+  "population": "MLB tracked swings; the course uses separate synthetic local testing examples.",
+  "access": "Public text verified October 13, 2026; introductory definitions and glossary reviewed. No player dataset downloaded.",
+  "findings": "Documents bat measurement location and swing-selection conventions.",
+  "limitations": "The main introduction gives a more detailed competitive-swing rule than the page footer. The course does not implement that statistic or equate a local sensor mean with it. Documentation does not establish independent accuracy, training efficacy or an injury threshold.",
+  "locations": [
+   "Bat Tracking Leaderboard, opening definitions (bat location and competitive swings).",
+   "Page glossary: exit velocity and bat-tracking definitions; definitions only, no source visual reproduced."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source tables, visuals, player records or long excerpts redistributed.",
+  "reviewed": "2026-10-13: publicly available definition text only"
+ },
+ {
+  "id": "bb-savant-pop-time",
+  "title": "Statcast Catcher Pop Time — official metric documentation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; reviewed 2026",
+  "url": "https://baseballsavant.mlb.com/leaderboard/poptime",
+  "type": "Official measurement documentation · descriptive reference",
+  "population": "MLB catching observations; the course's fixed-plane drill is synthetic and separate.",
+  "access": "Public introductory definition text verified October 13, 2026. No player dataset downloaded.",
+  "findings": "Defines the official timing endpoint and separates exchange and throw-speed summaries.",
+  "limitations": "Descriptive documentation does not validate the course's local timed drill. Historical or current leaderboard averages are not adopted as screening, training or clearance thresholds. The lesson’s arithmetic and target counts are synthetic.",
+  "locations": [
+   "Pop Time Leaderboard, introductory paragraph: start/end events, exchange and throw-speed description."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source tables, visuals or player records redistributed.",
+  "reviewed": "2026-10-13: publicly available definition text only"
+ },
+ {
+  "id": "bb-savant-running",
+  "title": "A Story of Sprint Speed and Burst — official baseball running explanation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; historical 2017 examples",
+  "url": "https://baseballsavant.mlb.com/sprint-speed-scroller",
+  "type": "Official descriptive analysis · historical illustration",
+  "population": "Selected MLB running observations from 2017; no training intervention.",
+  "access": "Public explanatory text verified October 13, 2026; interactive animation not operated or independently checked.",
+  "findings": "Illustrates that different components of a run to first base can produce different comparisons.",
+  "limitations": "Historical teaching example, not a prospective validation study, universal benchmark or current full specification of seasonal eligibility. The hub uses original synthetic timing tasks and no source player figures or performance records.",
+  "locations": [
+   "Statcast Data: qualifying observations and the fastest-window concept.",
+   "Components of Speed: starting transition, acceleration and sustained fastest-window distinction."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source animation, player dataset or figure redistributed.",
+  "reviewed": "2026-10-13: public explanatory text only"
+ },
+ {
+  "id": "bb-hamstring-hits-2019",
+  "title": "Hamstring Injury Trends in Major and Minor League Baseball: Epidemiological Findings From the Major League Baseball Health and Injury Tracking System",
+  "authors": "Okoroha KR, Conte S, Makhni EC, Lizzio VA, Camp CL, Li B, Ahmad CS",
+  "year": 2019,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/31431899/",
+  "type": "Descriptive epidemiology study using prospectively recorded surveillance data",
+  "population": "MLB and MiLB hamstring injuries recorded during 2011–2016.",
+  "access": "PubMed abstract verified 2026-10-13; indexed official PMC Results and Discussion excerpts reviewed. Direct PMC full-text retrieval returned CAPTCHA and the publisher retrieval failed. Not catalogued as fully reviewed text.",
+  "findings": "Base running was a common injury context; recurrent injuries were recorded and associated with more time lost than first injuries.",
+  "limitations": "Historical observational surveillance cannot determine individual readiness, why a particular recurrence occurred, or the effect of a proposed rehabilitation intervention. Detailed methods and tables are not relied upon here.",
+  "locations": [
+   "PubMed abstract: Methods, Results and Conclusion",
+   "Indexed PMC Results: Activity; Discussion (context only)"
+  ],
+  "license": "Article at DOI 10.1177/2325967119861064. Link and use original limited summaries; no figures, tables or full text redistributed.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "bb-hamstring-practice-survey-2024",
+  "title": "Hamstring Strain Injury Prevention: Current Beliefs and Practices of Practitioners Working in Major League Baseball",
+  "authors": "Lazarczuk SL, Headrick J, Hickey JT, Timmins RG, Leva FA, Bourne MN",
+  "year": 2024,
+  "url": "https://mural.maynoothuniversity.ie/id/eprint/19696/1/i1938-162x-59-7-696.pdf",
+  "type": "Cross-sectional survey of practitioners",
+  "population": "91 responding practitioners from 28 MLB organizations; survey administered during the 2021 season.",
+  "access": "Full article PDF available and reviewed at the Maynooth University institutional repository on 2026-10-13. DOI 10.4085/1062-6050-0640.22; direct PMC page returned CAPTCHA.",
+  "findings": "Respondents identified internal communication and implementation barriers such as scheduling and buy-in. Strategies valued by respondents and those used most often did not fully align.",
+  "limitations": "Self-report, differing response counts and voluntary participation; beliefs are not causal risk factors or evidence of an intervention’s effectiveness. Practice may have changed since the 2021 survey.",
+  "locations": [
+   "Methods: Data Collection; Data Processing and Analysis",
+   "Results: Prevention Strategies; Barriers",
+   "Discussion: Extrinsic Risk Factors; Prevention Strategies",
+   "Limitations and Future Research"
+  ],
+  "license": "Copyright National Athletic Trainers’ Association. Free repository reading; original summary and link only. No source illustrations or data tables redistributed.",
+  "reviewed": "2026-10-13"
+ }
+]

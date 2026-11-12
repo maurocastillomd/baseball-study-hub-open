@@ -1,0 +1,76 @@
+{
+  "file": "assets/datasets/cmj-monitoring-handoff.csv",
+  "dictionaryFile": "assets/datasets/cmj-monitoring-handoff.dictionary.json",
+  "columns": [
+    {
+      "key": "day",
+      "label": "Day",
+      "unit": "day index",
+      "meaning": "Synthetic sequential day number from 1 to 28."
+    },
+    {
+      "key": "date",
+      "label": "Date",
+      "unit": "YYYY-MM-DD",
+      "meaning": "Fictional local morning testing date."
+    },
+    {
+      "key": "athlete_id",
+      "label": "Athlete",
+      "unit": "ID",
+      "meaning": "One invented outfielder throughout; no club or personal information."
+    },
+    {
+      "key": "phase",
+      "label": "Phase",
+      "unit": "enum",
+      "meaning": "Days 1\u201314 are the predefined reference window. Days 15\u201328 are monitoring; do not move the baseline after viewing results."
+    },
+    {
+      "key": "cmj_cm",
+      "label": "CMJ height",
+      "unit": "cm",
+      "meaning": "Mean of 3 valid force-plate CMJs using impulse-momentum height. Hands on hips except documented day 8 deviation. Blank means no measurement."
+    },
+    {
+      "key": "sleep_hours",
+      "label": "Reported sleep",
+      "unit": "hours",
+      "meaning": "Athlete-reported previous-night sleep duration. Contextual information, not an objective recovery measure."
+    },
+    {
+      "key": "prior_game_innings",
+      "label": "Previous game",
+      "unit": "innings",
+      "meaning": "Innings played on the preceding calendar date; it is not a complete measure of running or training exposure."
+    },
+    {
+      "key": "travel_hours",
+      "label": "Previous 24 h travel",
+      "unit": "hours",
+      "meaning": "Recorded travel within the 24 hours before testing. Day 25 travel occurs after testing and therefore appears in day 26\u2019s field."
+    },
+    {
+      "key": "protocol_ok",
+      "label": "Comparable protocol",
+      "unit": "boolean",
+      "meaning": "False marks the verified arm-swing deviation on day 8; true means no recorded protocol deviation, not proof of zero measurement error."
+    },
+    {
+      "key": "context",
+      "label": "Context note",
+      "unit": "text",
+      "meaning": "Source notes to support exclusion, temporal interpretation and follow-up. No symptom report is not equivalent to medical clearance."
+    }
+  ],
+  "cleaningRules": [
+    "Keep all 28 raw rows. Do not overwrite day 8 or day 11.",
+    "Baseline = days 1\u201314, protocol_ok true and cmj_cm recorded. Exclude day 8 for verified protocol change and day 11 for a missing measurement; n = 12.",
+    "Use the sample SD of the eligible baseline observations. This is descriptive baseline variability, not an established SEM.",
+    "Current = day 28. Last-three-day mean = comparable observations on days 26, 27 and 28; state this exact window.",
+    "Review rule for this exercise: 2 consecutive comparable recorded days more than 1.5 cm below the fixed baseline mean. Missing or noncomparable days break the sequence.",
+    "Preserve time order: day 25\u2019s late travel occurs after its morning jump and appears as prior-24-hour travel on day 26.",
+    "Do not interpolate missing values, refit the baseline after looking at the monitoring period, or label lower jump height as a quantified fatigue or injury state."
+  ],
+  "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+}

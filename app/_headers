@@ -1,0 +1,12 @@
+# Content-Security-Policy: the sha256 value allows the import map in index.html.
+# If that <script type="importmap"> line changes, update the hash or the 3D labs stop loading.
+/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-iappRSGaYmGbU+iNmsJ5teYDqM/22V2OW3B2sEfXSmU='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+/assets/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+/vendor/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

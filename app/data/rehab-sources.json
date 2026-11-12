@@ -1,0 +1,229 @@
+[
+ {
+  "id": "rehab-shoulder-nonop-2018",
+  "title": "Nonoperative Treatment for Injuries to the In-Season Throwing Shoulder: A Current Concepts Review With Clinical Commentary",
+  "authors": "Stone MA, Jalali O, Alluri RK, et al.",
+  "year": 2018,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6063065/",
+  "type": "Clinical commentary / narrative review",
+  "population": "Overhead throwing athletes; baseball-specific rehabilitation discussion.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Describes an examination-led, phased progression from symptom management and capacity restoration to throwing. Considers the entire kinetic chain and athlete context.",
+  "limitations": "Level 5 clinical commentary; proposed phases and numerical criteria are not a prospectively validated clearance algorithm. Published protocols are examples, not universal prescriptions.",
+  "locations": [
+   "Principles of Treatment",
+   "Physical Examination",
+   "Nonoperative Rehabilitation; Phases 1–4",
+   "Phase 4 – Return to Throwing Phase; Tables 5–6",
+   "Return to Play (RTP)"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-slap-2018",
+  "title": "National Athletic Trainers’ Association Position Statement: Evaluation, Management, and Outcomes of and Return-to-Play Criteria for Overhead Athletes With Superior Labral Anterior-Posterior Injuries",
+  "authors": "Michener LA, Abrams JS, Huxel Bliven KC, et al.",
+  "year": 2018,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5894372/",
+  "type": "Position statement informed by systematic evidence review and expert consensus",
+  "population": "Overhead athletes with SLAP injuries; studies include baseball and other populations.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Explains the biceps-labral complex, limitations of isolated diagnostic findings, first-line nonoperative management and limitations of return-to-play evidence.",
+  "limitations": "Many recommendations have limited or inconsistent research support; published in 2018. Imaging findings must be interpreted with symptoms and examination, and surgical recommendations need current specialist context.",
+  "locations": [
+   "Introduction: biceps-labral complex",
+   "Recommendations 5, 7, 11: diagnosis and imaging",
+   "Recommendations 13–17: management",
+   "Recommendations 18–26: outcomes and return to play"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-rts-2020",
+  "title": "Return to Sport Participation Criteria Following Shoulder Injury: A Clinical Commentary",
+  "authors": "Wilk KE, Bagwell MS, Davies GJ, Arrigo CA",
+  "year": 2020,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735686/",
+  "type": "Clinical commentary",
+  "population": "Athletes after shoulder injury or surgery; includes overhead throwing and macrotrauma examples.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Separates performance training, practice participation and competitive play; combines clinical, physical, sport-specific and psychological information.",
+  "limitations": "Proposed test batteries and cutoffs are clinical guidance, not universally validated injury prediction or clearance rules. Sport and dominance affect interpretation.",
+  "locations": [
+   "Return to Participation Process and Criteria",
+   "Table 1: The 3 P Program",
+   "Tables 2–3: proposed practice/play criteria"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-outcomes-2021",
+  "title": "Management of Common Upper Extremity Injuries in Throwing Athletes: A Critical Review of Current Outcomes",
+  "authors": "Maier J, Oak SR, Soloff L, Schickendantz M, Frangiamore S",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10426540/",
+  "type": "Narrative clinical review",
+  "population": "Overhead throwers, including professional and collegiate baseball players.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Discusses SLAP, instability, cuff and other shoulder injuries; distinguishes return to play from restoration of prior performance and describes position-dependent outcomes.",
+  "limitations": "Largely observational surgical literature with varying definitions and selection effects. Treatment groups and procedures cannot be ranked as if randomized.",
+  "locations": [
+   "The throwing motion",
+   "Superior labral anterior-posterior tears",
+   "Posterior shoulder instability",
+   "Traumatic/anterior shoulder instability",
+   "Rotator cuff tears",
+   "Latissimus dorsi, teres major, subscapularis"
+  ],
+  "license": "CC BY-NC-ND 4.0. Free reading; do not adapt source figures or republish altered source material under this license.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-framework-2025",
+  "title": "Nonoperative Management of Ulnar Collateral Ligament Injuries in the Throwing Athlete: A Framework for Return to Throwing",
+  "authors": "Wyatt PB, Vanderkwaak B, Brown R, Goodloe JB",
+  "year": 2025,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12035091/",
+  "type": "Peer-reviewed clinical video and suggested rehabilitation framework",
+  "population": "Throwing athletes with selected UCL injuries; not an outcomes trial.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Describes UCL and flexor-pronator roles, clinical assessment and a monitored progression from protection toward throwing.",
+  "limitations": "Suggested framework without a comparative rehabilitation trial; its example weeks and exercise choices do not determine individual eligibility or clearance.",
+  "locations": [
+   "Video transcript: Background",
+   "Video transcript: Indications",
+   "Video transcript: Technique Description and Results",
+   "Video transcript: Discussion/Conclusion"
+  ],
+  "license": "CC BY-NC-ND 4.0. Free reading and unaltered noncommercial sharing with attribution; adaptation of the published material requires separate review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-rts-2021",
+  "title": "Return-to-Sport Criteria After Upper Extremity Surgery in Athletes—A Scoping Review, Part 2: Ulnar Collateral Ligament of the Elbow Procedures",
+  "authors": "Griffith R, Bolia IK, Fretes N, et al.",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8358522/",
+  "type": "Scoping review; evidence level 4",
+  "population": "14 studies and 1,335 athletes after UCL surgery; predominantly reconstruction.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Time was reported in every included study, while functional measures were less often described. The review identifies inadequate reporting and validation of return criteria.",
+  "limitations": "Cannot determine whether criteria were absent in practice or merely underreported. Heterogeneous procedures and populations; no comparison validates one clearance battery.",
+  "locations": [
+   "Results: Study Population",
+   "Table 1: Characteristics and RTS Criteria",
+   "RTS Criteria",
+   "Discussion: reporting and validation limitations"
+  ],
+  "license": "CC BY-NC-ND 4.0. Link to the full paper; original teaching summaries only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-management-2026",
+  "title": "Management of Ulnar Collateral Ligament Injuries of the Elbow",
+  "authors": "Ryan PM, Beyer J, Hartman H, Ismail H, Alam M, DeFroda SF",
+  "year": 2026,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13263370/",
+  "type": "Current concepts narrative review",
+  "population": "Throwing and nonthrowing athletes; baseball-specific surgical and nonsurgical literature.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Reviews UCL bundle anatomy, clinical assessment and differences among nonoperative care, repair, reconstruction and augmented reconstruction.",
+  "limitations": "Narrative synthesis; protocol details and surgical selection vary. Faster reported return after repair does not establish comparative superiority because eligible injuries differ.",
+  "locations": [
+   "Anatomy",
+   "Biomechanics of the UCL",
+   "Clinical Evaluation",
+   "Management: Non-Surgical Management",
+   "Surgical Management: Reconstruction, Repair, Hybrid Reconstructions",
+   "Rehabilitation and Return to Sport"
+  ],
+  "license": "CC BY 4.0. Check separately credited third-party material before reuse; attribution and a license link are required.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-reconstruction-2009",
+  "title": "Current Concepts in Rehabilitation Following Ulnar Collateral Ligament Reconstruction",
+  "authors": "Ellenbecker TS, Wilk KE, Altchek DW, Andrews JR",
+  "year": 2009,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445125/",
+  "type": "Clinical review / historical rehabilitation framework",
+  "population": "Overhead throwing athletes after UCL reconstruction, with modified Jobe and docking procedures discussed separately.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Shows why operative approach, flexor-pronator handling and associated nerve procedures influence rehabilitation; describes whole-arm and kinetic-chain progression.",
+  "limitations": "Older source; contemporary techniques differ. Used for the enduring principle of procedure-specific restrictions, not its historical timelines or universal strength thresholds.",
+  "locations": [
+   "Rehabilitation Program Following the Modified Jobe Procedure: Initial Postoperative Management",
+   "Advanced Rehabilitation Phase",
+   "Rehabilitation Following the Docking Procedure",
+   "Conclusion"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-strain-2022",
+  "title": "Hamstring Strain Injury Rehabilitation",
+  "authors": "Hickey JT, Opar DA, Weiss LJ, Heiderscheit BC",
+  "year": 2022,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8876884/",
+  "type": "Current clinical concepts / narrative evidence review",
+  "population": "Athletes with hamstring strains, drawing heavily on running and field-sport evidence.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Integrates progressive running, knee-flexor and hip-extensor loading, symptom monitoring and psychological readiness; explicitly discusses limits of reinjury prediction.",
+  "limitations": "Not a baseball-specific rehabilitation trial or a proximal avulsion repair protocol. Proposed progression thresholds are context-dependent; no single return measure rules out reinjury.",
+  "locations": [
+   "Causes and Mechanisms",
+   "Rehabilitation: Progressive Running; Figure 3",
+   "Eccentric Hamstring Exercises; Hip-Extensor Strengthening; Figure 4",
+   "Implementation Considerations",
+   "Outcome Measures",
+   "Can We Assess the Reinjury Risk at Return to Sport?"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-proximal-2024",
+  "title": "Management of Proximal Hamstring Injuries: Non-operative and Operative Treatment",
+  "authors": "Yetter TR, Halvorson RT, Wong SE, Harris JD, Allahabadi S",
+  "year": 2024,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11335994/",
+  "type": "Current concepts narrative review",
+  "population": "Elite and recreational patients with proximal hamstring injuries; not exclusively baseball.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Explains tendon anatomy, injury classification, treatment selection and postoperative protection. Tendon involvement, retraction, chronicity and patient demands inform decisions.",
+  "limitations": "Observational studies and authors’ preferred protocols contribute substantially; the review precedes later comparative syntheses. Its surgical indications are considerations, not automatic decisions.",
+  "locations": [
+   "Background: Anatomy; Biomechanics",
+   "Mechanism of Injury; Injury Classification",
+   "Indications for Nonoperative Treatment; Table 1",
+   "Indications for Operative Treatment; Table 2",
+   "Postoperative Rehabilitation"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-comparison-2025",
+  "title": "No Difference in Patient-Reported Outcomes Between Operative and Non-operative Management of Proximal Hamstring Injuries, but Return to Sports Is Higher in Operative Treatment: A Systematic Review and Meta-analysis",
+  "authors": "Thamrongskulsiri N, Limskul D, Tanpowpong T, Kuptniratsaikul S, Ranawat AS, Itthipanichpong T",
+  "year": 2025,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12255933/",
+  "type": "Systematic review and meta-analysis of comparative studies",
+  "population": "Predominantly active, middle-aged recreational patients with proximal hamstring tendon avulsions.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Pooled patient-reported outcomes were similar, while return to preinjury sport favored surgery. Authors emphasize population and selection limitations.",
+  "limitations": "Mostly nonrandomized evidence with selection bias and heterogeneity; results cannot be directly transferred to elite baseball. Reported denominators vary across outcomes; no pooled success percentage is used in these lessons.",
+  "locations": [
+   "Results: Return to Sports at Pre-injury Performance Level",
+   "Results: Patient-reported Outcome Scores",
+   "Discussion: population applicability and limitations",
+   "Conclusion"
+  ],
+  "license": "CC BY 4.0. Attribution, a license link, and indication of changes are required; check third-party credit lines before figure reuse.",
+  "reviewed": "2026-10-12"
+ }
+]

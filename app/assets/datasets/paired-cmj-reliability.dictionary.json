@@ -1,0 +1,49 @@
+{
+  "file": "assets/datasets/paired-cmj-reliability.csv",
+  "dictionaryFile": "assets/datasets/paired-cmj-reliability.dictionary.json",
+  "columns": [
+    {
+      "key": "athlete_id",
+      "label": "Athlete",
+      "unit": "ID",
+      "meaning": "Invented unique athlete ID. One row is one athlete, not one jump."
+    },
+    {
+      "key": "test1_cm",
+      "label": "Session 1",
+      "unit": "cm",
+      "meaning": "Mean height of 3 valid hands-on-hips CMJs; force-plate impulse-momentum calculation."
+    },
+    {
+      "key": "test2_cm",
+      "label": "Session 2",
+      "unit": "cm",
+      "meaning": "Same summary, device, software and protocol at the second session."
+    },
+    {
+      "key": "protocol",
+      "label": "Protocol",
+      "unit": "text",
+      "meaning": "Both sessions use the same familiarized procedure, warm-up and trial aggregation."
+    },
+    {
+      "key": "device",
+      "label": "Device",
+      "unit": "ID",
+      "meaning": "Fictional device identifier; held constant."
+    },
+    {
+      "key": "interval_days",
+      "label": "Separation",
+      "unit": "days",
+      "meaning": "Sessions are 7 days apart in a fictional stable period. This is a study-design choice, not a universal recovery prescription."
+    }
+  ],
+  "cleaningRules": [
+    "Keep all 24 complete athlete pairs; there are no duplicate IDs or missing measurements in this dataset.",
+    "Do not treat the 3 jumps behind each session mean as 3 independent athlete pairs.",
+    "Calculate each signed difference as test2_cm \u2212 test1_cm. Use the sample SD of the 24 differences.",
+    "Report the mean bias separately. Centering for the SD does not prove the source of bias or justify silently correcting future results."
+  ],
+  "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+}

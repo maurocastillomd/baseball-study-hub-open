@@ -1,0 +1,1035 @@
+[
+ {
+  "id": "bb-rehab-elbow-pathways",
+  "title": "Three elbows, three plans",
+  "track": "rehab",
+  "subtitle": "Compare a nonoperative UCL pathway, native-ligament repair and tendon-graft reconstruction without confusing their permissions.",
+  "context": "The same affiliate has three fictional pitchers preparing to return after different UCL injuries. Nico has a selected partial injury managed nonoperatively. Eli has undergone native-ligament repair with suture augmentation. Tom has undergone tendon-graft reconstruction with an associated ulnar-nerve procedure. Their treating teams have already selected these pathways; your task is to implement and report the authorized work, not choose the operations.\n\nThe head coach wants one shared return sheet. You will create a common reporting structure while preserving each athlete’s clinical restrictions, throwing permissions and eventual role. These are selected episodes across separate recoveries, not parallel patients at the same postoperative stage. All instructions, workloads and results are synthetic educational assumptions.",
+  "outcomes": [
+   "Identify which parts of a return sheet can be shared and which require a patient-specific care plan.",
+   "Reconcile throwing exposure and response without converting a count into ligament stress.",
+   "Write a return-to-role handoff that separates demonstrated work from a requested change."
+  ],
+  "scope": "Evidence-informed care-plan comparison and performance-staff reasoning. It is not a complete protocol, surgical selection tool or medical clearance test. The clinical team owns examination, restrictions and eligibility; a quiz result grants no patient permission.",
+  "links": [
+   {
+    "route": "#lesson/rehab-elbow-02",
+    "label": "Elbow operative and nonoperative foundations"
+   },
+   {
+    "route": "#lab/rehab-lab-elbow",
+    "label": "The returning starter: seven checkpoints"
+   }
+  ],
+  "stages": [
+   {
+    "id": "bb-elbow-plan",
+    "title": "1. Standardize the report, individualize the permissions",
+    "brief": "Nico’s signed plan permits a specified flat-ground session. Eli’s plan currently permits gym rehabilitation only; throwing requires a separate review. Tom’s plan permits a specific controlled mound task, with a nerve-symptom reporting instruction. All three report no pain during their current work. The coach proposes sorting them by how many days they have been “pain free.”",
+    "teaching": [
+     {
+      "heading": "Name what was treated",
+      "text": "Repair preserves and fixes selected native tissue; reconstruction uses a graft. Suture augmentation does not turn those into the same operation. Injury pattern, tissue quality and associated procedures matter. Published group outcomes therefore do not establish which of these three pitchers should progress first.\n\nMake the top of each return sheet a short plan identity: diagnosis and treatment as documented, author and date of the current instruction, allowed task, restricted task and next review event. This prevents an old exercise list or another player’s permission from silently becoming today’s instruction.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-management-2026",
+        "locator": "Surgical Management: Reconstruction; Repair; Hybrid Reconstructions"
+       }
+      ]
+     },
+     {
+      "heading": "Use a shared language below the plan",
+      "text": "A common record can still be useful: planned task, actual exposure, execution, athlete report, scheduled follow-up and next decision owner. The same columns make differences visible without forcing the same progression. For this case, lower-body preparation can be coordinated only within each documented restriction.\n\nNo-pain reports answer one question about the tasks actually attempted. They cannot answer whether Eli has permission to throw, whether Nico has attempted mound work, or whether Tom’s associated nerve procedure changes an exercise choice. Read the care plan before comparing performance numbers.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-reconstruction-2009",
+        "locator": "Conclusion; Initial Postoperative Management; Rehabilitation Following the Docking Procedure"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-elbow-plan-map",
+     "title": "One reporting format; three permission paths",
+     "type": "compare",
+     "items": [
+      {
+       "label": "Nonoperative",
+       "detail": "Document the selected injury and authorized throwing task."
+      },
+      {
+       "label": "Native repair",
+       "detail": "Document repair, augmentation and its current restrictions."
+      },
+      {
+       "label": "Graft reconstruction",
+       "detail": "Document graft procedure and associated procedures."
+      }
+     ],
+     "mnemonic": {
+      "cue": "PATH",
+      "meaning": "Procedure, Authorized task, Tracking, Handoff."
+     },
+     "caption": "Original conceptual comparison. The cards are not a ranking or a timeline.",
+     "alt": "Nonoperative: Document the selected injury and authorized throwing task.; Native repair: Document repair, augmentation and its current restrictions.; Graft reconstruction: Document graft procedure and associated procedures.",
+     "sourceRefs": [
+      {
+       "id": "rehab-elbow-management-2026",
+       "locator": "Surgical Management"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which shared template best serves this staff meeting?",
+     "options": [
+      {
+       "text": "Use a common task-and-response record, with a distinct permission header and review event for each player.",
+       "feedback": "Correct. The reporting standard is shared; the decision-changing instructions remain specific and visible."
+      },
+      {
+       "text": "Use a common throwing ladder, but allow the clinician to remove individual stages afterward.",
+       "feedback": "Starting with a shared ladder already implies stages are eligible. Build from each current permission; a clinician should not need to undo an unsupported default."
+      },
+      {
+       "text": "Use each athlete’s pain-free days as the common progression scale, then add the operation name as a note.",
+       "feedback": "This is easy to compare but mixes different tasks and restrictions. Pain-free days are observations, not a shared unit of tissue readiness."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "rehab-elbow-management-2026",
+     "locator": "Management; Rehabilitation and Return to Sport"
+    },
+    "worked": [
+     "The report places Nico in authorized flat-ground work, Eli in authorized gym work and Tom in the documented mound task. It does not label Eli “behind” because his current permissions differ. The next useful comparison is whether each player completed the task actually assigned and whether the agreed follow-up is available."
+    ],
+    "handoffPrompt": "Write Eli’s next-action line: current permitted work, missing throwing authorization, who will review it and what information you will bring.",
+    "transfer": "Eli’s file says “internal brace” without naming repair or augmented reconstruction. Specify the operative detail to obtain before using either pathway."
+   },
+   {
+    "id": "bb-elbow-response",
+    "title": "2. The session was short; the record was incomplete",
+    "brief": "At a later authorized session, Nico completes 18 preparation throws and 24 prescribed task throws. He then adds six harder throws requested by a teammate. His entry says “24 throws, felt fine.” The next-morning report is not yet available. Eli has not thrown, while Tom completed his separate prescribed session. No new symptom is reported at this moment.",
+    "teaching": [
+     {
+      "heading": "Restore the denominator before interpreting response",
+      "text": "Nico’s actual count is 18 + 24 + 6 = 48 throws. The log omitted preparation and unplanned work. Those categories should remain separate: forty-eight is a count of events, not a measurement of valgus torque or a validated safe exposure. The harder throws have no measured velocity; leave that value unknown.\n\nIn this scenario, the nonoperative plan explicitly requires clinician review after work outside the written task. That instruction governs the next session. Reporting the discrepancy accurately is more useful than lowering tomorrow’s count by six and assuming the extra work has been repaid.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-framework-2025",
+        "locator": "Video transcript: Technique Description and Results; Discussion/Conclusion"
+       }
+      ]
+     },
+     {
+      "heading": "Separate missing follow-up from an adverse finding",
+      "text": "The incomplete next-morning report is neither a good response nor evidence of injury. Seek it at the scheduled time, alongside Nico’s description of the unplanned task. Continue only the nonthrowing activities already allowed by his plan while the throwing question is reviewed.\n\nThe fact that Tom also reports no pain does not make their exposures equivalent. Tom’s treatment, current permission and task are different. A useful staff message is specific: what was planned, what changed, what is observed now, what remains unknown and who will decide the next exposure.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-rts-2021",
+        "locator": "RTS Criteria; Discussion: reporting and validation limitations"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-elbow-ledger",
+     "title": "Nico’s recorded work: 48 throws, not 24",
+     "type": "bars",
+     "items": [
+      {
+       "label": "Preparation",
+       "detail": "Often absent from a session headline.",
+       "value": 18
+      },
+      {
+       "label": "Assigned task",
+       "detail": "The number initially entered.",
+       "value": 24
+      },
+      {
+       "label": "Extra throws",
+       "detail": "Harder effort reported; velocity unknown.",
+       "value": 6
+      }
+     ],
+     "mnemonic": {
+      "cue": "COUNT",
+      "meaning": "Count all throws; keep task and response separate."
+     },
+     "caption": "Synthetic event counts in throws: 18 + 24 + 6 = 48. Bars do not show tissue load or a safe limit.",
+     "alt": "Preparation: Often absent from a session headline.; Assigned task: The number initially entered.; Extra throws: Harder effort reported; velocity unknown.",
+     "sourceRefs": [
+      {
+       "id": "rehab-elbow-framework-2025",
+       "locator": "Video transcript: Technique Description and Results"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What is the strongest proposal for the next throwing decision?",
+     "options": [
+      {
+       "text": "Subtract six throws from the next prescribed session and proceed if he still reports no pain.",
+       "feedback": "This balances arithmetic, not biological response or permissions. It also assumes the unplanned harder throws were equivalent to prescribed ones."
+      },
+      {
+       "text": "Reconcile all 48 throws, obtain the scheduled follow-up and seek the plan-required review before changing throwing.",
+       "feedback": "Correct. This repairs the evidence and follows the fictional care plan while preserving permitted nonthrowing preparation."
+      },
+      {
+       "text": "Classify the nonoperative treatment as unsuccessful because the session exceeded the plan.",
+       "feedback": "The adherence event deserves review, but it is not a clinical finding that establishes treatment failure. Report observations without inventing a diagnosis."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "rehab-elbow-framework-2025",
+     "locator": "Video transcript: Technique Description and Results; Discussion/Conclusion"
+    },
+    "worked": [
+     "The revised log contains three exposure categories and explicitly marks next-morning response pending. The staff asks Nico what “harder” meant and records his answer without inventing a velocity. The clinician receives both the deviation and the current absence of symptoms. The case does not supply a revised dose; that is the pending decision."
+    ],
+    "handoffPrompt": "Write a five-line handoff containing the correct total, the unknown effort measure, the pending follow-up, current permitted activity and the review owner.",
+    "transfer": "Nico later reports tingling in the ring and small fingers. Explain how the new symptom changes the urgency and content of the clinical handoff without diagnosing its cause."
+   },
+   {
+    "id": "bb-elbow-role",
+    "title": "3. The roster asks a different question",
+    "brief": "After separate reviews and further rehabilitation, Nico and Tom are authorized for defined restricted outings. Eli is still in a different permitted stage. Nico has completed two planned relief appearances; Tom has completed two bounded starts. The roster proposal now asks Nico to warm up repeatedly without guaranteed entry and asks Tom to work on shorter recovery. Neither change is covered by the current instructions.",
+    "teaching": [
+     {
+      "heading": "Describe the tested role precisely",
+      "text": "Two completed outings establish observations about those outings. Keep preparation, competitive throws, unused warm-ups and recovery intervals visible rather than collapsing everything into games played. A proposed role can change uncertainty as much as it changes totals.\n\nFor Nico, repeated warm-up-and-sit cycles add a task that his recent appearances did not demonstrate. For Tom, shorter recovery changes the interval between demands. The proposal should name those differences so the staff can decide which needs clinical review, controlled rehearsal or operational limits.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-rts-2021",
+        "locator": "RTS Criteria; Discussion"
+       }
+      ]
+     },
+     {
+      "heading": "Make a conditional performance recommendation",
+      "text": "The older reconstruction framework illustrates that rehabilitation must accommodate operative details. It does not supply today’s roster permissions. The current review also distinguishes return to participation from restoration of performance; neither paper can settle this individual meeting.\n\nYour contribution is a demand-gap statement: demonstrated work, proposed new demand, missing evidence and responsible reviewer. Ask baseball staff whether the actual need is a longer start, extra bullpen availability or both. A narrower role may solve the immediate roster problem while the broader goal remains under review.",
+      "sourceRefs": [
+       {
+        "id": "rehab-elbow-reconstruction-2009",
+        "locator": "Conclusion; Advanced Rehabilitation Phase"
+       },
+       {
+        "id": "rehab-elbow-management-2026",
+        "locator": "Outcomes: Ulnar Collateral Ligament Reconstruction; Performance Metrics"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-elbow-role-map",
+     "title": "Return to the role, not just the mound",
+     "type": "flow",
+     "items": [
+      {
+       "label": "Shown",
+       "detail": "Which outing and recovery pattern was completed?"
+      },
+      {
+       "label": "Changed",
+       "detail": "Which new availability demand is requested?"
+      },
+      {
+       "label": "Reviewed",
+       "detail": "Who checks permissions and missing evidence?"
+      },
+      {
+       "label": "Rehearsed",
+       "detail": "What bounded task would answer the next question?"
+      }
+     ],
+     "mnemonic": {
+      "cue": "ROLE",
+      "meaning": "Record, Outline the change, Link owners, Evaluate again."
+     },
+     "caption": "Original decision map for these synthetic scenarios; not a universal clearance sequence.",
+     "alt": "Shown: Which outing and recovery pattern was completed?; Changed: Which new availability demand is requested?; Reviewed: Who checks permissions and missing evidence?; Rehearsed: What bounded task would answer the next question?",
+     "sourceRefs": [
+      {
+       "id": "rehab-elbow-rts-2021",
+       "locator": "Discussion"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which return report is most useful to baseball leadership?",
+     "options": [
+      {
+       "text": "State that both pitchers are game-ready, with throwing limits to be negotiated by the pitching coach.",
+       "feedback": "This hides that their current permissions cover specific roles. Negotiating a number cannot silently authorize a shorter recovery interval or repeated warm-ups."
+      },
+      {
+       "text": "Recommend preserving their roles indefinitely because every new demand is uncertain.",
+       "feedback": "Uncertainty calls for a defined next review, not permanent restriction. The purpose is to identify what evidence would support a justified change."
+      },
+      {
+       "text": "Report successful restricted roles, specify each new demand and propose a joint review before expanding availability.",
+       "feedback": "Correct. This acknowledges progress and gives the team a practical next decision without confusing treatment pathways or granting medical clearance."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "rehab-elbow-rts-2021",
+     "locator": "RTS Criteria; Discussion"
+    },
+    "worked": [
+     "Nico’s next question is repeated preparation without certain game entry. Tom’s is a shorter recovery interval after the defined start. Keep those requests separate. Eli’s current stage remains visible without comparing his calendar with theirs. The final packet includes the athlete’s goals and the clinician’s current permissions, then asks for a clear decision about the proposed role."
+    ],
+    "handoffPrompt": "Write one proposed role change for Nico and one for Tom, with the specific unknown and the staff members who must resolve it.",
+    "transfer": "The pitching coach offers a smaller game count but more warm-ups. Explain why “fewer pitches” does not settle the new availability question."
+   }
+  ],
+  "assignment": {
+   "prompt": "Build a single-page staff packet for all three pitchers that can survive a handoff to a new affiliate.",
+   "deliverables": [
+    "A three-row treatment and permission register with no invented dates.",
+    "Nico’s corrected 48-throw ledger and a pending-response field.",
+    "A role-change comparison for Nico and Tom, including unused warm-ups and recovery.",
+    "One athlete-facing explanation of why another player’s pathway is not a deadline."
+   ],
+   "rubric": [
+    "Distinguishes nonoperative care, repair and graft reconstruction.",
+    "Correctly totals 48 and retains unknown velocity and pending follow-up.",
+    "Separates observation, clinical authority and performance recommendation.",
+    "Proposes a concrete review event rather than a universal return date."
+   ],
+   "model": [
+    "Use common reporting columns but a distinct signed-plan header for each pitcher. Nico’s session comprised 18 preparation, 24 assigned and six extra throws; its next-morning response was pending. His care plan requires review after unplanned work. Do not call the treatment a failure from this event alone.",
+    "Later successful restricted outings support the roles actually demonstrated. Repeated bullpen preparation and shorter recovery are different proposed changes. Ask the clinical and baseball decision makers to define the next permitted task and review point, while preserving useful conditioning already allowed."
+   ],
+   "transferPrompt": "A fourth player has an augmented reconstruction. Name which operative fact prevents “internal brace” from placing him automatically on Eli’s pathway."
+  },
+  "recall": {
+   "prompt": "Without looking, explain PATH and name one thing a shared return sheet should standardize and one it must individualize.",
+   "answer": "Procedure, Authorized task, Tracking, Handoff. Standardize the exposure-and-response record; individualize treatment details, permissions and the next clinical review. A treatment name or pain-free streak does not independently grant a throwing progression."
+  },
+  "sourceRefs": [
+   {
+    "id": "rehab-elbow-management-2026",
+    "locator": "Surgical Management: Reconstruction; Repair; Hybrid Reconstructions; Outcomes: Performance Metrics",
+    "application": "Treatment distinctions and individualized selection context.",
+    "limit": "Narrative review; no reported success rate, schedule or symmetry cutoff becomes this case’s clearance rule."
+   },
+   {
+    "id": "rehab-elbow-framework-2025",
+    "locator": "Video transcript: Technique Description and Results; Discussion/Conclusion",
+    "application": "Monitored nonoperative preparation and return-to-throwing framework.",
+    "limit": "Framework rather than an outcomes trial; doses and care-plan instructions here are invented."
+   },
+   {
+    "id": "rehab-elbow-rts-2021",
+    "locator": "RTS Criteria; Discussion",
+    "application": "Limits of published clearance reporting and the need to define the actual decision.",
+    "limit": "Scoping review does not validate this case or a particular clearance battery."
+   },
+   {
+    "id": "rehab-elbow-reconstruction-2009",
+    "locator": "Initial Postoperative Management; Advanced Rehabilitation Phase; Docking Procedure; Conclusion",
+    "application": "Procedure-specific restrictions and whole-athlete preparation.",
+    "limit": "Historical framework; no historical timeline or numerical threshold is prescribed."
+   }
+  ],
+  "tags": [
+   "UCL",
+   "nonoperative",
+   "repair",
+   "reconstruction",
+   "throwing",
+   "return to baseball",
+   "permissions",
+   "bullpen"
+  ]
+ },
+ {
+  "id": "bb-rehab-shoulder-pathways",
+  "title": "A shoulder label is not a rehabilitation plan",
+  "track": "rehab",
+  "subtitle": "Contrast nonoperative throwing-shoulder care with a documented type II SLAP repair and a separate debridement-only procedure.",
+  "context": "Three fictional position players arrive with the shorthand “shoulder rehab.” Rafael, an outfielder, is receiving nonoperative care after a clinical evaluation of throwing-related symptoms. Micah, a catcher, has a documented type II SLAP repair involving the biceps anchor. Jonas, an infielder, has a documented limited debridement with no labral repair or biceps procedure; his current permission sheet is still missing.\n\nThe challenge is to preserve helpful physical preparation while refusing to let a broad label erase what was treated. Later episodes follow Rafael and Micah through different authorized tasks. Every clinical instruction, task and response below is fictional and provided solely to practice interpretation and staff communication.",
+  "outcomes": [
+   "Extract decision-relevant treatment details instead of using “shoulder surgery” as a protocol.",
+   "Separate controlled throwing, reactive fielding, hitting and catching demands.",
+   "Prepare a role-specific review that includes athlete confidence, task execution and clinical permission."
+  ],
+  "scope": "Fictional athletes and synthetic teaching examples. These cases compare documented care plans. They do not diagnose shoulder pain, select surgery or define postoperative timelines. SLAP repair, debridement, instability procedures and cuff repair are not interchangeable. Clinical progression remains with the treating team.",
+  "links": [
+   {
+    "route": "#lesson/rehab-shoulder-02",
+    "label": "Shoulder treatment pathways"
+   },
+   {
+    "route": "#lab/rehab-lab-shoulder",
+    "label": "The returning outfielder: seven checkpoints"
+   }
+  ],
+  "stages": [
+   {
+    "id": "bb-shoulder-plan",
+    "title": "1. Read the operative detail before choosing the exercise",
+    "brief": "Rafael’s current plan permits prescribed cuff and scapular work and a defined catch session. Micah’s current signed instructions prohibit resisted biceps loading and end-range positions outside a specified motion envelope. Jonas reports that his surgeon “only cleaned things up”; the operative report confirms debridement alone, but the exercise permissions have not arrived. The staff has one generic shoulder circuit ready.",
+    "teaching": [
+     {
+      "heading": "Know why the structure matters",
+      "text": "The long head of the biceps attaches to the superior labral region. A repaired biceps anchor and a debrided region therefore do not describe the same surgical intervention. NATA’s statement also cautions against diagnosing a SLAP injury from imaging or one isolated test without the clinical context.\n\nFor this meeting, the diagnosis and procedures are supplied facts. Do not reinterpret Rafael’s imaging or invent an operation for Jonas. Translate Micah’s written restrictions into the practical choices in front of you: which station needs replacement, which can proceed as already approved, and which question needs the clinician’s answer.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-slap-2018",
+        "locator": "Introduction: biceps-labral complex; Recommendations 5, 7, 11 and 17"
+       }
+      ]
+     },
+     {
+      "heading": "Avoid both unnecessary rest and borrowed permission",
+      "text": "A nonoperative throwing-shoulder framework addresses examination findings and graded return tasks. It is not automatically Micah’s postoperative program. Conversely, the word “surgery” does not prove that Jonas has Micah’s repaired structure or identical restrictions.\n\nPrepare three exercise columns labeled approved, restricted and clarification needed. Keep approved lower-body and conditioning options available within each athlete’s current instructions. For Jonas, request the missing postoperative plan rather than filling the gap with either unrestricted activity or a borrowed SLAP-repair schedule. The useful product is a ready-to-review session, not a diagnosis from shorthand.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-nonop-2018",
+        "locator": "Physical Examination; Principles of Treatment; Nonoperative Rehabilitation"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-shoulder-plan-map",
+     "title": "Three different starting questions",
+     "type": "compare",
+     "items": [
+      {
+       "label": "Nonoperative",
+       "detail": "Which findings and tasks guide the current plan?"
+      },
+      {
+       "label": "Type II SLAP repair",
+       "detail": "What repaired structure and restrictions are documented?"
+      },
+      {
+       "label": "Debridement only",
+       "detail": "Which permissions follow this actual procedure?"
+      }
+     ],
+     "mnemonic": {
+      "cue": "READ",
+      "meaning": "Report, Exact procedure, Allowed work, Decision owner."
+     },
+     "caption": "Original conceptual comparison. These cards do not give exercise permissions or recovery times.",
+     "alt": "Nonoperative: Which findings and tasks guide the current plan?; Type II repair: What repaired structure and restrictions are documented?; Debridement only: Which permissions follow this actual procedure?",
+     "sourceRefs": [
+      {
+       "id": "rehab-shoulder-slap-2018",
+       "locator": "Introduction; Recommendations 11, 15 and 17"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should replace the generic shoulder circuit today?",
+     "options": [
+      {
+       "text": "Give Jonas Micah’s circuit until his plan arrives, because the more restricted plan must fit both.",
+       "feedback": "A borrowed plan can still be inappropriate and may withhold useful work or miss different restrictions. Use Jonas’s existing explicit permissions and obtain the missing instructions."
+      },
+      {
+       "text": "Let every player do pain-free stations and document the surgery afterward.",
+       "feedback": "Pain response alone does not supersede a repaired-structure restriction. The operation and current permission must be checked before the exercise choice."
+      },
+      {
+       "text": "Build patient-specific approved/restricted/unclear columns, preserve permitted work and resolve Jonas’s missing instructions.",
+       "feedback": "Correct. The staff can act on known permissions while making unresolved items visible, instead of treating all shoulder labels as equivalent."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "rehab-shoulder-slap-2018",
+     "locator": "Recommendations 13–17: management"
+    },
+    "worked": [
+     "Micah’s present restrictions exclude any station that conflicts with the signed plan even if it feels easy. Rafael’s authorized work can proceed as specified. Jonas’s operative identity is known, but his current exercise permissions are not; request them. Document who supplied each instruction and when, so the next staff member can trace the decision."
+    ],
+    "handoffPrompt": "Choose one ambiguous exercise station and write the exact question you would send to Micah’s clinician. Include the intended movement, resistance and current restriction.",
+    "transfer": "Jonas’s full record later adds a separate cuff repair. Identify which earlier assumptions must be withdrawn and why the new operative detail changes the plan review."
+   },
+   {
+    "id": "bb-shoulder-field",
+    "title": "2. The same throw count hides a different field task",
+    "brief": "Much later, after their separate clinical reviews, Rafael and Micah each have a bounded throwing task. Rafael completes 20 predictable catch throws. Micah completes 20 throws from a controlled standing start. Both reports are acceptable under their plans. The coach wants Rafael to add chase-and-throw repetitions and Micah to throw from a receiving squat. These movements are not included in the current authorization.",
+    "teaching": [
+     {
+      "heading": "Describe the task before comparing its count",
+      "text": "A controlled throw removes some demands that appear when the player must first locate a ball, move, gather and choose a target. Micah’s receiving position also changes the sequence before release. Equal event counts therefore do not establish that either proposed task has been demonstrated.\n\nDraw each proposed action as a chain. Rafael: read, move, gather, throw. Micah: receive, transfer, rise, throw. Mark the untested links instead of labeling both chains “twenty throws.” This is an original baseball task-analysis exercise, not a claim that a particular movement produces a known shoulder force.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-rts-2020",
+        "locator": "Return to Participation Process and Criteria; Table 1: The 3 P Program"
+       }
+      ]
+     },
+     {
+      "heading": "Use the athlete’s explanation as information",
+      "text": "The critical review of throwing injuries shows that return to prior performance is a separate outcome from participation. In this case, ask what “comfortable” means in the exact task and whether the player expects the new context to change effort, tempo or confidence.\n\nRafael says planned throws feel normal but he hesitates after a moving pickup. Micah feels confident standing but has not rehearsed the proposed receiving sequence. Record both accounts alongside observed execution. Confidence is useful information, not a substitute for permission or a diagnosis of structural failure. Propose one bounded missing task for review, keeping the original session available if the new task is not authorized.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-outcomes-2021",
+        "locator": "The throwing motion; Superior labral anterior-posterior tears; Outcomes discussion"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-shoulder-task-map",
+     "title": "The ball arrives before the throw",
+     "type": "flow",
+     "items": [
+      {
+       "label": "Read or receive",
+       "detail": "What information and starting position come first?"
+      },
+      {
+       "label": "Move and transfer",
+       "detail": "Which footwork and ball-handling demands change?"
+      },
+      {
+       "label": "Throw",
+       "detail": "Which target and effort are specified?"
+      },
+      {
+       "label": "Respond",
+       "detail": "What execution, symptoms and confidence are reviewed?"
+      }
+     ],
+     "mnemonic": {
+      "cue": "TASK",
+      "meaning": "Trigger, Action chain, Specified throw, Keep the response."
+     },
+     "caption": "Original baseball task map. Equal throw counts do not imply equal mechanical exposure.",
+     "alt": "Read or receive: What information and starting position come first?; Move and transfer: Which footwork and ball-handling demands change?; Throw: Which target and effort are specified?; Respond: What execution, symptoms and confidence are reviewed?",
+     "sourceRefs": [
+      {
+       "id": "rehab-shoulder-rts-2020",
+       "locator": "Table 1: The 3 P Program"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which next-step proposal best distinguishes progress from an untested task?",
+     "options": [
+      {
+       "text": "Request a separately bounded task progression for each player, specifying the added movement and the observations needed.",
+       "feedback": "Correct. The proposal identifies exactly what was missing and leaves authorization with the clinical team."
+      },
+      {
+       "text": "Keep twenty throws but add the complete reactive task, because volume remains stable.",
+       "feedback": "The count is stable while the movement and decision demands change. That alteration needs the review required in this fictional plan."
+      },
+      {
+       "text": "Repeat standing throws until both players report complete confidence in every possible field situation.",
+       "feedback": "Repeating a different task may never answer the missing question. Confidence about all possible situations is not a measurable or necessary proposal; use a specific reviewed task."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "rehab-shoulder-rts-2020",
+     "locator": "Return to Participation Process and Criteria"
+    },
+    "worked": [
+     "For Rafael, the proposal is an explicitly described pickup-and-throw task with a known direction and target before more open situations are considered. For Micah, it is a specified receiving-to-throw sequence. The clinician and baseball staff decide whether either is presently appropriate; the exercise does not invent an approved dose or progression calendar."
+    ],
+    "handoffPrompt": "Write one missing task for each player and one execution observation that matters beyond ball velocity.",
+    "transfer": "Rafael’s throw speed is back to an old best, but he avoids the usual target after a moving pickup. Explain which performance question remains unresolved."
+   },
+   {
+    "id": "bb-shoulder-role",
+    "title": "3. The catching return is more than eight throws",
+    "brief": "Following additional approved work, Micah completes a reviewed catching rehearsal with 18 warm-up throws, 42 returns to the pitcher and eight planned higher-intent throws. He performs the allowed receiving and transfer tasks. Later in the session he becomes less willing to block balls. His plan has separately cleared the specified batting session, but full catching competition remains under review.",
+    "teaching": [
+     {
+      "heading": "Report both the exposure and the omitted demand",
+      "text": "The rehearsal contains 18 + 42 + 8 = 68 documented throws. Report the categories rather than reducing it to eight important throws. The ledger still does not capture everything: receiving and blocking are separate tasks, and the exact mechanical shoulder load was not measured.\n\nMicah’s hesitation may reflect several possibilities. Ask when it began, what he felt, which movement he avoided and whether it changed after a break. Do not erase the observation because his throw speed looked normal, and do not diagnose repair failure from the behavior. Record the response and pass it to the treating team with the catching coach’s task description.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-nonop-2018",
+        "locator": "Phase 4 – Return to Throwing Phase; Return to Play"
+       }
+      ]
+     },
+     {
+      "heading": "Write availability in the language of baseball",
+      "text": "A return-to-participation model distinguishes performance preparation, practice and competitive play. Use that distinction to produce a precise availability sentence. In this case, the athlete has demonstrated defined practice tasks and has specific batting permission; full catching remains undecided.\n\nDo not silently turn batting permission into permission to run the bases, slide, dive or catch. Ask whether a proposed restricted role includes any of those actions and whether an actual game can enforce the intended limits. If the role cannot be bounded in practice, say so. The next meeting should decide what further information or rehearsal would answer the blocking question and whether a narrower competitive role is feasible.",
+      "sourceRefs": [
+       {
+        "id": "rehab-shoulder-rts-2020",
+        "locator": "Return to Participation Process and Criteria; Table 1; Return to Participation Criteria"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-shoulder-ledger",
+     "title": "Catching rehearsal: count beyond the showcase throws",
+     "type": "bars",
+     "items": [
+      {
+       "label": "Warm-up",
+       "detail": "Preparation before the receiving task.",
+       "value": 18
+      },
+      {
+       "label": "Returns",
+       "detail": "Routine throws back to the pitcher.",
+       "value": 42
+      },
+      {
+       "label": "Higher intent",
+       "detail": "Planned task-specific throws.",
+       "value": 8
+      }
+     ],
+     "mnemonic": {
+      "cue": "WHOLE",
+      "meaning": "Write Hidden and Obvious Load Events."
+     },
+     "caption": "Synthetic event counts in throws: 18 + 42 + 8 = 68. Receiving, blocking and confidence require separate records.",
+     "alt": "Warm-up: Preparation before the receiving task.; Returns: Routine throws back to the pitcher.; Higher intent: Planned task-specific throws.",
+     "sourceRefs": [
+      {
+       "id": "rehab-shoulder-nonop-2018",
+       "locator": "Phase 4 – Return to Throwing Phase; Return to Play"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which availability statement most accurately uses the rehearsal?",
+     "options": [
+      {
+       "text": "Ready to catch because the eight higher-intent throws were completed; monitor blocking in games.",
+       "feedback": "This elevates one completed task over an unresolved demand and the pending competition decision. Games are not automatically an authorized diagnostic rehearsal."
+      },
+      {
+       "text": "Specified batting and practice work are authorized; catching competition remains under review because blocking response needs clarification.",
+       "feedback": "Correct. It reports progress and the unresolved demand while preserving the exact scope of the existing permission."
+      },
+      {
+       "text": "Unavailable for any baseball activity until the hesitation is completely explained.",
+       "feedback": "The observation needs review, but it does not automatically cancel every separately authorized activity. Follow the clinical team’s instructions about which work may continue."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "rehab-shoulder-rts-2020",
+     "locator": "Return to Participation Process and Criteria; Return to Participation Criteria"
+    },
+    "worked": [
+     "The staff report states 68 total throws and identifies the late blocking concern in Micah’s own terms. It includes what the clinician has already authorized and asks which tasks may continue while the concern is reviewed. A proposed hitter-only role must still specify running, sliding and other unavoidable game demands; its name alone does not settle readiness."
+    ],
+    "handoffPrompt": "Write a two-sentence availability statement for the manager and a separate clinical handoff describing Micah’s blocking concern without diagnosing it.",
+    "transfer": "A late roster change asks Micah to enter as a defensive catcher after batting. Specify the permission and task evidence that this request adds."
+   }
+  ],
+  "assignment": {
+   "prompt": "Create a shoulder return-to-role board for the three players, then a catching rehearsal report for Micah.",
+   "deliverables": [
+    "Treatment and current-permission rows for Rafael, Micah and Jonas.",
+    "A station-level question that resolves an exercise ambiguity.",
+    "A task-chain diagram for moving outfield throws and receiving-to-throw.",
+    "Micah’s 68-throw ledger with receiving, blocking and batting listed separately.",
+    "A role-specific availability statement with a named next decision."
+   ],
+   "rubric": [
+    "Does not equate debridement with a repaired biceps anchor or generalize to cuff/instability operations.",
+    "Keeps clinical diagnosis and current permissions separate from self-report.",
+    "Identifies an untested action despite equal throw counts or restored peak velocity.",
+    "Counts all 68 throws and includes unresolved blocking response.",
+    "Defines any proposed restricted game role beyond its label."
+   ],
+   "model": [
+    "Rafael follows his current nonoperative plan. Micah follows a procedure-specific repair plan, including the current biceps and motion restrictions where those apply. Jonas’s debridement does not justify borrowing either plan; the missing instruction sheet must be obtained.",
+    "Later, the missing evidence concerns the actual action before and around a throw. Micah’s rehearsal contains 68 documented throws but does not settle his blocking response or full catching availability. Report the concern, preserve only currently permitted work and request a decision on a precisely described next task or role."
+   ],
+   "transferPrompt": "A new patient had anterior stabilization rather than a SLAP repair. Explain which records you need before reusing any station or throwing permission."
+  },
+  "recall": {
+   "prompt": "Explain READ and TASK. Why does a restored throwing number not complete the shoulder return-to-role report?",
+   "answer": "READ: Report, Exact procedure, Allowed work, Decision owner. TASK: Trigger, Action chain, Specified throw, Keep the response. A number may describe one task; field movement, catching, batting, confidence, repeated availability and clinical permission remain separate questions."
+  },
+  "sourceRefs": [
+   {
+    "id": "rehab-shoulder-slap-2018",
+    "locator": "Introduction; Recommendations 5, 7, 11 and 13–17",
+    "application": "Biceps-labral relationship, diagnostic caution and treatment distinctions.",
+    "limit": "Position statement; original restrictions in these synthetic care plans are not a published universal protocol."
+   },
+   {
+    "id": "rehab-shoulder-nonop-2018",
+    "locator": "Physical Examination; Principles of Treatment; Nonoperative Rehabilitation; Phase 4; Return to Play",
+    "application": "Examination-led nonoperative preparation and monitored baseball return discussion.",
+    "limit": "Clinical commentary; no proposed weeks or test cutoffs are prescribed."
+   },
+   {
+    "id": "rehab-shoulder-rts-2020",
+    "locator": "Return to Participation Process and Criteria; Table 1; Return to Participation Criteria",
+    "application": "Differentiate practice tasks, competition and broader role evidence.",
+    "limit": "Clinical commentary; this task map is an educational extension rather than a validated test battery."
+   },
+   {
+    "id": "rehab-shoulder-outcomes-2021",
+    "locator": "The throwing motion; Superior labral anterior-posterior tears",
+    "application": "Treatment context and distinction between participation and prior performance.",
+    "limit": "Narrative synthesis with observational evidence; it cannot rank procedures for these invented players."
+   }
+  ],
+  "tags": [
+   "shoulder",
+   "SLAP",
+   "nonoperative",
+   "repair",
+   "debridement",
+   "catcher",
+   "outfielder",
+   "return to baseball"
+  ]
+ },
+ {
+  "id": "bb-rehab-hamstring-pathways",
+  "title": "Fast once is not the same as ready for the role",
+  "track": "rehab",
+  "subtitle": "Compare a first hamstring strain with a recurrent strain, then build evidence for sprinting, rounding and repeat availability.",
+  "context": "Luis, a fictional center fielder, has a first clinically assessed hamstring muscle strain. Owen, a fictional infielder, has a recurrent strain after a prior return. The treating clinician has specified nonoperative care for each and has not diagnosed a proximal tendon avulsion. Both are now in individually authorized running and strengthening work.\n\nThe staff wants to use one successful straight sprint as the final return test. Your job is to build a more informative baseball task record while respecting each current care plan. You will distinguish a previous injury history, an observed response and an untested role demand. All running distances, permissions and observations are synthetic; none is a recommended rehabilitation dose.",
+  "outcomes": [
+   "Use prior injury and current findings as context rather than a fixed extra-week rule.",
+   "Distinguish straight running capacity from batting-to-first, rounding and reactive field tasks.",
+   "Plan a handoff that preserves strengthening and running continuity after restricted return."
+  ],
+  "scope": "These are nonoperative muscle-strain learning cases, not proximal avulsion or surgical-repair protocols. Running tasks and doses are fictional examples for interpreting a supplied plan. There is no universal speed, symmetry, pain or time cutoff that this quiz can use to clear an athlete.",
+  "links": [
+   {
+    "route": "#lesson/rehab-hamstring-02",
+    "label": "Hamstring treatment pathways"
+   },
+   {
+    "route": "#lab/rehab-lab-hamstring",
+    "label": "Return to speed: seven checkpoints"
+   }
+  ],
+  "stages": [
+   {
+    "id": "bb-hamstring-history",
+    "title": "1. A recurrence changes the questions, not just the calendar",
+    "brief": "Luis has completed the running work specified in his first-injury plan. Owen has completed the work specified after reassessment of his recurrence. Both tolerate their currently prescribed strengthening. Owen’s earlier return file contains a best sprint value, but no record of repeated field tasks or the transition back to competition. The manager proposes adding an arbitrary extra week for Owen and then using the same final test.",
+    "teaching": [
+     {
+      "heading": "History should lead to an evidence question",
+      "text": "Professional baseball injury surveillance describes recurrence and identifies base running as an important injury context. These observations justify taking Owen’s history seriously; they do not show which missing intervention caused his recurrence or prescribe an extra week for him.\n\nReconstruct the previous return as a sequence: tasks attempted, frequency, response, restrictions, game role and handoff. Mark absent entries as unknown. Ask Owen and staff what was actually performed rather than treating a blank spreadsheet as proof that preparation never occurred. The difference matters when you decide which evidence needs rebuilding.",
+      "sourceRefs": [
+       {
+        "id": "bb-hamstring-hits-2019",
+        "locator": "PubMed abstract: Methods, Results and Conclusion; indexed PMC Results: Activity"
+       }
+      ]
+     },
+     {
+      "heading": "Keep muscle strain and tendon repair pathways distinct",
+      "text": "The hamstring review supports progressive running alongside strength preparation and considers clinical and athlete-reported information. A proximal tendon avulsion or repair raises a different set of treatment and protection questions. Neither athlete in this case has that diagnosis.\n\nFor Luis, document the current plan and relevant role tasks prospectively. For Owen, add a reconstruction of the earlier handoff and the clinician’s present reassessment. That creates a reasoned difference without declaring one player automatically ready or automatically slower. The proposed next task must fit the current plan for that person, not the number of injuries in a label.",
+      "sourceRefs": [
+       {
+        "id": "rehab-hamstring-strain-2022",
+        "locator": "Rehabilitation: Progressive Running; Eccentric Hamstring Exercises; Outcome Measures"
+       },
+       {
+        "id": "rehab-hamstring-proximal-2024",
+        "locator": "Injury Classification; Postoperative Rehabilitation"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-hamstring-history-map",
+     "title": "Two histories, one disciplined record",
+     "type": "compare",
+     "items": [
+      {
+       "label": "First strain",
+       "detail": "Build the current task-and-response record."
+      },
+      {
+       "label": "Recurrent strain",
+       "detail": "Also audit the previous return and handoff."
+      },
+      {
+       "label": "Different diagnosis",
+       "detail": "Avulsion or repair requires its own care plan."
+      }
+     ],
+     "mnemonic": {
+      "cue": "PAST",
+      "meaning": "Prior episode, Actual tasks, Symptoms and response, Transfer of care."
+     },
+     "caption": "Original comparison. Injury history changes the questions; it does not set a recovery date.",
+     "alt": "First strain: Build the current task-and-response record.; Recurrent strain: Also audit the previous return and handoff.; Different diagnosis: Avulsion or repair requires its own care plan.",
+     "sourceRefs": [
+      {
+       "id": "rehab-hamstring-proximal-2024",
+       "locator": "Injury Classification; Indications for Nonoperative Treatment; Postoperative Rehabilitation"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which change to Owen’s review is most defensible?",
+     "options": [
+      {
+       "text": "Add the same extra week after every recurrence so the final test stays simple.",
+       "feedback": "A fixed extension may feel cautious, but it does not address this case’s missing task and handoff evidence or the current clinical findings."
+      },
+      {
+       "text": "Use the current reassessment and reconstruct the earlier return record, then identify the specific evidence needed for the proposed role.",
+       "feedback": "Correct. The recurrence prompts a focused review without inventing its cause or replacing individual care with a calendar rule."
+      },
+      {
+       "text": "Assume the earlier best sprint proves physical readiness and focus the review only on motivation.",
+       "feedback": "A single performance result does not document repeated role demands, response or permission. Motivation is also not established as the cause of recurrence."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "bb-hamstring-hits-2019",
+     "locator": "PubMed abstract: Results and Conclusion"
+    },
+    "worked": [
+     "Owen’s file supports the statement “one best sprint was recorded,” not “all field demands were completed” or “field work was absent.” The staff seeks the missing record and uses the new care plan as the authority. Luis still needs a role-specific evidence record despite this being his first injury. Neither receives an automatic return date."
+    ],
+    "handoffPrompt": "Write two factual questions for Owen’s previous staff and one question for the current clinician. Avoid questions that assume the earlier program caused recurrence.",
+    "transfer": "The current assessment instead identifies a proximal tendon avulsion. Explain why this muscle-strain case cannot be continued by simply adding more protection days."
+   },
+   {
+    "id": "bb-hamstring-field",
+    "title": "2. Equal metres, different baseball questions",
+    "brief": "At later, separately authorized sessions, Luis completes four straight 30 m runs. Owen completes six 20 m controlled acceleration runs. Each totals 120 m, and the supplied follow-up is acceptable under the respective care plans. Neither session contains a swing-to-first transition, a turn around a base or a reactive fielding start. The staff is considering the next task to submit for approval.",
+    "teaching": [
+     {
+      "heading": "Distance is one descriptor of the work",
+      "text": "Four times thirty and six times twenty both equal 120 m. Their equality does not establish equal speed, acceleration, recovery, effort or mechanical load. Those quantities were not supplied and must not be invented. The running review treats progressive exposure as part of rehabilitation; it does not validate “120 m” as a return threshold.\n\nKeep session descriptions concrete. Record starting posture, approach, distance, effort instruction, repetitions, recovery and measurement method. If speed is measured, distinguish a peak from an average over a timed segment and compare the same method. A missing velocity is not zero, and a different test setup is not a clean trend.",
+      "sourceRefs": [
+       {
+        "id": "rehab-hamstring-strain-2022",
+        "locator": "Rehabilitation: Progressive Running; Implementation Considerations"
+       }
+      ]
+     },
+     {
+      "heading": "Choose the missing demand that answers the role question",
+      "text": "For these synthetic athletes, a baseball map contains several distinct questions: leaving the batter’s box after a swing, accelerating from a lead, rounding a base and reacting from a fielding stance. You need not introduce every question in one session. Select the most relevant untested action and explain why it is next for clinical and coaching review.\n\nLuis’s intended center-field role makes reading and reacting to a ball relevant. Owen’s current goal includes a controlled return to base running. Their equal distances do not require identical next tasks. A useful proposal defines one added action, which known elements stay controlled and the observations that would support repeating or changing it.",
+      "sourceRefs": [
+       {
+        "id": "bb-hamstring-hits-2019",
+        "locator": "PubMed abstract: Results; indexed PMC Results: Activity"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-hamstring-metres",
+     "title": "120 metres can describe different work",
+     "type": "compare",
+     "items": [
+      {
+       "label": "Luis: 4 × 30 m",
+       "detail": "120 m; straight running; other demands unspecified."
+      },
+      {
+       "label": "Owen: 6 × 20 m",
+       "detail": "120 m; controlled acceleration; other demands unspecified."
+      },
+      {
+       "label": "Still untested",
+       "detail": "Swing-to-run, rounding and reactive field starts."
+      }
+     ],
+     "mnemonic": {
+      "cue": "MAP",
+      "meaning": "Metres, Action, Pace and preparation."
+     },
+     "caption": "Synthetic running distances in metres. The total is not a tissue-load estimate or a clearance target.",
+     "alt": "Luis: 4 × 30 m: 120 m; straight running; other demands unspecified.; Owen: 6 × 20 m: 120 m; controlled acceleration; other demands unspecified.; Still untested: Swing-to-run, rounding and reactive field starts.",
+     "sourceRefs": [
+      {
+       "id": "rehab-hamstring-strain-2022",
+       "locator": "Rehabilitation: Progressive Running"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which proposal uses the two sessions most accurately?",
+     "options": [
+      {
+       "text": "Treat the equal distances as matched exposure and select the same reactive circuit for both.",
+       "feedback": "Distance equality does not match the rest of the task or the separate care plans. The proposed circuit would add multiple untested demands at once."
+      },
+      {
+       "text": "Keep the same distance and change only recovery time, since a fixed total means the progression is controlled.",
+       "feedback": "Shorter recovery is itself a changed constraint. A stable distance does not isolate its effects or answer either player’s missing baseball task."
+      },
+      {
+       "text": "Keep each session’s task descriptors, choose a role-relevant missing action for separate review and define what will remain controlled.",
+       "feedback": "Correct. This creates a testable next question without converting metres into a universal progression rule."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "rehab-hamstring-strain-2022",
+     "locator": "Rehabilitation: Progressive Running; Implementation Considerations"
+    },
+    "worked": [
+     "The ledger confirms 120 m for each athlete and leaves speed, recovery and effort unknown where not given. A proposal for Luis might specify the first reviewed fielding start; Owen’s might specify a reviewed baseball running transition. These are requests for bounded tasks, not approved prescriptions. The receiving clinician and coach can accept, modify or defer them."
+    ],
+    "handoffPrompt": "For one athlete, write the next proposed action, the elements kept constant, the missing permission and the response information to collect.",
+    "transfer": "A colleague compares a 10 m flying split with a peak wearable speed from a game. Explain why those two values do not automatically prove speed restoration."
+   },
+   {
+    "id": "bb-hamstring-repeat",
+    "title": "3. Protect the handoff when the schedule changes",
+    "brief": "After further authorized preparation, Owen has completed two restricted baseball appearances under a specified recovery pattern. His current plan retains prescribed strengthening and a scheduled running exposure. Travel now removes the normal field slot. He also reports new morning tightness after the second appearance; his plan requires clinical review for a new symptom before the next running progression. The manager asks for unrestricted daily availability.",
+    "teaching": [
+     {
+      "heading": "A good return can still have an unfinished question",
+      "text": "Owen has meaningful evidence of two restricted appearances. The new symptom and requested daily role are additional questions. Preserve the actual dates, tasks, recovery and athlete description rather than reducing the report to “two games passed.” Obtain the plan-required clinical review before deciding how the next running progression changes.\n\nDo not silently replace the missed field exposure with extra gym sets and call it equivalent. The clinic and performance team can decide which currently permitted activities continue while the field question is resolved. A successful earlier task remains evidence even when a later response requires the plan to be reconsidered.",
+      "sourceRefs": [
+       {
+        "id": "rehab-hamstring-strain-2022",
+        "locator": "Outcome Measures; Can We Assess The Reinjury Risk at Return to Sport?"
+       }
+      ]
+     },
+     {
+      "heading": "Make the implementation problem visible",
+      "text": "A survey of MLB practitioners identified communication, scheduling and adherence as practical concerns and found differences between valued prevention strategies and those actually used. This describes practitioner beliefs and practice; it does not prove that one rescheduled session prevents recurrence.\n\nUse the lesson operationally: assign a named owner to reconcile the travel day, identify an available permitted option, and state when the running opportunity will be reviewed. Send one shared availability message to baseball and clinical staff. The plan should survive the move between facilities instead of depending on someone remembering an informal conversation.",
+      "sourceRefs": [
+       {
+        "id": "bb-hamstring-practice-survey-2024",
+        "locator": "Results: Prevention Strategies and Barriers; Discussion; Limitations and Future Research"
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "bb-hamstring-handoff",
+     "title": "Make the next decision survive travel",
+     "type": "flow",
+     "items": [
+      {
+       "label": "Observe",
+       "detail": "Record the new response and actual baseball work."
+      },
+      {
+       "label": "Review",
+       "detail": "Follow the care plan with the treating clinician."
+      },
+      {
+       "label": "Coordinate",
+       "detail": "Agree the permitted travel-day preparation."
+      },
+      {
+       "label": "Repeat",
+       "detail": "Define the next role and review opportunity."
+      }
+     ],
+     "mnemonic": {
+      "cue": "RELAY",
+      "meaning": "Response, Evidence, Limits, Assigned owner, next Yes-or-review."
+     },
+     "caption": "Original staff handoff model for the synthetic travel scenario, not a validated reinjury-prevention intervention.",
+     "alt": "Observe: Record the new response and actual baseball work.; Review: Follow the care plan with the treating clinician.; Coordinate: Agree the permitted travel-day preparation.; Repeat: Define the next role and review opportunity.",
+     "sourceRefs": [
+      {
+       "id": "bb-hamstring-practice-survey-2024",
+       "locator": "Results: Barriers; Discussion; Limitations and Future Research"
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should the staff recommend today?",
+     "options": [
+      {
+       "text": "Report the new response, obtain the required review and coordinate permitted travel-day work before deciding on daily availability.",
+       "feedback": "Correct. It preserves demonstrated progress while resolving the changed clinical and operational constraints."
+      },
+      {
+       "text": "Keep the unrestricted-availability request and replace the lost running exposure with an equivalent number of strength sets.",
+       "feedback": "The case provides no equivalence between those tasks. It also supplies a clinical-review instruction for the new symptom, which the proposal bypasses."
+      },
+      {
+       "text": "Declare the two appearances unsuccessful and remove all preparation until new imaging is normal.",
+       "feedback": "The reported tightness requires clinical interpretation, but the scenario does not establish treatment failure, the need for imaging or a blanket ban on all permitted work."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "rehab-hamstring-strain-2022",
+     "locator": "Outcome Measures; Can We Assess The Reinjury Risk at Return to Sport?"
+    },
+    "worked": [
+     "The handoff says what Owen completed, how the new report differs and which decision is pending. The travel plan names an owner rather than promising an unverified substitute. Daily unrestricted availability is not granted from the two appearances; it is considered after the required review and a clear definition of the proposed role. The source literature does not supply a number that eliminates recurrence risk."
+    ],
+    "handoffPrompt": "Write a manager-facing availability sentence and a three-item travel checklist with a responsible owner for each item.",
+    "transfer": "The new role is designated hitter, but it includes sprinting to first and possible sliding. Explain which demands remain despite removing defensive fielding."
+   }
+  ],
+  "assignment": {
+   "prompt": "Prepare Owen’s return-to-role handoff and compare it with Luis’s first-injury record.",
+   "deliverables": [
+    "A known/unknown register for the earlier return and current clinical permissions.",
+    "A distance ledger showing both 120 m totals without claiming equal intensity.",
+    "Two baseball task maps identifying a different missing demand for each role.",
+    "A travel-day handoff with symptom review, permitted preparation and named owners.",
+    "A short explanation to the athlete of why restricted appearances are progress without automatically establishing daily availability."
+   ],
+   "rubric": [
+    "Uses recurrence as context without inventing causation or a fixed extra week.",
+    "Separates muscle-strain care from avulsion or surgical protection.",
+    "Correctly totals 4 × 30 and 6 × 20 and keeps missing measures unknown.",
+    "Distinguishes baseball task context from an isolated sprint or strength result.",
+    "Follows the supplied symptom-review instruction and makes the logistics actionable."
+   ],
+   "model": [
+    "Owen’s previous best sprint is documented; repeated field tasks and the earlier handoff are not. Request the missing information and work from the current reassessment. Luis needs the same quality of prospective evidence despite lacking a prior strain.",
+    "The later sessions both total 120 m but describe different tasks. Select a relevant missing baseball action for each athlete and request authorization with clear task boundaries. After Owen’s restricted appearances, the new tightness triggers the specified clinical review. Coordinate travel preparation explicitly and leave daily availability pending that decision."
+   ],
+   "transferPrompt": "A new athlete has a first strain but much less field preparation than Owen. Explain why injury count alone should not determine who returns first."
+  },
+  "recall": {
+   "prompt": "Explain PAST and MAP. Name the evidence that an isolated fastest sprint cannot supply.",
+   "answer": "PAST: Prior episode, Actual tasks, Symptoms and response, Transfer of care. MAP: Metres, Action, Pace and preparation. A fastest sprint does not document baseball transitions, repeated tasks, recovery, confidence or medical permission for a proposed role."
+  },
+  "sourceRefs": [
+   {
+    "id": "rehab-hamstring-strain-2022",
+    "locator": "Rehabilitation: Progressive Running; Implementation Considerations; Outcome Measures; Can We Assess The Reinjury Risk at Return to Sport?",
+    "application": "Progressive running, strength preparation and uncertainty in return-to-sport assessment.",
+    "limit": "Narrative evidence review drawing largely from other running and field sports. The baseball cases and distances are original educational extensions."
+   },
+   {
+    "id": "rehab-hamstring-proximal-2024",
+    "locator": "Injury Classification; Indications for Nonoperative Treatment; Postoperative Rehabilitation",
+    "application": "Distinguish muscle strain from proximal tendon injury and repair pathways.",
+    "limit": "Narrative review with mixed populations; no surgical indication or postoperative schedule is prescribed."
+   },
+   {
+    "id": "bb-hamstring-hits-2019",
+    "locator": "PubMed abstract: Methods, Results and Conclusion; indexed PMC Results: Activity",
+    "application": "Baseball injury context and recurrence as a reason to examine the return record.",
+    "limit": "Historical observational surveillance, 2011–2016; direct full-text retrieval unavailable on this review. Only abstract-supported high-level findings are used."
+   },
+   {
+    "id": "bb-hamstring-practice-survey-2024",
+    "locator": "Results: Prevention Strategies and Barriers; Discussion; Limitations and Future Research",
+    "application": "Connect a realistic staff handoff and scheduling challenge to reported MLB implementation concerns.",
+    "limit": "Cross-sectional practitioner survey, not proof of a prevention strategy or a validated return-to-performance protocol."
+   }
+  ],
+  "tags": [
+   "hamstring",
+   "first strain",
+   "recurrence",
+   "sprint",
+   "base running",
+   "rounding",
+   "fielding",
+   "return to baseball",
+   "travel"
+  ]
+ }
+]

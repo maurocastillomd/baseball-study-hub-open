@@ -1,0 +1,698 @@
+{
+ "updated": "2026-10-12",
+ "roles": [
+  {
+   "id": "role-1",
+   "organization": "Example pro club",
+   "title": "MiLB strength & conditioning coordinator",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c12",
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Coordinator pathway: coaching quality, staff development, standards, and operations across affiliates. This map does not assess applicant eligibility.",
+   "duties": [
+    "Manage and mentor affiliate, FCL, and Dominican Republic coaches; conduct staff evaluations.",
+    "Oversee budgets, facilities, and equipment operations.",
+    "Deliver science-led programming and testing/rehabilitation protocols.",
+    "Coach sprinting, deceleration, multidirectional movement, and safe exercise technique.",
+    "Collaborate across disciplines, communicate player goals and reports, and continue professional education."
+   ]
+  },
+  {
+   "id": "role-2",
+   "organization": "Example pro club",
+   "title": "Minor league S&C coordinator",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c12",
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Coordinator pathway: staffing, affiliate support, monitoring, and interdisciplinary communication. The saved application label is retained; the exact employer title needs the original posting.",
+   "duties": [
+    "Oversee and develop minor league coaches, plan annual staffing, and support affiliate implementation.",
+    "Coordinate with medical, baseball science, and nutrition staff.",
+    "Manage monitoring, player communication, and off-season remote check-ins.",
+    "Maintain equipment standards and evaluate the department."
+   ]
+  },
+  {
+   "id": "role-3",
+   "organization": "Example pro club",
+   "title": "Minor league S&C coach (affiliate)",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Affiliate pathway: daily implementation, scheduling, testing, and player communication. Employer screening expectations do not establish that a screen predicts injury.",
+   "duties": [
+    "Implement organizational protocols during spring training, the Triple A season, and off-season camps.",
+    "Design strength, power, conditioning, and individualized position-specific development programs.",
+    "Conduct testing with sports medicine/performance science and use objective metrics for programming and development.",
+    "Integrate game/training loads, recovery, and training modifications into practice and competitive schedules with affiliate staff.",
+    "Use movement screening and biomechanical analysis when applicable; report player progress, program effectiveness, and affiliate operations.",
+    "Assist return-to-play and sports medicine with immediate injury support, first aid, stabilization, and crisis protocols."
+   ]
+  },
+  {
+   "id": "role-4",
+   "organization": "Example pro club",
+   "title": "Minor league S&C coach",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c16",
+    "c17",
+    "c18",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Affiliate pathway: daily coaching, testing records, and reports under travel and seasonal demands. Use only the duties preserved in the saved summary.",
+   "duties": [
+    "Provide daily coaching and program implementation.",
+    "Conduct objective testing and maintain participation/workload records.",
+    "Provide weekly/monthly reports to S&C leadership.",
+    "Work within spring training, seasonal affiliate relocation, and US/DR travel demands."
+   ]
+  },
+  {
+   "id": "role-5",
+   "organization": "Example pro club",
+   "title": "Associate major league S&C coach",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Major League support pathway: assist daily S&C delivery within the department, communicate observations, and follow assigned responsibilities.",
+   "duties": [
+    "Support individualized objective-assessment and position-informed programs under MLB S&C leadership.",
+    "Assist position-specific energy-system programs; coach movement preparation, linear/multidirectional skills, speed, plyometrics, strength, power, corrective exercise, and recovery under direction.",
+    "Carry out established readiness/workload protocols; assist testing and record subjective/objective information accurately.",
+    "Maintain athlete-management records and information transfers between Major and Minor Leagues.",
+    "Prepare weekly updates and support midyear/end-of-year testing reports.",
+    "Seek feedback, develop expertise, and collaborate with medical/rehab, science, nutrition, and baseball staff while building professional relationships."
+   ]
+  },
+  {
+   "id": "role-6",
+   "organization": "Example pro club",
+   "title": "Applied performance scientist",
+   "competencyIds": [
+    "c01",
+    "c07",
+    "c08",
+    "c09",
+    "c10",
+    "c11",
+    "c12",
+    "c16",
+    "c17",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Applied science pathway: collect and interpret data, maintain reproducible workflows, and communicate results in baseball context. Analysis does not itself establish causality or clinical authority.",
+   "duties": [
+    "Lead standardized workload monitoring and its interpretation, education, and application across performance, medical, and coaching groups.",
+    "Integrate physical, mechanical, workload, and performance information into shared processes.",
+    "Monitor workload trends and communicate concerns; support playing-time projections and physical capacity/game-demand comparison.",
+    "Profile players and benchmark against position/level-specific norms for evaluation and development.",
+    "Support injury-risk modeling and applied research on availability and on-field performance; evaluate emerging practice.",
+    "Conduct ad-hoc analyses and reports; improve workflows and communication using data, technology, and people."
+   ]
+  },
+  {
+   "id": "role-7",
+   "organization": "Example pro club",
+   "title": "Medical & rehabilitation coordinator",
+   "competencyIds": [
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20",
+    "c21",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Clinical leadership pathway: medical coordination and rehabilitation require the professional credentials, experience, and clinical authority specified by the employer. Completing the hub does not provide those qualifications.",
+   "duties": [
+    "Lead DR academy medical operations, treatment schedules, coverage, and in-scope direct care; document routine decisions and escalate complex/high-risk cases.",
+    "Coordinate priority/complex postsurgical cases and individualized rehab using objective tests, loading, baseball milestones, organization criteria, and physician guidance.",
+    "Communicate readiness, restrictions, and unresolved concerns before participation changes; clearance follows designated physicians and organization protocols.",
+    "Develop staff through feedback/case review, delegate within competence, and support early concern reporting and professional boundaries.",
+    "Coordinate interdisciplinary updates, preferred-language care education, provider networks, diagnostics, and rehearsed emergency action plans.",
+    "Manage onboarding and care transitions with receiving clinicians, records, restrictions, and follow-up; maintain accurate approved EMR documentation and authorized sharing.",
+    "Review injury/rehab outcomes and care delays; manage resources, coverage, credentials, continuing education, and mentorship."
+   ]
+  },
+  {
+   "id": "role-8",
+   "organization": "Example pro club",
+   "title": "Rehab & academy S&C manager",
+   "competencyIds": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c11",
+    "c12",
+    "c13",
+    "c14",
+    "c15",
+    "c16",
+    "c17",
+    "c18",
+    "c19",
+    "c20",
+    "c22"
+   ],
+   "sourceStatus": "Generic role archetype built from public job-posting patterns. Not a specific posting.",
+   "scopeNotes": "Rehab and academy pathway: integrate physical preparation with clinical care, player development, and return to baseball. Medical clearance remains with the responsible clinical team.",
+   "duties": [
+    "Lead physical preparation during rehabilitation from early loading through return to full baseball participation.",
+    "Collaborate with medical/performance staff on objective rehabilitation plans, progressions, and return-to-performance criteria.",
+    "Coach individualized strength, power, speed, and energy-system programs based on injury considerations, player needs, and baseball demands.",
+    "Use performance data in rehab decisions, address physical qualities affected by time loss or considered relevant to risk, and prepare a deliberate transition to team demands.",
+    "Communicate status, progress, limitations, and next steps to stakeholders.",
+    "Lead academy S&C technical operations, support program design and problem solving, and maintain coaching/testing/monitoring standards with appropriate coach autonomy.",
+    "Develop coaches through observation, feedback, education, mentorship, onboarding, and communication with leadership."
+   ]
+  }
+ ],
+ "competencies": [
+  {
+   "id": "c01",
+   "title": "Baseball role and demand analysis",
+   "description": "Translate position, level, schedule, travel, training history, and player goals into physical-development priorities. This is a curriculum interpretation of individualized programming and profiling duties.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-8"
+   ],
+   "assessment": "Produce a one-page needs analysis for a starter, reliever, and position player; distinguish measured demands, assumptions, missing information, and two priority decisions.",
+   "evidenceNeeded": "Baseball-specific time-motion/exposure research with population and competition level; organizational practice demands; contextual player interviews and authorized records."
+  },
+  {
+   "id": "c02",
+   "title": "Strength, power, and rotational preparation",
+   "description": "Connect force capacity, movement skill, and rapid force expression to individualized baseball training without equating a gym test with batting or throwing performance.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-8"
+   ],
+   "assessment": "Design and justify a four-week strength/power block with exercise intent, dose, progression/regression, and two monitoring decisions; explain limits of transfer claims.",
+   "evidenceNeeded": "Resistance-training and power-development evidence, baseball transfer studies, reliable test protocols, and athlete-specific constraints. Separate experimental evidence from practitioner examples."
+  },
+  {
+   "id": "c03",
+   "title": "Sprint, deceleration, and multidirectional coaching",
+   "description": "Teach acceleration, exposure to speed, braking, and directional changes while accounting for position and recent exposure.",
+   "roleIds": [
+    "role-1",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-8"
+   ],
+   "assessment": "Annotate a simulated field session with cues, distances, recovery, progression, surface constraints, and stop/escalation decisions; include a base-running or fielding case.",
+   "evidenceNeeded": "Sprint/deceleration research, baseball running demands, and coaching observation. Label cross-sport findings and avoid unvalidated universal injury-prevention claims."
+  },
+  {
+   "id": "c04",
+   "title": "Position-specific energy-system development",
+   "description": "Match conditioning to playing role, repeat-effort demands, and training recovery; distinguish aerobic support from game-specific activity.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-8"
+   ],
+   "assessment": "Compare conditioning plans for a starter and an everyday outfielder; specify work/rest and expected adaptations, then revise for a congested week.",
+   "evidenceNeeded": "Baseball demand studies, conditioning adaptation research, and individualized tolerance/recovery information; hypothetical session doses must be explicitly labeled."
+  },
+  {
+   "id": "c05",
+   "title": "Annual planning and adaptable microcycles",
+   "description": "Coordinate development, competitive preparation, travel, and uncertain opportunities across the baseball calendar.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-8"
+   ],
+   "assessment": "Build linked off-season, spring-training, and in-season examples; adapt a starter microcycle to a rainout and a reliever plan to an unexpected appearance without inferring readiness from pitch count alone.",
+   "evidenceNeeded": "Periodization and dose-maintenance evidence, baseball schedules, complete practice/throwing/training records, and staff-defined priorities. Separate planning examples from tested prescriptions."
+  },
+  {
+   "id": "c06",
+   "title": "Session delivery and safe exercise coaching",
+   "description": "Convert a written plan into clear coaching, observation, feedback, sensible progressions, and an organized training environment.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-8"
+   ],
+   "assessment": "Teach back one strength and one movement session using a structured observation checklist; justify a regression and document a concern requiring referral.",
+   "evidenceNeeded": "Exercise instruction resources, supervised practical coaching, equipment procedures, and direct feedback. A quiz cannot demonstrate hands-on coaching competence."
+  },
+  {
+   "id": "c07",
+   "title": "Standardized testing and device protocols",
+   "description": "Select feasible tests, standardize collection, and preserve protocol/device metadata so repeated results remain interpretable.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Write and execute a simulated SOP for a jump, sprint, and strength test: warm-up, trials, rest, device setup, units, invalid-trial rules, and documentation.",
+   "evidenceNeeded": "Validity/reliability studies for the exact population, protocol and device; manufacturer instructions for operation; local repeatability work before consequential use."
+  },
+  {
+   "id": "c08",
+   "title": "Measurement error and defensible interpretation",
+   "description": "Interpret change and profiling with reliability, uncertainty, reference populations, and practical relevance.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Analyze a small repeated-test dataset; calculate a suitable error estimate, distinguish typical error/SEM from a change threshold, and explain why a changed score may not change the plan.",
+   "evidenceNeeded": "Measurement-theory sources and protocol-specific reliability data; justified benchmarking samples; documented calculations and limitations rather than universal cutoffs."
+  },
+  {
+   "id": "c09",
+   "title": "Workload records and contextual decisions",
+   "description": "Maintain complete exposure records and combine training, throwing, game, recovery, and clinical context without turning one metric into clearance.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Audit a fictional week with missing bullpen/warm-up throws and missing session records; separate unknown from zero, identify questions, and produce a conditional recommendation with responsible decision owner.",
+   "evidenceNeeded": "Monitoring research and organizational recording definitions; complete internal/external load context. No ACWR “safe zone,” automated clearance, or availability inference from game counts."
+  },
+  {
+   "id": "c10",
+   "title": "Reproducible analysis and data workflows",
+   "description": "Use appropriate SQL, R, or Python workflows to join, check, analyze, and document performance data. Tool depth is principally a science-role recommendation.",
+   "roleIds": [
+    "role-6"
+   ],
+   "assessment": "Create a reproducible synthetic-data report with data dictionary, join checks, missingness flags, units, versioned code, and a one-command rebuild; explain one failed quality check.",
+   "evidenceNeeded": "Approved schema/export specifications, reproducible-analysis standards, data-quality examples, and documented transformation tests. Use synthetic or properly de-identified data for study."
+  },
+  {
+   "id": "c11",
+   "title": "Reports that support a named decision",
+   "description": "Communicate what changed, what is uncertain, which action is proposed, who owns it, and when to reassess.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Write a weekly affiliate update and a 60-second staff briefing from the same fictional case; include evidence, restrictions, alternatives, and a next review date.",
+   "evidenceNeeded": "Preserved reporting duties plus examples approved for teaching; stakeholder feedback on clarity/usefulness. Do not invent outcome effects or imply model certainty."
+  },
+  {
+   "id": "c12",
+   "title": "Research appraisal and model limitations",
+   "description": "Evaluate intervention claims, injury-risk associations, and models before applying them to an individual baseball player.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Critique one baseball study and one cross-sport study using design, population, effect uncertainty, confounding, and applicability; audit a hypothetical risk model for leakage, calibration, validation, and harmful decisions.",
+   "evidenceNeeded": "Accessible primary research, reporting/validation guidance, and transparent model documentation; prospective/out-of-sample validation before operational claims. Employer aspirations are not scientific validation."
+  },
+  {
+   "id": "c13",
+   "title": "Functional anatomy and injury mechanisms",
+   "description": "Explain shoulder, elbow, and hamstring anatomy and plausible baseball loading mechanisms. These regional priorities are curriculum choices, not a claim that every posting specifies these injuries.",
+   "roleIds": [
+    "role-3",
+    "role-5",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Identify structures and actions in an anatomy model, explain a mechanism with uncertainty, and distinguish an educational hypothesis from a diagnosis; acknowledge missing/approximate model structures.",
+   "evidenceNeeded": "Authoritative anatomy references; verified 3D structure and attachment provenance; clinical/mechanical research. No invented ligament meshes or unverified attachment footprints."
+  },
+  {
+   "id": "c14",
+   "title": "Rehabilitation loading within assigned scope",
+   "description": "Understand how medical restrictions, procedure-specific considerations, symptoms, tissue capacity, and response guide physical preparation alongside the clinical plan.",
+   "roleIds": [
+    "role-1",
+    "role-3",
+    "role-5",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "For a simulated operative and nonoperative case, identify missing clinical information, draft a conditional physical-preparation progression, and specify when to hold/refer and who must authorize changes.",
+   "evidenceNeeded": "Diagnosis/procedure-specific accessible rehabilitation evidence; physician/surgical restrictions and authorized clinician guidance for real cases. Time elapsed alone is insufficient; educational work confers no clinical authority."
+  },
+  {
+   "id": "c15",
+   "title": "Return to baseball performance",
+   "description": "Distinguish participation, sport, and performance; integrate physical capacity, baseball tasks, exposure progression, confidence, and ongoing monitoring under team criteria.",
+   "roleIds": [
+    "role-1",
+    "role-3",
+    "role-5",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Create a simulated return-to-throw or return-to-sprint bridge with objective measures, unresolved questions, progression/hold criteria, and staff responsibilities; identify medical clearance separately.",
+   "evidenceNeeded": "Baseball-specific return outcomes and criteria where available; explicit cross-sport extrapolation; agreed clinical/organizational criteria and position demands. No universal threshold can guarantee safety."
+  },
+  {
+   "id": "c16",
+   "title": "Interdisciplinary coordination and care transitions",
+   "description": "Align medical, S&C, science, nutrition, baseball, and operations staff around restrictions, priorities, and handoff responsibilities.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Run a mock case conference and write a DR-to-US/affiliate transfer handoff with authorized recipient, current restrictions, last exposures, outstanding decisions, receiving-owner confirmation, and reassessment.",
+   "evidenceNeeded": "Organizational role definitions and authorized handoff/communication standards; supervised multidisciplinary examples. Medical decisions and clearance remain with authorized clinicians."
+  },
+  {
+   "id": "c17",
+   "title": "Player education, trust, and cultural communication",
+   "description": "Explain plans in clear player-centered language, check understanding, and invite concerns across language/cultural differences.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Give a plain-language teach-back briefing and adapt it for a player’s preferred language using qualified language support where needed; assess understanding without assuming fluency or consent.",
+   "evidenceNeeded": "Health/coach communication evidence, culturally responsive practice resources, and feedback from qualified speakers and players. Language study does not establish professional medical-language competence."
+  },
+  {
+   "id": "c18",
+   "title": "Recovery, nutrition coordination, and referral",
+   "description": "Integrate recovery habits and schedule constraints with the responsibilities of sports medicine, dietitians, and other qualified staff.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Make a travel-week recovery plan; identify which questions belong to a dietitian, medical provider, or mental-health professional, and document the referral path.",
+   "evidenceNeeded": "Sports recovery/sleep/nutrition research and team professional-scope policies. Education and coordination are distinct from individualized medical nutrition therapy or mental-health treatment."
+  },
+  {
+   "id": "c19",
+   "title": "Coach development and departmental standards",
+   "description": "Lead through observation, feedback, case review, onboarding, and shared standards while respecting competence and delegated authority.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Create a 30-day coach onboarding plan, an observation rubric, and a feedback conversation; distinguish required standards, coach autonomy, and issues to escalate.",
+   "evidenceNeeded": "Preserved leadership duties, evidence on feedback/learning and team operations, plus real supervised leadership assessment. Course completion cannot substitute for required management experience."
+  },
+  {
+   "id": "c20",
+   "title": "Baseball operations and resource stewardship",
+   "description": "Organize facilities, equipment, testing logistics, staff coverage, schedules, and resources at the responsibility level assigned to each role.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Build a fictional spring-training equipment/coverage plan with maintenance checks, cost assumptions, travel contingencies, and purchasing approval owners; distinguish affiliate execution from coordinator budget authority.",
+   "evidenceNeeded": "Organizational SOPs, equipment instructions, realistic cost/coverage data, and the specific role’s delegated authority. Budget ownership is explicit in one club's summary, not assumed for every coach."
+  },
+  {
+   "id": "c21",
+   "title": "Emergency readiness and professional boundaries",
+   "description": "Know activation, referral, communication, and assigned first-response responsibilities; maintain required training separately from hub learning.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-7"
+   ],
+   "assessment": "Complete a tabletop emergency scenario with location-specific activation, trained responder assignments, AED access, communication, and receiving-facility handoff; identify actions beyond personal competence.",
+   "evidenceNeeded": "Current employer emergency action plans and recognized CPR/AED/first-aid/BLS training as applicable; qualified practical assessment. The hub does not issue or renew these credentials."
+  },
+  {
+   "id": "c22",
+   "title": "Accurate records, privacy, and quality improvement",
+   "description": "Maintain timely, traceable records with appropriate access; use de-identified review to identify process failures and improve follow-through.",
+   "roleIds": [
+    "role-1",
+    "role-2",
+    "role-3",
+    "role-4",
+    "role-5",
+    "role-6",
+    "role-7",
+    "role-8"
+   ],
+   "assessment": "Audit a synthetic athlete record for missing dates, units, restrictions, owners, and unauthorized sharing; propose a correction log and one measurable workflow improvement.",
+   "evidenceNeeded": "Approved AMS/EMR and access policies, applicable professional requirements, and documentation standards. Medical EMR duties are explicit for one club's medical role; broader governance mappings are curriculum recommendations."
+  }
+ ],
+ "sourceGroups": [
+  {
+   "title": "NSCA Essentials of Strength Training and Conditioning, fourth edition",
+   "role": "Foundational textbook",
+   "coverage": "The supplied CSCS textbook supports the foundation plan for physiology, biomechanics, testing, training, and program design.",
+   "reviewStatus": "Selected biomechanics, energetics, training-adaptation, resistance-training, plyometric, speed/agility and aerobic-training passages reviewed for the expanded chapters. Exact PDF and printed-page locators are in the source catalog. This is not a full-book review.",
+   "use": ""
+  },
+  {
+   "title": "NSCA’s Essentials of Sport Science",
+   "role": "Foundational textbook",
+   "coverage": "The supplied CPSS textbook supports measurement, monitoring, applied science, research reasoning, and communication.",
+   "reviewStatus": "Selected measurement, statistics, training-design, data-workflow, monitoring and communication passages reviewed. The source catalog and section citations record the reviewed chapter/PDF-page ranges; this is not a full-book review.",
+   "use": "Connect measurement and scientific reasoning to baseball tasks, while using baseball research for population-specific claims."
+  },
+  {
+   "title": "Accessible research and clinical frameworks",
+   "role": "Research and clinical evidence",
+   "coverage": "Current cataloged full texts cover elbow, shoulder, hamstring, measurement, and baseball workload topics; expert practice references are separately labeled.",
+   "reviewStatus": "Section-level references accompany the expanded chapters. Source review is editorial; independent clinical expert review remains outstanding.",
+   "use": "Support detailed claims, identify study populations and limitations, and distinguish baseball findings from cross-sport extrapolation."
+  }
+ ],
+ "stages": [
+  {
+   "title": "Foundations and baseball demands",
+   "scope": "Functional anatomy, adaptation, energy systems, biomechanics, research interpretation, and the demands of pitchers and position players. Establish what each staff role can decide.",
+   "deliverable": "A role-specific needs analysis and evidence brief that distinguishes measured demands, assumptions, and unanswered questions.",
+   "lessonIds": [
+    "programming-needs-season",
+    "strength-force-power",
+    "strength-conditioning-mobility"
+   ]
+  },
+  {
+   "title": "Strength, speed, and programming",
+   "scope": "Exercise selection and coaching, force and power development, sprinting and deceleration, conditioning, annual plans, in-season microcycles, travel, and changing availability.",
+   "deliverable": "An annual outline, four-week block, and adaptable game-week plan with exercise rationale and coaching observations.",
+   "lessonIds": [
+    "programming-needs-season",
+    "programming-pitcher-microcycle",
+    "programming-position-players",
+    "strength-force-power",
+    "strength-sprint-brake",
+    "strength-conditioning-mobility"
+   ]
+  },
+  {
+   "title": "Applied sports science",
+   "scope": "Test selection, collection protocols, reliability and measurement error, workload records, data cleaning, reproducible analysis, visualization, and staff reporting.",
+   "deliverable": "A testing SOP, cleaned practice dataset, analysis, and one-page report that supports a named decision without overstating the data.",
+   "lessonIds": [
+    "science-testing-reliability",
+    "science-workload-limits",
+    "science-interpret-communicate"
+   ]
+  },
+  {
+   "title": "Rehab and return to performance",
+   "scope": "Shoulder, elbow, and hamstring anatomy and injury mechanisms; operative and nonoperative distinctions; graded loading, testing, throwing, running, and return to role-specific baseball demands.",
+   "deliverable": "A case-based rehabilitation handoff and return-to-performance plan with permissions, progression questions, monitoring, and remaining uncertainty.",
+   "lessonIds": [
+    "rehab-shoulder-01",
+    "rehab-shoulder-02",
+    "rehab-shoulder-03",
+    "rehab-elbow-01",
+    "rehab-elbow-02",
+    "rehab-elbow-03",
+    "rehab-hamstring-01",
+    "rehab-hamstring-02",
+    "rehab-hamstring-03"
+   ]
+  },
+  {
+   "title": "Staff handoffs and affiliate operations",
+   "scope": "Interdisciplinary handoffs, player education, coach development, common standards, affiliate transitions, scheduling, equipment, budgets, emergency readiness, and confidential records.",
+   "deliverable": "An affiliate operations packet, coach feedback plan, and concise staff communication for a changing player situation.",
+   "developmentNote": "Baseball handoffs and transitions are practiced in the season case and existing assignments. A broad leadership curriculum belongs to the separate Performance Curriculum project."
+  },
+  {
+   "title": "Integrated professional work samples",
+   "scope": "Combine the foundation with the relevant role pathway. Defend decisions, revise plans when new evidence arrives, and explain tradeoffs to baseball, medical, and performance staff.",
+   "deliverable": "A pitcher case, position-player case, and leadership or analysis case, each assessed against a transparent rubric and discussed with an experienced practitioner.",
+   "developmentNote": "The baseball study paths and cases provide work-sample practice. Observed delivery and independent practitioner feedback remain separate requirements."
+  }
+ ]
+}

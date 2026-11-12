@@ -1,0 +1,814 @@
+[
+ {
+  "id": "perf-nsca",
+  "title": "NSCA’s Essentials of Sport Science",
+  "authors": "Duncan N. French and Lorena Torres Ronda, editors; individual chapter authors identified in locators",
+  "year": 2022,
+  "url": "https://www.nsca.com/certification/cpss/essentials-of-sport-science/",
+  "type": "",
+  "population": "Multiple sports and athlete levels; examples require translation to baseball.",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Provides frameworks for needs analysis, planning, load measurement, force–velocity assessment, measurement error, and interdisciplinary interpretation.",
+  "limitations": "Foundational synthesis rather than a baseball intervention trial. Some examples concern soccer or individual sports. Historical workload theories are not adopted as validated safety rules.",
+  "locations": [
+   "Chapter 1, Performance Dimensions (Winkelman & Norman), pp. 75–81 and 86–89: interdisciplinary roles, interpretation and decisions.",
+   "Chapter 2, Training Load Model (Cormack & Coutts), pp. 94–96 and 118–122: dose–response, monitoring components and statistical issues.",
+   "Chapter 3, Periodization and Programming for Individual Sports (Haff), pp. 132–133 and 145–155: planning versus programming, microcycles, schedule constraints.",
+   "Chapter 4, Periodization and Programming for Team Sports (Buchheit & Laursen), pp. 164–169: physiological objectives and integration of conditioning.",
+   "Chapter 6, Profiling and Benchmarking (McGuigan), pp. 235–240: analysis of athlete, norms and benchmarking.",
+   "Chapter 8, Data Hygiene (Varley, Lovell & Carey), pp. 292–302: validity, reliability and meaningful change.",
+   "Chapter 11, Kinematics and Gait Analysis (King & Richter), pp. 397–398: reliability, SEM and minimal detectable change.",
+   "Chapter 13, Strength Tracking and Analysis (Morin & Samozino), pp. 437–457: task specificity, force–velocity–power and measurement.",
+   "Chapter 8, pp. 307–313: data preparation and workflow; reviewed October 12, 2026.",
+   "Chapter 17, pp. 629–632 and 637: session-RPE collection and interpretation; reviewed October 12, 2026.",
+   "Chapter 18, pp. 666–672 and 674–677: association, prediction and causation; reviewed October 12, 2026.",
+   "Chapter 8, Filtering, pp. 302–306: sampling, smoothing, filtering and processing choices; selected passages reviewed October 13, 2026 for M07."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-offseason",
+  "title": "Offseason Workout Recommendations for Baseball Players",
+  "authors": "Brooks Klein, Daniel Cobian, Goldy Simmons, Michael Reinold",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7990992/",
+  "type": "Narrative review · applied baseball practice",
+  "population": "Baseball training, with a professional/minor-league offseason example and supporting studies from mixed populations.",
+  "access": "Free full text verified on PMC.",
+  "findings": "Discusses multidirectional strength/power and a progression from recovery through preparation to baseball-specific work.",
+  "limitations": "Sample programming is illustrative, not an experimentally established optimal plan. Several exercise restrictions and mechanistic claims should be treated as author recommendations rather than universal rules.",
+  "locations": [
+   "Unique Training Demands of Baseball.",
+   "Principles of Strength and Conditioning in Baseball Players: Functional Assessments, Develop Strength, Maximize Power.",
+   "Overview of Offseason Programming: Factors and Considerations; Tables 1–2."
+  ],
+  "license": "Copyright authors under exclusive Springer licence. Link and concise original summary only; figures and program tables not reproduced.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-deceleration",
+  "title": "Biomechanical and Neuromuscular Performance Requirements of Horizontal Deceleration: A Review with Implications for Random Intermittent Multi-Directional Sports",
+  "authors": "Damian J. Harper, Alistair J. McBurnie, Thomas Dos’Santos, Ola Eriksrud, Martin Evans, Daniel D. Cohen, David Rhodes, Christopher Carling, John Kiely",
+  "year": 2022,
+  "url": "https://link.springer.com/article/10.1007/s40279-022-01693-0",
+  "type": "Biomechanical review · cross-sport evidence",
+  "population": "Multidirectional sport participants; many studies use planned tasks in soccer and other non-baseball populations.",
+  "access": "Open full text verified at the publisher.",
+  "findings": "Braking requires both control of momentum and attenuation of force; strength qualities and coordination contribute.",
+  "limitations": "Most evidence is not baseball-specific. Planned stopping tasks do not establish injury prevention or game agility outcomes.",
+  "locations": [
+   "Section 3: Biomechanical Demands of Horizontal Deceleration.",
+   "Section 4.1: Technical Ability.",
+   "Section 5: Neuromuscular Performance Determinants of Horizontal Deceleration.",
+   "Conclusions."
+  ],
+  "license": "CC BY 4.0. New teaching examples and diagram text; no source figure reproduced.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-cmj",
+  "title": "Reliability and Test-Retest Agreement of Mechanical Variables Obtained During Countermovement Jump",
+  "authors": "Alisson A. Souza, Martim Bottaro, Valdinar A. Rocha Junior, Victor Lage, James J. Tufano, Amilton Vieira",
+  "year": 2020,
+  "url": "https://intjexersci.com/files/ijes/vol13/iss4/1.pdf",
+  "type": "Original research · test–retest reliability",
+  "population": "41 physically active men, mean age approximately 24; not a professional-baseball sample.",
+  "access": "Free journal PDF verified, 12 PDF pages; journal pagination 6–17.",
+  "findings": "Reliability varied by metric. RFD had more relative error than peak force in this protocol. A high ICC alone did not establish low absolute error.",
+  "limitations": "Single rater and specified equipment, calculation methods and trial aggregation. Reported coefficients cannot be transplanted as local baseball thresholds.",
+  "locations": [
+   "Methods: Participants and Protocol, printed pp. 7–9 (pp. 2–4).",
+   "Results and Table 1, printed p. 10 (p. 5).",
+   "Discussion, printed pp. 10–13 (pp. 5–8), especially ICC dependence on sample variability and study limitations."
+  ],
+  "license": "Public PDF access verified; redistribution terms not established from reviewed PDF. Link and concise original summary only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-hidden-pitches",
+  "title": "Unaccounted Workload Factor: Game-Day Pitch Counts in High School Baseball Pitchers—An Observational Study",
+  "authors": "Jason L. Zaremski, Giorgio Zeppieri Jr, Deborah L. Jones, Brady L. Tripp, Michelle Bruner, Heather K. Vincent, MaryBeth Horodyski",
+  "year": 2018,
+  "url": "https://pmr.med.ufl.edu/wordpress/files/2022/09/GAMEGA1.pdf",
+  "type": "Original research · observational exposure study",
+  "population": "115 varsity high-school starting-pitcher outings across 34 North Central Florida schools during 2017.",
+  "access": "Free full-text PDF verified at the authors’ university.",
+  "findings": "Bullpen and between-inning pitches comprised a substantial portion of counted mound throws outside official game totals.",
+  "limitations": "Observational exposure counts; did not test an injury association, measure tissue load or establish professional recovery thresholds.",
+  "locations": [
+   "Abstract and Methods, PDF/printed pp. 1–2.",
+   "Results, PDF/printed pp. 2–3.",
+   "Limitations, PDF/printed p. 5."
+  ],
+  "license": "CC BY-NC-ND 4.0. Linked original; no edited article or source figures distributed.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-acwr",
+  "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+  "authors": "Franco M. Impellizzeri, Matthew S. Tenan, Tom Kempton, Andrew Novak, Aaron J. Coutts",
+  "year": 2020,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32502973/",
+  "type": "Methodological critique · abstract-only reference",
+  "population": "Training-load and injury literature across sports.",
+  "access": "Public abstract verified; full text NOT reviewed. University repository marks its copy closed access.",
+  "findings": "The abstract challenges causal injury-reduction claims from manipulating ACWR.",
+  "limitations": "Only the abstract supports the brief caution used here; detailed methods and arguments are not taught from unavailable full text.",
+  "locations": [
+   "Abstract: causal-inference caution and conclusion."
+  ],
+  "license": "Publisher copyright; bibliographic link and abstract-level paraphrase only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-cressey",
+  "title": "In-Season Baseball Strength and Conditioning: Part 4 — Professional Baseball",
+  "authors": "Eric Cressey",
+  "year": "n.d.",
+  "url": "https://ericcressey.com/in-season-baseball-strength-and-conditioning-part-4-professional-baseball/",
+  "type": "Expert practice · public coaching article",
+  "population": "Professional pitchers and position players; practitioner programming examples.",
+  "access": "Public article verified; main article date not reliably displayed on the current page.",
+  "findings": "Contrasts predictable starter scheduling with shorter, flexible reliever options and role-dependent position-player work.",
+  "limitations": "Historical coaching opinion, not a comparative trial. Pitch-count-based assumptions about subsequent availability and categorical exercise bans are not adopted by this hub.",
+  "locations": [
+   "Starting Pitchers section.",
+   "Relief Pitchers section.",
+   "Position Players and Catchers sections."
+  ],
+  "license": "Author/site copyright. Link and short attributed interpretation only; no copied schedules or tables.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "private-nsca-cscs",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition",
+  "authors": "G. Gregory Haff and N. Travis Triplett, editors; NSCA",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook — indexed reference",
+  "population": "General strength and conditioning; not exclusively baseball",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Indexed as a planned foundation source for physiology, biomechanics, testing, training, and program design. No new detailed lesson claim is attributed to an unread chapter.",
+  "limitations": "Title and contents verification is not full chapter review. The textbook does not replace current baseball-specific or procedure-specific evidence.",
+  "locations": [
+   "pp. 1–5: opening pages, edition, and contents verification",
+   "Detailed chapter/page locators will be added when chapters are reviewed for lessons"
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12: identity, edition, and contents only"
+ },
+ {
+  "id": "depth-cscs-strength",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition — reviewed strength, speed and conditioning passages",
+  "authors": "G. Gregory Haff and N. Travis Triplett, editors; NSCA; chapter authors include McBride, Herda, Cramer, French, Jeffreys, Potach, Chu, DeWeese and Nimphius",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook · selected full passages reviewed",
+  "population": "General athletic populations; original baseball applications are explicitly illustrative",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Supports mechanical definitions, neural contributions to force, overlapping energy pathways, task-specific sprint and agility distinctions, stretch–shortening concepts, and task-oriented warm-up and mobility reasoning.",
+  "limitations": "Textbook synthesis, not a baseball intervention trial. Historical simplifications and categorical efficacy statements are not adopted. Session doses, mnemonics, graphics and worked cases are original teaching examples, not tested protocols. Local PDF pagination is 16 pages ahead of printed-book pagination.",
+  "locations": [
+   "Chapter 2, Human Strength and Power: pp. 41–48 (printed pp. 25–32).",
+   "Chapter 3, Biological Energy Systems: pp. 60–63, 66–67 (printed pp. 44–47, 50–51).",
+   "Chapter 5, opening discussion and Neural Adaptations: pp. 104–106 (printed pp. 88–90).",
+   "Chapter 14, Warm-Up and Flexibility: pp. 334–337, 339 (printed pp. 318–321, 323).",
+   "Chapter 18, Plyometric Mechanics and Physiology; Program Design: pp. 488–491 (printed pp. 472–475).",
+   "Chapter 19, Mechanics, Running Speed and Agility: pp. 538–545 and 549–551 (printed pp. 522–529, 533–535)."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12: selected relevant passages; not a complete textbook review"
+ },
+ {
+  "id": "rehab-shoulder-nonop-2018",
+  "title": "Nonoperative Treatment for Injuries to the In-Season Throwing Shoulder: A Current Concepts Review With Clinical Commentary",
+  "authors": "Stone MA, Jalali O, Alluri RK, et al.",
+  "year": 2018,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6063065/",
+  "type": "Clinical commentary / narrative review",
+  "population": "Overhead throwing athletes; baseball-specific rehabilitation discussion.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Describes an examination-led, phased progression from symptom management and capacity restoration to throwing. Considers the entire kinetic chain and athlete context.",
+  "limitations": "Level 5 clinical commentary; proposed phases and numerical criteria are not a prospectively validated clearance algorithm. Published protocols are examples, not universal prescriptions.",
+  "locations": [
+   "Principles of Treatment",
+   "Physical Examination",
+   "Nonoperative Rehabilitation; Phases 1–4",
+   "Phase 4 – Return to Throwing Phase; Tables 5–6",
+   "Return to Play (RTP)"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-slap-2018",
+  "title": "National Athletic Trainers’ Association Position Statement: Evaluation, Management, and Outcomes of and Return-to-Play Criteria for Overhead Athletes With Superior Labral Anterior-Posterior Injuries",
+  "authors": "Michener LA, Abrams JS, Huxel Bliven KC, et al.",
+  "year": 2018,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5894372/",
+  "type": "Position statement informed by systematic evidence review and expert consensus",
+  "population": "Overhead athletes with SLAP injuries; studies include baseball and other populations.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Explains the biceps-labral complex, limitations of isolated diagnostic findings, first-line nonoperative management and limitations of return-to-play evidence.",
+  "limitations": "Many recommendations have limited or inconsistent research support; published in 2018. Imaging findings must be interpreted with symptoms and examination, and surgical recommendations need current specialist context.",
+  "locations": [
+   "Introduction: biceps-labral complex",
+   "Recommendations 5, 7, 11: diagnosis and imaging",
+   "Recommendations 13–17: management",
+   "Recommendations 18–26: outcomes and return to play"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-rts-2020",
+  "title": "Return to Sport Participation Criteria Following Shoulder Injury: A Clinical Commentary",
+  "authors": "Wilk KE, Bagwell MS, Davies GJ, Arrigo CA",
+  "year": 2020,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735686/",
+  "type": "Clinical commentary",
+  "population": "Athletes after shoulder injury or surgery; includes overhead throwing and macrotrauma examples.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Separates performance training, practice participation and competitive play; combines clinical, physical, sport-specific and psychological information.",
+  "limitations": "Proposed test batteries and cutoffs are clinical guidance, not universally validated injury prediction or clearance rules. Sport and dominance affect interpretation.",
+  "locations": [
+   "Return to Participation Process and Criteria",
+   "Table 1: The 3 P Program",
+   "Tables 2–3: proposed practice/play criteria"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-shoulder-outcomes-2021",
+  "title": "Management of Common Upper Extremity Injuries in Throwing Athletes: A Critical Review of Current Outcomes",
+  "authors": "Maier J, Oak SR, Soloff L, Schickendantz M, Frangiamore S",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10426540/",
+  "type": "Narrative clinical review",
+  "population": "Overhead throwers, including professional and collegiate baseball players.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Discusses SLAP, instability, cuff and other shoulder injuries; distinguishes return to play from restoration of prior performance and describes position-dependent outcomes.",
+  "limitations": "Largely observational surgical literature with varying definitions and selection effects. Treatment groups and procedures cannot be ranked as if randomized.",
+  "locations": [
+   "The throwing motion",
+   "Superior labral anterior-posterior tears",
+   "Posterior shoulder instability",
+   "Traumatic/anterior shoulder instability",
+   "Rotator cuff tears",
+   "Latissimus dorsi, teres major, subscapularis"
+  ],
+  "license": "CC BY-NC-ND 4.0. Free reading; do not adapt source figures or republish altered source material under this license.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-framework-2025",
+  "title": "Nonoperative Management of Ulnar Collateral Ligament Injuries in the Throwing Athlete: A Framework for Return to Throwing",
+  "authors": "Wyatt PB, Vanderkwaak B, Brown R, Goodloe JB",
+  "year": 2025,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12035091/",
+  "type": "Peer-reviewed clinical video and suggested rehabilitation framework",
+  "population": "Throwing athletes with selected UCL injuries; not an outcomes trial.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Describes UCL and flexor-pronator roles, clinical assessment and a monitored progression from protection toward throwing.",
+  "limitations": "Suggested framework without a comparative rehabilitation trial; its example weeks and exercise choices do not determine individual eligibility or clearance.",
+  "locations": [
+   "Video transcript: Background",
+   "Video transcript: Indications",
+   "Video transcript: Technique Description and Results",
+   "Video transcript: Discussion/Conclusion"
+  ],
+  "license": "CC BY-NC-ND 4.0. Free reading and unaltered noncommercial sharing with attribution; adaptation of the published material requires separate review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-rts-2021",
+  "title": "Return-to-Sport Criteria After Upper Extremity Surgery in Athletes—A Scoping Review, Part 2: Ulnar Collateral Ligament of the Elbow Procedures",
+  "authors": "Griffith R, Bolia IK, Fretes N, et al.",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8358522/",
+  "type": "Scoping review; evidence level 4",
+  "population": "14 studies and 1,335 athletes after UCL surgery; predominantly reconstruction.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Time was reported in every included study, while functional measures were less often described. The review identifies inadequate reporting and validation of return criteria.",
+  "limitations": "Cannot determine whether criteria were absent in practice or merely underreported. Heterogeneous procedures and populations; no comparison validates one clearance battery.",
+  "locations": [
+   "Results: Study Population",
+   "Table 1: Characteristics and RTS Criteria",
+   "RTS Criteria",
+   "Discussion: reporting and validation limitations"
+  ],
+  "license": "CC BY-NC-ND 4.0. Link to the full paper; original teaching summaries only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-management-2026",
+  "title": "Management of Ulnar Collateral Ligament Injuries of the Elbow",
+  "authors": "Ryan PM, Beyer J, Hartman H, Ismail H, Alam M, DeFroda SF",
+  "year": 2026,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13263370/",
+  "type": "Current concepts narrative review",
+  "population": "Throwing and nonthrowing athletes; baseball-specific surgical and nonsurgical literature.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Reviews UCL bundle anatomy, clinical assessment and differences among nonoperative care, repair, reconstruction and augmented reconstruction.",
+  "limitations": "Narrative synthesis; protocol details and surgical selection vary. Faster reported return after repair does not establish comparative superiority because eligible injuries differ.",
+  "locations": [
+   "Anatomy",
+   "Biomechanics of the UCL",
+   "Clinical Evaluation",
+   "Management: Non-Surgical Management",
+   "Surgical Management: Reconstruction, Repair, Hybrid Reconstructions",
+   "Rehabilitation and Return to Sport"
+  ],
+  "license": "CC BY 4.0. Check separately credited third-party material before reuse; attribution and a license link are required.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-elbow-reconstruction-2009",
+  "title": "Current Concepts in Rehabilitation Following Ulnar Collateral Ligament Reconstruction",
+  "authors": "Ellenbecker TS, Wilk KE, Altchek DW, Andrews JR",
+  "year": 2009,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445125/",
+  "type": "Clinical review / historical rehabilitation framework",
+  "population": "Overhead throwing athletes after UCL reconstruction, with modified Jobe and docking procedures discussed separately.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Shows why operative approach, flexor-pronator handling and associated nerve procedures influence rehabilitation; describes whole-arm and kinetic-chain progression.",
+  "limitations": "Older source; contemporary techniques differ. Used for the enduring principle of procedure-specific restrictions, not its historical timelines or universal strength thresholds.",
+  "locations": [
+   "Rehabilitation Program Following the Modified Jobe Procedure: Initial Postoperative Management",
+   "Advanced Rehabilitation Phase",
+   "Rehabilitation Following the Docking Procedure",
+   "Conclusion"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-strain-2022",
+  "title": "Hamstring Strain Injury Rehabilitation",
+  "authors": "Hickey JT, Opar DA, Weiss LJ, Heiderscheit BC",
+  "year": 2022,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8876884/",
+  "type": "Current clinical concepts / narrative evidence review",
+  "population": "Athletes with hamstring strains, drawing heavily on running and field-sport evidence.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Integrates progressive running, knee-flexor and hip-extensor loading, symptom monitoring and psychological readiness; explicitly discusses limits of reinjury prediction.",
+  "limitations": "Not a baseball-specific rehabilitation trial or a proximal avulsion repair protocol. Proposed progression thresholds are context-dependent; no single return measure rules out reinjury.",
+  "locations": [
+   "Causes and Mechanisms",
+   "Rehabilitation: Progressive Running; Figure 3",
+   "Eccentric Hamstring Exercises; Hip-Extensor Strengthening; Figure 4",
+   "Implementation Considerations",
+   "Outcome Measures",
+   "Can We Assess the Reinjury Risk at Return to Sport?"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-proximal-2024",
+  "title": "Management of Proximal Hamstring Injuries: Non-operative and Operative Treatment",
+  "authors": "Yetter TR, Halvorson RT, Wong SE, Harris JD, Allahabadi S",
+  "year": 2024,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11335994/",
+  "type": "Current concepts narrative review",
+  "population": "Elite and recreational patients with proximal hamstring injuries; not exclusively baseball.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Explains tendon anatomy, injury classification, treatment selection and postoperative protection. Tendon involvement, retraction, chronicity and patient demands inform decisions.",
+  "limitations": "Observational studies and authors’ preferred protocols contribute substantially; the review precedes later comparative syntheses. Its surgical indications are considerations, not automatic decisions.",
+  "locations": [
+   "Background: Anatomy; Biomechanics",
+   "Mechanism of Injury; Injury Classification",
+   "Indications for Nonoperative Treatment; Table 1",
+   "Indications for Operative Treatment; Table 2",
+   "Postoperative Rehabilitation"
+  ],
+  "license": "Free full text at PMC; copyright retained. Link and use original summaries; figure reuse requires separate rights review.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "rehab-hamstring-comparison-2025",
+  "title": "No Difference in Patient-Reported Outcomes Between Operative and Non-operative Management of Proximal Hamstring Injuries, but Return to Sports Is Higher in Operative Treatment: A Systematic Review and Meta-analysis",
+  "authors": "Thamrongskulsiri N, Limskul D, Tanpowpong T, Kuptniratsaikul S, Ranawat AS, Itthipanichpong T",
+  "year": 2025,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12255933/",
+  "type": "Systematic review and meta-analysis of comparative studies",
+  "population": "Predominantly active, middle-aged recreational patients with proximal hamstring tendon avulsions.",
+  "access": "Free full text verified and read; official NIH article HTML retrieved on 2026-10-12.",
+  "findings": "Pooled patient-reported outcomes were similar, while return to preinjury sport favored surgery. Authors emphasize population and selection limitations.",
+  "limitations": "Mostly nonrandomized evidence with selection bias and heterogeneity; results cannot be directly transferred to elite baseball. Reported denominators vary across outcomes; no pooled success percentage is used in these lessons.",
+  "locations": [
+   "Results: Return to Sports at Pre-injury Performance Level",
+   "Results: Patient-reported Outcome Scores",
+   "Discussion: population applicability and limitations",
+   "Conclusion"
+  ],
+  "license": "CC BY 4.0. Attribution, a license link, and indication of changes are required; check third-party credit lines before figure reuse.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "grad-cscs-periodization",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition — reviewed periodization passages",
+  "authors": "G. Gregory Haff, Chapter 21; G. Gregory Haff and N. Travis Triplett, editors; NSCA",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook · selected programming passages reviewed",
+  "population": "General strength and conditioning; the chapter annual-plan example concerns a collegiate basketball athlete, not professional baseball.",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Defines periodization and programming hierarchy, describes annual-season organization and short-term variation, and discusses contrasting model terminology and mixed comparison findings. Supports original planning and critical-appraisal exercises.",
+  "limitations": "Historical textbook synthesis, not a current systematic review or evidence of an optimal professional-baseball model. The course does not adopt generic peak-duration limits, fixed recovery periods, automatic phase doses, categorical overtraining claims or source sample schedules as prescriptions. New cases, numbers, graphics and assignments are original.",
+  "locations": [
+   "Chapter 21, p. 600 (printed p. 584): central concepts and definition; reviewed for conceptual organization, not categorical physiological predictions.",
+   "Chapter 21, pp. 603–604 (printed pp. 587–588): periodization hierarchy and periods.",
+   "Chapter 21, pp. 608–609 (printed pp. 592–593): seasonal organization and undulating versus linear terminology, including conflicting comparative findings.",
+   "Chapter 21, pp. 610–611 (printed pp. 594–595): scope of the illustrative basketball annual plan, joint planning and limits of generalization."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-13: selected full passages read; not a complete textbook review or a new systematic evidence review."
+ },
+ {
+  "id": "grad-force-events",
+  "title": "The use of yank-time signal as an alternative to identify kinematic events and define phases in human countermovement jumping",
+  "authors": "Sofyan B. Sahrom, Jodie C. Wilkie, Kazunori Nosaka, Anthony J. Blazevich",
+  "year": 2020,
+  "url": "https://doi.org/10.1098/rsos.192093",
+  "type": "Original research · measurement methods",
+  "population": "32 physically active healthy adult men; activity ranged from recreational exercise to international running-based sport. Not a professional-baseball cohort.",
+  "access": "Full open article XML verified through the official Europe PMC repository; selected methods read. The direct PMC webpage returned a verification page.",
+  "findings": "Provides a documented example of acquisition, processing and event definition in CMJ analysis. Used for a concise methods comparison rather than a device prescription.",
+  "limitations": "Study-specific acquisition and processing. It does not establish a universal sample rate, filter setting, baseball readiness threshold or equivalence across devices. The course mechanical calculations and diagrams are original synthetic teaching exercises.",
+  "locations": [
+   "Sections2.1–2.4: sample, familiarization and apparatus.",
+   "Sections3.1–3.2: signal processing and force-derived kinematics."
+  ],
+  "license": "CC BY4.0 as stated by the journal; original figures and study data are not reproduced.",
+  "reviewed": "2026-10-13: selected full-text methods reviewed"
+ },
+ {
+  "id": "grad-icc-methods",
+  "title": "Intraclass correlation – A discussion and demonstration of basic features",
+  "authors": "David Liljequist, Britt Elfving, Kirsti Skavberg Roaldsen",
+  "year": 2019,
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219854",
+  "type": "Methodological research · theory and Monte Carlo simulation",
+  "population": "Statistical models and simulations with a clinical illustration; no baseball cohort.",
+  "access": "Full open text verified at PLOS and through Europe PMC; selected theory/reporting sections read.",
+  "findings": "Explains variance dependence and why consistency and absolute agreement can differ when systematic shifts occur.",
+  "limitations": "The article centers on single-score ICC and proposes a particular analytical approach. It does not validate a baseball test or replace a design-specific statistical analysis. The course does not adopt every procedural recommendation or give categorical ICC quality thresholds.",
+  "locations": [
+   "Table1: notation.",
+   "Sections2.1–2.5: measurement matrix, variance models, agreement and consistency.",
+   "Sections4–7: simulations, interpretation and reporting discussion."
+  ],
+  "license": "CC BY as stated by PLOS; no source figures, tables or datasets reproduced.",
+  "reviewed": "2026-10-13: selected full-text sections reviewed"
+ },
+ {
+  "id": "grad-icc-reporting",
+  "title": "A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research",
+  "authors": "Terry K. Koo, Mae Y. Li",
+  "year": 2016,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+  "type": "Methodological guidance · selected public sections",
+  "population": "Clinical reliability methodology; no baseball-specific sample.",
+  "access": "Abstract and publicly indexed Model, Type and Definition Selection sections verified. Direct PMC page returned a verification page and full XML was unavailable; complete article not reviewed in this session.",
+  "findings": "Supports a concise ICC reporting checklist specifying model, score type, agreement definition, software and confidence interval.",
+  "limitations": "Only the selected accessible sections support the checklist. Generic qualitative ICC cutoffs are not adopted as universal practical standards. No detailed unseen content is attributed to this source.",
+  "locations": [
+   "Abstract: reporting recommendations.",
+   "How to Select the Correct ICC Form: Model Selection, Type Selection, Definition Selection; selected publicly indexed text."
+  ],
+  "license": "Publisher copyright; link and brief original paraphrase only.",
+  "reviewed": "2026-10-13: abstract and selected indexed sections only"
+ },
+ {
+  "id": "graduate-nsca-baseball-contents",
+  "title": "Strength Training for Baseball — publisher overview and contents",
+  "authors": "NSCA; A. Eugene Coleman and David J. Szymanski, editors",
+  "year": 2022,
+  "url": "https://us.humankinetics.com/products/strength-training-for-baseball",
+  "type": "Publisher contents · reference map",
+  "population": "Baseball; excerpt-specific level and assessment context must be preserved.",
+  "access": "Public publisher page verified October 13, 2026. Full book not available in this review.",
+  "findings": "Organizes baseball preparation around demands, assessment, exercise methods and four seasonal phases.",
+  "limitations": "Only the contents and publisher description were reviewed. Full chapter arguments, all 13 advertised tests and 34 sample programs were not inspected.",
+  "locations": [
+   "Publisher overview, table of contents, editors and publication details."
+  ],
+  "license": "Copyright NSCA/Human Kinetics. Link and limited original discussion only; no publisher pages, tables or figures bundled.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "graduate-nsca-baseball-position",
+  "title": "Strength Training for Baseball — position demands excerpt",
+  "authors": "NSCA; A. Eugene Coleman and David J. Szymanski, editors",
+  "year": 2022,
+  "url": "https://us.humankinetics.com/blogs/excerpt/understand-the-movement-needed-for-every-position-on-the-field",
+  "type": "Expert textbook material · public publisher excerpt",
+  "population": "Baseball; excerpt-specific level and assessment context must be preserved.",
+  "access": "Public publisher page verified October 13, 2026. Full book not available in this review.",
+  "findings": "Provides an expert description of differing position demands.",
+  "limitations": "Expert teaching context, not intervention evidence. Position categories do not establish an individual player’s capacity or a causal training effect.",
+  "locations": [
+   "Public excerpt: position-specific movement requirements."
+  ],
+  "license": "Copyright NSCA/Human Kinetics. Link and limited original discussion only; no publisher pages, tables or figures bundled.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "graduate-nsca-baseball-season",
+  "title": "Strength Training for Baseball — postseason examples excerpt",
+  "authors": "NSCA; A. Eugene Coleman and David J. Szymanski, editors",
+  "year": 2022,
+  "url": "https://us.humankinetics.com/blogs/excerpt/sample-training-program-table-for-high-school-athletes",
+  "type": "Expert textbook material · public publisher excerpt",
+  "population": "Baseball; excerpt-specific level and assessment context must be preserved.",
+  "access": "Public publisher page verified October 13, 2026. Full book not available in this review.",
+  "findings": "Illustrates postseason planning for different athlete levels.",
+  "limitations": "The published examples concern school and college settings. Their prescriptions were not reproduced or treated as validated professional-baseball schedules.",
+  "locations": [
+   "Public excerpt: Table 12.1 high-school postseason circuit and Table 12.2 college postseason restoration context."
+  ],
+  "license": "Copyright NSCA/Human Kinetics. Link and limited original discussion only; no publisher pages, tables or figures bundled.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "graduate-nsca-baseball-bench",
+  "title": "Strength Training for Baseball — bench assessment excerpt",
+  "authors": "NSCA; A. Eugene Coleman and David J. Szymanski, editors",
+  "year": 2022,
+  "url": "https://us.humankinetics.com/blogs/excerpt/1rm-or-estimated-1rm-bench-press",
+  "type": "Expert textbook material · public publisher excerpt",
+  "population": "Baseball; excerpt-specific level and assessment context must be preserved.",
+  "access": "Public publisher page verified October 13, 2026. Full book not available in this review.",
+  "findings": "Describes maximal or estimated upper-body pushing assessment and protocol alternatives.",
+  "limitations": "Exercise, estimation method and reference population affect interpretation. No universal shoulder-safety, readiness or throwing-performance claim is adopted.",
+  "locations": [
+   "Public excerpt: purpose, equipment, procedures and coaching guidance; table images not transcribed."
+  ],
+  "license": "Copyright NSCA/Human Kinetics. Link and limited original discussion only; no publisher pages, tables or figures bundled.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "graduate-nsca-baseball-throw",
+  "title": "Strength Training for Baseball — medicine-ball exercise excerpt",
+  "authors": "NSCA; A. Eugene Coleman and David J. Szymanski, editors",
+  "year": 2022,
+  "url": "https://us.humankinetics.com/blogs/excerpt/medicine-ball-blob-throw-between-legs-over-back",
+  "type": "Expert textbook material · public publisher excerpt",
+  "population": "Baseball; excerpt-specific level and assessment context must be preserved.",
+  "access": "Public publisher page verified October 13, 2026. Full book not available in this review.",
+  "findings": "Demonstrates a medicine-ball movement.",
+  "limitations": "Exercise instruction does not validate a field test or its relationship to baseball performance. No publisher figure was copied.",
+  "locations": [
+   "Public excerpt: starting position, movement and coaching guidance."
+  ],
+  "license": "Copyright NSCA/Human Kinetics. Link and limited original discussion only; no publisher pages, tables or figures bundled.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "bb-savant-bat-tracking",
+  "title": "Statcast Bat Tracking — official metric documentation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; reviewed 2026",
+  "url": "https://baseballsavant.mlb.com/leaderboard/bat-tracking",
+  "type": "Official measurement documentation · descriptive reference",
+  "population": "MLB tracked swings; the course uses separate synthetic local testing examples.",
+  "access": "Public text verified October 13, 2026; introductory definitions and glossary reviewed. No player dataset downloaded.",
+  "findings": "Documents bat measurement location and swing-selection conventions.",
+  "limitations": "The main introduction gives a more detailed competitive-swing rule than the page footer. The course does not implement that statistic or equate a local sensor mean with it. Documentation does not establish independent accuracy, training efficacy or an injury threshold.",
+  "locations": [
+   "Bat Tracking Leaderboard, opening definitions (bat location and competitive swings).",
+   "Page glossary: exit velocity and bat-tracking definitions; definitions only, no source visual reproduced."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source tables, visuals, player records or long excerpts redistributed.",
+  "reviewed": "2026-10-13: publicly available definition text only"
+ },
+ {
+  "id": "bb-savant-pop-time",
+  "title": "Statcast Catcher Pop Time — official metric documentation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; reviewed 2026",
+  "url": "https://baseballsavant.mlb.com/leaderboard/poptime",
+  "type": "Official measurement documentation · descriptive reference",
+  "population": "MLB catching observations; the course's fixed-plane drill is synthetic and separate.",
+  "access": "Public introductory definition text verified October 13, 2026. No player dataset downloaded.",
+  "findings": "Defines the official timing endpoint and separates exchange and throw-speed summaries.",
+  "limitations": "Descriptive documentation does not validate the course's local timed drill. Historical or current leaderboard averages are not adopted as screening, training or clearance thresholds. The lesson’s arithmetic and target counts are synthetic.",
+  "locations": [
+   "Pop Time Leaderboard, introductory paragraph: start/end events, exchange and throw-speed description."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source tables, visuals or player records redistributed.",
+  "reviewed": "2026-10-13: publicly available definition text only"
+ },
+ {
+  "id": "bb-savant-running",
+  "title": "A Story of Sprint Speed and Burst — official baseball running explanation",
+  "authors": "MLB Advanced Media / Baseball Savant",
+  "year": "n.d.; historical 2017 examples",
+  "url": "https://baseballsavant.mlb.com/sprint-speed-scroller",
+  "type": "Official descriptive analysis · historical illustration",
+  "population": "Selected MLB running observations from 2017; no training intervention.",
+  "access": "Public explanatory text verified October 13, 2026; interactive animation not operated or independently checked.",
+  "findings": "Illustrates that different components of a run to first base can produce different comparisons.",
+  "limitations": "Historical teaching example, not a prospective validation study, universal benchmark or current full specification of seasonal eligibility. The hub uses original synthetic timing tasks and no source player figures or performance records.",
+  "locations": [
+   "Statcast Data: qualifying observations and the fastest-window concept.",
+   "Components of Speed: starting transition, acceleration and sustained fastest-window distinction."
+  ],
+  "license": "MLB copyright. Link and concise original interpretation; no source animation, player dataset or figure redistributed.",
+  "reviewed": "2026-10-13: public explanatory text only"
+ },
+ {
+  "id": "bb-hamstring-hits-2019",
+  "title": "Hamstring Injury Trends in Major and Minor League Baseball: Epidemiological Findings From the Major League Baseball Health and Injury Tracking System",
+  "authors": "Okoroha KR, Conte S, Makhni EC, Lizzio VA, Camp CL, Li B, Ahmad CS",
+  "year": 2019,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/31431899/",
+  "type": "Descriptive epidemiology study using prospectively recorded surveillance data",
+  "population": "MLB and MiLB hamstring injuries recorded during 2011–2016.",
+  "access": "PubMed abstract verified 2026-10-13; indexed official PMC Results and Discussion excerpts reviewed. Direct PMC full-text retrieval returned CAPTCHA and the publisher retrieval failed. Not catalogued as fully reviewed text.",
+  "findings": "Base running was a common injury context; recurrent injuries were recorded and associated with more time lost than first injuries.",
+  "limitations": "Historical observational surveillance cannot determine individual readiness, why a particular recurrence occurred, or the effect of a proposed rehabilitation intervention. Detailed methods and tables are not relied upon here.",
+  "locations": [
+   "PubMed abstract: Methods, Results and Conclusion",
+   "Indexed PMC Results: Activity; Discussion (context only)"
+  ],
+  "license": "Article at DOI 10.1177/2325967119861064. Link and use original limited summaries; no figures, tables or full text redistributed.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "bb-hamstring-practice-survey-2024",
+  "title": "Hamstring Strain Injury Prevention: Current Beliefs and Practices of Practitioners Working in Major League Baseball",
+  "authors": "Lazarczuk SL, Headrick J, Hickey JT, Timmins RG, Leva FA, Bourne MN",
+  "year": 2024,
+  "url": "https://mural.maynoothuniversity.ie/id/eprint/19696/1/i1938-162x-59-7-696.pdf",
+  "type": "Cross-sectional survey of practitioners",
+  "population": "91 responding practitioners from 28 MLB organizations; survey administered during the 2021 season.",
+  "access": "Full article PDF available and reviewed at the Maynooth University institutional repository on 2026-10-13. DOI 10.4085/1062-6050-0640.22; direct PMC page returned CAPTCHA.",
+  "findings": "Respondents identified internal communication and implementation barriers such as scheduling and buy-in. Strategies valued by respondents and those used most often did not fully align.",
+  "limitations": "Self-report, differing response counts and voluntary participation; beliefs are not causal risk factors or evidence of an intervention’s effectiveness. Practice may have changed since the 2021 survey.",
+  "locations": [
+   "Methods: Data Collection; Data Processing and Analysis",
+   "Results: Prevention Strategies; Barriers",
+   "Discussion: Extrinsic Risk Factors; Prevention Strategies",
+   "Limitations and Future Research"
+  ],
+  "license": "Copyright National Athletic Trainers’ Association. Free repository reading; original summary and link only. No source illustrations or data tables redistributed.",
+  "reviewed": "2026-10-13"
+ },
+ {
+  "id": "free-openstax-ap2e",
+  "title": "Anatomy and Physiology 2e",
+  "authors": "J. Gordon Betts and colleagues; OpenStax (Rice University)",
+  "year": 2022,
+  "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+  "type": "Free textbook · open online",
+  "population": "General human anatomy and physiology for introductory college courses; not sport or baseball specific.",
+  "access": "Free online and as a PDF from OpenStax. Link and table of contents verified November 9, 2026. Not read: the publisher bars use of this book with AI tools. Link only.",
+  "findings": "Organizes joints by structure and function and lists the skeletal muscles by body region with their basic actions.",
+  "limitations": "Introductory depth. No sport-specific function, loading or tissue-capacity content. Reuse limits mean the hub can only link to it.",
+  "locations": [
+   "Chapter 9, Joints",
+   "Chapter 11, The Muscular System"
+  ],
+  "license": "CC BY-NC-SA 4.0. The reuse notice also bars use with large language models or generative AI without written permission from OpenStax. The hub links to it and does not copy, summarize by machine or reproduce its text or figures.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-bmbstats",
+  "title": "bmbstats: bootstrap magnitude-based statistics for sports scientists",
+  "authors": "Mladen Jovanović",
+  "year": 2020,
+  "url": "https://mladenjovanovic.github.io/bmbstats-book",
+  "type": "Free textbook · open online",
+  "population": "Sport science examples; general statistical methods.",
+  "access": "Free online. Link and table of contents verified November 9, 2026. Chapters 10 and 16 were read online for the hub teaching sections.",
+  "findings": "Frames analyses as description, prediction or causal inference, and treats measurement error, smallest worthwhile change, validity, reliability and individual response with worked R examples.",
+  "limitations": "Promotes a magnitude-based approach that many statisticians reject as a decision rule. Use for concepts about error and practical size, not as the final inferential method.",
+  "locations": [
+   "Chapters 2 to 4, Description, Prediction, Causal inference",
+   "Chapter 10, Measurement Error",
+   "Chapter 15, Validity and Reliability",
+   "Chapter 16, RCT analysis and prediction"
+  ],
+  "license": "CC BY-NC-SA 4.0; the code is MIT licensed. The hub links to it and writes its own teaching.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-lakens-inferences",
+  "title": "Improving Your Statistical Inferences",
+  "authors": "Daniël Lakens",
+  "year": 2022,
+  "url": "https://lakens.github.io/statistical_inferences",
+  "type": "Free textbook · open online",
+  "population": "General research methods; examples mostly from psychology.",
+  "access": "Free online and as a PDF. Link and table of contents verified November 9, 2026. Chapters 6, 8, 9 and 14 were read online for the hub teaching sections.",
+  "findings": "Explains error control, effect sizes, confidence intervals, equivalence testing, sample size justification and computational reproducibility.",
+  "limitations": "Not sport specific. Effect-size benchmarks from psychology should not be carried over to performance data.",
+  "locations": [
+   "Chapter 6, Effect Sizes",
+   "Chapter 7, Confidence Intervals",
+   "Chapter 8, Sample Size Justification",
+   "Chapter 9, Equivalence Testing and Interval Hypotheses",
+   "Chapter 14, Computational Reproducibility"
+  ],
+  "license": "CC BY-NC-SA 4.0. The hub links to it and writes its own teaching.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-whatif",
+  "title": "Causal Inference: What If",
+  "authors": "Miguel A. Hernán and James M. Robins",
+  "year": 2020,
+  "url": "https://miguelhernan.org/whatifbook",
+  "type": "Free textbook · open online",
+  "population": "Epidemiology and health research; general causal methods.",
+  "access": "Free PDF from the authors. Print edition from Chapman & Hall/CRC. Link and table of contents verified November 9, 2026. Teaching sections cite Part I concepts (causal effect, confounding, selection bias) from familiarity with the book; those chapters were not re-read in this session.",
+  "findings": "Defines causal effects, compares randomized and observational designs, and explains confounding, selection bias and measurement bias.",
+  "limitations": "Not sport specific and mathematically demanding beyond Part I. It teaches how to question a causal claim, not which training works.",
+  "locations": [
+   "Part I, Causal inference without models"
+  ],
+  "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-isl",
+  "title": "An Introduction to Statistical Learning, with Applications in Python",
+  "authors": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor",
+  "year": 2023,
+  "url": "https://www.statlearning.com/",
+  "type": "Free textbook · open online",
+  "population": "General statistical learning; examples from many fields.",
+  "access": "Free PDF from the authors, in Python and R editions. Print edition from Springer. Link and table of contents verified November 9, 2026. Teaching sections cite the Classification and Resampling Methods chapters from familiarity with the book; those chapters were not re-read in this session.",
+  "findings": "Introduces regression, classification, resampling, regularization, tree methods, deep learning and unsupervised learning with Python labs.",
+  "limitations": "Not sport specific. Small athlete samples and repeated measures break many of the textbook examples' assumptions.",
+  "locations": [
+   "Chapter on Statistical Learning",
+   "Chapter on Resampling Methods"
+  ],
+  "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-mckinney-pda",
+  "title": "Python for Data Analysis, 3rd edition",
+  "authors": "Wes McKinney",
+  "year": 2022,
+  "url": "https://wesmckinney.com/book/",
+  "type": "Free textbook · open online",
+  "population": "General data analysis in Python.",
+  "access": "Free open-access online edition. Print and ebook from O'Reilly. Link and table of contents verified November 9, 2026. Table of contents checked; the hub code examples were written and run by the hub against its own synthetic files.",
+  "findings": "Teaches pandas and NumPy for loading, cleaning, joining, reshaping, grouping and plotting data, including time series.",
+  "limitations": "No statistical inference or sport content. Methods for judging change come from the measurement books.",
+  "locations": [
+   "Chapter 5, Getting Started with pandas",
+   "Chapter 7, Data Cleaning and Preparation",
+   "Chapter 8, Data Wrangling",
+   "Chapter 11, Time Series"
+  ],
+  "license": "Content may not be copied or reproduced; the code examples are MIT licensed. The hub links to it only.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-abdwr3e",
+  "title": "Analyzing Baseball Data with R, 3rd edition",
+  "authors": "Jim Albert, Benjamin S. Baumer and Max Marchi",
+  "year": 2024,
+  "url": "https://beanumber.github.io/abdwr3e/",
+  "type": "Free textbook · open online",
+  "population": "Major League Baseball game data (Lahman, Retrosheet, Statcast).",
+  "access": "Free online edition from the authors. Print from Routledge. Link and table of contents verified November 9, 2026. Appendix C was read online for the hub teaching sections.",
+  "findings": "Teaches baseball data sources, run expectancy, count effects, catcher framing, career trajectories, large-data and SQL workflows, and Quarto and Shiny reporting.",
+  "limitations": "Game-performance analytics. It does not address training, workload or injury, and its code is in R.",
+  "locations": [
+   "Chapter 1, The Baseball Datasets",
+   "Chapter 12, Working with Large Data",
+   "Chapter 14, Making a Scientific Presentation using Quarto",
+   "Appendix C, Statcast Data Reference"
+  ],
+  "license": "Copyright the authors and publisher. Free to read online; the hub links to it only.",
+  "reviewed": "2026-11-09"
+ },
+ {
+  "id": "free-r4ds",
+  "title": "R for Data Science, 2nd edition",
+  "authors": "Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund",
+  "year": 2023,
+  "url": "https://r4ds.hadley.nz/",
+  "type": "Free textbook · open online",
+  "population": "General data science in R.",
+  "access": "Free online. Link and table of contents verified November 9, 2026. Table of contents checked only.",
+  "findings": "Teaches importing, tidying, transforming, joining, visualizing and reporting data with the tidyverse and Quarto.",
+  "limitations": "No statistical inference or sport content. Optional while the hub's coding track uses Python.",
+  "locations": [
+   "Chapter 18, Missing values",
+   "Chapter 19, Joins",
+   "Chapter 28, Quarto"
+  ],
+  "license": "CC BY-NC-ND 3.0. The hub links to it only.",
+  "reviewed": "2026-11-09"
+ }
+]

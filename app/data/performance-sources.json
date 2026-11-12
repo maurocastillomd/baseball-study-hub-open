@@ -1,0 +1,183 @@
+[
+ {
+  "id": "perf-nsca",
+  "title": "NSCA’s Essentials of Sport Science",
+  "authors": "Duncan N. French and Lorena Torres Ronda, editors; individual chapter authors identified in locators",
+  "year": 2022,
+  "url": "https://www.nsca.com/certification/cpss/essentials-of-sport-science/",
+  "type": "",
+  "population": "Multiple sports and athlete levels; examples require translation to baseball.",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Provides frameworks for needs analysis, planning, load measurement, force–velocity assessment, measurement error, and interdisciplinary interpretation.",
+  "limitations": "Foundational synthesis rather than a baseball intervention trial. Some examples concern soccer or individual sports. Historical workload theories are not adopted as validated safety rules.",
+  "locations": [
+   "Chapter 1, Performance Dimensions (Winkelman & Norman), pp. 75–81 and 86–89: interdisciplinary roles, interpretation and decisions.",
+   "Chapter 2, Training Load Model (Cormack & Coutts), pp. 94–96 and 118–122: dose–response, monitoring components and statistical issues.",
+   "Chapter 3, Periodization and Programming for Individual Sports (Haff), pp. 132–133 and 145–155: planning versus programming, microcycles, schedule constraints.",
+   "Chapter 4, Periodization and Programming for Team Sports (Buchheit & Laursen), pp. 164–169: physiological objectives and integration of conditioning.",
+   "Chapter 6, Profiling and Benchmarking (McGuigan), pp. 235–240: analysis of athlete, norms and benchmarking.",
+   "Chapter 8, Data Hygiene (Varley, Lovell & Carey), pp. 292–302: validity, reliability and meaningful change.",
+   "Chapter 11, Kinematics and Gait Analysis (King & Richter), pp. 397–398: reliability, SEM and minimal detectable change.",
+   "Chapter 13, Strength Tracking and Analysis (Morin & Samozino), pp. 437–457: task specificity, force–velocity–power and measurement.",
+   "Chapter 8, pp. 307–313: data preparation and workflow; reviewed October 12, 2026.",
+   "Chapter 17, pp. 629–632 and 637: session-RPE collection and interpretation; reviewed October 12, 2026.",
+   "Chapter 18, pp. 666–672 and 674–677: association, prediction and causation; reviewed October 12, 2026.",
+   "Chapter 8, Filtering, pp. 302–306: sampling, smoothing, filtering and processing choices; selected passages reviewed October 13, 2026 for M07."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-offseason",
+  "title": "Offseason Workout Recommendations for Baseball Players",
+  "authors": "Brooks Klein, Daniel Cobian, Goldy Simmons, Michael Reinold",
+  "year": 2021,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7990992/",
+  "type": "Narrative review · applied baseball practice",
+  "population": "Baseball training, with a professional/minor-league offseason example and supporting studies from mixed populations.",
+  "access": "Free full text verified on PMC.",
+  "findings": "Discusses multidirectional strength/power and a progression from recovery through preparation to baseball-specific work.",
+  "limitations": "Sample programming is illustrative, not an experimentally established optimal plan. Several exercise restrictions and mechanistic claims should be treated as author recommendations rather than universal rules.",
+  "locations": [
+   "Unique Training Demands of Baseball.",
+   "Principles of Strength and Conditioning in Baseball Players: Functional Assessments, Develop Strength, Maximize Power.",
+   "Overview of Offseason Programming: Factors and Considerations; Tables 1–2."
+  ],
+  "license": "Copyright authors under exclusive Springer licence. Link and concise original summary only; figures and program tables not reproduced.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-deceleration",
+  "title": "Biomechanical and Neuromuscular Performance Requirements of Horizontal Deceleration: A Review with Implications for Random Intermittent Multi-Directional Sports",
+  "authors": "Damian J. Harper, Alistair J. McBurnie, Thomas Dos’Santos, Ola Eriksrud, Martin Evans, Daniel D. Cohen, David Rhodes, Christopher Carling, John Kiely",
+  "year": 2022,
+  "url": "https://link.springer.com/article/10.1007/s40279-022-01693-0",
+  "type": "Biomechanical review · cross-sport evidence",
+  "population": "Multidirectional sport participants; many studies use planned tasks in soccer and other non-baseball populations.",
+  "access": "Open full text verified at the publisher.",
+  "findings": "Braking requires both control of momentum and attenuation of force; strength qualities and coordination contribute.",
+  "limitations": "Most evidence is not baseball-specific. Planned stopping tasks do not establish injury prevention or game agility outcomes.",
+  "locations": [
+   "Section 3: Biomechanical Demands of Horizontal Deceleration.",
+   "Section 4.1: Technical Ability.",
+   "Section 5: Neuromuscular Performance Determinants of Horizontal Deceleration.",
+   "Conclusions."
+  ],
+  "license": "CC BY 4.0. New teaching examples and diagram text; no source figure reproduced.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-cmj",
+  "title": "Reliability and Test-Retest Agreement of Mechanical Variables Obtained During Countermovement Jump",
+  "authors": "Alisson A. Souza, Martim Bottaro, Valdinar A. Rocha Junior, Victor Lage, James J. Tufano, Amilton Vieira",
+  "year": 2020,
+  "url": "https://intjexersci.com/files/ijes/vol13/iss4/1.pdf",
+  "type": "Original research · test–retest reliability",
+  "population": "41 physically active men, mean age approximately 24; not a professional-baseball sample.",
+  "access": "Free journal PDF verified, 12 PDF pages; journal pagination 6–17.",
+  "findings": "Reliability varied by metric. RFD had more relative error than peak force in this protocol. A high ICC alone did not establish low absolute error.",
+  "limitations": "Single rater and specified equipment, calculation methods and trial aggregation. Reported coefficients cannot be transplanted as local baseball thresholds.",
+  "locations": [
+   "Methods: Participants and Protocol, printed pp. 7–9 (pp. 2–4).",
+   "Results and Table 1, printed p. 10 (p. 5).",
+   "Discussion, printed pp. 10–13 (pp. 5–8), especially ICC dependence on sample variability and study limitations."
+  ],
+  "license": "Public PDF access verified; redistribution terms not established from reviewed PDF. Link and concise original summary only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-hidden-pitches",
+  "title": "Unaccounted Workload Factor: Game-Day Pitch Counts in High School Baseball Pitchers—An Observational Study",
+  "authors": "Jason L. Zaremski, Giorgio Zeppieri Jr, Deborah L. Jones, Brady L. Tripp, Michelle Bruner, Heather K. Vincent, MaryBeth Horodyski",
+  "year": 2018,
+  "url": "https://pmr.med.ufl.edu/wordpress/files/2022/09/GAMEGA1.pdf",
+  "type": "Original research · observational exposure study",
+  "population": "115 varsity high-school starting-pitcher outings across 34 North Central Florida schools during 2017.",
+  "access": "Free full-text PDF verified at the authors’ university.",
+  "findings": "Bullpen and between-inning pitches comprised a substantial portion of counted mound throws outside official game totals.",
+  "limitations": "Observational exposure counts; did not test an injury association, measure tissue load or establish professional recovery thresholds.",
+  "locations": [
+   "Abstract and Methods, PDF/printed pp. 1–2.",
+   "Results, PDF/printed pp. 2–3.",
+   "Limitations, PDF/printed p. 5."
+  ],
+  "license": "CC BY-NC-ND 4.0. Linked original; no edited article or source figures distributed.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-acwr",
+  "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+  "authors": "Franco M. Impellizzeri, Matthew S. Tenan, Tom Kempton, Andrew Novak, Aaron J. Coutts",
+  "year": 2020,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32502973/",
+  "type": "Methodological critique · abstract-only reference",
+  "population": "Training-load and injury literature across sports.",
+  "access": "Public abstract verified; full text NOT reviewed. University repository marks its copy closed access.",
+  "findings": "The abstract challenges causal injury-reduction claims from manipulating ACWR.",
+  "limitations": "Only the abstract supports the brief caution used here; detailed methods and arguments are not taught from unavailable full text.",
+  "locations": [
+   "Abstract: causal-inference caution and conclusion."
+  ],
+  "license": "Publisher copyright; bibliographic link and abstract-level paraphrase only.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "perf-cressey",
+  "title": "In-Season Baseball Strength and Conditioning: Part 4 — Professional Baseball",
+  "authors": "Eric Cressey",
+  "year": "n.d.",
+  "url": "https://ericcressey.com/in-season-baseball-strength-and-conditioning-part-4-professional-baseball/",
+  "type": "Expert practice · public coaching article",
+  "population": "Professional pitchers and position players; practitioner programming examples.",
+  "access": "Public article verified; main article date not reliably displayed on the current page.",
+  "findings": "Contrasts predictable starter scheduling with shorter, flexible reliever options and role-dependent position-player work.",
+  "limitations": "Historical coaching opinion, not a comparative trial. Pitch-count-based assumptions about subsequent availability and categorical exercise bans are not adopted by this hub.",
+  "locations": [
+   "Starting Pitchers section.",
+   "Relief Pitchers section.",
+   "Position Players and Catchers sections."
+  ],
+  "license": "Author/site copyright. Link and short attributed interpretation only; no copied schedules or tables.",
+  "reviewed": "2026-10-12"
+ },
+ {
+  "id": "private-nsca-cscs",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition",
+  "authors": "G. Gregory Haff and N. Travis Triplett, editors; NSCA",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook — indexed reference",
+  "population": "General strength and conditioning; not exclusively baseball",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Indexed as a planned foundation source for physiology, biomechanics, testing, training, and program design. No new detailed lesson claim is attributed to an unread chapter.",
+  "limitations": "Title and contents verification is not full chapter review. The textbook does not replace current baseball-specific or procedure-specific evidence.",
+  "locations": [
+   "pp. 1–5: opening pages, edition, and contents verification",
+   "Detailed chapter/page locators will be added when chapters are reviewed for lessons"
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12: identity, edition, and contents only"
+ },
+ {
+  "id": "depth-cscs-strength",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition — reviewed strength, speed and conditioning passages",
+  "authors": "G. Gregory Haff and N. Travis Triplett, editors; NSCA; chapter authors include McBride, Herda, Cramer, French, Jeffreys, Potach, Chu, DeWeese and Nimphius",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook · selected full passages reviewed",
+  "population": "General athletic populations; original baseball applications are explicitly illustrative",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Supports mechanical definitions, neural contributions to force, overlapping energy pathways, task-specific sprint and agility distinctions, stretch–shortening concepts, and task-oriented warm-up and mobility reasoning.",
+  "limitations": "Textbook synthesis, not a baseball intervention trial. Historical simplifications and categorical efficacy statements are not adopted. Session doses, mnemonics, graphics and worked cases are original teaching examples, not tested protocols. Local PDF pagination is 16 pages ahead of printed-book pagination.",
+  "locations": [
+   "Chapter 2, Human Strength and Power: pp. 41–48 (printed pp. 25–32).",
+   "Chapter 3, Biological Energy Systems: pp. 60–63, 66–67 (printed pp. 44–47, 50–51).",
+   "Chapter 5, opening discussion and Neural Adaptations: pp. 104–106 (printed pp. 88–90).",
+   "Chapter 14, Warm-Up and Flexibility: pp. 334–337, 339 (printed pp. 318–321, 323).",
+   "Chapter 18, Plyometric Mechanics and Physiology; Program Design: pp. 488–491 (printed pp. 472–475).",
+   "Chapter 19, Mechanics, Running Speed and Agility: pp. 538–545 and 549–551 (printed pp. 522–529, 533–535)."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-12: selected relevant passages; not a complete textbook review"
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "anatomy-region-extractor",
+  "private": true,
+  "type": "module",
+  "description": "Builds the Anatomy Lab region models from Z-Anatomy glTF exports. Not part of the deployed app.",
+  "dependencies": {
+    "@gltf-transform/core": "^4.2.0",
+    "@gltf-transform/extensions": "^4.2.0",
+    "@gltf-transform/functions": "^4.2.0",
+    "draco3dgltf": "^1.5.7",
+    "meshoptimizer": "^0.22.0"
+  }
+}

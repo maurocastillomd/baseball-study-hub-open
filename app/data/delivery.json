@@ -1,0 +1,495 @@
+{
+ "version": 1,
+ "reviewed": "2026-10-21",
+ "intro": "The delivery is a kinetic chain. Force comes up from the ground through the legs and pelvis, gets amplified by the trunk, and is released through the arm. Each phase asks specific joints for specific range, and loads specific tissues. Values are typical of adult (college and pro) pitchers in lab studies. They vary by pitcher, pitch type and measurement method.",
+ "sources": {
+  "fleisig1995": {
+   "short": "Fleisig 1995",
+   "title": "Fleisig GS, Andrews JR, Dillman CJ, Escamilla RF. Kinetics of baseball pitching with implications about injury mechanisms. Am J Sports Med. 1995;23(2):233-239.",
+   "type": "Lab kinetics, adult pitchers"
+  },
+  "fleisig1999": {
+   "short": "Fleisig 1999",
+   "title": "Fleisig GS, Barrentine SW, Zheng N, Escamilla RF, Andrews JR. Kinematic and kinetic comparison of baseball pitching among various levels of development. J Biomech. 1999;32(12):1371-1375.",
+   "type": "Lab kinematics, youth to pro"
+  },
+  "digiovine1992": {
+   "short": "DiGiovine 1992",
+   "title": "DiGiovine NM, Jobe FW, Pink M, Perry J. An electromyographic analysis of the upper extremity in pitching. J Shoulder Elbow Surg. 1992;1(1):15-25.",
+   "type": "Fine-wire EMG, pitchers"
+  },
+  "aguinaldo2007": {
+   "short": "Aguinaldo 2007",
+   "title": "Aguinaldo AL, Buttermore J, Chambers H. Effects of upper trunk rotation on shoulder joint torque among baseball pitchers of various levels. J Appl Biomech. 2007;23(1):42-51.",
+   "type": "Lab kinematics, youth to pro"
+  },
+  "oyama2013": {
+   "short": "Oyama 2013",
+   "title": "Oyama S, Yu B, Blackburn JT, et al. Effect of excessive contralateral trunk tilt on pitching biomechanics and performance in high school baseball pitchers. Am J Sports Med. 2013;41(10):2430-2438.",
+   "type": "Lab kinematics, high school"
+  },
+  "seroyer2010": {
+   "short": "Seroyer 2010",
+   "title": "Seroyer ST, Nho SJ, Bach BR, et al. The kinetic chain in overhand pitching: its potential role for performance enhancement and injury prevention. Sports Health. 2010;2(2):135-146.",
+   "type": "Narrative review"
+  },
+  "kibler1998": {
+   "short": "Kibler 1998",
+   "title": "Kibler WB. The role of the scapula in athletic shoulder function. Am J Sports Med. 1998;26(2):325-337.",
+   "type": "Clinical review"
+  },
+  "burkhart2003": {
+   "short": "Burkhart 2003",
+   "title": "Burkhart SS, Morgan CD, Kibler WB. The disabled throwing shoulder: spectrum of pathology. Part I. Arthroscopy. 2003;19(4):404-420.",
+   "type": "Clinical framework"
+  }
+ },
+ "phases": [
+  {
+   "id": "windup",
+   "name": "Wind-up",
+   "span": "First movement → lead knee at its highest (balance point)",
+   "timing": "≈0.5–1.0 s; slowest phase",
+   "summary": "The pitcher loads onto the drive leg and lifts the lead leg. Little force is made here. The job is a stable, repeatable starting position over the rubber.",
+   "positions": [
+    {
+     "measure": "Center of mass",
+     "value": "Stacked over the drive foot",
+     "src": "seroyer2010"
+    },
+    {
+     "measure": "Lead knee lift",
+     "value": "Self-selected; height varies widely and does not predict velocity on its own",
+     "src": "seroyer2010"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Drive-leg glutes, quadriceps, foot intrinsics",
+     "role": "Single-leg balance (isometric)"
+    },
+    {
+     "name": "Lead-leg hip flexors",
+     "role": "Lift the knee (concentric)"
+    },
+    {
+     "name": "Trunk stabilizers",
+     "role": "Keep posture over the drive leg"
+    },
+    {
+     "name": "Shoulder muscles",
+     "role": "Low activity (<25% of max)"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "Very low. Problems here show up later as timing faults, not as tissue overload.",
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-flex",
+     "why": "Lead-leg lift"
+    },
+    {
+     "joint": "ankle",
+     "move": "an-df",
+     "why": "Drive-leg ankle under load"
+    }
+   ],
+   "sc": "Single-leg balance and hip control on the drive side. Screen with single-leg squat and balance holds; this is where control deficits first become visible.",
+   "watch": "Drifting toward the plate early, or collapsing the drive knee."
+  },
+  {
+   "id": "stride",
+   "name": "Stride",
+   "span": "Balance point → lead foot contact",
+   "timing": "≈0.5 s",
+   "summary": "The drive leg pushes the body toward the plate while the pelvis stays mostly closed. The hands separate and the throwing arm rises. At foot contact the pelvis starts to open while the upper trunk stays closed, creating hip-shoulder separation.",
+   "positions": [
+    {
+     "measure": "Stride length",
+     "value": "≈80–85% of body height",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Lead knee flexion at foot contact",
+     "value": "≈45–50°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Shoulder abduction at foot contact",
+     "value": "≈90°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Shoulder ER at foot contact",
+     "value": "≈45–60°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Elbow flexion at foot contact",
+     "value": "≈90°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Hip-shoulder separation",
+     "value": "≈40–60° at or just after foot contact (approximate, lab-dependent)",
+     "src": "aguinaldo2007"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Drive-leg glute max, hamstrings, adductors",
+     "role": "Push toward the plate (concentric)"
+    },
+    {
+     "name": "Lead-leg adductors",
+     "role": "Control stride width and landing (eccentric)"
+    },
+    {
+     "name": "Deltoid, supraspinatus, upper trapezius",
+     "role": "Raise the throwing arm (moderate activity)"
+    },
+    {
+     "name": "Serratus anterior, trapezius",
+     "role": "Upwardly rotate the scapula"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "Lead-leg adductors and groin on landing. Drive-hip flexors at full extension.",
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-abd",
+     "why": "Stride width"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ext",
+     "why": "Drive leg finishing its push"
+    },
+    {
+     "joint": "thorax",
+     "move": "t-rot",
+     "why": "Keeping the trunk closed while the pelvis opens"
+    }
+   ],
+   "sc": "Lateral and rotational power from the drive leg (lateral bounds, heidens, rotational med-ball throws). Adductor strength for landing: test with the squeeze test.",
+   "watch": "Opening the trunk early (no separation). It shifts load onto the arm in the next phase.",
+   "watchSrc": [
+    "aguinaldo2007"
+   ]
+  },
+  {
+   "id": "cocking",
+   "name": "Arm cocking",
+   "span": "Lead foot contact → maximal shoulder external rotation (MER)",
+   "timing": "≈0.10–0.15 s",
+   "summary": "The lead leg plants, the pelvis then trunk rotate toward the plate, and the arm lags behind into extreme external rotation (layback). The elbow and shoulder are stretched like a spring. Peak elbow valgus load happens here.",
+   "positions": [
+    {
+     "measure": "Maximal shoulder ER (layback)",
+     "value": "≈170–180°, a composite of GH ER, scapular posterior tilt and trunk extension",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Shoulder abduction",
+     "value": "Stays near 90–100°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Elbow flexion at MER",
+     "value": "≈90–100°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Peak pelvis rotation velocity",
+     "value": "≈600–700°/s",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Peak upper trunk rotation velocity",
+     "value": "≈1100–1200°/s",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Peak elbow varus torque (resisting valgus)",
+     "value": "≈64 N·m, near MER",
+     "src": "fleisig1995"
+    },
+    {
+     "measure": "Shoulder anterior force",
+     "value": "≈400 N",
+     "src": "fleisig1995"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Subscapularis, pectoralis major, latissimus dorsi",
+     "role": "Brake ER at end range (eccentric), then start IR"
+    },
+    {
+     "name": "Infraspinatus, teres minor, supraspinatus",
+     "role": "Center the humeral head (compression)"
+    },
+    {
+     "name": "Serratus anterior",
+     "role": "Hold the scapula (high activity)"
+    },
+    {
+     "name": "Biceps, flexor-pronator mass",
+     "role": "Stabilize the elbow; flexor-pronator resists valgus dynamically"
+    },
+    {
+     "name": "Lead-leg quadriceps",
+     "role": "Firm the front leg (eccentric to isometric)"
+    },
+    {
+     "name": "Obliques",
+     "role": "Rotate the trunk toward the plate"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "UCL (valgus tension), medial elbow and flexor-pronator origin. Lateral elbow compression (radiocapitellar). Anterior capsule. Posterosuperior labrum and undersurface cuff (internal impingement); biceps-labral peel-back (SLAP).",
+   "tissueSrc": [
+    "fleisig1995",
+    "burkhart2003"
+   ],
+   "rom": [
+    {
+     "joint": "shoulder",
+     "move": "gh-er",
+     "why": "Layback; most of the ER gain in throwers is used here"
+    },
+    {
+     "joint": "scapula",
+     "move": "st-posttilt",
+     "why": "Adds to layback and keeps the glenoid under the head"
+    },
+    {
+     "joint": "thorax",
+     "move": "t-ext",
+     "why": "Trunk extension contributes to layback"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Lead hip starts rotating over the planted leg"
+    }
+   ],
+   "sc": "Where velocity and elbow load are both made. Train the lead-leg block, trunk rotation power and scapular control (serratus, lower trap). Respect GH ER: don't stretch away an adaptive ER gain.",
+   "watch": "Early trunk rotation, a short or collapsing lead leg, and arm lag beyond the pitcher's usual layback. All raise shoulder and elbow load.",
+   "watchSrc": [
+    "aguinaldo2007",
+    "oyama2013"
+   ]
+  },
+  {
+   "id": "acceleration",
+   "name": "Arm acceleration",
+   "span": "MER → ball release",
+   "timing": "≈0.03–0.05 s; the fastest phase",
+   "summary": "The stored energy releases. The elbow extends and the shoulder rotates internally at the fastest angular velocities recorded in sport. The trunk flexes forward and tilts to the glove side over a firm lead leg.",
+   "positions": [
+    {
+     "measure": "Peak elbow extension velocity",
+     "value": "≈2300–2500°/s",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Peak shoulder IR velocity",
+     "value": "≈7000–7500°/s, near release",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Elbow flexion at release",
+     "value": "≈20–25°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Trunk forward tilt at release",
+     "value": "≈30–40°",
+     "src": "fleisig1999"
+    },
+    {
+     "measure": "Contralateral (glove-side) trunk tilt",
+     "value": "More tilt raised velocity and also shoulder and elbow load in high school pitchers",
+     "src": "oyama2013"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Subscapularis, pectoralis major, latissimus dorsi",
+     "role": "Drive IR (concentric, high activity)"
+    },
+    {
+     "name": "Serratus anterior",
+     "role": "Protract the scapula with the arm"
+    },
+    {
+     "name": "Triceps",
+     "role": "Elbow extension (mostly a stabilizer; extension is largely whip from proximal segments)"
+    },
+    {
+     "name": "Flexor-pronator mass",
+     "role": "Valgus support, wrist flexion and pronation through release"
+    },
+    {
+     "name": "Lead-leg quads and glutes",
+     "role": "Lead knee extends, braking the pelvis"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "UCL (valgus continues). Posteromedial olecranon (valgus extension overload). Flexor-pronator group.",
+   "tissueSrc": [
+    "fleisig1995"
+   ],
+   "rom": [
+    {
+     "joint": "elbow",
+     "move": "el-ext",
+     "why": "Near-full extension at release; an extension deficit shows up here"
+    },
+    {
+     "joint": "elbow",
+     "move": "el-pron",
+     "why": "Pronation through release"
+    },
+    {
+     "joint": "spine",
+     "move": "l-lat",
+     "why": "Glove-side trunk tilt"
+    },
+    {
+     "joint": "knee",
+     "move": "kn-ext",
+     "why": "Lead-knee extension (block)"
+    }
+   ],
+   "sc": "Speed here comes from the chain, not from training the arm muscles to be faster. Build lead-leg strength (eccentric quads, glutes), anti-rotation and rotation power, and flexor-pronator endurance.",
+   "watch": "A soft lead knee (energy leaks), or excessive trunk tilt used to chase velocity."
+  },
+  {
+   "id": "deceleration",
+   "name": "Arm deceleration",
+   "span": "Ball release → maximal shoulder internal rotation",
+   "timing": "≈0.03–0.05 s",
+   "summary": "The arm has to stop. Posterior shoulder muscles and the trunk absorb the remaining energy. Joint forces peak: the shoulder sees a compressive (distraction-resisting) force about body weight.",
+   "positions": [
+    {
+     "measure": "Shoulder compressive force",
+     "value": "≈1090 N (about body weight)",
+     "src": "fleisig1995"
+    },
+    {
+     "measure": "Shoulder posterior force",
+     "value": "≈400 N",
+     "src": "fleisig1995"
+    },
+    {
+     "measure": "Shoulder IR / horizontal adduction",
+     "value": "Arm crosses the body as IR finishes",
+     "src": "seroyer2010"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Teres minor, infraspinatus",
+     "role": "Decelerate IR and resist distraction (eccentric, high activity)"
+    },
+    {
+     "name": "Posterior deltoid, latissimus dorsi",
+     "role": "Decelerate horizontal adduction"
+    },
+    {
+     "name": "Lower trapezius, rhomboids",
+     "role": "Control scapular protraction"
+    },
+    {
+     "name": "Biceps, brachialis",
+     "role": "Decelerate elbow extension (eccentric)"
+    },
+    {
+     "name": "Trunk and lead-hip extensors",
+     "role": "Absorb energy as the trunk flexes over the front leg"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "Posterior cuff and posterior capsule (eccentric overload, later stiffness and IR loss). Biceps-labral complex. Olecranon.",
+   "tissueSrc": [
+    "fleisig1995",
+    "burkhart2003"
+   ],
+   "rom": [
+    {
+     "joint": "shoulder",
+     "move": "gh-ir",
+     "why": "IR completes; posterior tightness and GIRD develop from repeated deceleration"
+    },
+    {
+     "joint": "shoulder",
+     "move": "gh-hadd",
+     "why": "Cross-body horizontal adduction"
+    },
+    {
+     "joint": "thorax",
+     "move": "t-flex",
+     "why": "Trunk flexion spreads the braking"
+    }
+   ],
+   "sc": "The most trainable injury-risk phase. Eccentric posterior cuff and lower-trap work, and a full follow-through so the trunk and hips share the braking. Monitor IR and total arc across the season.",
+   "watch": "A short follow-through that makes the arm brake on its own."
+  },
+  {
+   "id": "followthrough",
+   "name": "Follow-through",
+   "span": "Maximal IR → balanced fielding position",
+   "timing": "≈0.5 s",
+   "summary": "The body finishes over the lead leg and the remaining energy dissipates. The drive leg swings through and the pitcher recovers to field.",
+   "positions": [
+    {
+     "measure": "Trunk",
+     "value": "Flexed over a stable lead leg",
+     "src": "seroyer2010"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Lead-leg glutes and hamstrings",
+     "role": "Hold the trunk over the front leg (eccentric)"
+    },
+    {
+     "name": "Posterior shoulder and scapular muscles",
+     "role": "Low to moderate activity as the arm settles"
+    }
+   ],
+   "muscleSrc": [
+    "digiovine1992"
+   ],
+   "tissue": "Low for the arm. Lead hip and lumbar spine take flexion and rotation load.",
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-flex",
+     "why": "Trunk over the lead hip"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Pelvis finishes rotating over the lead leg"
+    }
+   ],
+   "sc": "Lead-hip flexion and IR mobility plus eccentric hamstring and glute strength let the trunk finish over the front leg.",
+   "watch": "Falling off toward first base (right-handed pitcher), a sign of limited lead-hip rotation or a weak block."
+  }
+ ]
+}

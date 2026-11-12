@@ -1,0 +1,5 @@
+# Files in app/ that Cloudflare must not publish (wrangler reads this file).
+# Captured publisher pages: kept for provenance, but they carry third-party scripts and are not part of the hub.
+assets/anatomy/license.html
+assets/anatomy/README_e.html
+.DS_Store

@@ -1,0 +1,112 @@
+/* Reading room (October 2026): the CPSS hub's palette and organization with the
+   read. app's reading feel. Floating glass chrome, pill controls, soft cards,
+   one adjustable reading scale. Loaded last; presentation only. */
+
+@font-face{font-family:Literata;src:url('assets/fonts/Literata-Variable.woff2') format('woff2');font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:Literata;src:url('assets/fonts/Literata-Italic-Variable.woff2') format('woff2');font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:Fraunces;src:url('assets/fonts/Fraunces-Variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+
+:root{
+  --reading-size:19px;
+  --serif:Fraunces,Georgia,'Times New Roman',serif;
+  --book:Literata,Georgia,serif;
+  --r-pill:999px;--r-control:14px;--r-card:22px;--r-sheet:28px;
+  --glass-bg:rgba(255,255,255,.76);--glass-bg-strong:rgba(255,255,255,.94);
+  --glass-fill:rgba(32,39,37,.05);--glass-fill-hover:rgba(32,39,37,.09);
+  --glass-edge:rgba(32,39,37,.08);--glass-highlight:rgba(255,255,255,.8);
+  --glass-shadow:0 1px 0 var(--glass-highlight) inset,0 12px 32px -14px rgba(20,40,30,.22),0 2px 6px -3px rgba(20,40,30,.08);
+  --glass-blur:saturate(1.8) blur(24px);
+  --ease:cubic-bezier(.2,.8,.2,1);
+}
+html[data-theme=dark]{
+  --glass-bg:rgba(27,37,31,.78);--glass-bg-strong:rgba(27,37,31,.95);
+  --glass-fill:rgba(229,236,229,.07);--glass-fill-hover:rgba(229,236,229,.12);
+  --glass-edge:rgba(229,236,229,.1);--glass-highlight:rgba(255,255,255,.06);
+  --glass-shadow:0 1px 0 var(--glass-highlight) inset,0 14px 36px -14px rgba(0,0,0,.7);
+}
+
+/* Display type: the read. serif for page titles. */
+h1,.lesson-title,.section-intro h1,.hero-copy h1{font-family:var(--serif);font-weight:420;letter-spacing:-.03em;font-optical-sizing:auto}
+
+/* Floating glass top bar */
+.topbar{position:sticky;top:12px;z-index:35;min-height:0;margin:12px 24px 0;padding:6px 8px;gap:8px;flex-wrap:nowrap;border:1px solid var(--glass-edge);border-radius:var(--r-pill);background:var(--glass-bg);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:var(--glass-shadow)}
+#quick-tools{gap:2px}
+#quick-tools button,#quick-tools a{width:40px;height:40px;min-width:40px;min-height:40px;padding:0;border:0;border-radius:var(--r-pill);background:transparent;color:var(--ink);transition:background .2s var(--ease),transform .2s var(--ease)}
+#quick-tools button:hover,#quick-tools a:hover{background:var(--glass-fill-hover);border:0}
+#quick-tools button:active{transform:scale(.94)}
+#quick-tools button[aria-pressed=true],#quick-tools button[aria-expanded=true].aa-button{background:var(--light);color:var(--accent)}
+#quick-tools button:disabled{opacity:.4}
+#quick-tools svg{width:20px;height:20px}
+#quick-tools .aa-button{font:600 16px/1 var(--serif);letter-spacing:-.02em}
+#search-form{flex:1 1 auto;max-width:none;width:auto}
+#search{min-height:40px;border:0;border-radius:var(--r-pill);background:var(--glass-fill);padding:8px 16px}
+#search:focus{background:var(--paper)}
+
+/* The old reading strip is replaced by the Aa sheet and a hairline. */
+#reader-tools{padding:0;border:0;background:none}
+.read-progress{position:fixed;top:0;left:0;right:0;height:2px;z-index:60;pointer-events:none}
+.read-progress span{display:block;height:100%;width:0;background:var(--accent);transition:width .12s linear}
+
+/* Aa: every reading preference in one sheet */
+.aa-sheet{position:fixed;top:72px;right:max(16px,env(safe-area-inset-right));z-index:70;width:min(360px,calc(100vw - 32px));max-height:calc(100dvh - 90px);overflow-y:auto;padding:18px 20px 20px;border:1px solid var(--glass-edge);border-radius:var(--r-sheet);background:var(--glass-bg-strong);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:0 30px 80px -20px rgba(20,40,30,.35);color:var(--ink)}
+.aa-sheet[hidden]{display:none}
+.aa-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.aa-head h2{font:600 18px/1.3 var(--sans);letter-spacing:-.01em;margin:0}
+.aa-close{width:36px;height:36px;border:0;border-radius:var(--r-pill);background:var(--glass-fill);color:var(--ink);font-size:22px;line-height:1;cursor:pointer}
+.aa-sheet h3{font:600 12px/1.4 var(--label);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:16px 0 8px}
+.aa-options{display:flex;gap:4px;padding:4px;border-radius:var(--r-pill);background:var(--glass-fill)}
+.aa-options button{flex:1;min-height:40px;border:0;border-radius:var(--r-pill);background:transparent;color:var(--muted);font:600 14px/1 var(--sans);cursor:pointer;transition:background .2s var(--ease),color .2s var(--ease)}
+.aa-options button[aria-pressed=true]{background:var(--paper);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.aa-book{font-family:var(--book);font-weight:500}
+.aa-progress{font-size:14px;margin:18px 0 6px}
+.aa-tip{font-size:13px;color:var(--muted);margin:0}
+
+/* Floating glass sidebar rail with CPSS-style groups */
+@media(min-width:741px){
+  .sidebar{inset:10px auto 10px 10px;height:auto;border:1px solid var(--glass-edge);border-radius:var(--r-sheet);background:var(--glass-bg);-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);box-shadow:var(--glass-shadow)}
+  .workspace{margin-left:calc(var(--sidebar) + 10px)}
+  html[data-reader-sidebar=hidden] .workspace{margin-left:0}
+}
+.sidebar nav{gap:2px}
+.sidebar nav a{border-radius:var(--r-control);transition:background .2s var(--ease),color .2s var(--ease)}
+.sidebar nav a:hover{background:var(--glass-fill)}
+.sidebar nav a[aria-current=page]{background:var(--light);color:var(--accent)}
+.nav-group summary{display:flex;align-items:center;justify-content:space-between;min-height:44px;padding:11px 13px;border-radius:var(--r-control);font-size:14px;color:var(--muted);cursor:pointer;list-style:none}
+.nav-group summary::-webkit-details-marker{display:none}
+.nav-group summary::after{content:'';width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s var(--ease)}
+.nav-group[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
+.nav-group summary:hover{background:var(--glass-fill);color:var(--ink)}
+.nav-group a{padding-left:25px!important}
+
+/* Pills for controls, soft cards for content */
+.button,button.secondary,.filter,.step-tab,.section-tabs a,.choice{border-radius:var(--r-pill)}
+.choice{border-radius:var(--r-control)}
+.button.primary,.button.dark{box-shadow:0 8px 20px -10px rgba(20,48,35,.55)}
+.button:active,.filter:active,.step-tab:active{transform:scale(.97)}
+:is(.lesson-card,.source-card,.notice,.case-box,.question,.feature,.chapter-nav,.teaching-graphic,.objectives,.practical-assignment,.lab-card,.study-week-group,.hero-copy,.stat,.role-card,.bb-assignment,.bb-case-context,.iv-profile,.search-result,.empty,.study-current,.plan-card){border-radius:var(--r-card)}
+textarea,input[type=text],input[type=number],select{border-radius:var(--r-control)}
+
+/* One reading scale. Prose follows the Aa size; labels stay small. */
+.reading :is(p,li,dd),.reading-scale :is(p,li),.iv-reading :is(p,li,dd),.about-content :is(p,li){font-size:var(--reading-size);line-height:1.7}
+.reading :is(p,li){max-width:68ch}
+.reading :is(.small,.eyebrow,.tag,figcaption,.muted.small){font-size:max(13px,calc(var(--reading-size)*.7))}
+.reading textarea{font-size:max(16px,calc(var(--reading-size)*.9));line-height:1.6}
+html[data-reading-font=book] :is(.reading,.iv-reading,.about-content) :is(p,li,dd,blockquote):not(.small,.muted,.eyebrow){font-family:var(--book);font-weight:400}
+
+/* Focus mode keeps the bar so the way out stays visible. */
+html[data-reader-focus=true] .topbar{display:flex}
+html[data-reader-focus=true] #search-form{visibility:hidden}
+
+/* Phones: the brand header stays on top, the bar sits below it unpinned. */
+@media(max-width:740px){
+  .topbar{position:relative;top:auto;margin:10px 12px 0;padding:5px 6px}
+  .aa-sheet{top:auto;bottom:max(12px,env(safe-area-inset-bottom));right:12px;left:12px;width:auto}
+}
+
+@media(prefers-reduced-transparency:reduce){
+  .topbar,.aa-sheet,.sidebar{background:var(--paper);-webkit-backdrop-filter:none;backdrop-filter:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .read-progress span,#quick-tools button,.aa-options button,.nav-group summary::after{transition:none}
+}
+@media print{.read-progress,.aa-sheet,.topbar{display:none!important}}

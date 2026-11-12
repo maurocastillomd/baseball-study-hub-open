@@ -1,0 +1,74 @@
+/* Free textbook shelf and the teaching it adds to units, lessons and labs.
+   Uses the shared tokens from style.css / study-design.css, so light and dark
+   themes follow the rest of the hub. */
+
+.shelf-language { font-size: 15px; color: var(--muted); margin: 0 0 22px; }
+
+.shelf-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 30px; }
+.shelf-jump a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 10px 16px;
+  border: 1px solid var(--line); border-radius: var(--r-pill, 999px);
+  font-size: 15px; text-decoration: none; color: var(--ink);
+}
+.shelf-jump a:hover { background: var(--light); }
+
+.shelf-track { margin: 36px 0; scroll-margin-top: 90px; }
+.shelf-track > h2 { margin-bottom: 4px; }
+.shelf-book { container-type: inline-size; }
+.shelf-book .shelf-authors { margin-top: -4px; }
+.shelf-start {
+  border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; margin: 18px 0;
+}
+.shelf-start p:last-child { margin-bottom: 0; }
+.shelf-feeds, .free-reading-list, .shelf-added ul { list-style: none; padding: 0; margin: 8px 0 18px; }
+.shelf-feeds li { margin: 6px 0; }
+.shelf-feeds a, .shelf-added a { overflow-wrap: anywhere; }
+.shelf-optional { background: var(--light); }
+
+.shelf-added {
+  border: 1px solid var(--line); border-radius: var(--r-card, 12px);
+  padding: 22px 24px; margin: 0 0 30px; background: var(--paper);
+}
+.shelf-added h2 { margin-top: 0; font-size: 22px; }
+.shelf-added li { display: grid; gap: 2px; padding: 10px 0; border-top: 1px solid var(--line-soft, var(--line)); }
+.shelf-added li:first-child { border-top: 0; }
+
+.free-reading-list li { display: grid; gap: 4px; padding: 12px 0; border-top: 1px solid var(--line-soft, var(--line)); }
+.free-reading-list li:first-child { border-top: 0; }
+.free-reading-aside ul { padding-left: 0; list-style: none; }
+.free-reading-aside li { overflow-wrap: anywhere; }
+.free-reading-aside { margin-top: 18px; }
+.free-reading-context { margin: 20px 0; }
+
+/* Teaching sections added from the books */
+.shelf-section { margin: 40px 0 0; padding-top: 28px; border-top: 1px solid var(--line); }
+.shelf-section .eyebrow { display: block; margin-bottom: 6px; }
+.shelf-example {
+  background: var(--light); border: 1px solid var(--line-soft, var(--line));
+  border-radius: var(--r-control, 10px); padding: 16px 20px; margin: 18px 0;
+}
+.shelf-example-title { font-weight: 650; margin: 0 0 8px; font-size: 15px; }
+.shelf-example ol { margin: 0; padding-left: 22px; }
+.shelf-example li { margin: 6px 0; overflow-wrap: anywhere; }
+
+/* Code: scrolls inside its own box so the page never scrolls sideways */
+.shelf-code { margin: 18px 0; min-width: 0; max-width: 100%; }
+.shelf-code figcaption { font-size: 14px; color: var(--muted); margin-bottom: 6px; }
+.shelf-code pre {
+  margin: 0 0 12px; padding: 14px 16px; max-width: 100%; overflow-x: auto;
+  background: var(--surface, var(--light)); border: 1px solid var(--line);
+  border-radius: var(--r-control, 10px);
+  font: 13.5px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre; tab-size: 4;
+}
+.shelf-code pre:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.shelf-code pre.shelf-output { background: transparent; }
+.shelf-lab { margin: 28px 0; min-width: 0; }
+.shelf-lab ol { padding-left: 22px; }
+.shelf-lab li { margin: 6px 0; overflow-wrap: anywhere; }
+
+@media (max-width: 600px) {
+  .shelf-added { padding: 18px; }
+  .shelf-example { padding: 14px 16px; }
+  .shelf-code pre { font-size: 12.5px; padding: 12px; }
+}

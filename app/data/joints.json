@@ -1,0 +1,1112 @@
+{
+ "version": 1,
+ "reviewed": "2026-10-20",
+ "intro": "Reference values are population norms for adults measured with a universal goniometer (or inclinometer for the spine). They differ by source, age, sex, test position and measurement method. Baseball values describe throwing and hitting populations and are cohort findings, not targets.",
+ "bands": [
+  {
+   "min": 90,
+   "label": "Within reference",
+   "tone": "ok"
+  },
+  {
+   "min": 75,
+   "label": "Mild limitation",
+   "tone": "mild"
+  },
+  {
+   "min": 50,
+   "label": "Moderate limitation",
+   "tone": "moderate"
+  },
+  {
+   "min": 0,
+   "label": "Marked limitation",
+   "tone": "marked"
+  }
+ ],
+ "bandNote": "Percent-of-reference bands are a study heuristic for this hub, not a published grading standard. Clinical impairment systems (e.g. AMA Guides) use their own joint-specific tables.",
+ "sources": {
+  "aaos": {
+   "short": "AAOS",
+   "title": "Greene WB, Heckman JD, eds. The Clinical Measurement of Joint Motion. American Academy of Orthopaedic Surgeons; 1994.",
+   "type": "Clinical reference norm"
+  },
+  "ama": {
+   "short": "AMA 5th",
+   "title": "Cocchiarella L, Andersson GBJ, eds. Guides to the Evaluation of Permanent Impairment, 5th ed. American Medical Association; 2001.",
+   "type": "Impairment reference norm"
+  },
+  "norkin": {
+   "short": "Norkin & White",
+   "title": "Norkin CC, White DJ. Measurement of Joint Motion: A Guide to Goniometry, 5th ed. F.A. Davis; 2016.",
+   "type": "Goniometry text (test positions, end feels, comparison tables)"
+  },
+  "magee": {
+   "short": "Magee",
+   "title": "Magee DJ, Manske RC. Orthopedic Physical Assessment, 7th ed. Elsevier; 2021.",
+   "type": "Examination text (close-packed and resting positions, capsular patterns)"
+  },
+  "burkhart": {
+   "short": "Burkhart 2003",
+   "title": "Burkhart SS, Morgan CD, Kibler WB. The disabled throwing shoulder: spectrum of pathology. Part I. Arthroscopy. 2003;19(4):404-420.",
+   "type": "Clinical framework"
+  },
+  "wilk2011": {
+   "short": "Wilk 2011",
+   "title": "Wilk KE, Macrina LC, Fleisig GS, et al. Correlation of glenohumeral internal rotation deficit and total rotational motion to shoulder injuries in professional baseball pitchers. Am J Sports Med. 2011;39(2):329-335.",
+   "type": "Prospective cohort, pro pitchers"
+  },
+  "wilk2015": {
+   "short": "Wilk 2015",
+   "title": "Wilk KE, Macrina LC, Fleisig GS, et al. Deficits in glenohumeral passive range of motion increase risk of shoulder injury in professional baseball pitchers. Am J Sports Med. 2015;43(10):2379-2385.",
+   "type": "Prospective cohort, pro pitchers"
+  },
+  "camp2017": {
+   "short": "Camp 2017",
+   "title": "Camp CL, Zajac JM, Pearson DB, et al. Decreased shoulder external rotation and flexion are greater predictors of injury than internal rotation deficits. Am J Sports Med. 2017;45(9):2151-2156.",
+   "type": "Prospective cohort, pro pitchers"
+  },
+  "crockett2002": {
+   "short": "Crockett 2002",
+   "title": "Crockett HC, Gross LB, Wilk KE, et al. Osseous adaptation and range of motion at the glenohumeral joint in professional baseball pitchers. Am J Sports Med. 2002;30(1):20-26.",
+   "type": "Cross-sectional, pro pitchers"
+  },
+  "mcclure2001": {
+   "short": "McClure 2001",
+   "title": "McClure PW, Michener LA, Sennett BJ, Karduna AR. Direct 3-dimensional measurement of scapular kinematics during dynamic movements in vivo. J Shoulder Elbow Surg. 2001;10(3):269-277.",
+   "type": "Bone-pin kinematics, healthy adults"
+  },
+  "inman1944": {
+   "short": "Inman 1944",
+   "title": "Inman VT, Saunders JB, Abbott LC. Observations on the function of the shoulder joint. J Bone Joint Surg. 1944;26(1):1-30.",
+   "type": "Classic kinematic study"
+  },
+  "myers2005": {
+   "short": "Myers 2005",
+   "title": "Myers JB, Laudner KG, Pasquale MR, Bradley JP, Lephart SM. Scapular position and orientation in throwing athletes. Am J Sports Med. 2005;33(2):263-271.",
+   "type": "Cross-sectional, throwers vs controls"
+  },
+  "mcclure2009": {
+   "short": "McClure 2009",
+   "title": "McClure P, Tate AR, Kareha S, Irwin D, Zlupko E. A clinical method for identifying scapular dyskinesis, part 1: reliability. J Athl Train. 2009;44(2):160-164.",
+   "type": "Clinical test reliability"
+  },
+  "wright2006": {
+   "short": "Wright 2006",
+   "title": "Wright RW, Steger-May K, Wasserlauf BL, et al. Elbow range of motion in professional baseball pitchers. Am J Sports Med. 2006;34(2):190-193.",
+   "type": "Cross-sectional, pro pitchers"
+  },
+  "sauers2014": {
+   "short": "Sauers 2014",
+   "title": "Sauers EL, Huxel Bliven KC, Johnson MP, Falsone S, Walters S. Hip and glenohumeral rotational range of motion in healthy professional baseball pitchers and position players. Am J Sports Med. 2014;42(2):430-436.",
+   "type": "Cross-sectional, pro players"
+  },
+  "robb2010": {
+   "short": "Robb 2010",
+   "title": "Robb AJ, Fleisig G, Wilk K, et al. Passive ranges of motion of the hips and their relationship with pitching biomechanics and ball velocity in professional baseball pitchers. Am J Sports Med. 2010;38(12):2487-2493.",
+   "type": "Cross-sectional, pro pitchers"
+  },
+  "bennell1998": {
+   "short": "Bennell 1998",
+   "title": "Bennell KL, Talbot RC, Wajswelner H, et al. Intra-rater and inter-rater reliability of a weight-bearing lunge measure of ankle dorsiflexion. Aust J Physiother. 1998;44(3):175-180.",
+   "type": "Clinical test reliability"
+  },
+  "johnson2012": {
+   "short": "Johnson 2012",
+   "title": "Johnson KD, Kim KM, Yu BK, Saliba SA, Grindstaff TL. Reliability of thoracic spine rotation range-of-motion measurements in healthy adults. J Athl Train. 2012;47(1):52-60.",
+   "type": "Clinical test reliability (lumbar-locked rotation)"
+  },
+  "moll1972": {
+   "short": "Moll & Wright 1972",
+   "title": "Moll JM, Wright V. An objective clinical study of chest expansion. Ann Rheum Dis. 1972;31(1):1-8.",
+   "type": "Population norms by age and sex"
+  },
+  "fon1980": {
+   "short": "Fon 1980",
+   "title": "Fon GT, Pitt MJ, Thies AC. Thoracic kyphosis: range in normal subjects. AJR Am J Roentgenol. 1980;134(5):979-983.",
+   "type": "Radiographic population norms"
+  }
+ },
+ "joints": [
+  {
+   "id": "shoulder",
+   "name": "Shoulder",
+   "joint": "Glenohumeral joint",
+   "type": "Synovial ball-and-socket · 3 degrees of freedom",
+   "summary": "A shallow glenoid and a large humeral head trade bony stability for range. Capsule, labrum, glenohumeral ligaments and the rotator cuff supply the stability. Most clinical shoulder ROM values measure the whole shoulder complex; stabilize the scapula when you want true glenohumeral motion.",
+   "closePacked": "Full abduction with external rotation",
+   "resting": "≈55° abduction, ≈30° horizontal adduction, neutral rotation",
+   "capsular": "External rotation > abduction > internal rotation",
+   "baseball": "The throwing shoulder shifts its rotational arc toward external rotation. Part of the shift is bony (humeral retrotorsion), part is soft tissue. Judge internal rotation against total arc, not on its own.",
+   "arcTool": {
+    "a": "gh-er",
+    "b": "gh-ir",
+    "sideA": "Throwing",
+    "sideB": "Non-throwing",
+    "rules": [
+     {
+      "test": "irDeficit",
+      "threshold": 20,
+      "text": "IR deficit ≥20° vs non-throwing side: GIRD as defined by Burkhart 2003.",
+      "src": "burkhart"
+     },
+     {
+      "test": "arcDeficit",
+      "threshold": 5,
+      "text": "Total rotational motion deficit >5°: associated with higher shoulder injury rates in pro pitchers.",
+      "src": "wilk2011"
+     },
+     {
+      "test": "erGainBelow",
+      "threshold": 5,
+      "text": "Throwing-side ER less than 5° greater than non-throwing side: about 2.2× shoulder injury risk in pro pitchers.",
+      "src": "wilk2015"
+     }
+    ]
+   },
+   "movements": [
+    {
+     "id": "gh-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 180,
+       "src": "aaos"
+      },
+      {
+       "deg": 180,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine, knees bent to flatten the lumbar spine. Axis near the acromion; stationary arm along the midaxillary line; moving arm along the humerus toward the lateral epicondyle. Watch for rib flare and lumbar extension.",
+     "endFeel": "Firm (posterior capsule, latissimus, teres major)",
+     "movers": "Anterior deltoid, coracobrachialis, clavicular pectoralis major; scapular upward rotators for the last third",
+     "baseball": "A flexion deficit of 5° or more vs the non-throwing side predicted injury in pro pitchers, often from latissimus or posterior-inferior tissue stiffness.",
+     "baseballSrc": [
+      "camp2017"
+     ]
+    },
+    {
+     "id": "gh-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 60,
+       "src": "aaos"
+      },
+      {
+       "deg": 50,
+       "src": "ama"
+      }
+     ],
+     "test": "Prone, elbow slightly flexed to slacken the long head of biceps. Stabilize the scapula to stop anterior tilt.",
+     "endFeel": "Firm (anterior capsule, coracohumeral ligament)",
+     "movers": "Latissimus dorsi, teres major, posterior deltoid, long head of triceps",
+     "baseball": "Needed in the arm-swing and early cocking path. Loss here usually shows up as anterior tilt substitution."
+    },
+    {
+     "id": "gh-abd",
+     "name": "Abduction",
+     "plane": "Frontal plane, anterior-posterior axis",
+     "norms": [
+      {
+       "deg": 180,
+       "src": "aaos"
+      },
+      {
+       "deg": 170,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine or seated, arm externally rotated so the greater tubercle clears the acromion. Axis anterior to the acromion.",
+     "endFeel": "Firm (inferior capsule, inferior GH ligament)",
+     "movers": "Middle deltoid, supraspinatus; serratus anterior and trapezius rotate the scapula",
+     "baseball": "Throwers work near 90–100° of abduction at maximal external rotation. Overall elevation is rarely the limiter; quality of scapular rotation is."
+    },
+    {
+     "id": "gh-er",
+     "name": "External rotation (90° abduction)",
+     "plane": "Transverse plane relative to the arm, long humeral axis",
+     "norms": [
+      {
+       "deg": 90,
+       "src": "aaos"
+      }
+     ],
+     "test": "Supine, shoulder 90° abducted, elbow 90° flexed, towel under the humerus to keep it in the scapular plane. Stabilize the coracoid/clavicle to block scapular posterior tilt. Axis at the olecranon; stationary arm vertical; moving arm along the ulna.",
+     "endFeel": "Firm (anterior capsule, middle and inferior GH ligaments, subscapularis)",
+     "movers": "Infraspinatus, teres minor, posterior deltoid",
+     "baseball": "Pro pitchers commonly show about 125–135° in the throwing shoulder, roughly 7–10° more than the other side. Humeral retrotorsion averaged ≈17° more on the throwing side in pro pitchers, so part of the gain is bony and should not be stretched away or chased. Too little gain matters: <5° greater ER than the non-throwing side carried about 2.2× shoulder injury risk.",
+     "baseballSrc": [
+      "crockett2002",
+      "wilk2015",
+      "camp2017"
+     ],
+     "compare": true
+    },
+    {
+     "id": "gh-ir",
+     "name": "Internal rotation (90° abduction)",
+     "plane": "Transverse plane relative to the arm, long humeral axis",
+     "norms": [
+      {
+       "deg": 70,
+       "src": "aaos"
+      }
+     ],
+     "test": "Same position as ER. Stop at the first scapular movement (palpate the coracoid) or the number reflects scapular tipping, not glenohumeral motion.",
+     "endFeel": "Firm (posterior capsule, infraspinatus, teres minor)",
+     "movers": "Subscapularis, pectoralis major, latissimus dorsi, teres major, anterior deltoid",
+     "baseball": "Throwing-side IR of ≈45–60° is common in pro pitchers. GIRD (Burkhart 2003) is an IR loss ≥20° vs the other side. A loss balanced by equal ER gain (total arc kept) is adaptive; a loss that also shrinks the total arc is the one to address.",
+     "baseballSrc": [
+      "burkhart",
+      "wilk2011"
+     ],
+     "compare": true
+    },
+    {
+     "id": "gh-hadd",
+     "name": "Horizontal adduction",
+     "plane": "Transverse plane, vertical axis",
+     "norms": [
+      {
+       "deg": 135,
+       "src": "aaos"
+      }
+     ],
+     "test": "AAOS measures from 90° abduction in the frontal plane across the body. Clinically, supine cross-body adduction with the scapula held retracted (Laudner method) isolates posterior shoulder tightness.",
+     "endFeel": "Soft (tissue approximation) or firm (posterior capsule)",
+     "movers": "Pectoralis major, anterior deltoid",
+     "baseball": "The deceleration demand after release. Side-to-side loss tracks posterior capsule and cuff stiffness, often alongside an IR deficit."
+    }
+   ]
+  },
+  {
+   "id": "scapula",
+   "name": "Scapulothoracic",
+   "joint": "Scapulothoracic articulation (with AC and SC joints)",
+   "type": "Functional articulation, not synovial · 3 rotations + 2 translations",
+   "summary": "The scapula glides on the thorax through the acromioclavicular and sternoclavicular joints. It is graded by kinematics and observed quality, not with a goniometer. Its job is to keep the glenoid under the humeral head and keep the subacromial space open.",
+   "closePacked": "Not applicable (no true joint surfaces)",
+   "resting": "Scapula over ribs 2–7, medial border ≈5–6 cm from the spinous processes, ≈30° anterior to the frontal plane",
+   "capsular": "Not applicable",
+   "baseball": "Throwers show more upward rotation, internal rotation and retraction of the dominant scapula. That is a normal adaptation. Dyskinesis is a quality problem seen on repeated loaded elevation.",
+   "movements": [
+    {
+     "id": "st-upward",
+     "name": "Upward rotation",
+     "plane": "Around an axis perpendicular to the scapular plane",
+     "norms": [
+      {
+       "deg": 50,
+       "src": "mcclure2001",
+       "label": "≈50° at full elevation"
+      },
+      {
+       "deg": 60,
+       "src": "inman1944",
+       "label": "≈60° of 180° (2:1 rhythm)"
+      }
+     ],
+     "test": "Inclinometer on the scapular spine at rest, 90° and maximal elevation. Clinically, observe both sides from behind.",
+     "endFeel": "Not graded",
+     "movers": "Upper and lower trapezius, serratus anterior (force couple)",
+     "baseball": "Dominant scapula sits in more upward rotation in throwers. Loss under fatigue narrows the subacromial space during late cocking.",
+     "baseballSrc": [
+      "myers2005"
+     ]
+    },
+    {
+     "id": "st-posttilt",
+     "name": "Posterior tilt",
+     "plane": "Around a medial-lateral axis through the scapula",
+     "norms": [
+      {
+       "deg": 30,
+       "src": "mcclure2001",
+       "label": "≈30° at full elevation"
+      }
+     ],
+     "test": "Not measured with a goniometer. Observe the inferior angle lifting off the thorax (anterior tilt) during lowering.",
+     "endFeel": "Not graded",
+     "movers": "Lower trapezius, serratus anterior; limited by a short pectoralis minor",
+     "baseball": "A short pectoralis minor holds the scapula in anterior tilt, a pattern linked to internal impingement in throwers."
+    },
+    {
+     "id": "st-er",
+     "name": "External rotation",
+     "plane": "Around a vertical axis",
+     "norms": [
+      {
+       "deg": 24,
+       "src": "mcclure2001",
+       "label": "≈24° at full elevation"
+      }
+     ],
+     "test": "Observe for medial border prominence (winging) during elevation and lowering.",
+     "endFeel": "Not graded",
+     "movers": "Trapezius, rhomboids, serratus anterior",
+     "baseball": "Medial-border prominence during repeated weighted elevation is the most common dyskinesis pattern on a scapular dyskinesis test.",
+     "baseballSrc": [
+      "mcclure2009"
+     ]
+    },
+    {
+     "id": "st-elev",
+     "name": "Elevation / depression",
+     "plane": "Linear translation on the thorax",
+     "norms": [],
+     "descriptor": "Translation measured in centimetres or by observation, not degrees.",
+     "test": "Shrug and depress; compare inferior-angle and acromion height side to side.",
+     "endFeel": "Not graded",
+     "movers": "Upper trapezius, levator scapulae (elevation); lower trapezius, pectoralis minor (depression)",
+     "baseball": "A dropped dominant shoulder at rest is common in throwers and is not dysfunction on its own."
+    },
+    {
+     "id": "st-protract",
+     "name": "Protraction / retraction",
+     "plane": "Linear translation around the thorax",
+     "norms": [],
+     "descriptor": "Translation measured in centimetres or by observation, not degrees.",
+     "test": "Measure inferior angle to spinous process distance at rest and loaded (lateral scapular slide test).",
+     "endFeel": "Not graded",
+     "movers": "Serratus anterior, pectoralis minor (protraction); rhomboids, middle trapezius (retraction)",
+     "baseball": "Retraction loads the arm in late cocking; protraction follows through deceleration. Serratus endurance governs both."
+    }
+   ]
+  },
+  {
+   "id": "elbow",
+   "name": "Elbow & forearm",
+   "joint": "Humeroulnar, humeroradial and proximal radioulnar joints",
+   "type": "Hinge (humeroulnar) + pivot (radioulnar) · 2 degrees of freedom",
+   "summary": "Flexion-extension happens at the humeroulnar and humeroradial joints. Pronation-supination happens at the proximal and distal radioulnar joints. The olecranon in its fossa gives a hard extension end feel; the UCL resists valgus at 20–120° of flexion.",
+   "closePacked": "Humeroulnar: full extension with supination. Proximal radioulnar: 5° supination",
+   "resting": "Humeroulnar ≈70° flexion, 10° supination. Proximal radioulnar ≈70° flexion, 35° supination",
+   "capsular": "Flexion > extension (humeroulnar); pronation = supination (radioulnar)",
+   "baseball": "The throwing elbow commonly loses a few degrees of extension. A new or growing extension loss is the signal, not the absolute number.",
+   "movements": [
+    {
+     "id": "el-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 150,
+       "src": "aaos"
+      },
+      {
+       "deg": 140,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine, arm by the side, forearm supinated. Axis at the lateral epicondyle; stationary arm to the acromion; moving arm to the radial styloid.",
+     "endFeel": "Soft (forearm on biceps) or firm in lean athletes",
+     "movers": "Brachialis, biceps brachii, brachioradialis",
+     "baseball": "Throwing-side flexion is often slightly reduced as well in pro pitchers.",
+     "baseballSrc": [
+      "wright2006"
+     ],
+     "compare": true
+    },
+    {
+     "id": "el-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 0,
+       "src": "aaos",
+       "label": "0° (up to ≈10° hyperextension can be normal)"
+      },
+      {
+       "deg": 0,
+       "src": "ama"
+      }
+     ],
+     "test": "Same alignment as flexion. Record a loss of extension as a negative value or a flexion contracture (e.g. −7°).",
+     "endFeel": "Hard (olecranon into fossa)",
+     "movers": "Triceps brachii, anconeus",
+     "baseball": "Pro pitchers show a small extension deficit on the throwing side. Track it over the season: a new loss can mark posteromedial impingement or loose bodies.",
+     "baseballSrc": [
+      "wright2006"
+     ],
+     "zeroNorm": true
+    },
+    {
+     "id": "el-pron",
+     "name": "Pronation",
+     "plane": "Transverse plane relative to the forearm, long axis of the forearm",
+     "norms": [
+      {
+       "deg": 80,
+       "src": "aaos"
+      },
+      {
+       "deg": 80,
+       "src": "ama"
+      }
+     ],
+     "test": "Seated, arm at the side, elbow 90°, forearm neutral holding a pencil. Axis at the third metacarpal head line. Stabilize the humerus so shoulder IR does not substitute.",
+     "endFeel": "Hard (radius on ulna) or firm (dorsal radioulnar ligament, interosseous membrane)",
+     "movers": "Pronator teres, pronator quadratus",
+     "baseball": "Pronation continues after release on every pitch. Flexor-pronator mass strength is a dynamic UCL protector."
+    },
+    {
+     "id": "el-sup",
+     "name": "Supination",
+     "plane": "Transverse plane relative to the forearm, long axis of the forearm",
+     "norms": [
+      {
+       "deg": 80,
+       "src": "aaos"
+      },
+      {
+       "deg": 80,
+       "src": "ama"
+      }
+     ],
+     "test": "Same setup as pronation. Block shoulder ER and trunk lean.",
+     "endFeel": "Firm (palmar radioulnar ligament, interosseous membrane)",
+     "movers": "Supinator, biceps brachii",
+     "baseball": "Breaking-ball grips start from more supination at release; in youth biomechanics studies the curveball did not produce more elbow torque than the fastball."
+    }
+   ]
+  },
+  {
+   "id": "wrist",
+   "name": "Wrist",
+   "joint": "Radiocarpal and midcarpal joints",
+   "type": "Synovial condyloid (ellipsoid) · 2 degrees of freedom",
+   "summary": "Flexion and extension split between the radiocarpal and midcarpal rows. Ulnar deviation exceeds radial deviation because the ulna sits proximal and the TFCC is compressible.",
+   "closePacked": "Full extension with radial deviation",
+   "resting": "Neutral with slight ulnar deviation",
+   "capsular": "Flexion = extension",
+   "baseball": "The wrist transmits ball speed at release and bat speed at contact. Hook-of-hamate fractures and TFCC/ulnar-sided pain cluster in hitters.",
+   "movements": [
+    {
+     "id": "wr-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 80,
+       "src": "aaos"
+      },
+      {
+       "deg": 60,
+       "src": "ama"
+      }
+     ],
+     "test": "Forearm pronated on a table, fingers relaxed. Axis at the lateral wrist over the triquetrum; moving arm along the fifth metacarpal.",
+     "endFeel": "Firm (dorsal radiocarpal ligament, dorsal capsule)",
+     "movers": "Flexor carpi radialis, flexor carpi ulnaris, palmaris longus",
+     "baseball": "Wrist flexion through release adds little to ball speed compared with trunk and shoulder; it mostly shapes spin and command."
+    },
+    {
+     "id": "wr-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 70,
+       "src": "aaos"
+      },
+      {
+       "deg": 60,
+       "src": "ama"
+      }
+     ],
+     "test": "Same setup, fingers relaxed so finger flexors do not limit range.",
+     "endFeel": "Firm (palmar ligaments) or hard",
+     "movers": "Extensor carpi radialis longus and brevis, extensor carpi ulnaris",
+     "baseball": "Lay-back of the wrist in late cocking stretches the flexor-pronator group it then contracts through release."
+    },
+    {
+     "id": "wr-rd",
+     "name": "Radial deviation",
+     "plane": "Frontal plane, anterior-posterior axis",
+     "norms": [
+      {
+       "deg": 20,
+       "src": "aaos"
+      },
+      {
+       "deg": 20,
+       "src": "ama"
+      }
+     ],
+     "test": "Forearm pronated, wrist neutral. Axis over the capitate; moving arm along the third metacarpal.",
+     "endFeel": "Hard (scaphoid on radial styloid)",
+     "movers": "Flexor and extensor carpi radialis",
+     "baseball": "Top hand on the bat moves toward radial deviation through the load."
+    },
+    {
+     "id": "wr-ud",
+     "name": "Ulnar deviation",
+     "plane": "Frontal plane, anterior-posterior axis",
+     "norms": [
+      {
+       "deg": 30,
+       "src": "aaos"
+      },
+      {
+       "deg": 30,
+       "src": "ama"
+      }
+     ],
+     "test": "Same setup as radial deviation.",
+     "endFeel": "Firm (radial collateral ligament)",
+     "movers": "Flexor and extensor carpi ulnaris",
+     "baseball": "Bottom (lead) hand rolls into ulnar deviation through contact, compressing the ulnar side and the TFCC."
+    }
+   ]
+  },
+  {
+   "id": "hip",
+   "name": "Hip",
+   "joint": "Acetabulofemoral joint",
+   "type": "Synovial ball-and-socket · 3 degrees of freedom",
+   "summary": "A deep acetabulum, labrum and the strongest capsule in the body trade range for stability. Rotation is measured at 90° hip flexion (seated or supine) or prone with the hip extended. Pick one and stick with it: values differ between positions.",
+   "closePacked": "Full extension, internal rotation and abduction",
+   "resting": "≈30° flexion, 30° abduction, slight external rotation",
+   "capsular": "Internal rotation > flexion > abduction",
+   "baseball": "The pelvis rotates over the lead leg from foot contact to release. Lead-hip IR is the range that pitching and hitting both borrow.",
+   "arcTool": {
+    "a": "hip-ir",
+    "b": "hip-er",
+    "aLabel": "IR",
+    "bLabel": "ER",
+    "sideA": "Lead (stride)",
+    "sideB": "Trail (drive)",
+    "rules": []
+   },
+   "movements": [
+    {
+     "id": "hip-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 120,
+       "src": "aaos"
+      },
+      {
+       "deg": 100,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine, knee flexed. Axis over the greater trochanter; stationary arm along the midaxillary line; moving arm to the lateral femoral epicondyle. Stop when the pelvis starts to tilt posteriorly.",
+     "endFeel": "Soft (thigh on abdomen) with the knee flexed",
+     "movers": "Iliopsoas, rectus femoris, sartorius, tensor fasciae latae",
+     "baseball": "Catchers live at end-range hip flexion. Pain with deep flexion plus IR (FADIR) points toward FAI or labral pathology."
+    },
+    {
+     "id": "hip-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 30,
+       "src": "aaos"
+      },
+      {
+       "deg": 30,
+       "src": "ama"
+      }
+     ],
+     "test": "Prone, knee extended. Stabilize the pelvis to stop lumbar extension. The Thomas test screens for hip flexor length.",
+     "endFeel": "Firm (anterior capsule, iliofemoral ligament)",
+     "movers": "Gluteus maximus, hamstrings",
+     "baseball": "Trail-hip extension during the drive and stride. Short hip flexors pull the pelvis into anterior tilt and push extension demand into the lumbar spine."
+    },
+    {
+     "id": "hip-abd",
+     "name": "Abduction",
+     "plane": "Frontal plane, anterior-posterior axis",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 40,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine. Axis over the ASIS; stationary arm between the ASISs; moving arm along the femur. Stop when the pelvis hikes.",
+     "endFeel": "Firm (pubofemoral ligament, adductors)",
+     "movers": "Gluteus medius and minimus, tensor fasciae latae",
+     "baseball": "Stride width in pitchers and wide stances in hitters and catchers draw on abduction."
+    },
+    {
+     "id": "hip-add",
+     "name": "Adduction",
+     "plane": "Frontal plane, anterior-posterior axis",
+     "norms": [
+      {
+       "deg": 30,
+       "src": "aaos"
+      },
+      {
+       "deg": 20,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine, opposite leg abducted to clear it. Same landmarks as abduction.",
+     "endFeel": "Firm (iliotibial band, lateral capsule)",
+     "movers": "Adductor longus, brevis and magnus, pectineus, gracilis",
+     "baseball": "Adductor strain is common in catchers and infielders; adduction strength (squeeze test) is the more useful screen than adduction range."
+    },
+    {
+     "id": "hip-ir",
+     "name": "Internal rotation",
+     "plane": "Transverse plane, long axis of the femur",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 40,
+       "src": "ama"
+      }
+     ],
+     "test": "Seated with the hip and knee at 90°, or supine at 90/90. Axis at the patella; moving arm along the tibial crest. Block pelvic hiking.",
+     "endFeel": "Firm (ischiofemoral ligament, posterior capsule)",
+     "movers": "Gluteus medius and minimus (anterior fibers), tensor fasciae latae",
+     "baseball": "Lead-hip IR lets the pelvis finish rotating over the front leg. Reported values in pro players vary with test position; compare the same player side to side and across the season. Hip ROM was linked to pitching mechanics in pro pitchers, while the injury link rests on small cohorts.",
+     "baseballSrc": [
+      "sauers2014",
+      "robb2010"
+     ],
+     "compare": true
+    },
+    {
+     "id": "hip-er",
+     "name": "External rotation",
+     "plane": "Transverse plane, long axis of the femur",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 50,
+       "src": "ama"
+      }
+     ],
+     "test": "Same position as IR.",
+     "endFeel": "Firm (iliofemoral and pubofemoral ligaments, anterior capsule)",
+     "movers": "Deep six rotators, gluteus maximus, posterior gluteus medius, sartorius",
+     "baseball": "Trail-hip ER loads the drive; lead-hip ER helps the leg land open. Total hip rotation tends to be similar side to side in healthy pros.",
+     "baseballSrc": [
+      "sauers2014"
+     ],
+     "compare": true
+    }
+   ]
+  },
+  {
+   "id": "spine",
+   "name": "Spine",
+   "joint": "Cervical and lumbar segments (thoracic spine lives under Thorax)",
+   "type": "Cartilaginous intervertebral discs + synovial facet joints · coupled motion",
+   "summary": "Facet orientation decides where motion happens. Cervical facets allow rotation and side-bending (≈50% of rotation at C1–C2). Lumbar facets sit near the sagittal plane, so the lumbar spine flexes and extends well but rotates only ≈1–2° per segment. Spinal values use inclinometry or tape methods, not a goniometer.",
+   "closePacked": "Full extension (cervical and lumbar facets)",
+   "resting": "Midway between flexion and extension",
+   "capsular": "Cervical: side flexion and rotation equally limited, then extension. Lumbar: side flexion and rotation equally limited, then extension",
+   "baseball": "Trunk rotation in pitching and hitting must come from the hips and thoracic spine. Rotation forced through the lumbar spine, especially in extension, is the mechanism behind spondylolysis in young players.",
+   "movements": [
+    {
+     "id": "c-flex",
+     "group": "Cervical",
+     "name": "Flexion",
+     "plane": "Sagittal plane",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 50,
+       "src": "ama"
+      }
+     ],
+     "test": "Seated, trunk supported. Inclinometers at the occiput and T1 (AMA method), or a CROM device.",
+     "endFeel": "Firm (posterior ligaments, nuchal ligament)",
+     "movers": "Longus colli and capitis, sternocleidomastoid",
+     "baseball": "Catchers and hitters hold forward head positions for long periods."
+    },
+    {
+     "id": "c-ext",
+     "group": "Cervical",
+     "name": "Extension",
+     "plane": "Sagittal plane",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 60,
+       "src": "ama"
+      }
+     ],
+     "test": "Same setup as flexion.",
+     "endFeel": "Firm or hard (facet approximation)",
+     "movers": "Splenius, semispinalis, upper trapezius",
+     "baseball": "Tracking a fly ball overhead."
+    },
+    {
+     "id": "c-lat",
+     "group": "Cervical",
+     "name": "Lateral flexion (each side)",
+     "plane": "Frontal plane",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos"
+      },
+      {
+       "deg": 45,
+       "src": "ama"
+      }
+     ],
+     "test": "Seated; stop when the shoulder elevates.",
+     "endFeel": "Firm",
+     "movers": "Scalenes, sternocleidomastoid, upper trapezius",
+     "baseball": "Pitchers tilt the head with trunk lateral flexion at release to keep the eyes level."
+    },
+    {
+     "id": "c-rot",
+     "group": "Cervical",
+     "name": "Rotation (each side)",
+     "plane": "Transverse plane",
+     "norms": [
+      {
+       "deg": 60,
+       "src": "aaos"
+      },
+      {
+       "deg": 80,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine (inclinometer on the forehead) or seated with a CROM device.",
+     "endFeel": "Firm",
+     "movers": "Contralateral sternocleidomastoid, ipsilateral splenius",
+     "baseball": "Hitters rotate the head toward the pitcher and must keep it still as the trunk turns under it. Left-right asymmetry is common and stance-specific."
+    },
+    {
+     "id": "l-flex",
+     "group": "Lumbar",
+     "name": "Flexion",
+     "plane": "Sagittal plane",
+     "norms": [
+      {
+       "deg": 60,
+       "src": "ama",
+       "label": "60° true lumbar (dual inclinometer)"
+      },
+      {
+       "deg": 80,
+       "src": "aaos",
+       "label": "80° thoracolumbar"
+      }
+     ],
+     "test": "Standing, dual inclinometers at T12 and S1; subtract sacral from T12 motion. Modified Schober: mark 10 cm span from the PSIS line; ≥5 cm increase is normal.",
+     "endFeel": "Firm (posterior ligaments, thoracolumbar fascia)",
+     "movers": "Rectus abdominis, obliques (against gravity); eccentric erector spinae when standing",
+     "baseball": "Fielding posture. Hamstring length and hip flexion decide how much of a toe touch is actually lumbar."
+    },
+    {
+     "id": "l-ext",
+     "group": "Lumbar",
+     "name": "Extension",
+     "plane": "Sagittal plane",
+     "norms": [
+      {
+       "deg": 25,
+       "src": "ama"
+      },
+      {
+       "deg": 25,
+       "src": "aaos"
+      }
+     ],
+     "test": "Standing, dual inclinometers at T12 and S1.",
+     "endFeel": "Hard (spinous processes, facets)",
+     "movers": "Erector spinae, multifidus",
+     "baseball": "Pitchers hyperextend in late cocking and hitters at finish. Pain with single-leg extension (stork test) in a young player warrants imaging for pars stress."
+    },
+    {
+     "id": "l-lat",
+     "group": "Lumbar",
+     "name": "Lateral flexion (each side)",
+     "plane": "Frontal plane",
+     "norms": [
+      {
+       "deg": 25,
+       "src": "ama"
+      },
+      {
+       "deg": 35,
+       "src": "aaos",
+       "label": "35° thoracolumbar"
+      }
+     ],
+     "test": "Standing, inclinometers at T12 and S1 in the frontal plane, or fingertip-to-floor distance.",
+     "endFeel": "Firm",
+     "movers": "Quadratus lumborum, obliques",
+     "baseball": "Contralateral trunk tilt at ball release correlates with ball velocity and with shoulder and elbow load."
+    },
+    {
+     "id": "l-rot",
+     "group": "Lumbar",
+     "name": "Rotation (each side)",
+     "plane": "Transverse plane",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "aaos",
+       "label": "45° thoracolumbar (most is thoracic)"
+      }
+     ],
+     "descriptor": "True lumbar rotation is only ≈1–2° per segment (≈5–10° total).",
+     "test": "Seated with the pelvis fixed. Most of what you see is thoracic and hip motion.",
+     "endFeel": "Firm (facets, annulus)",
+     "movers": "Obliques, multifidus, rotatores",
+     "baseball": "Do not try to gain rotation here. Restore it at the hips and the thoracic spine."
+    }
+   ]
+  },
+  {
+   "id": "thorax",
+   "name": "Thorax",
+   "joint": "Thoracic spine, costovertebral and costosternal joints",
+   "type": "Facet + costal joints · rib motion coupled with breathing and trunk motion",
+   "summary": "Coronal-plane thoracic facets favor rotation, but the rib cage stiffens the region. Upper ribs move in a pump-handle pattern (AP diameter), lower ribs in a bucket-handle pattern (lateral diameter), ribs 11–12 in a caliper pattern. Thoracic extension and rotation drop when the ribs are stiff.",
+   "closePacked": "Full extension",
+   "resting": "Midway between flexion and extension",
+   "capsular": "Side flexion and rotation equally limited, then extension",
+   "baseball": "Thoracic rotation builds hip-to-shoulder separation and spares the lumbar spine and the throwing shoulder. Limited thoracic extension pushes the scapula into anterior tilt.",
+   "movements": [
+    {
+     "id": "t-rot",
+     "name": "Rotation (each side)",
+     "plane": "Transverse plane",
+     "norms": [
+      {
+       "deg": 45,
+       "src": "johnson2012",
+       "label": "≈40–50° lumbar-locked (clinical reference)"
+      }
+     ],
+     "test": "Lumbar-locked rotation: quadruped sitting back onto heels, one hand behind the back, rotate up; inclinometer or goniometer at T1–T2. Compare sides.",
+     "endFeel": "Firm (costovertebral joints, rib cage)",
+     "movers": "Ipsilateral internal oblique, contralateral external oblique, rotatores",
+     "baseball": "Hitters need rotation toward the pull side; pitchers need rotation toward the glove side to separate trunk from pelvis. Compare sides, but expect some bias toward the dominant rotation in a one-sided sport."
+    },
+    {
+     "id": "t-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane",
+     "norms": [],
+     "descriptor": "Measured as kyphosis rather than a degree range: ≈20–45° Cobb angle (T3–T12) in young adults, rising with age. Thoracic extension ROM is the reduction of that curve.",
+     "test": "Standing inclinometers at T1 and T12, a flexicurve, or a wall test (occiput to wall without chin lift).",
+     "endFeel": "Hard (facets, spinous processes)",
+     "movers": "Thoracic erector spinae, multifidus",
+     "baseball": "Needed for overhead elevation without lumbar extension and for posterior scapular tilt in late cocking.",
+     "baseballSrc": [
+      "fon1980"
+     ]
+    },
+    {
+     "id": "t-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane",
+     "norms": [],
+     "descriptor": "Contributes ≈20–45° to thoracolumbar flexion; usually measured with the lumbar spine (AAOS 80° thoracolumbar).",
+     "test": "Inclinometers at T1 and T12.",
+     "endFeel": "Firm (posterior ligaments)",
+     "movers": "Rectus abdominis, obliques",
+     "baseball": "Follow-through on both the pitch and the swing."
+    },
+    {
+     "id": "t-ribs",
+     "name": "Rib expansion (chest excursion)",
+     "plane": "Pump-handle (AP) + bucket-handle (lateral)",
+     "norms": [],
+     "descriptor": "Measured in cm at the 4th intercostal space or xiphoid, maximal inspiration minus maximal expiration. Young adults commonly ≈5–7 cm; values decline with age. Under ≈2.5 cm is reduced.",
+     "test": "Tape measure around the chest at the 4th intercostal space; best of three.",
+     "endFeel": "Not graded",
+     "movers": "Diaphragm, external intercostals, scalenes; accessory: sternocleidomastoid, pectoralis minor",
+     "baseball": "Rib position affects scapular resting position and thoracic rotation. Reduced expansion with morning back stiffness in a young athlete is a screen for axial spondyloarthritis.",
+     "baseballSrc": [
+      "moll1972"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "knee",
+   "name": "Knee",
+   "joint": "Tibiofemoral and patellofemoral joints",
+   "type": "Modified hinge · 2 degrees of freedom (flexion-extension, axial rotation when flexed)",
+   "summary": "The tibiofemoral joint rolls and glides; terminal extension locks with tibial external rotation (screw-home), and the popliteus unlocks it. Tibial rotation is only available with the knee flexed.",
+   "closePacked": "Full extension with tibial external rotation",
+   "resting": "≈25° flexion",
+   "capsular": "Flexion > extension",
+   "baseball": "The lead knee extends (\"blocks\") between foot contact and release in hard throwers, turning forward momentum into trunk rotation. Catchers spend games near end-range flexion.",
+   "movements": [
+    {
+     "id": "kn-flex",
+     "name": "Flexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 135,
+       "src": "aaos"
+      },
+      {
+       "deg": 150,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine, hip flexed. Axis at the lateral femoral epicondyle; stationary arm to the greater trochanter; moving arm to the lateral malleolus.",
+     "endFeel": "Soft (calf on thigh)",
+     "movers": "Hamstrings, gastrocnemius, popliteus, gracilis, sartorius",
+     "baseball": "A full catcher's squat needs ≈130° or more. Meniscal and patellofemoral symptoms show up first in deep flexion."
+    },
+    {
+     "id": "kn-ext",
+     "name": "Extension",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 0,
+       "src": "aaos",
+       "label": "0° (up to ≈10° hyperextension can be normal)"
+      },
+      {
+       "deg": 0,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine with a bolster under the heel. Record lack of extension as a negative value.",
+     "endFeel": "Firm (posterior capsule, ACL, PCL)",
+     "movers": "Quadriceps",
+     "baseball": "Lead-knee extension at release is tied to ball velocity. After knee surgery, a few degrees of extension loss changes how a pitcher blocks.",
+     "zeroNorm": true
+    },
+    {
+     "id": "kn-rot",
+     "name": "Tibial rotation (knee at 90°)",
+     "plane": "Transverse plane",
+     "norms": [],
+     "descriptor": "Not usually goniometric. Clinical texts describe ≈20–30° IR and ≈30–40° ER of the tibia at 90° knee flexion.",
+     "test": "Seated, knee at 90°, rotate the foot while holding the femur.",
+     "endFeel": "Firm",
+     "movers": "Popliteus, medial hamstrings (IR); biceps femoris (ER)",
+     "baseball": "Rotation over a planted foot (swing, cutting on the bases) puts torque into the knee when hip IR is limited."
+    }
+   ]
+  },
+  {
+   "id": "ankle",
+   "name": "Ankle & foot",
+   "joint": "Talocrural and subtalar joints",
+   "type": "Hinge (talocrural) + modified plane joint (subtalar)",
+   "summary": "Dorsiflexion-plantarflexion happens at the talocrural joint; inversion-eversion is mostly subtalar. Dorsiflexion is best measured weight-bearing because that is how it is used. Test with the knee straight for gastrocnemius and bent for soleus and joint.",
+   "closePacked": "Talocrural: maximal dorsiflexion. Subtalar: supination",
+   "resting": "≈10° plantarflexion, midway between inversion and eversion",
+   "capsular": "Talocrural: plantarflexion > dorsiflexion. Subtalar: limited varus (inversion)",
+   "baseball": "Back-ankle mobility affects the pitcher's drive and the catcher's squat. Lateral sprains on the bases and in the outfield are the common injury.",
+   "movements": [
+    {
+     "id": "an-df",
+     "name": "Dorsiflexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 20,
+       "src": "aaos"
+      },
+      {
+       "deg": 20,
+       "src": "ama"
+      }
+     ],
+     "test": "Non-weight-bearing: axis at the lateral malleolus; moving arm along the fifth metatarsal; knee bent 30° for soleus. Weight-bearing lunge: knee to wall with heel down; ≈10 cm or ≈35–40° tibial inclination is a common reference.",
+     "endFeel": "Firm (posterior capsule, Achilles, soleus/gastrocnemius)",
+     "movers": "Tibialis anterior, extensor digitorum longus, extensor hallucis longus",
+     "baseball": "Catchers need full dorsiflexion to squat with the heels down. Residual dorsiflexion loss after a lateral sprain is common; re-test the lunge before return.",
+     "baseballSrc": [
+      "bennell1998"
+     ],
+     "compare": true
+    },
+    {
+     "id": "an-pf",
+     "name": "Plantarflexion",
+     "plane": "Sagittal plane, medial-lateral axis",
+     "norms": [
+      {
+       "deg": 50,
+       "src": "aaos"
+      },
+      {
+       "deg": 40,
+       "src": "ama"
+      }
+     ],
+     "test": "Supine or seated, knee flexed. Same landmarks as dorsiflexion.",
+     "endFeel": "Firm (anterior capsule, tibialis anterior) or hard (posterior talus)",
+     "movers": "Gastrocnemius, soleus, tibialis posterior, peroneals",
+     "baseball": "Sprinting push-off and the drive leg's push from the rubber."
+    },
+    {
+     "id": "an-inv",
+     "name": "Inversion",
+     "plane": "Mostly frontal plane (subtalar)",
+     "norms": [
+      {
+       "deg": 35,
+       "src": "aaos"
+      },
+      {
+       "deg": 30,
+       "src": "ama"
+      }
+     ],
+     "test": "Seated, knee flexed. Axis anterior to the ankle midway between the malleoli; moving arm along the second metatarsal.",
+     "endFeel": "Firm (lateral ligaments, peroneals)",
+     "movers": "Tibialis posterior, tibialis anterior",
+     "baseball": "Excess inversion stress is the lateral ankle sprain mechanism, common on bags and uneven outfield turf."
+    },
+    {
+     "id": "an-ev",
+     "name": "Eversion",
+     "plane": "Mostly frontal plane (subtalar)",
+     "norms": [
+      {
+       "deg": 15,
+       "src": "aaos"
+      },
+      {
+       "deg": 20,
+       "src": "ama"
+      }
+     ],
+     "test": "Same setup as inversion.",
+     "endFeel": "Hard (calcaneus on talus) or firm (deltoid ligament)",
+     "movers": "Peroneus longus and brevis, peroneus tertius",
+     "baseball": "Balance and peroneal training, not extra range, is what reduces repeat lateral sprains."
+    }
+   ]
+  }
+ ]
+}

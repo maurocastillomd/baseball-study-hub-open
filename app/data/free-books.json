@@ -1,0 +1,1000 @@
+{
+ "title": "Free textbooks that feed the hub.",
+ "reviewed": "2026-11-09",
+ "summary": "Eight books you can read today at no cost, each tied to the parts of the hub it strengthens.",
+ "policy": "Free to read is not free to copy. Each book keeps its own license, so the hub links to the original and writes its own teaching. No chapter text, figure or table is reproduced here.",
+ "language": "Coding language: Python plus SQL (recommended November 9, 2026). The R books stay on the shelf for their ideas and baseball questions.",
+ "tracks": [
+  {
+   "id": "anatomy",
+   "title": "Anatomy",
+   "lede": "Names and locations first. Function comes later from Neumann."
+  },
+  {
+   "id": "measurement",
+   "title": "Measurement and statistics",
+   "lede": "Is the change real, and is it big enough to matter?"
+  },
+  {
+   "id": "cause",
+   "title": "Cause versus prediction",
+   "lede": "What a number can and cannot tell you about why something happened."
+  },
+  {
+   "id": "coding",
+   "title": "Coding and baseball data",
+   "lede": "Python plus SQL for your own work. The R books stay for their baseball questions."
+  }
+ ],
+ "books": [
+  {
+   "id": "openstax-ap2e",
+   "sourceId": "free-openstax-ap2e",
+   "track": "anatomy",
+   "title": "Anatomy and Physiology 2e",
+   "authors": "J. Gordon Betts and colleagues; OpenStax (Rice University)",
+   "edition": "2nd edition",
+   "year": 2022,
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "access": "Free online and as a PDF from OpenStax.",
+   "license": "CC BY-NC-SA 4.0. The reuse notice also bars use with large language models or generative AI without written permission from OpenStax. The hub links to it and does not copy, summarize by machine or reproduce its text or figures.",
+   "language": "No code",
+   "optional": false,
+   "why": "A current, free checklist of joints, ligaments and muscles by body region. Use it to see which structures the Anatomy Lab still leaves out.",
+   "caution": "Intro level. It names structures and basic actions, not what they do during a pitch or a sprint. Use Neumann for function once you own it.",
+   "start": "Chapter 9, Joints, then Chapter 11, The Muscular System (the upper-limb and lower-limb sections).",
+   "task": "Pick the shoulder. List every ligament and muscle the book names for it. Mark the ones the Anatomy Lab shows now, and keep the list as your gap check.",
+   "feeds": [
+    {
+     "route": "#anatomy",
+     "label": "Anatomy Lab: 3D atlas"
+    },
+    {
+     "route": "#joints",
+     "label": "Joints and range of motion"
+    },
+    {
+     "route": "#lesson/rehab-shoulder-01",
+     "label": "The throwing shoulder"
+    },
+    {
+     "route": "#lesson/rehab-elbow-01",
+     "label": "The medial elbow"
+    },
+    {
+     "route": "#lesson/rehab-hamstring-01",
+     "label": "Hamstring anatomy"
+    }
+   ]
+  },
+  {
+   "id": "bmbstats",
+   "sourceId": "free-bmbstats",
+   "track": "measurement",
+   "title": "bmbstats: bootstrap magnitude-based statistics for sports scientists",
+   "authors": "Mladen Jovanović",
+   "edition": "Online book",
+   "year": 2020,
+   "url": "https://mladenjovanovic.github.io/bmbstats-book",
+   "access": "Free online.",
+   "license": "CC BY-NC-SA 4.0; the code is MIT licensed. The hub links to it and writes its own teaching.",
+   "language": "R (ideas apply in any language)",
+   "optional": false,
+   "why": "A sports scientist writing about the calls you make every day: typical error, smallest worthwhile change, reliability, individual response, and the difference between describing, predicting and explaining.",
+   "caution": "Magnitude-based inference has been strongly criticized (Sainani 2018, Medicine & Science in Sports & Exercise). Learn the ideas about error and practical size here, and use Lakens for how to test them.",
+   "start": "Chapter 10, Measurement Error, then Chapter 15, Validity and Reliability.",
+   "task": "Take one jump metric you use. Write its typical error and your smallest worthwhile change, then say which of the two decides whether a change is real.",
+   "feeds": [
+    {
+     "route": "#unit/m07-u5",
+     "label": "Design a reliability study"
+    },
+    {
+     "route": "#unit/m07-u6",
+     "label": "ICC, typical error, SEM and detectable change"
+    },
+    {
+     "route": "#lesson/science-testing-reliability",
+     "label": "Is the change larger than the noise?"
+    },
+    {
+     "route": "#lab/analysis-reliability",
+     "label": "Lab: can this jump test detect the change?"
+    }
+   ]
+  },
+  {
+   "id": "lakens-inferences",
+   "sourceId": "free-lakens-inferences",
+   "track": "measurement",
+   "title": "Improving Your Statistical Inferences",
+   "authors": "Daniël Lakens",
+   "edition": "Online book",
+   "year": 2022,
+   "url": "https://lakens.github.io/statistical_inferences",
+   "access": "Free online and as a PDF.",
+   "license": "CC BY-NC-SA 4.0. The hub links to it and writes its own teaching.",
+   "language": "R (ideas apply in any language)",
+   "optional": false,
+   "why": "The mainstream counterweight to bmbstats. Clear chapters on effect sizes, confidence intervals, equivalence tests and sample size, which are the tools for judging a paper or your own testing data.",
+   "caution": "Most examples come from psychology, not sport. The logic transfers; the typical effect sizes do not.",
+   "start": "Chapter 6, Effect Sizes; Chapter 7, Confidence Intervals; Chapter 9, Equivalence Testing and Interval Hypotheses.",
+   "task": "Take one \"significant improvement\" claim from a training study. Rewrite it as an effect size with a confidence interval, and say whether the whole interval clears your smallest worthwhile change.",
+   "feeds": [
+    {
+     "route": "#unit/m07-u7",
+     "label": "Decide what matters without hiding uncertainty"
+    },
+    {
+     "route": "#lesson/science-interpret-communicate",
+     "label": "Turn a number into a useful conversation"
+    },
+    {
+     "route": "#unit/m07-u5",
+     "label": "Design a reliability study"
+    }
+   ]
+  },
+  {
+   "id": "whatif",
+   "sourceId": "free-whatif",
+   "track": "cause",
+   "title": "Causal Inference: What If",
+   "authors": "Miguel A. Hernán and James M. Robins",
+   "edition": "Online edition, updated 2026",
+   "year": 2020,
+   "url": "https://miguelhernan.org/whatifbook",
+   "access": "Free PDF from the authors. Print edition from Chapman & Hall/CRC.",
+   "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+   "language": "No code needed (R, Python and Stata code online)",
+   "optional": false,
+   "why": "Most weak injury and workload claims mix up prediction and cause. Part I teaches you to spot confounding and selection bias without any math beyond arithmetic.",
+   "caution": "Dense epidemiology. Read Part I first and stop there until a real question needs Parts II and III.",
+   "start": "Part I, Causal inference without models: the opening chapters on what a causal effect is, then the chapters on confounding and selection bias.",
+   "task": "Take a claim like \"a high acute:chronic workload ratio causes injury.\" Name one confounder and one selection problem that could create that link with no causal effect at all.",
+   "feeds": [
+    {
+     "route": "#lesson/science-workload-limits",
+     "label": "Count exposure. Preserve uncertainty."
+    },
+    {
+     "route": "#unit/m06-u7",
+     "label": "Dose revision using uncertain feedback"
+    },
+    {
+     "route": "#unit/m06-u8",
+     "label": "Evaluate adaptation and defend the season"
+    },
+    {
+     "route": "#unit/m07-u1",
+     "label": "Choose a test that answers the question"
+    }
+   ]
+  },
+  {
+   "id": "isl",
+   "sourceId": "free-isl",
+   "track": "cause",
+   "title": "An Introduction to Statistical Learning, with Applications in Python",
+   "authors": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor",
+   "edition": "Python edition",
+   "year": 2023,
+   "url": "https://www.statlearning.com/",
+   "access": "Free PDF from the authors, in Python and R editions. Print edition from Springer.",
+   "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+   "language": "Python edition (also an R edition)",
+   "optional": false,
+   "why": "The clearest free start in machine learning. It keeps the hub's applied AI lane grounded in real statistics: what a model learns, how to test it on new data, and why it fails.",
+   "caution": "Prediction is not cause. A model that flags \"high risk\" players does not tell you what to change. Pair it with What If.",
+   "start": "The chapters on Statistical Learning and on Resampling Methods (cross-validation).",
+   "task": "In three sentences, explain why a model that predicted injuries well on last season's roster may fail on this season's roster.",
+   "feeds": [
+    {
+     "route": "#lesson/science-workload-limits",
+     "label": "Count exposure. Preserve uncertainty."
+    },
+    {
+     "route": "#lab/analysis-monitoring-handoff",
+     "label": "Lab: turn a jump trend into a staff conversation"
+    }
+   ]
+  },
+  {
+   "id": "mckinney-pda",
+   "sourceId": "free-mckinney-pda",
+   "track": "coding",
+   "title": "Python for Data Analysis, 3rd edition",
+   "authors": "Wes McKinney",
+   "edition": "3rd edition",
+   "year": 2022,
+   "url": "https://wesmckinney.com/book/",
+   "access": "Free open-access online edition. Print and ebook from O'Reilly.",
+   "license": "Content may not be copied or reproduced; the code examples are MIT licensed. The hub links to it only.",
+   "language": "Python",
+   "optional": false,
+   "why": "Written by the creator of pandas. It is the most direct way to learn to load, clean, join and summarize testing and throwing files in Python.",
+   "caution": "A tools book, not a statistics book. For Statcast data in Python, use the pybaseball package, which is separate from this book.",
+   "start": "Chapter 5, Getting Started with pandas; Chapter 7, Data Cleaning and Preparation; Chapter 8, Data Wrangling: Join, Combine, and Reshape.",
+   "task": "Load one of the Practice Lab CSV files into pandas. Count missing values and duplicate rows before you plot anything.",
+   "feeds": [
+    {
+     "route": "#lab/analysis-exposure-audit",
+     "label": "Lab: the pitch dashboard and throwing log disagree"
+    },
+    {
+     "route": "#lab/analysis-reliability",
+     "label": "Lab: can this jump test detect the change?"
+    },
+    {
+     "route": "#unit/m07-u8",
+     "label": "Collect, audit and defend a testing SOP"
+    }
+   ]
+  },
+  {
+   "id": "abdwr3e",
+   "sourceId": "free-abdwr3e",
+   "track": "coding",
+   "title": "Analyzing Baseball Data with R, 3rd edition",
+   "authors": "Jim Albert, Benjamin S. Baumer and Max Marchi",
+   "edition": "3rd edition",
+   "year": 2024,
+   "url": "https://beanumber.github.io/abdwr3e/",
+   "access": "Free online edition from the authors. Print from Routledge.",
+   "license": "Copyright the authors and publisher. Free to read online; the hub links to it only.",
+   "language": "R (read for the baseball questions)",
+   "optional": false,
+   "why": "The only full textbook built on Statcast, Retrosheet and real baseball questions. Its Statcast appendix is a field-by-field guide to the data your organization already has.",
+   "caution": "It studies game performance, not training. The code is R; if you study in Python, read it for the questions and the data definitions and skip running the code.",
+   "start": "Chapter 1, The Baseball Datasets, then Appendix C, Statcast Data Reference.",
+   "task": "Read Appendix C. Pick five Statcast fields you would join to your own testing or throwing data, and write what each one can and cannot tell you.",
+   "feeds": [
+    {
+     "route": "#lab/analysis-exposure-audit",
+     "label": "Lab: the pitch dashboard and throwing log disagree"
+    },
+    {
+     "route": "#lesson/science-interpret-communicate",
+     "label": "Turn a number into a useful conversation"
+    },
+    {
+     "route": "#demands",
+     "label": "Player demands"
+    }
+   ]
+  },
+  {
+   "id": "r4ds",
+   "sourceId": "free-r4ds",
+   "track": "coding",
+   "title": "R for Data Science, 2nd edition",
+   "authors": "Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund",
+   "edition": "2nd edition",
+   "year": 2023,
+   "url": "https://r4ds.hadley.nz/",
+   "access": "Free online.",
+   "license": "CC BY-NC-ND 3.0. The hub links to it only.",
+   "language": "R",
+   "optional": true,
+   "why": "The standard way to learn data wrangling in R. Keep it as a reference for reading R code in sport-science papers.",
+   "caution": "Optional while you study in Python. Open it when a paper's R code needs decoding.",
+   "start": "Chapter 18, Missing values, and Chapter 19, Joins.",
+   "task": "Find one sport-science paper that shares R code. Use these two chapters to explain, in plain words, what its data-cleaning steps do.",
+   "feeds": [
+    {
+     "route": "#lab/analysis-exposure-audit",
+     "label": "Lab: the pitch dashboard and throwing log disagree"
+    }
+   ]
+  }
+ ],
+ "links": {
+  "unit:m07-u1": [
+   {
+    "bookId": "whatif",
+    "chapters": "Part I, the opening chapters",
+    "why": "Decide whether your test answers a description, prediction or cause question before you pick it."
+   },
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapters 2 to 4",
+    "why": "The same three question types, with sport examples."
+   }
+  ],
+  "unit:m07-u5": [
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapter 15, Validity and Reliability",
+    "why": "Match the reliability design to how you actually test."
+   },
+   {
+    "bookId": "lakens-inferences",
+    "chapters": "Chapter 8, Sample Size Justification",
+    "why": "Say why your number of athletes and trials is enough, or admit it is not."
+   }
+  ],
+  "unit:m07-u6": [
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapter 10, Measurement Error",
+    "why": "Typical error and smallest worthwhile change, worked through in code."
+   },
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapter 15, Validity and Reliability",
+    "why": "How the reliability statistics connect to a decision."
+   }
+  ],
+  "unit:m07-u7": [
+   {
+    "bookId": "lakens-inferences",
+    "chapters": "Chapters 6, 7 and 9",
+    "why": "Effect sizes, confidence intervals and equivalence tests: how to say \"this matters\" honestly."
+   },
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapters 5 to 9",
+    "why": "Read for the idea of practical size, and keep the criticism of magnitude-based inference in mind."
+   }
+  ],
+  "unit:m07-u8": [
+   {
+    "bookId": "mckinney-pda",
+    "chapters": "Chapter 7, Data Cleaning and Preparation",
+    "why": "Audit missing, duplicate and mislabeled rows before analysis."
+   },
+   {
+    "bookId": "lakens-inferences",
+    "chapters": "Chapter 14, Computational Reproducibility",
+    "why": "Make the analysis something another staff member can rerun."
+   }
+  ],
+  "unit:m06-u7": [
+   {
+    "bookId": "whatif",
+    "chapters": "Part I, the chapters on confounding and selection bias",
+    "why": "Before you change a dose because of a trend, ask what else could explain it."
+   }
+  ],
+  "unit:m06-u8": [
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapter 16, RCT analysis and prediction",
+    "why": "Separate the group response from any one player's response."
+   },
+   {
+    "bookId": "whatif",
+    "chapters": "Part I",
+    "why": "Why \"he got better after the block\" is not proof the block worked."
+   }
+  ],
+  "lesson:science-testing-reliability": [
+   {
+    "bookId": "bmbstats",
+    "chapters": "Chapters 10 and 15",
+    "why": "Measurement error and reliability with sport examples."
+   },
+   {
+    "bookId": "lakens-inferences",
+    "chapters": "Chapter 7, Confidence Intervals",
+    "why": "Show the uncertainty around a change."
+   }
+  ],
+  "lesson:science-workload-limits": [
+   {
+    "bookId": "whatif",
+    "chapters": "Part I",
+    "why": "Confounding and selection bias in workload and injury claims."
+   },
+   {
+    "bookId": "isl",
+    "chapters": "Resampling Methods chapter",
+    "why": "Why a model has to be tested on data it has not seen."
+   }
+  ],
+  "lesson:science-interpret-communicate": [
+   {
+    "bookId": "lakens-inferences",
+    "chapters": "Chapters 6 and 7",
+    "why": "Report a size and a range, not just \"significant\"."
+   },
+   {
+    "bookId": "abdwr3e",
+    "chapters": "Chapter 14, Making a Scientific Presentation using Quarto",
+    "why": "A worked example of turning baseball data into a clear report."
+   }
+  ],
+  "lesson:rehab-shoulder-01": [
+   {
+    "bookId": "openstax-ap2e",
+    "chapters": "Chapter 9, Joints, and Chapter 11, upper-limb sections",
+    "why": "A free checklist of shoulder joints, ligaments and muscles. Link only."
+   }
+  ],
+  "lesson:rehab-elbow-01": [
+   {
+    "bookId": "openstax-ap2e",
+    "chapters": "Chapter 9, Joints, and Chapter 11, upper-limb sections",
+    "why": "A free checklist of elbow structures. Link only."
+   }
+  ],
+  "lesson:rehab-hamstring-01": [
+   {
+    "bookId": "openstax-ap2e",
+    "chapters": "Chapter 11, lower-limb sections",
+    "why": "A free checklist of the posterior thigh muscles and attachments. Link only."
+   }
+  ]
+ },
+ "sections": {
+  "lesson:science-testing-reliability": [
+   {
+    "heading": "Compare the noise with the smallest change that matters",
+    "text": [
+     "Two numbers decide whether one retest can answer your question. The first is the noise: the smallest detectable change, built from the typical error. The second is the smallest change you would actually act on. Jovanović calls it the smallest effect size of interest, or SESOI. Choose it from the decision before you look at the data.",
+     "If the smallest detectable change is smaller than the SESOI, one retest can show a change that matters. If it is larger, one retest cannot separate a meaningful change from noise. Then you need more comparable tests, a tighter protocol, or a decision that does not rest on that test alone."
+    ],
+    "example": {
+     "title": "Worked example · synthetic data from the reliability lab",
+     "lines": [
+      "Typical error (TE) = 0.88 cm.",
+      "Smallest detectable change = 1.96 × √2 × 0.88 = 2.45 cm.",
+      "The staff would change a plan for a 2.0 cm drop, so SESOI = 2.0 cm.",
+      "2.45 cm is larger than 2.0 cm, so one retest cannot reliably detect a 2 cm change.",
+      "To be about 95% sure a change goes beyond the SESOI, the observed change must reach SESOI + detectable change = 2.0 + 2.45 = 4.45 cm.",
+      "Jovanović uses the t critical value instead of 1.96. With 24 athletes (t ≈ 2.07) the detectable change is about 2.59 cm."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-bmbstats",
+      "locator": "Chapter 10, Measurement Error: sections 10.2 Smallest Detectable Change and 10.3 Interpreting individual changes using SESOI and SDC."
+     }
+    ]
+   }
+  ],
+  "unit:m07-u5": [
+   {
+    "heading": "Report how precise your typical error is",
+    "text": [
+     "A typical error from a small reliability study is itself an estimate. With few athletes, the true value could be quite a bit smaller or larger. Lakens lists six ways to justify a sample size. Team studies almost always fall under resource constraints: you test the players you have. His advice for that case is to report what the design can tell you, such as how wide the uncertainty is, instead of presenting the estimate as exact.",
+     "The confidence interval for a standard deviation comes from the chi-square distribution with n − 1 degrees of freedom. You do not need to memorize the formula. Learn the pattern: the interval narrows slowly as you add athletes.",
+     "Write it like this: \"Typical error 0.88 cm (95% CI 0.69 to 1.24 cm; 24 athletes; sessions one week apart).\" A reader can now see whether the upper end would change the decision."
+    ],
+    "example": {
+     "title": "Worked example · synthetic data from the reliability lab",
+     "lines": [
+      "24 athletes give 23 degrees of freedom. The 95% multipliers for an SD are 0.78 and 1.40.",
+      "TE = 0.88 cm, so the plausible range is 0.88 × 0.78 to 0.88 × 1.40 ≈ 0.69 to 1.24 cm.",
+      "The 95% detectable change then ranges from about 1.91 to 3.44 cm, not just the single value of 2.45 cm.",
+      "With only 10 athletes (9 degrees of freedom) the multipliers are 0.69 and 1.83, so the same 0.88 cm could plausibly be 0.61 to 1.61 cm."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 8, Sample Size Justification: resource constraints and reporting precision."
+     },
+     {
+      "id": "free-bmbstats",
+      "locator": "Chapter 10, Measurement Error: estimating TE from two trials."
+     }
+    ]
+   }
+  ],
+  "unit:m07-u6": [
+   {
+    "heading": "Choose the smallest worthwhile change on purpose",
+    "text": [
+     "Many sport-science reports set the smallest worthwhile change at 0.2 × the between-athlete standard deviation. That number describes how spread out the roster is. It says nothing about which change would alter a training or availability decision.",
+     "Lakens lists better routes to a smallest effect size of interest: an anchor (the change people notice or care about), a cost-benefit judgment, or theory. Jovanović also sets it from prior knowledge, with examples such as ±1 kg for body mass and ±5 kg for a bench-press 1RM.",
+     "The roster rule also moves when the roster moves. Add a few very weak and very strong jumpers and the \"worthwhile\" change for the same athlete grows, even though nothing about that athlete changed. Whichever value you use, write down where it came from."
+    ],
+    "example": {
+     "title": "Worked example · synthetic data from the reliability lab",
+     "lines": [
+      "Between-athlete SD at session 1 = 5.34 cm, so 0.2 × SD = 1.07 cm.",
+      "The staff only changes a plan for a drop of 2 cm or more, so the decision-based SESOI is 2.0 cm.",
+      "The two values differ by almost a factor of two. Report the one tied to the decision, and say why."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 9, Equivalence Testing and Interval Hypotheses: setting the smallest effect size of interest."
+     },
+     {
+      "id": "free-bmbstats",
+      "locator": "Chapter 10, Measurement Error: SESOI set from prior knowledge."
+     }
+    ]
+   }
+  ],
+  "unit:m07-u7": [
+   {
+    "heading": "Test for \"no meaningful change,\" not just \"no change\"",
+    "text": [
+     "A non-significant result does not show that nothing changed. It may only mean the data were too noisy. Lakens' equivalence test asks a more useful question: can we rule out changes as large as the smallest one that matters? With a 5% error rate on each side, you check whether the 90% confidence interval sits fully inside ±SESOI.",
+     "Combining the usual test with an equivalence test gives four outcomes. Different from zero and too small to matter. Different from zero and possibly large enough to matter. Not different from zero and too small to matter. Neither test decisive, which means you need more data."
+    ],
+    "example": {
+     "title": "Worked example · synthetic data from the reliability lab",
+     "lines": [
+      "Mean change between sessions = +0.40 cm; SD of changes = 1.25 cm; 24 athletes.",
+      "95% CI: −0.13 to +0.93 cm. The usual test cannot rule out zero.",
+      "90% CI: −0.04 to +0.84 cm. With SESOI = ±1.5 cm, the whole interval is inside the bounds.",
+      "Conclusion: the group shift between sessions is smaller than any change the staff would act on. That is stronger and more useful than \"not significant.\""
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 9, Equivalence Testing and Interval Hypotheses: TOST, the 90% interval and the four outcomes."
+     },
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 7, Confidence Intervals."
+     }
+    ]
+   },
+   {
+    "heading": "Report the size in centimeters before any standardized number",
+    "text": [
+     "Lakens recommends unstandardized effect sizes when the scale is familiar. Coaches know what 2 cm of jump height means. A standardized value such as Cohen's d depends on which standard deviation you divide by, and repeated-measures data have several versions. d_z divides by the SD of the change scores. d_av divides by the average SD of the two sessions.",
+     "He also advises against calling effects \"small,\" \"medium\" or \"large\" from generic benchmarks. Compare the effect with your SESOI instead."
+    ],
+    "example": {
+     "title": "Worked example · same synthetic data",
+     "lines": [
+      "d_z = 0.40 / 1.25 = 0.32.",
+      "d_av = 0.40 / ((5.34 + 5.89) / 2) = 0.07.",
+      "One change, two \"effect sizes\" more than four times apart.",
+      "Report \"+0.40 cm (95% CI −0.13 to +0.93 cm)\" first. If you add a d, name the version."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 6, Effect Sizes: unstandardized versus standardized effects, d_z and d_av, and the warning about benchmark labels."
+     }
+    ]
+   }
+  ],
+  "unit:m07-u8": [
+   {
+    "heading": "Make the analysis rerun from the raw file",
+    "text": [
+     "Lakens' chapter on computational reproducibility gives a practical checklist. Keep the analysis in a script, not in clicks and copied numbers. Generate the report's numbers from that script. Use relative file paths so it runs on another computer. Record the package versions. Use version control, such as git, so earlier versions can be recovered. Rerun everything from the raw file before the final report, because files drift out of sync during revisions.",
+     "McKinney's pandas chapters cover the checks that should run before any calculation: count the rows, look for duplicates and missing values, and confirm one protocol and one device. Make the script stop when a check fails, so a mixed file cannot quietly produce a number."
+    ],
+    "example": null,
+    "code": {
+     "label": "Python · pre-analysis checks for the reliability lab file",
+     "text": "import sys\nimport pandas as pd\n\nprint(\"Python\", sys.version.split()[0], \"| pandas\", pd.__version__)  # keep with the report\n\nraw = pd.read_csv(\"paired-cmj-reliability.csv\")  # raw export: read it, never edit it\n\nchecks = {\n    \"rows\": len(raw),\n    \"duplicate athletes\": int(raw[\"athlete_id\"].duplicated().sum()),\n    \"missing values\": int(raw[[\"test1_cm\", \"test2_cm\"]].isna().sum().sum()),\n    \"protocols\": raw[\"protocol\"].nunique(),\n    \"devices\": raw[\"device\"].nunique(),\n}\nprint(checks)\nassert checks[\"protocols\"] == 1 and checks[\"devices\"] == 1, \"Mixed methods: stop and review.\"",
+     "output": "Python 3.x.x | pandas 2.x or newer\n{'rows': 24, 'duplicate athletes': 0, 'missing values': 0, 'protocols': 1, 'devices': 1}"
+    },
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 14, Computational Reproducibility."
+     },
+     {
+      "id": "free-mckinney-pda",
+      "locator": "Chapter 6, Data Loading, and Chapter 7, Data Cleaning and Preparation."
+     }
+    ]
+   }
+  ],
+  "unit:m07-u1": [
+   {
+    "heading": "Name the question type before you pick the test",
+    "text": [
+     "Jovanović sorts analysis questions into three kinds. Description asks what is true now. Prediction asks what will happen next. Causal inference asks what would happen if you did one thing instead of another. Each kind needs different evidence.",
+     "Hernán and Robins define a causal effect as the difference between what happens under one action and what would have happened under another, for the same person over the same period. You only ever see one of those. That is why a good description or a good prediction still does not tell you what to change."
+    ],
+    "example": {
+     "title": "Worked example · one synthetic outfielder",
+     "lines": [
+      "Describe: \"His CMJ is 38 cm, 2 cm under his August mean.\"",
+      "Predict: \"From his testing history, his 30-yard sprint next month will probably fall between 4.05 and 4.15 s.\"",
+      "Explain: \"Would a jump block raise his CMJ more than his current plan?\"",
+      "Only the third question needs a comparison condition, and his own before-and-after cannot supply one."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-bmbstats",
+      "locator": "Chapters 2 to 4: Description, Prediction and Causal inference."
+     },
+     {
+      "id": "free-whatif",
+      "locator": "Part I: the definition of a causal effect."
+     }
+    ]
+   }
+  ],
+  "unit:m06-u7": [
+   {
+    "heading": "Draw the causal picture before you change the dose",
+    "text": [
+     "When a jump drops after travel, it is tempting to blame the training. Hernán and Robins call a factor that affects both the exposure and the outcome a confounder. If late games and travel cut sleep, and short sleep lowers jump height and raises effort ratings, the training dose can look harmful when sleep did the work.",
+     "Sketch it with arrows before you act: travel → sleep → jump height, and travel → schedule change → training dose. When one factor points into both the dose and the response, changing the dose alone may not fix anything. Note which arrows you can check with data you already collect."
+    ],
+    "example": {
+     "title": "Worked example · synthetic data from the monitoring lab",
+     "lines": [
+      "Days 25 to 28: CMJ 37.9 to 38.2 cm against a 40.0 cm baseline.",
+      "Same days: sleep 5.2 to 6.4 hours, against 7.2 to 8.1 hours in the baseline days. Day 26 included 6 hours of travel.",
+      "Before cutting lifting volume, check whether the drop follows the sleep and travel days.",
+      "If it does, sleep and schedule are the first levers to look at. This is a pattern worth checking, not proof of the cause."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-whatif",
+      "locator": "Part I: the chapter on confounding and causal diagrams."
+     }
+    ]
+   }
+  ],
+  "unit:m06-u8": [
+   {
+    "heading": "Ask who is missing from the season review",
+    "text": [
+     "Hernán and Robins describe selection bias: the people left in an analysis were selected in a way that is linked to both the exposure and the outcome. In a season review, players leave through injury, release or promotion. If you judge the program only on players who finished it, you may be studying the ones it suited."
+    ],
+    "example": {
+     "title": "Worked example · synthetic block",
+     "lines": [
+      "30 players start the block. 5 are injured and 3 are promoted before the retest.",
+      "The 22 who finish improved their 30-yard sprint by 0.05 s on average.",
+      "That number describes finishers only. The injured players may have responded worst and the promoted players best.",
+      "Report the denominator: \"22 of 30 retested,\" with the reasons for the other 8."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-whatif",
+      "locator": "Part I: the chapter on selection bias."
+     }
+    ]
+   },
+   {
+    "heading": "Individual response needs a comparison",
+    "text": [
+     "Players' changes always differ. Part of that spread is measurement noise and ordinary biological variation, which would show up even with no program at all. Jovanović uses a control group's change scores as the yardstick for that noise. The extra spread in the trained group, √(SD trained² − SD control²), estimates a random treatment effect.",
+     "He warns that this estimate is unstable in small samples and can land near zero, and he suggests avoiding simple change scores in more complex designs. Treat it as a rough signal, not a list of responders and non-responders."
+    ],
+    "example": {
+     "title": "Worked example · synthetic numbers",
+     "lines": [
+      "SD of CMJ change: 3.0 cm in players who did the block, 2.0 cm in players who did not.",
+      "√(3.0² − 2.0²) = √5 ≈ 2.24 cm of extra spread.",
+      "Without a comparison group you cannot tell how much of any player's change came from the program."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-bmbstats",
+      "locator": "Chapter 16, RCT analysis and prediction in bmbstats: control-group change as the noise yardstick and the random treatment effect."
+     }
+    ]
+   }
+  ],
+  "lesson:science-workload-limits": [
+   {
+    "heading": "A risk flag needs a base rate",
+    "text": [
+     "James and colleagues explain a classifier's results with a confusion matrix: who was flagged, who was not, and who actually had the outcome. Sensitivity is the share of true cases that were flagged. Specificity is the share of non-cases that were not flagged.",
+     "When the outcome is rare, even a flag with good sensitivity and specificity mostly flags players who will be fine. A flag is a reason to look closer, never a forecast for one player."
+    ],
+    "example": {
+     "title": "Worked example · synthetic roster",
+     "lines": [
+      "100 pitchers; 5 are injured this month.",
+      "A flag with 80% sensitivity catches 4 of the 5.",
+      "With 80% specificity it also flags 19 of the 95 healthy pitchers (20%).",
+      "Of the 23 flagged pitchers, 4 are injured: about 17%. Of the 77 not flagged, 1 is injured."
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-isl",
+      "locator": "Chapter on Classification: confusion matrix, sensitivity and specificity."
+     }
+    ]
+   },
+   {
+    "heading": "Know what game pitch data actually records",
+    "text": [
+     "Albert, Baumer and Marchi's Statcast reference lists the pitch-level fields, such as game_date, pitcher, pitch_type, release_speed and release_spin_rate. One row is one tracked pitch in a game. Bullpens, warm-ups and catch play are not in that table, so game data alone undercounts throwing.",
+     "Read field definitions before you count. pitch_number is the number of the pitch within the plate appearance, not the pitcher's running total. To get a game pitch count, count one pitcher's rows in one game."
+    ],
+    "example": null,
+    "code": {
+     "label": "Python · game pitch counts from a Statcast export",
+     "text": "import pandas as pd\n\npitches = pd.read_csv(\"statcast_pitches.csv\", parse_dates=[\"game_date\"])\n\n# One row = one game pitch. Count rows; do not read pitch_number as a total.\ncounts = pitches.groupby([\"pitcher\", \"game_date\"]).size().rename(\"game_pitches\")\nprint(counts.head())\n\n# A doubleheader puts two games on one date. Group by a game ID if your export has one.",
+     "output": null
+    },
+    "refs": [
+     {
+      "id": "free-abdwr3e",
+      "locator": "Appendix C, Statcast Data Reference: game situation and pitch fields, including pitch_number."
+     }
+    ]
+   }
+  ],
+  "lesson:science-interpret-communicate": [
+   {
+    "heading": "Split by player, not by row, when you test a model",
+    "text": [
+     "James and colleagues show why a model must be judged on data it did not learn from, and how k-fold cross-validation does that: split the data into k parts, fit on k − 1, test on the part left out, and repeat.",
+     "Athlete data adds a trap that most textbook examples do not have: many rows per player. If rows from the same player land in both the training and test parts, the model can learn to recognize the player instead of the pattern, and the test score looks better than it will be on a new player. Split by player instead, so all of a player's rows go to the same fold. In Python, scikit-learn's GroupKFold does this. That extension is the hub's, not the book's."
+    ],
+    "example": {
+     "title": "Worked example · synthetic monitoring set",
+     "lines": [
+      "40 players × 30 days = 1,200 rows.",
+      "A random 5-fold split trains on about 24 of each player's 30 days and tests on the other 6.",
+      "A split by player trains on 32 players and tests on 8 the model has never seen.",
+      "Only the second answers the real question: how will this work on next season's new players?"
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-isl",
+      "locator": "Chapter on Resampling Methods: the validation set approach and k-fold cross-validation."
+     }
+    ]
+   },
+   {
+    "heading": "Lead with the raw size and its range",
+    "text": [
+     "Lakens recommends reporting effects in the original units whenever the scale is familiar, and pairing each estimate with its confidence interval. Skip the \"small, medium, large\" labels; compare the change with what matters for the decision."
+    ],
+    "example": {
+     "title": "Worked example · synthetic report line",
+     "lines": [
+      "Weak: \"Moderate decrease in jump performance (d = −0.6).\"",
+      "Better: \"CMJ 38 cm today versus a 40 cm baseline: −2 cm (−5%). This protocol's detectable change is about 2.5 cm, so one test cannot confirm a real drop. Retest Thursday under the same protocol.\""
+     ]
+    },
+    "code": null,
+    "refs": [
+     {
+      "id": "free-lakens-inferences",
+      "locator": "Chapter 6, Effect Sizes, and Chapter 7, Confidence Intervals."
+     }
+    ]
+   }
+  ]
+ },
+ "labCode": {
+  "lab:analysis-reliability": {
+   "title": "Do the reliability math in Python",
+   "intro": "The same four numbers you calculated by hand, from the lab CSV. Check the file first, then compute.",
+   "code": "import pandas as pd\n\ndf = pd.read_csv(\"paired-cmj-reliability.csv\")\n\n# 1. Check the file before any math\nprint(df.shape)                                   # rows, columns\nprint(df[\"athlete_id\"].duplicated().sum())        # repeated athletes?\nprint(df[[\"test1_cm\", \"test2_cm\"]].isna().sum())  # missing values?\nprint(df[[\"protocol\", \"device\"]].nunique())       # one protocol, one device?\n\n# 2. Paired differences\nd = df[\"test2_cm\"] - df[\"test1_cm\"]\nbias = d.mean()\nsd_diff = d.std()            # pandas divides by n - 1 by default\nte = sd_diff / 2 ** 0.5\nmdc95 = 1.96 * 2 ** 0.5 * te\n\nprint(f\"bias {bias:.2f} cm, SD of differences {sd_diff:.2f} cm\")\nprint(f\"typical error {te:.2f} cm, MDC95 {mdc95:.2f} cm\")",
+   "output": "(24, 6)\n0\ntest1_cm    0\ntest2_cm    0\ndtype: int64\nprotocol    1\ndevice      1\ndtype: int64\nbias 0.40 cm, SD of differences 1.25 cm\ntypical error 0.88 cm, MDC95 2.45 cm",
+   "runOnMac": [
+    "Open Terminal (press Command + Space, type Terminal, press Return).",
+    "Install pandas once: python3 -m pip install pandas",
+    "Download this lab's CSV and save it in a folder, for example Documents/hub-labs.",
+    "Save the code in the same folder as lab.py, using a plain-text editor.",
+    "In Terminal: cd ~/Documents/hub-labs, then python3 lab.py",
+    "Check your output against the \"What you should see\" block. If a number differs, look for an edited CSV or a typo before you trust the result."
+   ],
+   "refs": [
+    {
+     "id": "free-mckinney-pda",
+     "locator": "Chapter 5, Getting Started with pandas, and Chapter 7, Data Cleaning and Preparation."
+    }
+   ]
+  },
+  "lab:analysis-exposure-audit": {
+   "title": "Do the exposure audit in Python",
+   "intro": "Rows are not events, and blank is not zero. The code drops only the repeats the audit verified, stops if any repeat is left, and totals each category separately.",
+   "code": "import pandas as pd\n\nraw = pd.read_csv(\"throwing-exposure-audit.csv\", parse_dates=[\"date\"])\n\n# 1. Rows are not events. Drop only the repeats the audit verified.\nprint(len(raw), \"raw rows\")\nevents = raw[raw[\"status\"] != \"verified_duplicate\"]\nassert events[\"event_id\"].is_unique   # stop if any repeat is left\nprint(len(events), \"unique events\")\n\n# 2. Keep \"not recorded\" separate from zero\nprint(events[\"status\"].value_counts())\nrecorded = events[events[\"status\"] == \"recorded\"]\n\n# 3. Totals by category, never one blended number\nprint(recorded.groupby(\"category\")[\"count\"].sum())\n\n# 4. Which days have every category recorded?\nwide = events.pivot_table(index=\"date\", columns=\"category\",\n                          values=\"status\", aggfunc=\"first\")\ncomplete = wide.eq(\"recorded\").all(axis=1)\nprint(complete.sum(), \"complete days of\", len(wide))",
+   "output": "30 raw rows\n28 unique events\nstatus\nrecorded      26\nunresolved     2\nName: count, dtype: int64\ncategory\nbetween_innings    18.0\nbullpen            90.0\nflat_ground        80.0\ngame               57.0\nName: count, dtype: float64\n5 complete days of 7",
+   "runOnMac": [
+    "Open Terminal (press Command + Space, type Terminal, press Return).",
+    "Install pandas once: python3 -m pip install pandas",
+    "Download this lab's CSV and save it in a folder, for example Documents/hub-labs.",
+    "Save the code in the same folder as lab.py, using a plain-text editor.",
+    "In Terminal: cd ~/Documents/hub-labs, then python3 lab.py",
+    "Check your output against the \"What you should see\" block. If a number differs, look for an edited CSV or a typo before you trust the result."
+   ],
+   "refs": [
+    {
+     "id": "free-mckinney-pda",
+     "locator": "Chapter 7, Data Cleaning; Chapter 8, Data Wrangling; Chapter 10, Data Aggregation and Group Operations."
+    }
+   ]
+  },
+  "lab:analysis-monitoring-handoff": {
+   "title": "Do the monitoring handoff in Python",
+   "intro": "Fix the baseline first, then compare each valid monitoring day with it. The rolling mean smooths single-day noise but also delays the signal by a day or two.",
+   "code": "import pandas as pd\n\ndf = pd.read_csv(\"cmj-monitoring-handoff.csv\", parse_dates=[\"date\"])\n\n# 1. Fix the baseline before looking at the monitoring days\nbase = df[(df[\"phase\"] == \"baseline\") & df[\"protocol_ok\"] & df[\"cmj_cm\"].notna()]\nmean, sd = base[\"cmj_cm\"].mean(), base[\"cmj_cm\"].std()\nprint(len(base), round(mean, 2), round(sd, 2))\n\n# 2. Compare each valid monitoring day with that fixed baseline\nmon = df[(df[\"phase\"] != \"baseline\") & df[\"protocol_ok\"]].copy()\nmon[\"pct_diff\"] = (mon[\"cmj_cm\"] - mean) / mean * 100\nmon[\"z\"] = (mon[\"cmj_cm\"] - mean) / sd\n\n# 3. A 3-day rolling mean (rows skipped for protocol problems are not counted)\nmon[\"mean_3d\"] = mon[\"cmj_cm\"].rolling(3).mean()\nprint(mon[[\"day\", \"cmj_cm\", \"pct_diff\", \"z\", \"mean_3d\", \"sleep_hours\"]].tail(3).round(2))",
+   "output": "12 40.0 0.85\n    day  cmj_cm  pct_diff     z  mean_3d  sleep_hours\n25   26    38.2     -4.50 -2.11    38.33          5.2\n26   27    38.1     -4.75 -2.23    38.10          5.6\n27   28    37.9     -5.25 -2.46    38.07          6.1",
+   "runOnMac": [
+    "Open Terminal (press Command + Space, type Terminal, press Return).",
+    "Install pandas once: python3 -m pip install pandas",
+    "Download this lab's CSV and save it in a folder, for example Documents/hub-labs.",
+    "Save the code in the same folder as lab.py, using a plain-text editor.",
+    "In Terminal: cd ~/Documents/hub-labs, then python3 lab.py",
+    "Check your output against the \"What you should see\" block. If a number differs, look for an edited CSV or a typo before you trust the result."
+   ],
+   "refs": [
+    {
+     "id": "free-mckinney-pda",
+     "locator": "Chapter 5, Getting Started with pandas, and Chapter 11, Time Series."
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "id": "free-openstax-ap2e",
+   "title": "Anatomy and Physiology 2e",
+   "authors": "J. Gordon Betts and colleagues; OpenStax (Rice University)",
+   "year": 2022,
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "type": "Free textbook · open online",
+   "population": "General human anatomy and physiology for introductory college courses; not sport or baseball specific.",
+   "access": "Free online and as a PDF from OpenStax. Link and table of contents verified November 9, 2026. Not read: the publisher bars use of this book with AI tools. Link only.",
+   "findings": "Organizes joints by structure and function and lists the skeletal muscles by body region with their basic actions.",
+   "limitations": "Introductory depth. No sport-specific function, loading or tissue-capacity content. Reuse limits mean the hub can only link to it.",
+   "locations": [
+    "Chapter 9, Joints",
+    "Chapter 11, The Muscular System"
+   ],
+   "license": "CC BY-NC-SA 4.0. The reuse notice also bars use with large language models or generative AI without written permission from OpenStax. The hub links to it and does not copy, summarize by machine or reproduce its text or figures.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-bmbstats",
+   "title": "bmbstats: bootstrap magnitude-based statistics for sports scientists",
+   "authors": "Mladen Jovanović",
+   "year": 2020,
+   "url": "https://mladenjovanovic.github.io/bmbstats-book",
+   "type": "Free textbook · open online",
+   "population": "Sport science examples; general statistical methods.",
+   "access": "Free online. Link and table of contents verified November 9, 2026. Chapters 10 and 16 were read online for the hub teaching sections.",
+   "findings": "Frames analyses as description, prediction or causal inference, and treats measurement error, smallest worthwhile change, validity, reliability and individual response with worked R examples.",
+   "limitations": "Promotes a magnitude-based approach that many statisticians reject as a decision rule. Use for concepts about error and practical size, not as the final inferential method.",
+   "locations": [
+    "Chapters 2 to 4, Description, Prediction, Causal inference",
+    "Chapter 10, Measurement Error",
+    "Chapter 15, Validity and Reliability",
+    "Chapter 16, RCT analysis and prediction"
+   ],
+   "license": "CC BY-NC-SA 4.0; the code is MIT licensed. The hub links to it and writes its own teaching.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-lakens-inferences",
+   "title": "Improving Your Statistical Inferences",
+   "authors": "Daniël Lakens",
+   "year": 2022,
+   "url": "https://lakens.github.io/statistical_inferences",
+   "type": "Free textbook · open online",
+   "population": "General research methods; examples mostly from psychology.",
+   "access": "Free online and as a PDF. Link and table of contents verified November 9, 2026. Chapters 6, 8, 9 and 14 were read online for the hub teaching sections.",
+   "findings": "Explains error control, effect sizes, confidence intervals, equivalence testing, sample size justification and computational reproducibility.",
+   "limitations": "Not sport specific. Effect-size benchmarks from psychology should not be carried over to performance data.",
+   "locations": [
+    "Chapter 6, Effect Sizes",
+    "Chapter 7, Confidence Intervals",
+    "Chapter 8, Sample Size Justification",
+    "Chapter 9, Equivalence Testing and Interval Hypotheses",
+    "Chapter 14, Computational Reproducibility"
+   ],
+   "license": "CC BY-NC-SA 4.0. The hub links to it and writes its own teaching.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-whatif",
+   "title": "Causal Inference: What If",
+   "authors": "Miguel A. Hernán and James M. Robins",
+   "year": 2020,
+   "url": "https://miguelhernan.org/whatifbook",
+   "type": "Free textbook · open online",
+   "population": "Epidemiology and health research; general causal methods.",
+   "access": "Free PDF from the authors. Print edition from Chapman & Hall/CRC. Link and table of contents verified November 9, 2026. Teaching sections cite Part I concepts (causal effect, confounding, selection bias) from familiarity with the book; those chapters were not re-read in this session.",
+   "findings": "Defines causal effects, compares randomized and observational designs, and explains confounding, selection bias and measurement bias.",
+   "limitations": "Not sport specific and mathematically demanding beyond Part I. It teaches how to question a causal claim, not which training works.",
+   "locations": [
+    "Part I, Causal inference without models"
+   ],
+   "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-isl",
+   "title": "An Introduction to Statistical Learning, with Applications in Python",
+   "authors": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor",
+   "year": 2023,
+   "url": "https://www.statlearning.com/",
+   "type": "Free textbook · open online",
+   "population": "General statistical learning; examples from many fields.",
+   "access": "Free PDF from the authors, in Python and R editions. Print edition from Springer. Link and table of contents verified November 9, 2026. Teaching sections cite the Classification and Resampling Methods chapters from familiarity with the book; those chapters were not re-read in this session.",
+   "findings": "Introduces regression, classification, resampling, regularization, tree methods, deep learning and unsupervised learning with Python labs.",
+   "limitations": "Not sport specific. Small athlete samples and repeated measures break many of the textbook examples' assumptions.",
+   "locations": [
+    "Chapter on Statistical Learning",
+    "Chapter on Resampling Methods"
+   ],
+   "license": "Copyright the authors. Free to download and read; the hub links to it only.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-mckinney-pda",
+   "title": "Python for Data Analysis, 3rd edition",
+   "authors": "Wes McKinney",
+   "year": 2022,
+   "url": "https://wesmckinney.com/book/",
+   "type": "Free textbook · open online",
+   "population": "General data analysis in Python.",
+   "access": "Free open-access online edition. Print and ebook from O'Reilly. Link and table of contents verified November 9, 2026. Table of contents checked; the hub code examples were written and run by the hub against its own synthetic files.",
+   "findings": "Teaches pandas and NumPy for loading, cleaning, joining, reshaping, grouping and plotting data, including time series.",
+   "limitations": "No statistical inference or sport content. Methods for judging change come from the measurement books.",
+   "locations": [
+    "Chapter 5, Getting Started with pandas",
+    "Chapter 7, Data Cleaning and Preparation",
+    "Chapter 8, Data Wrangling",
+    "Chapter 11, Time Series"
+   ],
+   "license": "Content may not be copied or reproduced; the code examples are MIT licensed. The hub links to it only.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-abdwr3e",
+   "title": "Analyzing Baseball Data with R, 3rd edition",
+   "authors": "Jim Albert, Benjamin S. Baumer and Max Marchi",
+   "year": 2024,
+   "url": "https://beanumber.github.io/abdwr3e/",
+   "type": "Free textbook · open online",
+   "population": "Major League Baseball game data (Lahman, Retrosheet, Statcast).",
+   "access": "Free online edition from the authors. Print from Routledge. Link and table of contents verified November 9, 2026. Appendix C was read online for the hub teaching sections.",
+   "findings": "Teaches baseball data sources, run expectancy, count effects, catcher framing, career trajectories, large-data and SQL workflows, and Quarto and Shiny reporting.",
+   "limitations": "Game-performance analytics. It does not address training, workload or injury, and its code is in R.",
+   "locations": [
+    "Chapter 1, The Baseball Datasets",
+    "Chapter 12, Working with Large Data",
+    "Chapter 14, Making a Scientific Presentation using Quarto",
+    "Appendix C, Statcast Data Reference"
+   ],
+   "license": "Copyright the authors and publisher. Free to read online; the hub links to it only.",
+   "reviewed": "2026-11-09"
+  },
+  {
+   "id": "free-r4ds",
+   "title": "R for Data Science, 2nd edition",
+   "authors": "Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund",
+   "year": 2023,
+   "url": "https://r4ds.hadley.nz/",
+   "type": "Free textbook · open online",
+   "population": "General data science in R.",
+   "access": "Free online. Link and table of contents verified November 9, 2026. Table of contents checked only.",
+   "findings": "Teaches importing, tidying, transforming, joining, visualizing and reporting data with the tidyverse and Quarto.",
+   "limitations": "No statistical inference or sport content. Optional while the hub's coding track uses Python.",
+   "locations": [
+    "Chapter 18, Missing values",
+    "Chapter 19, Joins",
+    "Chapter 28, Quarto"
+   ],
+   "license": "CC BY-NC-ND 3.0. The hub links to it only.",
+   "reviewed": "2026-11-09"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+/* Reading controls inherit the hub typography and palette. */
+#reader-tools { border-bottom:1px solid var(--line);background:var(--bg);padding:16px 42px; }
+.reader-bar { max-width:1234px;margin:auto;display:grid;gap:14px; }
+.reader-controls { display:flex;align-items:center;flex-wrap:wrap;gap:8px; }
+.reader-controls button,.reader-controls a,#selection-toolbar button,.reader-saved-heading button { min-height:44px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--card);color:var(--ink);font-size:14px;text-decoration:none;line-height:1.35; }
+.reader-controls button[aria-pressed=true] { border-color:var(--accent);background:var(--accent-wash);color:var(--accent); }
+.reader-count { border-radius:99px;background:var(--surface);padding:1px 6px;font-variant-numeric:tabular-nums; }
+.reader-progress { display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 18px;max-width:760px;font-size:14px; }
+.reader-progress>div { display:flex;flex-wrap:wrap;gap:10px; }
+.reader-progress strong { font-variant-numeric:tabular-nums; }
+.reader-progress span { color:var(--muted); }
+.reader-progress progress { width:100%;height:8px;border:0;border-radius:99px;overflow:hidden;grid-row:2;appearance:none;background:var(--surface); }
+.reader-progress progress::-webkit-progress-bar { background:var(--surface);border-radius:99px; }
+.reader-progress progress::-webkit-progress-value { background:var(--accent);border-radius:99px; }
+.reader-progress progress::-moz-progress-bar { background:var(--accent);border-radius:99px; }
+.reader-progress>a { grid-column:2;grid-row:1/3;align-self:center; }
+html[data-reader-sidebar=hidden] .sidebar { display:none; }
+html[data-reader-sidebar=hidden] .workspace { margin-left:0; }
+html[data-reader-focus=true] .topbar,html[data-reader-focus=true] .footer,html[data-reader-focus=true] .lesson-aside { display:none; }
+html[data-reader-focus=true] .lesson-layout { display:block; }
+html[data-reader-focus=true] #main { max-width:1000px; }
+html[data-reader-focus=true] #reader-tools { position:sticky;top:0;z-index:30;box-shadow:0 3px 15px rgba(11,11,12,.04); }
+html[data-reader-focus=true] .reader-bar { max-width:914px; }
+#selection-toolbar { position:fixed;z-index:80;padding:12px;background:var(--card);color:var(--ink);border:1px solid var(--accent);border-radius:14px;box-shadow:var(--shadow-soft);max-height:70vh;overflow-y:auto; }
+#selection-toolbar[hidden] { display:none; }
+.reader-selection-label { font-size:14px;font-weight:650;display:block;margin-bottom:8px; }
+.reader-selection-actions { display:flex;flex-wrap:wrap;gap:7px; }
+.reader-selection-help { display:block;font-size:13px;color:var(--muted);margin-top:8px; }
+.reader-yellow,#selection-toolbar .reader-yellow { background:#fff0ab;color:#0B0B0C; }
+.reader-blue,#selection-toolbar .reader-blue { background:#dce7ff;color:#0B0B0C; }
+.reader-rose,#selection-toolbar .reader-rose { background:#f9dce5;color:#0B0B0C; }
+.reader-highlight { border-radius:2px;padding:1px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone; }
+.reader-saved { max-width:900px;margin:auto; }
+.reader-filter { display:flex;align-items:center;gap:12px;margin:30px 0; }
+.reader-filter select,.reader-saved-card select { max-width:100%;padding:10px 12px;min-height:44px;border:1px solid var(--line);background:var(--card);border-radius:8px;color:var(--ink);font-size:16px; }
+.reader-saved-card { border-top:1px solid var(--line);padding:26px 0; }
+.reader-saved-card[hidden] { display:none; }
+.reader-saved-heading { display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px; }
+.reader-saved-heading .eyebrow { margin:0; }
+.reader-saved-card h2 { font-size:26px; }
+.reader-saved-card blockquote { margin:0 0 22px;padding:18px 22px;border-left:4px solid var(--accent);font-size:18px;line-height:1.65;overflow-wrap:anywhere; }
+.reader-note-label,.reader-color-label { display:block;font-weight:600;margin:20px 0 8px; }
+.reader-note-label span { font-weight:400;color:var(--muted);font-size:14px; }
+.reader-saved-card textarea { display:block;width:100%;padding:13px 15px;resize:vertical;min-height:100px;max-width:100%;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:17px; }
+.reader-jump-target { outline:3px solid var(--accent);outline-offset:7px;border-radius:3px;scroll-margin-top:170px; }
+.reader-legacy { border-top:1px solid var(--line);padding-top:30px;margin-top:20px; }
+@media(max-width:850px) { #reader-tools { padding:14px 22px; }html[data-reader-sidebar=hidden] .workspace { margin-left:0; } }
+@media(max-width:680px) { #reader-tools { padding:12px 18px; }.reader-progress { grid-template-columns:1fr; }.reader-progress>a { grid-column:1;grid-row:3; }.reader-controls { gap:6px; }.reader-controls button,.reader-controls a { font-size:13px;padding:8px 10px; }.reader-saved-card blockquote { padding:14px 16px; }.reader-saved-heading { align-items:start; }.reader-filter { flex-wrap:wrap; }html[data-reader-focus=true] #reader-tools { position:static; }.reader-jump-target { scroll-margin-top:30px; } }
+@media print { #reader-tools,#selection-toolbar { display:none!important; }html[data-reader-sidebar=hidden] .workspace { margin-left:0; }.reader-highlight { print-color-adjust:exact;-webkit-print-color-adjust:exact; } }
+/* Keep the bounded reading column centered while the prose stays left aligned. */
+html[data-reader-focus=true] .reading { margin-inline:auto;text-align:left; }
+html[data-reader-sidebar=hidden] .lesson-layout { max-width:1100px;margin-inline:auto; }

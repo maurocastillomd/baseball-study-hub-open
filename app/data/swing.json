@@ -1,0 +1,397 @@
+{
+ "version": 1,
+ "reviewed": "2026-11-09",
+ "intro": "The swing is a ground-up chain like the delivery, packed into less than half a second. Force starts at the feet, the pelvis turns first, the upper torso follows, and the arms deliver the bat. Numbers are from lab studies of skilled hitters, taken from each paper's published abstract. They vary by hitter, pitch and method. Lines that start with \"From anatomy\" are reasoning, not measurements.",
+ "sources": {
+  "welch1995": {
+   "short": "Welch 1995",
+   "title": "Welch CM, Banks SA, Cook FF, Draovitch P. Hitting a baseball: a biomechanical description. J Orthop Sports Phys Ther. 1995;22(5):193-201. doi:10.2519/jospt.1995.22.5.193",
+   "type": "Lab kinematics and kinetics, adult hitters"
+  },
+  "shaffer1993": {
+   "short": "Shaffer 1993",
+   "title": "Shaffer B, Jobe FW, Pink M, Perry J. Baseball batting. An electromyographic study. Clin Orthop Relat Res. 1993;(292):285-293.",
+   "type": "EMG, 12 muscles"
+  },
+  "escamilla2009": {
+   "short": "Escamilla 2009",
+   "title": "Escamilla RF, Fleisig GS, DeRenne C, et al. A comparison of age level on baseball hitting kinematics. J Appl Biomech. 2009;25(3):210-218. doi:10.1123/jab.25.3.210",
+   "type": "Lab kinematics, 12 youth and 12 adult hitters"
+  },
+  "dowling2016": {
+   "short": "Dowling 2016",
+   "title": "Dowling B, Fleisig GS. Kinematic comparison of baseball batting off of a tee among various competition levels. Sports Biomech. 2016;15(3):255-269. doi:10.1080/14763141.2016.1159320",
+   "type": "Lab kinematics off a tee, 170 hitters, youth to pro"
+  },
+  "fortenbaugh2011": {
+   "short": "Fortenbaugh 2011",
+   "title": "Fortenbaugh D, Fleisig G, Onar-Thomas A, Asfour S. The effect of pitch type on ground reaction forces in the baseball swing. Sports Biomech. 2011;10(4):270-279. doi:10.1080/14763141.2011.629205",
+   "type": "Force plates, 29 pro hitters"
+  },
+  "conte2012": {
+   "short": "Conte 2012",
+   "title": "Conte SA, Thompson MM, Marks MA, Dines JS. Abdominal muscle strains in professional baseball: 1991-2010. Am J Sports Med. 2012;40(3):650-656. doi:10.1177/0363546511433030",
+   "type": "Injury epidemiology, MLB disabled list"
+  },
+  "szymanski2007": {
+   "short": "Szymanski 2007",
+   "title": "Szymanski DJ, McIntyre JS, Szymanski JM, et al. Effect of torso rotational strength on angular hip, angular shoulder, and linear bat velocities of high school baseball players. J Strength Cond Res. 2007;21(4):1117-1125. doi:10.1519/R-18255.1",
+   "type": "12-week training study, high school"
+  },
+  "taniyama2021": {
+   "short": "Taniyama 2021",
+   "title": "Taniyama D, Matsuno J, Yoshida K, Pyle B, Nyland J. Rotational medicine ball throw velocity relates to NCAA Division III college baseball player bat swing, batted baseball, and pitching velocity. J Strength Cond Res. 2021;35(12):3414-3419. doi:10.1519/JSC.0000000000004148",
+   "type": "Correlation study, 35 college players"
+  },
+  "escamilla2009b": {
+   "short": "Escamilla & Andrews 2009",
+   "title": "Escamilla RF, Andrews JR. Shoulder muscle recruitment patterns and related biomechanics during upper extremity sports. Sports Med. 2009;39(7):569-590. doi:10.2165/00007256-200939070-00004",
+   "type": "Review of EMG studies"
+  },
+  "punchihewa2021": {
+   "short": "Punchihewa 2021",
+   "title": "Punchihewa NG, Arakawa H, Chosa E, Yamako G. A hand-worn inertial measurement unit for detection of bat-ball impact during baseball hitting. Sensors (Basel). 2021;21(9):3002. doi:10.3390/s21093002",
+   "type": "Sensor methods study"
+  }
+ },
+ "phases": [
+  {
+   "id": "load",
+   "name": "Stance and load",
+   "span": "Ready position → lead foot off the ground",
+   "timing": "Self-paced; timed to the pitcher",
+   "summary": "The hitter sets a balanced base, then shifts weight toward the rear foot and coils the trunk away from the pitcher. Nothing fast happens yet. The job is to store position and rhythm so the stride can start on time.",
+   "positions": [
+    {
+     "measure": "Weight shift",
+     "value": "Toward the rear foot as the swing starts",
+     "src": "welch1995"
+    },
+    {
+     "measure": "Trunk",
+     "value": "Coils (rotates away from the pitcher) during the load",
+     "src": "welch1995"
+    },
+    {
+     "measure": "Pelvis at lead foot off",
+     "value": "Adult hitters hold a more open pelvis than youth hitters",
+     "src": "escamilla2009"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Hamstrings and gluteals",
+     "role": "High activity in pre-swing as the hitter loads"
+    },
+    {
+     "name": "Trunk rotators and erector spinae",
+     "role": "Coil and hold the trunk"
+    },
+    {
+     "name": "Shoulder muscles",
+     "role": "Low activity (supraspinatus and serratus anterior stay under 40% of a max test)"
+    }
+   ],
+   "muscleSrc": [
+    "shaffer1993"
+   ],
+   "tissue": "Low load. From anatomy: the rear hip moves into flexion and internal rotation as the pelvis coils, so a stiff or painful rear hip tends to show up as a short or rushed load.",
+   "tissueSrc": [],
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Rear hip internal rotation as the pelvis coils over the back leg"
+    },
+    {
+     "joint": "thorax",
+     "move": "t-rot",
+     "why": "Trunk coil away from the pitcher"
+    }
+   ],
+   "sc": "Rear-hip loading and single-leg control. Lateral lunge and rear-foot-loaded hinge patterns, plus hip internal rotation mobility on the rear side.",
+   "watch": "A load that drifts onto the outside of the rear foot, or a trunk that tips instead of turning. Both make the stride late.",
+   "watchSrc": []
+  },
+  {
+   "id": "stride",
+   "name": "Stride",
+   "span": "Lead foot off → lead foot contact",
+   "timing": "Adults take longer here than youth hitters",
+   "summary": "The body moves toward the pitcher while the hands stay back. The lead foot lands and gives the hitter a base to rotate against. Front-foot force starts to climb as the weight transfers from the back foot to the front foot.",
+   "positions": [
+    {
+     "measure": "Weight transfer",
+     "value": "From back foot to front foot; the start of it looks the same for fastballs and changeups",
+     "src": "fortenbaugh2011"
+    },
+    {
+     "measure": "Front-foot force",
+     "value": "Reaches about 123% of body weight as the hitter strides and plants",
+     "src": "welch1995"
+    },
+    {
+     "measure": "Stride time",
+     "value": "Adult hitters take longer in the stride phase than youth hitters",
+     "src": "escamilla2009"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Hamstrings and gluteals",
+     "role": "High in pre-swing and early swing, then drop off quickly"
+    },
+    {
+     "name": "Quadriceps (vastus medialis)",
+     "role": "Peaks at 95–110% of a max test through the swing phases and follow-through"
+    },
+    {
+     "name": "Trunk muscles",
+     "role": "Hold the coil so the hands stay back"
+    }
+   ],
+   "muscleSrc": [
+    "shaffer1993"
+   ],
+   "tissue": "From anatomy: the lead leg takes the landing, and the adductors are stretched as the base widens.",
+   "tissueSrc": [],
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-abd",
+     "why": "A wide base at foot contact needs hip abduction on both sides"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Lead hip will rotate in over the planted leg"
+    }
+   ],
+   "sc": "Lateral power and landing control: lateral bounds and heidens with a stuck landing, adductor strength (squeeze test), and lead-leg eccentric strength.",
+   "watch": "A changeup pulls the front-foot force early. On missed changeups the peak came 15–20 ms earlier than on well-hit ones, so the weight was already spent.",
+   "watchSrc": [
+    "fortenbaugh2011"
+   ]
+  },
+  {
+   "id": "transition",
+   "name": "Transition",
+   "span": "Lead foot contact → hands start to move forward",
+   "timing": "Short; the turn starts from the ground up",
+   "summary": "The front foot is down and the turn begins. The lead knee flexes to accept weight, the pelvis starts to open toward the pitcher, and the upper torso stays more closed. That gap between pelvis and shoulders stretches the trunk before it fires.",
+   "positions": [
+    {
+     "measure": "Lead knee",
+     "value": "Flexes about 31° in adult hitters (13° in youth) during this phase",
+     "src": "escamilla2009"
+    },
+    {
+     "measure": "Pelvis",
+     "value": "Starts to open while the hands are still back; the hip segment reaches its peak speed before the shoulder segment",
+     "src": "welch1995"
+    },
+    {
+     "measure": "Upper torso when the hands start forward",
+     "value": "More open in adult than in youth hitters, then more closed than youth at contact",
+     "src": "escamilla2009"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Hamstrings and gluteals",
+     "role": "Still high in early swing"
+    },
+    {
+     "name": "Abdominal obliques",
+     "role": "Above 100% of a max test during the swing phases"
+    },
+    {
+     "name": "Erector spinae",
+     "role": "Very high (85–185% of a max test) during the swing phases"
+    }
+   ],
+   "muscleSrc": [
+    "shaffer1993"
+   ],
+   "tissue": "From anatomy: the trunk wall is stretched between an opening pelvis and a more closed upper torso. The obliques and intercostals are where at least 92% of abdominal strains in pro baseball occur.",
+   "tissueSrc": [
+    "conte2012"
+   ],
+   "rom": [
+    {
+     "joint": "thorax",
+     "move": "t-rot",
+     "why": "Pelvis and upper torso separate; thoracic rotation lets the shoulders stay back"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Lead hip rotates in as the pelvis opens over the planted foot"
+    }
+   ],
+   "sc": "Hip-to-shoulder sequencing. Rotational med-ball throws that start from the hips, anti-rotation holds, and thoracic rotation mobility so separation does not come from the low back.",
+   "watch": "Shoulders that open with the pelvis (no separation), or a lead knee that keeps collapsing instead of catching the weight.",
+   "watchSrc": []
+  },
+  {
+   "id": "acceleration",
+   "name": "Bat acceleration",
+   "span": "Hands start forward → bat-ball contact",
+   "timing": "The fastest part; the whole swing takes under half a second",
+   "summary": "Everything releases in order: pelvis, then upper torso, then arms, then bat. The lead knee extends to make a firm front side, the trunk whips around it, and the arms deliver the barrel.",
+   "positions": [
+    {
+     "measure": "Kinetic link",
+     "value": "Hip segment peaks at about 714°/s, then the shoulder segment at about 937°/s, then the bat at about 31 m/s",
+     "src": "welch1995"
+    },
+    {
+     "measure": "Lead knee",
+     "value": "Extends about 59° in adult hitters (32° in youth); peak extension speed about 386°/s",
+     "src": "escamilla2009"
+    },
+    {
+     "measure": "Peak upper torso speed",
+     "value": "About 857°/s in adults (717°/s in youth)",
+     "src": "escamilla2009"
+    },
+    {
+     "measure": "Lead elbow extension speed",
+     "value": "About 752°/s in adults (598°/s in youth)",
+     "src": "escamilla2009"
+    },
+    {
+     "measure": "Back elbow extension speed",
+     "value": "About 1539°/s in pros (1174°/s in youth), off a tee",
+     "src": "dowling2016"
+    },
+    {
+     "measure": "Back arm at contact",
+     "value": "Pros: about 35° of back-shoulder abduction and 78° of back-elbow flexion, so the bat is farther from the body than in youth hitters",
+     "src": "dowling2016"
+    },
+    {
+     "measure": "Bat speed at contact",
+     "value": "About 30 m/s in adult hitters (25 m/s in youth)",
+     "src": "escamilla2009"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Abdominal obliques",
+     "role": "Above 100% of a max test through the swing and follow-through"
+    },
+    {
+     "name": "Erector spinae",
+     "role": "85–185% of a max test"
+    },
+    {
+     "name": "Lead-leg quadriceps (vastus medialis)",
+     "role": "95–110% of a max test; extends and firms the front knee"
+    },
+    {
+     "name": "Rotator cuff and serratus anterior",
+     "role": "Low to moderate (cuff 28–39%, serratus about 30–40% of max)"
+    }
+   ],
+   "muscleSrc": [
+    "shaffer1993",
+    "escamilla2009b"
+   ],
+   "tissue": "Trunk wall under its highest demand. In pro baseball, about 70% of abdominal strains in position players were on the side opposite the batting side (the lead side), and at least 92% of abdominal strains were oblique or intercostal.",
+   "tissueSrc": [
+    "conte2012"
+   ],
+   "rom": [
+    {
+     "joint": "thorax",
+     "move": "t-rot",
+     "why": "The upper torso turns fast through a large range"
+    },
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "Lead hip internal rotation as the pelvis finishes opening"
+    },
+    {
+     "joint": "knee",
+     "move": "kn-ext",
+     "why": "Lead knee extends to firm the front side"
+    }
+   ],
+   "sc": "Rotational power is the trainable piece. Adding rotational med-ball work to lifting and swings raised bat-end speed more than lifting and swings alone in high school hitters (6.4% vs 3.6% over 12 weeks). Build the lead-leg block with eccentric and isometric quad work.",
+   "watch": "A soft front knee that never extends, and arms that fire before the trunk. Rotational med-ball throw speed tracked bat speed in one small college study (r = 0.65, 35 players), so a slow throw is worth a look.",
+   "watchSrc": [
+    "taniyama2021"
+   ],
+   "scSrc": [
+    "szymanski2007"
+   ]
+  },
+  {
+   "id": "followthrough",
+   "name": "Follow-through",
+   "span": "Bat-ball contact → finish",
+   "timing": "Trunk muscles stay on; the bat and arms slow down",
+   "summary": "The ball is gone and the body has to stop the rotation. The trunk keeps turning over a firm lead leg, the rear foot comes up on its toe, and the arms carry the bat around the body.",
+   "positions": [
+    {
+     "measure": "Trunk",
+     "value": "Keeps rotating after contact; oblique activity stays above 100% of a max test",
+     "src": "shaffer1993"
+    },
+    {
+     "measure": "Lead leg",
+     "value": "Vastus medialis stays at 95–110% of a max test through follow-through",
+     "src": "shaffer1993"
+    },
+    {
+     "measure": "Upper torso at contact",
+     "value": "Adults are more closed at contact than youth hitters, so more of the turn finishes after contact",
+     "src": "escamilla2009"
+    }
+   ],
+   "muscles": [
+    {
+     "name": "Abdominal obliques",
+     "role": "Slow the trunk (still above 100% of a max test)"
+    },
+    {
+     "name": "Lead-leg quadriceps",
+     "role": "Hold the firm front side"
+    },
+    {
+     "name": "Shoulder and scapular muscles",
+     "role": "Low to moderate; guide the bat as it slows"
+    }
+   ],
+   "muscleSrc": [
+    "shaffer1993"
+   ],
+   "tissue": "Braking load on the trunk wall and, from anatomy, the lead hip. Abdominal strains kept position players out about 27 days on average. The re-injury rate was 12% across all players.",
+   "tissueSrc": [
+    "conte2012"
+   ],
+   "rom": [
+    {
+     "joint": "hip",
+     "move": "hip-ir",
+     "why": "The pelvis finishes its turn over the lead hip"
+    },
+    {
+     "joint": "thorax",
+     "move": "t-rot",
+     "why": "The trunk finishes rotated toward the pitcher"
+    }
+   ],
+   "sc": "Train the brakes as well as the engine: eccentric and anti-rotation trunk work, lead-hip internal rotation mobility, and swing volume built up in steps in spring. The rise in abdominal strains from 1991 to 2010 was strongest early in the season.",
+   "watch": "A hitter who cuts the finish short or guards one side after contact. Ask about the trunk wall on the lead side.",
+   "watchSrc": [
+    "conte2012"
+   ],
+   "scSrc": [
+    "conte2012"
+   ]
+  }
+ ]
+}

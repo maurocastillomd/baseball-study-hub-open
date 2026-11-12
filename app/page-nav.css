@@ -1,0 +1,181 @@
+/* Page navigation helpers (page-nav.js) and topic parts in the study plan. */
+
+/* 1. Applied decisions scroll in their own panel on tablet and desktop.
+   Phones keep normal page scrolling: a nested scroller is hard to use by thumb. */
+@media (min-width: 760px) {
+  .decision-scroll {
+    max-height: min(72vh, calc(100dvh - 180px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    margin: 24px 0 28px;
+    padding: 4px 22px;
+    border: 1px solid var(--line);
+    border-radius: var(--r-card, 12px);
+    /* Soft shadows at the top/bottom edge show there is more to scroll. */
+    background:
+      linear-gradient(var(--paper) 30%, transparent) top / 100% 36px no-repeat local,
+      linear-gradient(transparent, var(--paper) 70%) bottom / 100% 36px no-repeat local,
+      radial-gradient(farthest-side at 50% 0, rgba(20, 40, 30, .14), transparent) top / 100% 12px no-repeat scroll,
+      radial-gradient(farthest-side at 50% 100%, rgba(20, 40, 30, .14), transparent) bottom / 100% 12px no-repeat scroll,
+      var(--paper);
+    scrollbar-gutter: stable;
+  }
+  .decision-scroll:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .decision-scroll > .question:last-child { border-bottom: 0; margin-bottom: 16px; }
+}
+
+/* 2. Page end: icon-only Back and Back to top. */
+.page-end {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 48px 0 8px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.page-end-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill, 999px);
+  background: var(--paper);
+  color: var(--accent);
+  box-shadow: var(--glass-shadow, none);
+  cursor: pointer;
+  transition: background .2s var(--ease, ease), transform .2s var(--ease, ease);
+}
+.page-end-btn:hover { background: var(--light); }
+.page-end-btn:active { transform: scale(.94); }
+.page-end-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .page-end-btn { transition: none; } .page-end-btn:active { transform: none; } }
+
+/* 3. Topic parts: group the week list into clear sections. */
+.study-parts { display: grid; gap: 40px; margin: 28px 0 36px; }
+.study-part, [data-part] { --part: #286149; --part-wash: #e7f0ea; }
+[data-part=science] { --part: #2f5d8a; --part-wash: #e6eef7; }
+[data-part=programming] { --part: #85540f; --part-wash: #f6eedf; }
+[data-part=return] { --part: #8a3b4a; --part-wash: #f6e8eb; }
+[data-part=integrate] { --part: #4a5560; --part-wash: #eceff1; }
+html[data-theme=dark] .study-part, html[data-theme=dark] [data-part] { --part: #a2d6b3; --part-wash: #22342a; }
+html[data-theme=dark] [data-part=science] { --part: #9fc4ec; --part-wash: #1f2d3b; }
+html[data-theme=dark] [data-part=programming] { --part: #e8c27f; --part-wash: #352c1c; }
+html[data-theme=dark] [data-part=return] { --part: #eba7b4; --part-wash: #3a2329; }
+html[data-theme=dark] [data-part=integrate] { --part: #c0cad3; --part-wash: #2a3036; }
+.study-part-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 16px;
+  align-items: baseline;
+  padding: 0 0 14px 16px;
+  border-left: 4px solid var(--part);
+}
+.study-part-num { grid-column: 1 / -1; font: 600 11px/1.4 var(--label); letter-spacing: .1em; text-transform: uppercase; color: var(--part); }
+.study-part-head h2 { margin: 0; font-family: var(--serif, Georgia, serif); font-weight: 450; font-size: clamp(24px, 3vw, 30px); line-height: 1.2; letter-spacing: -.02em; }
+.study-part-range { font: 500 12px/1.4 var(--label); color: var(--muted); white-space: nowrap; }
+.study-part-head p { grid-column: 1 / -1; margin: 4px 0 0; color: var(--muted); font-size: 15px; line-height: 1.55; max-width: 62ch; }
+.study-part > .study-map { margin: 12px 0 0; }
+.study-part .study-week-number { background: var(--part-wash); color: var(--part); }
+.study-part .study-week-group[open] > summary { background: var(--part-wash); }
+@media (max-width: 640px) {
+  .study-parts { gap: 32px; }
+  .study-part-head { grid-template-columns: minmax(0, 1fr); padding-left: 13px; }
+  .study-part-range { white-space: normal; }
+}
+
+/* Selection bar: icons only. Highlighter (yellow by default), then a color choice; bookmark. */
+#selection-toolbar { padding:6px;border-color:var(--line);border-radius:var(--r-pill,999px);box-shadow:var(--glass-shadow,var(--shadow-soft));background:var(--glass-bg-strong,var(--card));-webkit-backdrop-filter:var(--glass-blur);backdrop-filter:var(--glass-blur);overflow:visible; }
+#selection-toolbar .reader-selection-actions { flex-wrap:nowrap;gap:4px; }
+#selection-toolbar .reader-icon-btn { display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-height:44px;padding:0;border:0;border-radius:var(--r-pill,999px);background:transparent;color:var(--ink);cursor:pointer; }
+#selection-toolbar .reader-icon-btn:hover { background:var(--glass-fill-hover,var(--light)); }
+#selection-toolbar .reader-hl-btn .hl-ink { stroke:#f2cf3a; }
+#selection-toolbar .reader-dot { width:32px;height:32px;min-height:32px;margin:6px;padding:0;border:2px solid transparent;border-radius:50%;cursor:pointer;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12); }
+#selection-toolbar .reader-dot.reader-yellow { background:#fbe27a; }
+#selection-toolbar .reader-dot.reader-blue { background:#b9cff7; }
+#selection-toolbar .reader-dot.reader-rose { background:#f2bccb; }
+#selection-toolbar .reader-dot[aria-pressed=true] { border-color:var(--ink); }
+#selection-toolbar button:focus-visible { outline:2px solid var(--accent);outline-offset:2px; }
+/* Undo: tap a highlight to reopen this bar; the bin removes it. */
+#main mark.reader-highlight { cursor:pointer; }
+#selection-toolbar .reader-selection-actions { align-items:center; }
+#selection-toolbar .reader-bar-sep { width:1px;align-self:stretch;margin:8px 2px;background:var(--line); }
+#selection-toolbar .reader-remove-btn { color:var(--muted); }
+#selection-toolbar .reader-remove-btn:hover { color:var(--alert,#a33); }
+
+/* 4. Section color carried through the hub: any week, chapter, lab or case card
+   gets a stripe in its part's color; pages inside a part take its accent. */
+:is(.study-item,.study-session,.study-week-row,.study-week-group,.lesson-card,.search-result,.study-resume)[data-part] { box-shadow: inset 4px 0 0 var(--part); }
+.study-week-group>.study-items>.study-item[data-part] { box-shadow: none; }
+.study-week-row[data-part] .study-week-number, .study-week-group[data-part] .study-week-number { background: var(--part-wash); color: var(--part); }
+.study-item[data-part] .study-item-meta:first-child, .lesson-card[data-part] .tag { color: var(--part); }
+.part-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: var(--r-pill, 999px); background: var(--part-wash); color: var(--part); font: 600 11px/1.4 var(--label); letter-spacing: .06em; text-transform: uppercase; }
+.part-chip::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--part); }
+main[data-part] .study-welcome .eyebrow, main[data-part] > .eyebrow:first-child { color: var(--part); }
+main[data-part] .step-tab[aria-current=step] { color: var(--part); background: var(--part-wash); }
+main[data-part] .study-week-tabs a[aria-current=page] { color: var(--part); background: var(--part-wash); border-color: var(--part); }
+main[data-part] .case-box { border-left-color: var(--part); }
+main[data-part] .objectives { background: var(--part-wash); }
+
+/* 4. Parts fold: show or hide a whole Part. */
+.study-parts-tools { display: flex; justify-content: flex-end; gap: 6px 18px; flex-wrap: wrap; margin: 20px 0 -12px; }
+.study-parts-tools button { border: 0; background: none; padding: 6px 0; font: 600 13px/1.4 var(--label, inherit); color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.study-parts-tools button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+details.study-part > summary { list-style: none; cursor: pointer; grid-template-columns: minmax(0, 1fr) auto auto; border-radius: 0 10px 10px 0; }
+details.study-part > summary::-webkit-details-marker { display: none; }
+@media (hover: hover) { details.study-part > summary:hover { background: color-mix(in srgb, var(--part-wash) 55%, transparent); } }
+details.study-part > summary:focus-visible { outline: 2px solid var(--part); outline-offset: 3px; }
+details.study-part > summary { padding-top: 8px; padding-right: 10px; }
+.study-part-fold { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px 5px 12px; border: 1px solid color-mix(in srgb, var(--part) 35%, transparent); border-radius: var(--r-pill, 999px); font: 600 12px/1.4 var(--label, inherit); color: var(--part); background: var(--paper, var(--card)); white-space: nowrap; align-self: center; grid-row: 2; grid-column: 3; }
+.study-part-fold svg { transition: transform .2s var(--ease, ease); }
+details.study-part[open] .study-part-fold svg { transform: rotate(180deg); }
+details.study-part[open] .when-closed, details.study-part:not([open]) .when-open { display: none; }
+details.study-part:not([open]) > summary { padding-bottom: 8px; }
+details.study-part:not([open]) > summary p { display: none; }
+@media (max-width: 640px) {
+  details.study-part > summary { grid-template-columns: minmax(0, 1fr) auto; }
+  details.study-part .study-part-range { grid-column: 1 / -1; }
+  details.study-part .study-part-fold { grid-row: 2; grid-column: 2; }
+  .study-parts-tools { justify-content: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) { .study-part-fold svg { transition: none; } }
+
+/* 5. Floating back-to-top button. */
+.to-top {
+  position: fixed; z-index: 40;
+  right: max(18px, env(safe-area-inset-right)); bottom: calc(max(18px, env(safe-area-inset-bottom)) + var(--to-top-lift, 0px));
+  width: 48px; height: 48px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line); border-radius: 50%;
+  background: color-mix(in srgb, var(--paper, var(--card)) 92%, transparent); color: var(--accent);
+  box-shadow: 0 6px 22px rgba(15, 30, 22, .16); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  cursor: pointer; transition: transform .2s var(--ease, ease), background .2s var(--ease, ease);
+}
+.to-top[hidden] { display: none; }
+.to-top:hover { background: var(--light, var(--card)); }
+.to-top:active { transform: scale(.94); }
+.to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media print { .to-top { display: none; } }
+@media (prefers-reduced-motion: reduce) { .to-top { transition: none; } .to-top:active { transform: none; } }
+
+/* Topic names: a short label says what a week or a chapter is about before its title does. */
+.topic-chip { display: inline-flex; align-items: center; font: 650 12px/1.3 var(--sans, system-ui, sans-serif); letter-spacing: .01em; color: var(--part, var(--accent)); background: var(--part-wash, var(--light)); border-radius: 999px; padding: 4px 10px; }
+.study-item-meta:has(.topic-chip) { align-items: center; gap: 6px 10px; }
+.week-topic { display: block; font: 650 12px/1.3 var(--label, var(--sans, system-ui, sans-serif)); letter-spacing: .06em; text-transform: uppercase; font-style: normal; color: var(--part, var(--accent)); margin-bottom: 3px; }
+.chapter-topic { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; align-items: baseline; margin: -10px 0 26px; padding: 16px 18px; border-radius: 12px; background: var(--part-wash, var(--light)); box-shadow: inset 4px 0 0 var(--part, var(--accent)); }
+.chapter-topic span { font: 650 12px/1.3 var(--label, var(--sans, system-ui, sans-serif)); letter-spacing: .08em; text-transform: uppercase; color: var(--part, var(--accent)); }
+.chapter-topic strong { font-family: var(--serif, inherit); font-weight: 500; font-size: 1.35rem; line-height: 1.25; color: var(--ink); }
+.chapter-topic em { grid-column: 2; font-style: normal; font-size: .95rem; line-height: 1.5; color: var(--muted); }
+html[data-reader-focus=true] .chapter-topic { max-width: 800px; margin-inline: auto; }
+@media (max-width: 640px) { .chapter-topic { grid-template-columns: 1fr; padding: 14px 16px; } .chapter-topic em { grid-column: 1; } .chapter-topic strong { font-size: 1.2rem; } }
+
+/* Icon-only controls: the part fold, bookmarks and the play button. Names live in aria-label and title. */
+.study-part-fold { position: relative; width: 40px; height: 40px; padding: 0; gap: 0; justify-content: center; border-radius: 50%; }
+.study-part-fold svg { width: 16px; height: 16px; }
+.icon-toggle { display: inline-grid; place-items: center; width: 40px; height: 40px; margin: -8px 0; padding: 0; border: 1px solid transparent; border-radius: 50%; background: transparent; color: var(--accent); cursor: pointer; }
+.icon-toggle[aria-pressed=true] { background: var(--accent-wash, var(--light)); }
+@media (hover: hover) { .icon-toggle:hover { border-color: var(--accent); } }
+.dl-toggle { min-width: 52px; width: 52px; height: 52px; min-height: 52px; padding: 0; border-radius: 50%; display: inline-grid; place-items: center; }
+@media (max-width: 520px) { .dl-toggle { flex: 0 0 52px; } }

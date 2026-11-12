@@ -1,0 +1,665 @@
+[
+ {
+  "id": "bb-season-journey",
+  "title": "One outfielder, one connected baseball year",
+  "track": "season",
+  "subtitle": "Six staff briefings from offseason priorities to postseason evaluation.",
+  "context": "Follow Player A, a fictional 21-year-old developing professional outfielder, through an offseason, spring preparation, an affiliate season, a promotion, schedule congestion and the next planning transition. He begins as a right fielder learning to cover center field. His priorities, recorded work and unresolved questions remain connected across the case.\n\nEach episode supplies a fixed later briefing. Your choices are reviewed for reasoning; they do not secretly determine subsequent injuries, selection or performance. The case is a decision rehearsal, not a predictive model. All athletes, numbers, tasks, schedules and graphics are synthetic. Write the owner, next action and remaining uncertainty before moving to the next briefing.\n\nMaintain four distinct activity records—gym, running, batting and throwing—plus context about competition, travel and athlete response. The goal is to keep a useful development plan alive while baseball circumstances change, and to evaluate what the record can support at the end.",
+  "outcomes": [
+   "Build and revise a baseball annual plan without treating the calendar or a model label as a prescription.",
+   "Reconcile exposure, missingness and handoffs across field roles, roster transitions and disrupted schedules.",
+   "Defend a season review that separates delivery, comparable task change and baseball transfer."
+  ],
+  "scope": "An original educational simulation grounded in selected foundational textbook and professional-practice passages. It does not validate the illustrated doses, forecast injury or certify coaching competence. Public NSCA baseball-book access covers the publisher excerpt only; the full book is unavailable. No private source pages, figures or athlete records are redistributed.",
+  "links": [
+   {
+    "route": "#unit/m06-u3",
+    "label": "Annual planning foundations"
+   },
+   {
+    "route": "#unit/m06-u5",
+    "label": "Position-player programming"
+   },
+   {
+    "route": "#unit/m06-u6",
+    "label": "Travel and disrupted delivery"
+   },
+   {
+    "route": "#unit/m06-u8",
+    "label": "Evaluation and defense"
+   },
+   {
+    "route": "#unit/m07-u1",
+    "label": "Measurement decisions"
+   }
+  ],
+  "stages": [
+   {
+    "id": "offseason",
+    "title": "1 · Offseason: build around the player, not the calendar",
+    "brief": "Player A is a fictional 21-year-old right-handed outfielder beginning his second professional season. He played mainly right field last year; coaches now want him available in center field. His stated priorities are repeatable first-step acceleration and continued strength development. He has no current participation restriction in this scenario. The previous four weeks contain 12 planned lifts: 10 completed, one canceled for travel and one confirmed missed for an unrecorded reason. Of eight planned field-speed exposures, six are documented and two have unknown completion. Batting and throwing logs cover three of the four weeks. Upcoming access allows three 45-minute gym windows plus two 45-minute field sessions per week; those are available windows, not required doses.",
+    "graphic": {
+     "id": "season-offseason",
+     "title": "A plan has three separate questions",
+     "type": "flow",
+     "caption": "Original planning diagram. 3 × 45 gym minutes + 2 × 45 field minutes = 225 available minutes in this synthetic week. Time is a scheduling resource, not a common physiological load.",
+     "alt": "A plan has three separate questions. Demand: Right field plus center-field development; clarify actual tasks.. Capacity: Check history and comparable baseline tasks before setting targets.. Delivery: 225 available minutes; retain logs, options and review dates.",
+     "mnemonic": {
+      "cue": "D-C-D",
+      "meaning": "Demand → Capacity → Delivery. Ask what the game needs, what the player can do, and what can actually happen."
+     },
+     "items": [
+      {
+       "label": "Demand",
+       "detail": "Right field plus center-field development; clarify actual tasks."
+      },
+      {
+       "label": "Capacity",
+       "detail": "Check history and comparable baseline tasks before setting targets."
+      },
+      {
+       "label": "Delivery",
+       "detail": "225 available minutes; retain logs, options and review dates."
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "grad-cscs-periodization",
+       "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What is the most defensible opening plan for this player?",
+     "options": [
+      {
+       "text": "Use all three gym windows for a strength block, and let center-field practices provide the running stimulus.",
+       "feedback": "This protects a clear strength priority, but assumes that practices will deliver the intended running tasks. An outfield assignment does not establish the distance, effort or opportunities the player will actually receive. First coordinate field content and record it; otherwise the plan hides an important untested assumption."
+      },
+      {
+       "text": "Map the new role, reconcile the missing records, establish comparable baselines and agree on two priorities with full and brief session options.",
+       "feedback": "Best supported. It connects role demands to the individual and the delivery environment. The plan can begin with familiar, observed work while staff clarify unknown exposure; it does not require every record to be perfect. Specify what the next review will change so assessment is useful rather than a delay."
+      },
+      {
+       "text": "Retain last year’s successful schedule unchanged for four weeks to get a clean comparison.",
+       "feedback": "Continuity helps interpretation and avoids unnecessary novelty. However, the new center-field duties and incomplete recent exposure mean the old schedule is not a controlled experiment. Retain useful exercises and measurement procedures while revising the role assumptions and collecting the missing context."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "grad-cscs-periodization",
+     "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits."
+    },
+    "worked": [
+     "The attendance description is 10 of 12 planned lifts, or 83.3%; it is not 83.3% of the intended training stimulus. The two undocumented speed sessions cannot be called missed or completed. Do not add the gym and field minutes and label the sum “baseball load.”",
+     "Prepare an annual map with flexible phases, then a short opening block using familiar exercise options. The hitting and fielding coaches own their technical priorities; the S&C coach records the agreed gym and running work. Ask the player which logistics caused the missing lift record and whether the field logs can be recovered before prescribing catch-up work."
+    ],
+    "handoffPrompt": "Write the two current priorities, one baseline you will standardize, who will resolve each missing exposure record, and what would make you revise the opening block.",
+    "transfer": "The player can now attend only two gym windows because of a work commitment. What changes in the first block, and what outcome stays the same?",
+    "teaching": [
+     {
+      "heading": "Separate an annual direction from next week’s dose",
+      "text": "An annual plan organizes intended priorities and review points. It does not tell you exactly how much work this player should perform on every date. Start with the baseball tasks: reacting to a ball, accelerating, covering ground, braking, throwing, batting and running the bases. A move from right field to center field is a reason to investigate exposure and skill requirements, not proof that every physical quality must increase.\n\nFor an opening block, choose a small number of priorities you can deliver and observe. A strength exercise, a field acceleration task and technical practice can contribute to the plan in different ways. Preserve each task’s own unit and purpose; a gym total cannot show whether the player practiced reading a ball in flight.",
+      "sourceRefs": [
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Unknown is a question to resolve",
+      "text": "Separate planned sessions, confirmed completion and missing documentation. The lift canceled for travel has a known reason. The other missed lift has known nonattendance but an unknown reason. The two speed entries have unknown completion. These are three different coaching problems.\n\nUse brief athlete and coach conversations to reconstruct what matters, then improve the smallest necessary part of the log. Avoid turning uncertainty into extra conditioning as compensation. Before escalating a planned stimulus, ask what the player actually completed, how he responded, and which technical demands will occur next.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "spring",
+    "title": "2 · Spring preparation: make room for baseball",
+    "brief": "Later briefing: Player A reaches spring preparation after a consistent final offseason block. This new history is supplied; it is not caused by your previous answer. Center-field reads and live batting sessions have increased. The staff offers gym windows of 35, 25 and 20 minutes this week, with the last window uncertain because of a possible extra game. His familiar primary lift was recently 3 sets × 4 repetitions × 100 kg. Field work already includes one planned acceleration exposure of 4 × 15 m, with recovery between efforts; actual delivery will be logged. The player reports that long gym sessions leave him rushed before skill work, but describes no new symptom.",
+    "graphic": {
+     "id": "season-spring",
+     "title": "Protect the priority inside the window",
+     "type": "bars",
+     "caption": "Synthetic available gym minutes: 35 + 25 + 20 = 80, of which 60 are confirmed. Bars describe time, not training benefit or fatigue.",
+     "alt": "Protect the priority inside the window. Primary slot: 35 minutes confirmed; highest-priority familiar work.. Second slot: 25 minutes confirmed; complementary work.. Reserve slot: 20 minutes provisional; do not rely on it.",
+     "mnemonic": {
+      "cue": "CORE",
+      "meaning": "Confirm time → Order priorities → Reduce optional work → Evaluate delivery."
+     },
+     "items": [
+      {
+       "label": "Primary slot",
+       "detail": "35 minutes confirmed; highest-priority familiar work.",
+       "value": 35
+      },
+      {
+       "label": "Second slot",
+       "detail": "25 minutes confirmed; complementary work.",
+       "value": 25
+      },
+      {
+       "label": "Reserve slot",
+       "detail": "20 minutes provisional; do not rely on it.",
+       "value": 20
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "grad-cscs-periodization",
+       "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which change best preserves the purpose of this week’s plan?",
+     "options": [
+      {
+       "text": "Keep the familiar primary exercise but reduce it to 2 × 4 × 100 kg in the first slot if the athlete’s response supports it; allocate the second slot and treat the third as optional.",
+       "feedback": "Best supported for the stated constraints. This explicitly reduces one component of volume while retaining a familiar task. The proposed load is an illustrative option, not an automatic prescription. Observe execution and response, coordinate the field session and record the actual work before deciding what the second slot should contain."
+      },
+      {
+       "text": "Move all gym work into the provisional 20-minute slot so the first two windows can be used for more batting practice.",
+       "feedback": "This respects the increased technical priority, but makes all physical work depend on an unconfirmed window. It could be justified after a joint review, but here there is a practical alternative using confirmed time. It also assumes that more batting practice is the best use of the released windows without the hitting coach’s input."
+      },
+      {
+       "text": "Keep 3 × 4 × 100 kg plus all usual accessories and shorten the rests to fit the first slot.",
+       "feedback": "This preserves the written repetition count, but changes the session’s density and may change execution and response. Equal sets and kilograms do not mean the same stimulus when rest and surrounding demands change. Decide which components matter most instead of compressing every element merely to keep the spreadsheet unchanged."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "grad-cscs-periodization",
+     "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits."
+    },
+    "worked": [
+     "For the same exercise, the illustrative primary-lift volume-load changes from 3 × 4 × 100 = 1,200 kg to 2 × 4 × 100 = 800 kg: 400 kg less, a one-third reduction. That calculation describes only this exercise; it cannot establish a one-third reduction in total fatigue or tissue stress.",
+     "The 4 × 15 m field task is 60 m of planned drill distance, not the entire week’s running. Agree on whether it will occur before or after other field tasks based on its purpose and the real schedule. Log what was completed, retain the 20-minute option as a reserve and review the athlete’s experience after the first confirmed slot."
+    ],
+    "handoffPrompt": "Write a 35-minute session outline with preparation, one primary task and optional components. State what you remove first, what response you check, and who confirms the field exposure.",
+    "transfer": "The third window becomes available, but the player has unexpectedly started two additional games. Does available time alone justify restoring every omitted set?",
+    "teaching": [
+     {
+      "heading": "Keep the objective visible when the schedule changes",
+      "text": "Spring preparation increases the importance of coordinating gym work with baseball exposure. The planning question is not whether strength suddenly stops mattering; it is how to preserve a useful stimulus within a changing set of commitments. List the purpose of each session component before deciding what to reduce. A familiar main movement may remain while optional accessories or total sets change.\n\nA shorter version should still include appropriate preparation and enough time for the intended execution. It is a different planned session, not a rushed copy. Record that change so a later reviewer can distinguish deliberate adaptation from poor adherence.",
+      "sourceRefs": [
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Do not translate arithmetic into physiology",
+      "text": "Sets multiplied by repetitions and load can describe volume-load for a specified resistance exercise. The calculation is useful when exercise, range, technique and recording rules are comparable. It does not combine all meaningful features of a session or make different activities interchangeable.\n\nLikewise, planned drill distance leaves out warm-up, fielding, base running and games. Keep those contexts beside the ledger. If the actual field task is not recorded, leave it unknown rather than crediting the planned distance automatically. A clear record makes the next decision more defensible than an elaborate total built from incompatible measures.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       },
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "affiliate",
+    "title": "3 · Affiliate season: account for work outside the gym",
+    "brief": "Later briefing: Player A has begun the affiliate season. During a six-game series he starts five games: two in center field and three in right field. Two confirmed gym windows total 50 minutes: 30 and 20. On four days with complete practice records, counted swings are 90, 105, 85 and 100; counted practice throws are 35, 42, 28 and 30. Both categories are missing on two other days. The records exclude game swings and throws. Two separate field-speed drills of 4 × 15 m were completed. Game running distance is not measured. The manager wants development to continue, while the player asks for predictable communication about gym timing.",
+    "graphic": {
+     "id": "season-affiliate",
+     "title": "Three ledgers, three different meanings",
+     "type": "compare",
+     "caption": "Synthetic example. Swings, throws, metres and minutes are separate units. The practice totals cover four recorded days only and exclude game events.",
+     "alt": "Three ledgers, three different meanings. Gym: 30 + 20 available minutes; log delivered exercises and responses.. Practice: 380 known swings; 135 known throws; two days unknown.. Running: 120 m in two drills; game running is unmeasured.",
+     "mnemonic": {
+      "cue": "SPLIT",
+      "meaning": "Separate units, Preserve context, Label missingness, Identify owners, Track response."
+     },
+     "items": [
+      {
+       "label": "Gym",
+       "detail": "30 + 20 available minutes; log delivered exercises and responses."
+      },
+      {
+       "label": "Practice",
+       "detail": "380 known swings; 135 known throws; two days unknown."
+      },
+      {
+       "label": "Running",
+       "detail": "120 m in two drills; game running is unmeasured."
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should the staff do with this series ledger?",
+     "options": [
+      {
+       "text": "Use the five starts as the main indicator of exposure, remove both gym sessions and reconsider after the series.",
+       "feedback": "Starts are a useful participation descriptor, and reducing gym work can sometimes be appropriate. But starts do not reveal which tasks occurred or the player’s response. This option removes development opportunities without first using the available 30- and 20-minute alternatives or resolving the missing practice context."
+      },
+      {
+       "text": "Record 380 swings and 135 throws as six-day totals, then add the two drills to estimate a total workload score.",
+       "feedback": "The arithmetic within the four observed days is correct, but the label would be wrong. Missing days are not zero and game events were excluded. Adding counts, metres and minutes would produce a number without a defined physiological meaning. Retain the separate partial totals and investigate only the missing information needed for the decision."
+      },
+      {
+       "text": "Use the two brief gym options, coordinate any overlapping field tasks, and review the player’s response while preserving the missing entries as unknown.",
+       "feedback": "Best supported. It keeps development possible without pretending that the ledger measures total load or readiness. The coach should still revise the options if updated symptoms, medical restrictions, skill plans or observed response require it. Give the player a clear decision time so flexible scheduling does not become unpredictable communication."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty."
+    },
+    "worked": [
+     "Known practice swings are 90 + 105 + 85 + 100 = 380; known practice throws are 35 + 42 + 28 + 30 = 135. Report both as four-day partial practice totals with two days unknown. The two completed drills total 2 × 4 × 15 = 120 m, without implying complete sprint or game-running exposure.",
+     "Build a short daily briefing: anticipated field role, known additional practice, intended gym option, player response and next check. The S&C coach can align the two gym opportunities with the skill coaches; the manager controls playing assignments. A concise message before field work is more actionable than sending staff a large undifferentiated workload score."
+    ],
+    "handoffPrompt": "Write a four-line staff message that preserves the missingness, names the 30- or 20-minute option, states the baseball task you are coordinating and sets a review time.",
+    "transfer": "The two missing practice days are later confirmed as no additional practice, but game exposure remains excluded. Which totals can now be relabeled, and which claims are still unsupported?",
+    "teaching": [
+     {
+      "heading": "A useful ledger supports a specific decision",
+      "text": "The series demands a plan for physical development alongside frequent competition. Start with what the ledger actually measures. Practice swings describe counted batting repetitions, not swing intensity, mechanical demand or batting quality. Practice throws do not establish total throwing exposure when games are excluded. Starts and defensive positions describe opportunities, not a complete physical dose.\n\nUse this information to ask focused questions: did the player receive additional batting work, which running tasks happened, and is another field-speed task duplicating an intended exposure? Different answers could change the gym option or the timing without requiring a single combined score.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Predictability can come from a decision process",
+      "text": "A flexible plan need not feel arbitrary. Agree on when the player receives the day’s session choice and who can revise it. Prepare a full and brief option with the same primary purpose, then communicate the reason for selecting one. Staff can preserve useful strength work while reducing optional components when the schedule narrows.\n\nTrack response alongside external exposure. A player reporting unusually difficult familiar work gives context that counts alone miss. That observation invites a conversation and review; it does not diagnose a condition or automatically establish that competition must stop.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "promotion",
+    "title": "4 · Promotion: move the plan with the player",
+    "brief": "Later briefing: Player A is promoted during the season. At the previous affiliate he completed the 20-minute brief gym option yesterday; the primary lower-body exercise was 2 × 4 × 100 kg. He then traveled seven hours overnight and reached the new hotel at 02:00. Actual sleep is unknown. The receiving club expects him to cover both center and right field and has a 40-minute gym booking today, but the manager has not confirmed whether he starts. Its force-plate setup and jump instructions differ from the previous club. No new medical restriction has been communicated; that is a handoff status, not confirmation that one does not exist.",
+    "graphic": {
+     "id": "season-promotion",
+     "title": "The athlete arrives with a history",
+     "type": "flow",
+     "caption": "Original staff-handoff diagram for a synthetic promotion. A transfer changes the delivery setting; it does not erase previous exposure or establish a new baseline automatically.",
+     "alt": "The athlete arrives with a history. Send: Last completed tasks, modifications, response and unknowns.. Confirm: Receiving staff reconcile role, medical status and today’s schedule.. Continue: Adapt familiar work; establish a comparable testing procedure.",
+     "mnemonic": {
+      "cue": "PASS",
+      "meaning": "Previous work → Athlete response → Schedule → Shared next action."
+     },
+     "items": [
+      {
+       "label": "Send",
+       "detail": "Last completed tasks, modifications, response and unknowns."
+      },
+      {
+       "label": "Confirm",
+       "detail": "Receiving staff reconcile role, medical status and today’s schedule."
+      },
+      {
+       "label": "Continue",
+       "detail": "Adapt familiar work; establish a comparable testing procedure."
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: comparability, measurement uncertainty and traceable data preparation; previously reviewed passages.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should the receiving S&C coach do first?",
+     "options": [
+      {
+       "text": "Use the booked 40 minutes for the club’s standard first-day session and a fresh jump profile.",
+       "feedback": "A standard orientation can help, but the booking is not evidence that this session fits yesterday’s work or today’s playing assignment. A new jump profile may be useful once procedures are defined; it cannot simply replace or be compared directly with measurements from a different setup."
+      },
+      {
+       "text": "Contact the sending coach and player, confirm participation information with the medical and coaching staff, then choose an arrival-day option with a follow-up time.",
+       "feedback": "Best supported. The transfer contains actionable facts but important gaps remain. A brief arrival option, a later session or no additional gym work may be reasonable after this review. The decision should preserve continuity and name what would change it, rather than treat promotion as a physiological reset."
+      },
+      {
+       "text": "Cancel all training for a fixed 48 hours because overnight travel guarantees poor readiness.",
+       "feedback": "This acknowledges that travel can disrupt delivery, but the guaranteed conclusion and fixed duration are unsupported by the case. Sleep is unknown, not measured. Review the player’s report, prior work, upcoming role and participation status, then document an individualized decision instead of applying a universal clock."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "private-rangers-2024",
+     "locator": ""
+    },
+    "worked": [
+     "The handoff should include yesterday’s completed 2 × 4 × 100 kg task, not just the old program file. Add the other completed work, player response, modifications, last comparable assessment and any unresolved questions. The receiving coach confirms the plan with the player so records and lived experience can be reconciled.",
+     "Do not compare today’s new-device jump output directly with the previous club’s number. First establish equipment, instructions, processing and familiarization procedures. If measurements cannot be made comparable, create a clearly labeled new series. Today’s plan remains a staff decision under uncertainty, not a calculation from a jump value."
+    ],
+    "handoffPrompt": "Write a receiving-coach note with yesterday’s completed work, travel facts versus unknowns, the owners of participation confirmation, today’s provisional option and the next review time.",
+    "transfer": "The receiving manager confirms a start, and the player reports only three hours of sleep. Which information changes your choice, and what remains a judgment rather than a universal rule?",
+    "teaching": [
+     {
+      "heading": "Continuity depends on delivered work",
+      "text": "A transferred program file tells the receiving coach what someone intended. A useful handoff also states what was performed, what was modified, why it changed and what the athlete reported. Preserve the recent sequence of running, batting, throwing and gym work rather than sending only a list of preferred exercises.\n\nThe receiving staff should confirm who owns the next decision. The S&C coach adapts physical preparation, skill coaches organize technical work, the manager determines playing use, and the medical team communicates participation restrictions. Absence of a message is a reason to confirm status, not permission to fill the gap with an assumption.",
+      "sourceRefs": []
+     },
+     {
+      "heading": "Separate an equipment change from an athlete change",
+      "text": "A new affiliate may use different devices, processing or instructions. A changed number may reflect those differences rather than a changed player. Record the procedure before comparing values and establish a new baseline when comparability cannot be defended. Avoid forcing old and new outputs into one continuous trend.\n\nArrival-day choices should also distinguish known travel duration from unknown sleep and individual response. A booked gym slot is only an opportunity. Coordinate a feasible option after receiving the missing information and arrange a later review instead of making today’s decision permanent.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: comparability, measurement uncertainty and traceable data preparation; previously reviewed passages.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       },
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "congestion",
+    "title": "5 · Late season: preserve purpose under congestion",
+    "brief": "Later briefing: Player A is now established at the new affiliate. Rain makeups create eight games in six days. He starts six games and records 48 defensive innings across center and right field. The original plan offered two 25-minute gym sessions. Staff deliberately replaced them with 20- and 12-minute versions; both were completed. One planned field-speed drill was canceled after coaches confirmed that a separately coached running exposure had already addressed that day’s intended task. Its exact distance was not recorded. The player reports that the brief sessions fit better, and the hitting coach wants additional cage work before the final two games. No single readiness threshold has been established.",
+    "graphic": {
+     "id": "season-congestion",
+     "title": "Delivery, stimulus and outcome are different",
+     "type": "compare",
+     "caption": "Synthetic scheduling audit: 20 + 12 = 32 minutes; 32 ÷ 50 = 64%. Completion of revised sessions is 2 of 2. These denominators answer different questions.",
+     "alt": "Delivery, stimulus and outcome are different. Original offer: 50 gym minutes: two planned 25-minute sessions.. Delivered plan: 32 minutes: revised 20- and 12-minute sessions completed.. Interpretation: 64% of offered time; not 64% of benefit or readiness.",
+     "mnemonic": {
+      "cue": "KEEP",
+      "meaning": "Keep the purpose → Edit optional work → Explain the change → Plan the review."
+     },
+     "items": [
+      {
+       "label": "Original offer",
+       "detail": "50 gym minutes: two planned 25-minute sessions."
+      },
+      {
+       "label": "Delivered plan",
+       "detail": "32 minutes: revised 20- and 12-minute sessions completed."
+      },
+      {
+       "label": "Interpretation",
+       "detail": "64% of offered time; not 64% of benefit or readiness."
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "grad-cscs-periodization",
+       "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      },
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "How should the end-of-series plan and review be handled?",
+     "options": [
+      {
+       "text": "Credit both revised sessions as completed, inspect their actual content and coordinate the proposed cage work before deciding whether anything needs adding.",
+       "feedback": "Best supported. Two revised sessions were delivered, but minutes alone do not prove that every intended stimulus was preserved. Confirm the running task’s purpose and the player’s response; leave its unrecorded distance unknown. The next decision should address remaining priorities rather than repay a numerical deficit."
+      },
+      {
+       "text": "Add 18 gym minutes after the final game to reach the original 50-minute target.",
+       "feedback": "This makes the time ledger match but assumes omitted minutes are a debt. The replacement sessions were deliberate, and the original total is not a validated requirement. Additional work should have a current purpose and fit the player’s surrounding demands, rather than exist solely to restore a planned total."
+      },
+      {
+       "text": "Report only 64% adherence and remove strength development from the next block because the schedule makes it unrealistic.",
+       "feedback": "The percentage uses original offered minutes, not compliance with the revised plan: both revised sessions were completed. It also confuses one congested stretch with an entire season’s opportunities. Review whether the session objectives were met and identify a feasible next exposure before abandoning development."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "grad-cscs-periodization",
+     "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits."
+    },
+    "worked": [
+     "The delivered time is 20 + 12 = 32 minutes, or 64% of the original 50-minute offer. Completion of the revised plan is 2/2, or 100%. Neither figure measures stimulus quality, adaptation or baseball transfer. Use both descriptions with their denominators so the report cannot be mistaken for player noncompliance.",
+     "The canceled drill is a documented planning decision, not an unexplained absence. Record the substituted task and its purpose, while preserving unknown distance. Agree with the hitting coach on the added cage work and revisit the next gym option after the final games; do not automatically reclaim all omitted volume."
+    ],
+    "handoffPrompt": "Write a review that distinguishes original plan, revised plan and delivered work. Include why the drill changed, what remains unknown and who decides the next exposure.",
+    "transfer": "The additional cage session is canceled and an extra 25-minute gym window appears. Explain what you would reassess before using that time.",
+    "teaching": [
+     {
+      "heading": "A shorter session needs a preserved purpose",
+      "text": "Congestion creates a delivery problem that requires priorities. State which familiar tasks are retained and why before shortening a session. A brief version can still contain purposeful strength work; its value is not determined by how closely its duration matches the original plan. Conversely, calling a session a microdose does not establish that it delivered enough of the intended stimulus.\n\nAsk whether the actual exercise choices, repetitions, execution and player response support the objective. The omitted accessories or extra sets may be appropriate to revisit later, but the original sheet is not a debt ledger that must be repaid after the last game.",
+      "sourceRefs": [
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       },
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Use the right denominator in the staff review",
+      "text": "An adherence percentage can punish sensible adaptation if its denominator is unclear. Completion of the updated plan answers whether the agreed sessions occurred. Delivered minutes divided by original offered minutes answers how the schedule changed. Neither answers whether the athlete improved or whether the intervention caused an outcome.\n\nThe same distinction applies to field work. A drill deliberately replaced by a coordinated task is different from an undocumented omission. Capture the reason and the information available at the time. This gives the next coach a usable record without inventing precision that was never collected.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "postseason",
+    "title": "6 · Postseason: evaluate the year and design the next one",
+    "brief": "Final briefing: Player A finishes the season without a current participation restriction in the supplied case. Over the final eight-week review block, 16 gym opportunities were originally proposed, 14 were retained after documented schedule revisions, and 13 were completed. Ten completed sessions have full exercise records; three have confirmed attendance but incomplete exercise details. Game starts, field roles and roster transitions are available. Throwing, batting and running exposure remains incomplete. A familiar strength task was 2 × 4 × 100 kg at spring and 2 × 4 × 105 kg in the final comparable check; no claim about maximal strength was tested. The player values the shorter sessions but wants a clearer offseason plan. Possible winter-ball participation is undecided.",
+    "graphic": {
+     "id": "season-postseason",
+     "title": "Evaluate three layers before the next plan",
+     "type": "flow",
+     "caption": "Synthetic audit. 13 ÷ 14 = 92.9% attendance against the revised plan; 10 ÷ 13 = 76.9% exercise-record completeness among attended sessions. The exercise comparison is not a maximal-strength test.",
+     "alt": "Delivery: 13 of 14 revised sessions, only 10 full exercise records. Adaptation remains a question: the same exercise changed from 800 to 840 kg volume-load; this does not establish maximal strength or baseball improvement. Transfer: assess actual baseball tasks and the limits of causal attribution.",
+     "mnemonic": {
+      "cue": "DAT",
+      "meaning": "Delivery → Adaptation → Transfer. Evaluate each layer before claiming the program worked."
+     },
+     "items": [
+      {
+       "label": "Delivery",
+       "detail": "13 of 14 revised sessions; only 10 full exercise records."
+      },
+      {
+       "label": "Adaptation?",
+       "detail": "800 to 840 kg volume-load. More work recorded; adaptation remains to be assessed."
+      },
+      {
+       "label": "Transfer",
+       "detail": "Review baseball tasks and role; causal attribution remains uncertain."
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "grad-cscs-periodization",
+       "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      },
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: comparability, measurement uncertainty and traceable data preparation; previously reviewed passages.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which postseason conclusion and next action are defensible?",
+     "options": [
+      {
+       "text": "The program caused a 5% improvement in strength, so repeat it unchanged and use the publisher’s college restoration table for four weeks.",
+       "feedback": "The same-task volume-load rose by 5%, but it was not a maximal-strength test and the before–after comparison does not isolate causation. The public publisher example concerns college athletes; its duration and prescriptions are not validated instructions for this professional player. Retain useful principles while reassessing context."
+      },
+      {
+       "text": "Because some exposure data are missing, make no conclusions and delay the next plan until every record is complete.",
+       "feedback": "Missingness limits the conclusions but does not erase useful information. Attendance, revisions, known task performance and the player’s experience can inform the next plan. State the limits, address the most consequential gaps and make a provisional plan with review points rather than wait for an impossible perfect record."
+      },
+      {
+       "text": "Separate delivery, task change and baseball transfer; agree on an initial transition plan and a winter-ball contingency, then reassess before the next training emphasis.",
+       "feedback": "Best supported. This acknowledges what improved in the records without equating attendance or one exercise result with comprehensive performance. It also resolves the main planning uncertainty: whether the player has more competition ahead. A planned transition can be useful, but its content and length require this player’s context and staff agreement."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "grad-cscs-periodization",
+     "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits."
+    },
+    "worked": [
+     "Attendance is 13/14 = 92.9% against the revised plan and 13/16 = 81.25% against the original proposal; explain both denominators. Full exercise records cover 10/13 = 76.9% of attended sessions. The comparable exercise task changes from 800 to 840 kg volume-load, a 5% increase, not a measured 5% increase in maximal strength or baseball performance.",
+     "Draft two next-phase options: a transition before the next offseason block if competition has ended, or continued competition preparation if winter ball is confirmed. Use the book’s public postseason excerpt only to recognize that published examples vary by athlete level. Its high-school and college tables are not copied into the professional plan. Agree on a review date and the information needed to choose between the options."
+    ],
+    "handoffPrompt": "Write a five-sentence season report: delivery, data completeness, one supported task observation, an unsupported causal claim you will avoid, and the owner/date for resolving winter-ball status.",
+    "transfer": "Winter ball is confirmed for six weeks later and the player will train away from the organization. Defend the first remote check-in and which information the receiving coach must have.",
+    "teaching": [
+     {
+      "heading": "Attendance is not adaptation, and adaptation is not transfer",
+      "text": "A useful end-of-season review begins with what was delivered. Distinguish original opportunities, revised sessions, attendance and detailed exposure records. Then examine comparable performance tasks and athlete reports. The known change in this exercise shows that the player completed a slightly different external task; it does not independently quantify maximal strength, fatigue or baseball skill.\n\nFinally ask whether the capacities and skills mattered in the player’s actual role. A promotion, playing time or batting outcome has many possible influences. A one-player before–after report cannot separate training effects from maturation, skill coaching, selection, competition or changes in opportunity.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: comparability, measurement uncertainty and traceable data preparation; previously reviewed passages.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       },
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Postseason is a decision point, not a copied table",
+      "text": "Begin the next plan by clarifying whether competition is actually finished. Possible winter ball changes the planning horizon. Discuss the player’s priorities, logistics, current participation status and response to the year, then set an initial direction with a review point. A transition period should have a purpose and an owner.\n\nThe public NSCA baseball excerpt contains school and college postseason examples. It supports comparing the context of published examples, not importing their sets, exercises or four-week length as a professional standard. The full baseball book was not available for this case. Most planning instruction here comes from the owned foundational texts and reviewed operations material.",
+      "sourceRefs": [
+       {
+        "id": "grad-cscs-periodization",
+        "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       },
+       {
+        "id": "graduate-nsca-baseball-season",
+        "locator": "Public excerpt: Table 12.1 high-school postseason circuit and Table 12.2 college postseason restoration; population context only, no copied prescription."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "assignment": {
+   "prompt": "Create a season decision portfolio for Player A using the supplied briefings. Your work must be usable by a receiving affiliate coach without reading the entire case. Keep numerical records separate from coaching interpretations.",
+   "deliverables": [
+    "A one-page annual map with priorities, phase-change information and review owners; include a winter-ball branch rather than fixed universal phase durations.",
+    "One full and one brief gym-session card with purpose, preparation, familiar exercise options, recording fields and criteria for revisiting the plan.",
+    "A four-channel exposure ledger for gym, running, batting and throwing that distinguishes planned, completed, canceled and unknown entries.",
+    "A promotion handoff containing the last completed work, participation-confirmation owner, assessment-method differences and next decision time.",
+    "A postseason report with all attendance denominators, record completeness, the limited exercise calculation and two alternative explanations for any apparent improvement.",
+    "A three-minute recorded or written defense answering the transfer challenge before consulting the model approach."
+   ],
+   "rubric": [
+    "Baseball relevance: choices explicitly account for field role, skill work, game opportunities and the player’s stated priorities.",
+    "Numerical integrity: all units and denominators are named; unknown entries remain unknown; minutes, counts and metres are never combined into an invented physiological score.",
+    "Programming quality: session purpose survives justified adaptation; revisions include a reason and review point rather than a promise of optimality.",
+    "Continuity: the next staff member can distinguish proposed work from delivered work and knows who owns the immediate decision.",
+    "Evaluation: task change is separated from maximal capacity, game transfer and causal evidence; limitations lead to a specific improvement in next year’s process.",
+    "Independent defense: a qualified reviewer challenges the rationale and supplies a new scenario; self-completion of this case is not external assessment."
+   ],
+   "model": [
+    "Start with two physical-development priorities agreed with the player and skill staff. Connect them to the actual right-field and center-field tasks. Use a flexible annual map, then show how the short-term options change as confirmed training windows contract. Do not claim that a specific model or amount of time is universally best.",
+    "Keep the three different missing-data situations from the opening briefing distinct: a canceled lift, a confirmed missed lift with unknown reason, and two field sessions with unknown completion. At the affiliate stage, report four-day practice totals and their missing coverage. At promotion, transmit actual completed work and label the new assessment procedure.",
+    "At congestion, report 32 of 50 originally offered minutes and 2 of 2 revised sessions completed. At the final review, report 13/14 revised attendance, 13/16 original attendance and 10/13 complete exercise records. The same-task 5% volume-load difference is a description, not a causal strength estimate.",
+    "Propose a first transition option and an alternative if winter ball is confirmed. Set the check-in owner and the information needed for the decision. Improve the weakest recording process with a small, feasible change rather than adding a large dashboard no one can maintain."
+   ],
+   "transferPrompt": "Independent defense: the reviewer changes two constraints without telling you in advance—for example, the player becomes a reserve used mainly for pinch running, and equipment access is limited for three weeks. Explain what you preserve, what you change, which assumptions fail and what the next coach must know. The examples shown here are practice variants; genuine unseen assessment requires a reviewer."
+  },
+  "recall": {
+   "prompt": "Without looking: what three layers belong in a season review, and why is 100% completion of a revised plan not proof that it worked?",
+   "answer": "Delivery, adaptation and transfer. Completion describes whether agreed work occurred. Adaptation requires relevant, comparable observations and uncertainty; transfer asks whether changes matter to the player’s baseball tasks. Neither attendance nor a before–after change establishes causation."
+  },
+  "sourceRefs": [
+   {
+    "id": "grad-cscs-periodization",
+    "locator": "Chapter 21, pp. 600, 603–604 and 608–611 (printed pp. 584, 587–588 and 592–595): planning hierarchy, seasonal organization and illustrative-plan limits.",
+    "application": "Annual direction, short-term programming, changing seasonal emphasis and limits of transferring an illustrative plan.",
+    "limit": "General S&C textbook; its example athlete is a collegiate basketball player. The baseball doses and chronology here are original, not validated prescriptions.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 2, pp. 118–120: external and internal measures, low-burden monitoring, individual context and uncertainty.",
+    "application": "Separate exposure measures, individual response, low-burden monitoring and uncertainty.",
+    "limit": "Cross-sport textbook framework; it does not validate a combined baseball-load score, injury threshold or travel-recovery clock.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 8, pp. 292–302 and 307–313: comparability, measurement uncertainty and traceable data preparation; previously reviewed passages.",
+    "application": "Method comparability, missingness and cautious evaluation.",
+    "limit": "Prior reviewed source passages reused; no direct force-plate cross-device validation or individual causal analysis is claimed.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "graduate-nsca-baseball-season",
+    "locator": "Public excerpt: Table 12.1 high-school postseason circuit and Table 12.2 college postseason restoration; population context only, no copied prescription.",
+    "application": "Identify athlete level and phase before considering a published postseason example.",
+    "limit": "Only the lawful public excerpt was reviewed; high-school and college examples cannot establish a professional protocol. No full book access, table reproduction or copied exercise prescription."
+   }
+  ],
+  "tags": [
+   "annual planning",
+   "outfield",
+   "center field",
+   "right field",
+   "affiliate",
+   "promotion",
+   "travel",
+   "exposure",
+   "missing data",
+   "postseason",
+   "handoff",
+   "programming"
+  ]
+ }
+]

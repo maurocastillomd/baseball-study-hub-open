@@ -1,0 +1,808 @@
+[
+ {
+  "id": "lab-starter-rainout",
+  "title": "Starter: rebuild the week after a rainout",
+  "kind": "programming",
+  "subtitle": "Protect the next start while preserving useful strength work.",
+  "role": "Minor League S&C Coach / S&C Coordinator",
+  "timeMinutes": 55,
+  "lessonIds": [
+   "programming-pitcher-microcycle",
+   "programming-needs-season",
+   "science-workload-limits"
+  ],
+  "sourceRefs": [
+   "perf-nsca",
+   "depth-cscs-strength"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "",
+    "application": "Combine the planned external work with the athlete response and integrate physical preparation with sport practice.",
+    "limit": "General sport-science synthesis. No model here predicts individual fatigue, injury or pitching availability.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "depth-cscs-strength",
+    "locator": "Chapter14, pp.334–336, printed pp.318–320: task-specific, progressively demanding warm-up.",
+    "application": "Use a familiar preparation sequence before the selected session, rather than treating warm-up as unrelated extra work.",
+    "limit": "General athletic context. All exercises, sets, repetitions and clock times below are original teaching choices, not textbook prescriptions.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   }
+  ],
+  "brief": [
+   "You are the affiliate S&C coach. A healthy, experienced right-handed starter was scheduled to pitch Monday. He completed 27 counted mound warm-up pitches before the game was postponed. The pitching coach now expects him to start Tuesday and again Sunday. Monday was not a zero-throw day. The club has a normal gym Wednesday, a limited hotel room Thursday, and a confirmed short bullpen Friday. Your job is to rebuild the physical preparation plan with the player and staff, not automatically slide every appointment one calendar square.",
+   "The player has used trap-bar deadlifts, split squats, chest-supported rows and a brief jump preparation for months. His recent normal lower-body session used three sets of four trap-bar repetitions at 120 kg, with about three repetitions left in reserve. He has no current restrictions in this fictional case. His priority this week is to arrive prepared for Sunday while retaining a meaningful strength exposure. The cancelled outing provides no reason to add an unfamiliar hard session on Monday evening.",
+   "This is a synthetic teaching scenario. The dates, exposure counts, training history, session doses and response descriptions are invented. The suggested plan is one defensible answer; a different plan earns credit if it fits the constraints, explains its tradeoffs and specifies when staff would revise it. The week is a decision process, not a validated recovery protocol."
+  ],
+  "athlete": {
+   "Role": "Starting pitcher; three years of professional training",
+   "Current status": "Healthy for this scenario; no restrictions reported at the initial briefing",
+   "Recent strength exposure": "Trap-bar deadlift 3 × 4 at 120 kg, approximately 3 reps in reserve",
+   "Monday known exposure": "27 mound warm-up pitches; catch-play count unknown",
+   "Revised starts": "Tuesday and Sunday; staff confirmation required each day",
+   "Available facilities": "Full gym Wednesday; dumbbells Thursday; gym Friday",
+   "Main objective": "Retain familiar force and power exposures without competing with the revised throwing plan"
+  },
+  "constraints": [
+   "Pitching coach owns throwing appointments; medical staff owns clinical restrictions; S&C proposes and coordinates physical preparation.",
+   "Monday’s warm-up is documented even though official game pitches equal zero. Catch-play counts remain unknown until reconciled.",
+   "Do not prescribe a novel exercise or increase eccentric volume to compensate for the lost Monday game.",
+   "Wednesday offers 30 minutes, Thursday 15 minutes, and Friday 15 minutes after the agreed throwing appointment.",
+   "Treat the player’s usual response, sleep, soreness, movement quality and session feedback as context. A jump number alone cannot authorize the plan.",
+   "Record planned versus completed work and who will review the response before the next session."
+  ],
+  "timeline": [
+   {
+    "day": "Monday",
+    "event": "Rainout after mound warm-up",
+    "load": "27 counted preparation pitches; no game pitches; brief familiar mobility only if wanted",
+    "reason": "Record work that happened. Confirm Tuesday’s start before scheduling another demanding exposure."
+   },
+   {
+    "day": "Tuesday",
+    "event": "Rescheduled start",
+    "load": "64 game + 22 pregame + 15 between-inning mound pitches = 101 documented mound pitches",
+    "reason": "Log these categories separately. Postgame priority is the agreed routine and recovery logistics; catch throws remain uncounted."
+   },
+   {
+    "day": "Wednesday",
+    "event": "Response review + main strength opportunity",
+    "load": "If the review supports it: 6–8 min preparation; trap bar 2 × 4 at 120 kg; split squat 2 × 4/side; row 2 × 6",
+    "reason": "A shorter familiar session retains intensity while cutting trap-bar repetitions from 12 to 8. Keep about 3 reps in reserve; reduce load or stop if the actual response differs."
+   },
+   {
+    "day": "Thursday",
+    "event": "Travel / limited equipment",
+    "load": "15-minute optional familiar movement routine; no mandatory conditioning top-up",
+    "reason": "A small time window is not a reason to turn preparation into an exhausting circuit. Protect meals, travel and sleep opportunities."
+   },
+   {
+    "day": "Friday",
+    "event": "Confirmed bullpen + brief power option",
+    "load": "After staff coordination: progressive preparation, then 2 × 3 familiar countermovement jumps with full recovery; omit if response warrants",
+    "reason": "A low-volume option is selected for this athlete, not because Friday universally requires power work. Reassess after the bullpen."
+   },
+   {
+    "day": "Saturday",
+    "event": "Day before next start",
+    "load": "Usual individual preparation and throwing plan; no make-up lift",
+    "reason": "Missed accessories are not debt. Confirm Sunday and review any new symptoms with the appropriate staff."
+   },
+   {
+    "day": "Sunday",
+    "event": "Next planned start",
+    "load": "Game preparation and actual throwing recorded separately from the plan",
+    "reason": "Close the loop: review what was completed, the athlete response, and the next rotation rather than grading the week by lift attendance."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "reschedule",
+    "prompt": "Monday’s game is cancelled after 27 warm-up pitches. What should change first?",
+    "options": [
+     {
+      "text": "Run the original Monday strength session because the official pitch count is zero.",
+      "feedback": "Official game count omits work already completed. This also ignores tomorrow’s rescheduled start. Zero game pitches is a category value, not zero total exposure."
+     },
+     {
+      "text": "Confirm the new throwing plan, document the 27 warm-up pitches, and rebuild the remaining week around it.",
+      "feedback": "This preserves the factual exposure record and resolves the highest-impact scheduling uncertainty before prescribing optional work."
+     },
+     {
+      "text": "Move every session back one day and keep all exercise doses identical.",
+      "feedback": "A shifted calendar can compress the interval before Sunday and collide with travel or bullpen work. Reconsider the objective and opportunities, not just the dates."
+     }
+    ],
+    "correct": 1,
+    "why": "Planning begins with what actually happened and what is now expected. One revised appointment may change several downstream choices."
+   },
+   {
+    "id": "dose",
+    "prompt": "Wednesday’s review supports a familiar shorter session. What does reducing trap-bar work from 3 × 4 × 120 kg to 2 × 4 × 120 kg establish?",
+    "options": [
+     {
+      "text": "External volume-load falls from 1,440 to 960 kg, a one-third reduction; the fatigue change is not known from this arithmetic.",
+      "feedback": "Correct. You reduced four repetitions and 480 kg of external volume-load. The calculation describes prescribed work, not the athlete’s biological response."
+     },
+     {
+      "text": "Fatigue and tissue stress both fall by exactly one-third.",
+      "feedback": "External volume-load is not a direct fatigue or tissue-stress measure. Exercise mechanics, proximity to failure, throwing and individual response still matter."
+     },
+     {
+      "text": "The session becomes ineffective because the weekly template requires three sets.",
+      "feedback": "A template is a starting point. This case preserves a familiar stimulus within the new constraints; the exact minimum effective dose has not been established here."
+     }
+    ],
+    "correct": 0,
+    "why": "Use numbers to specify the change precisely, then keep the inference within what those numbers measure."
+   },
+   {
+    "id": "record",
+    "prompt": "What can you report about Monday and Tuesday’s throwing exposure?",
+    "options": [
+     {
+      "text": "Only 64 throws matter because only Tuesday’s game count is official.",
+      "feedback": "That would erase documented preparation. It is useful to preserve official game count while also reporting other known categories."
+     },
+     {
+      "text": "There were 128 total throws, so the player has exceeded a known professional injury threshold.",
+      "feedback": "128 is the documented mound total, not the complete throw count. No injury threshold has been supplied or validated for this case."
+     },
+     {
+      "text": "There were 128 documented mound pitches across the two days; catch-play exposure remains unknown.",
+      "feedback": "27 + 64 + 22 + 15 = 128. The wording keeps the count, category boundary and remaining missing data visible."
+     }
+    ],
+    "correct": 2,
+    "why": "A precise incomplete record is more useful than a falsely complete total. Counts do not establish recovery or readiness."
+   },
+   {
+    "id": "handoff",
+    "prompt": "Friday’s bullpen moves to Saturday morning. What is the strongest S&C response?",
+    "options": [
+     {
+      "text": "Keep Friday’s complete plan and Saturday’s original plan; they were approved earlier.",
+      "feedback": "The plan was conditional on a different calendar. Earlier agreement does not remove the need to reconsider the combined preparation."
+     },
+     {
+      "text": "Contact the pitching coach and athlete, reassess the brief power option, document the change and confirm Sunday’s status.",
+      "feedback": "This makes the revised sequence explicit. Omission, relocation or reduction of optional work can each be reasonable, depending on the confirmed plan and response."
+     },
+     {
+      "text": "Cancel the start independently because any Saturday bullpen makes Sunday unsafe.",
+      "feedback": "The case provides no evidence for that universal rule. Escalate relevant concerns through the staff process; S&C does not replace pitching or clinical decisions."
+     }
+    ],
+    "correct": 1,
+    "why": "A good handoff states what changed, what is proposed, who owns the decision and when the plan will be checked again."
+   },
+   {
+    "id": "four-week-progression",
+    "prompt": "Two comparable 2 × 4 sessions at 120 kg were manageable; the latest left about four repetitions in reserve. The next start and gym window are stable. Which next plan best tests a modest strength progression while keeping the response interpretable?",
+    "options": [
+     {
+      "text": "Trial 2 × 4 at 125 kg, with familiar rest and an option to return to 120 kg if effort or execution changes.",
+      "feedback": "Best fit for the stated progression question. One variable changes, the window is stable and the plan specifies how to respond. Five kilograms is an illustrative increment, not a universal prescription."
+     },
+     {
+      "text": "Keep 2 × 4 at 120 kg for another rotation while collecting one more comparable response.",
+      "feedback": "A defensible conservative hold, particularly if confidence in the effort estimate is low. It answers a consistency question more than the stated aim of testing a modest progression. Explain that tradeoff if you choose it."
+     },
+     {
+      "text": "Restore 3 × 4 at 120 kg because the athlete previously tolerated that volume.",
+      "feedback": "Potentially defensible if restoring volume is the agreed objective. Here it raises main-lift volume-load from 960 to 1,440 kg, a 50% increase, while changing a different variable than the small load trial. Prior tolerance does not remove the need to justify the current timing."
+     }
+    ],
+    "correct": 0,
+    "why": "The preferred choice depends on the stated objective and observations. Holding and restoring volume are plausible options, but they answer different questions and carry different costs. Credit an alternative only when its rationale addresses those tradeoffs."
+   }
+  ],
+  "assignment": {
+   "brief": "Create a one-page revised rotation plan and a staff handoff of no more than 120 words. Include a full option and a reduced option for Wednesday. Your answer should make the next decision easier for another staff member.",
+   "deliverables": [
+    "Seven-day calendar showing throwing, lifting, travel and the review points.",
+    "A 30-minute Wednesday session with exercise, sets, reps, load or effort, rest and one reduction option.",
+    "External volume-load calculation for the trap-bar adjustment, with a sentence limiting its interpretation.",
+    "A handoff naming confirmed facts, missing information, decision owner and next check.",
+    "Four-rotation decision log: propose each week’s main-lift dose before revealing the model, calculate its external volume-load, and explain one condition that would change your choice."
+   ],
+   "rubric": [
+    "Calendar: Tuesday and Sunday starts, Friday bullpen and Thursday facility limits are explicit.",
+    "Dose: a familiar, feasible session preserves a stated purpose and includes a response-based reduction; no invented optimal-dose claim.",
+    "Measurement: 1,440 → 960 kg and 33.3% reduction are correct; 128 is labeled documented mound pitches.",
+    "Communication: no automatic recovery clock, no make-up training debt and no readiness clearance from a single metric.",
+    "Adaptability: the Saturday-bullpen change leads to a documented reconsideration, not a silent calendar edit.",
+    "Progression reasoning: distinguish repeating, increasing one variable, reducing for schedule pressure and restoring a known dose; do not treat a missed set as training debt."
+   ],
+   "modelResponse": [
+    "I would offer Wednesday’s 30-minute option only after the athlete/staff review. After 6–8 minutes of progressive familiar preparation, use two sets of four trap-bar repetitions at 120 kg if that still leaves approximately three repetitions in reserve, resting about two minutes between working sets. Pair neither set with an exhausting drill. Follow with two sets of four split squats per side at a familiar load and two sets of six chest-supported rows, allowing roughly 60–90 seconds between sets as needed. Preparation and transitions count toward the clock. If time or response is worse than expected, retain the warm-up and one or two comfortable main-lift sets, omit accessories, and document why; stopping is an available option.",
+    "The old trap-bar prescription totaled 3 × 4 × 120 = 1,440 kg. The reduced one totals 960 kg: 480 kg less, or 33.3%. This quantifies a change in that exercise only. It neither measures whole-body fatigue nor proves that the revised dose is optimal. The next review uses the player’s actual response and upcoming throwing commitments.",
+    "Example handoff: Monday included 27 mound warm-up pitches before the rainout. Tuesday added 101 documented mound pitches; catch counts are incomplete. Sunday remains the next start. I propose a familiar reduced strength session Wednesday, optional movement Thursday and a brief power option Friday around the agreed bullpen. We will review the player response before Wednesday and after the bullpen. Pitching coach to confirm any throwing change; medical staff to address new symptoms or restrictions. If the side moves to Saturday, I will recheck Friday/Saturday work with the staff before proceeding.",
+    "Across four rotations, I would first repeat 2 × 4 at 120 kg (960 kg), then trial 2 × 4 at 125 kg (1,000 kg) after two manageable comparable exposures and a stable schedule. When the gym window contracts, one prepared set of four at 125 kg (500 kg) or omission may fit better than a rushed full session. With the window restored, return to the established 1,000 kg option rather than doubling work to compensate. These are conditional choices: reported effort is imprecise, baseball demands matter, and new symptoms or restrictions require the clinical pathway. The exercise arithmetic does not tell us whether baseball performance improved."
+   ]
+  },
+  "mnemonic": {
+   "word": "MAP",
+   "expansion": "Mark actual work • Align the next outing • Preserve the useful dose"
+  },
+  "recall": {
+   "prompt": "Without viewing the calendar, name the three facts that stop you from simply shifting the template one day.",
+   "answer": "Monday already contained 27 warm-up pitches; the next start is still Sunday; travel, facilities and the bullpen constrain the remaining days. The plan must be rebuilt around these facts."
+  },
+  "transfer": {
+   "prompt": "The pitcher is promoted Wednesday afternoon. What must the receiving coach know before scheduling Thursday?",
+   "answer": "Send actual Monday/Tuesday throwing categories, completed Wednesday exercise doses, response and any restrictions, current phase objective, unresolved catch counts, and the next confirmed throwing appointments. Include a contact and the next review point. A template without the completed-work record is insufficient."
+  },
+  "progression": {
+   "title": "Four rotations: progress the stimulus, not the calendar",
+   "brief": "The next four weeks are fictional follow-up records. Read the observations first and write a proposed next dose before revealing the model plan. Change a prescription because the athlete response, objective and available window support it. The stated repetition reserve is an athlete/coach estimate, not a validated recovery threshold. Workload arithmetic describes only the selected exercise.",
+   "weeks": [
+    {
+     "week": "Week 1 — establish the revised dose",
+     "observations": "The rainout week ends as planned. Wednesday’s trap-bar work was 2 × 4 at 120 kg; both sets felt like about three repetitions remained. The player reports the session was manageable, and staff record no new concern. The next rotation has a confirmed 30-minute gym window.",
+     "decision": "Keep the first follow-up interpretable. Do not increase load and add sets together.",
+     "plan": "Repeat 2 × 4 at 120 kg, keeping the same movement, preparation and approximately two-minute working-set rests. Retain the familiar accessories only if they fit the throwing schedule and response. Log effort and actual completion.",
+     "rationale": "One manageable session is useful evidence, not proof of a durable adaptation. Repeating the dose provides another comparable response. Trap-bar volume-load remains 960 kg."
+    },
+    {
+     "week": "Week 2 — a small load change",
+     "observations": "The repeated 120 kg session is completed with the same technique and an estimated four repetitions left on both sets. The player wants a modest increase. Throwing appointments and the full gym window are unchanged; no new concern is reported.",
+     "decision": "Choose one progression variable while preserving the session objective.",
+     "plan": "Trial 2 × 4 at 125 kg after the normal build-up sets. Aim to retain roughly three repetitions in reserve. If the first working set is unexpectedly difficult or execution changes, return to 120 kg or stop the progression; document the reason.",
+     "rationale": "This is an original coaching choice supported by the case history, not a universal 5 kg rule. External volume-load becomes 1,000 kg, 40 kg or about 4.2% above 960 kg; it does not quantify a 4.2% increase in fatigue."
+    },
+    {
+     "week": "Week 3 — schedule pressure changes the dose",
+     "observations": "The 125 kg trial was manageable at the intended effort. Now the next start moves forward and the staff-approved gym opening falls to 15 minutes. There is no new symptom in this scenario, but preserving the previous full session would crowd preparation and rest.",
+     "decision": "Prioritize the main objective over the recently achieved set count.",
+     "plan": "After a brief but sufficient familiar build-up, use one set of four at 125 kg only if the pre-session review supports it. Omit accessories and the second set rather than rushing. If preparation or current response makes even that dose impractical, omit the lift and record the next review.",
+     "rationale": "One working set is 500 kg of external volume-load; it is a deliberate reduction from the 1,000 kg session, not a strength-development guarantee or a debt to repay next week."
+    },
+    {
+     "week": "Week 4 — restore, then evaluate",
+     "observations": "The short week is complete. The player reports no new concern and a normal gym window returns. Staff confirm the upcoming throwing plan. The previous 125 kg two-set session remains the latest successfully completed full option.",
+     "decision": "Restore the established full option before considering another increase.",
+     "plan": "Offer 2 × 4 at 125 kg, with the same effort target and normal rest, if the review supports it. Restore familiar accessories selectively. At the end of the rotation compare completion, effort, technique and baseball demands across all four weeks; do not add an extra set solely to repay Week 3.",
+     "rationale": "The proposed 1,000 kg main-lift dose returns to a known option. Evidence of easier execution across comparable sessions could support a later change, while a crowded calendar or unfavorable response could justify a hold or reduction. No new clinical restriction can be overridden by this plan."
+    }
+   ]
+  }
+ },
+ {
+  "id": "lab-reliever-availability",
+  "title": "Reliever: train when availability keeps changing",
+  "kind": "programming",
+  "subtitle": "Choose between a full session, a brief option and a deliberate omission.",
+  "role": "MLB S&C Associate / Minor League S&C Coach",
+  "timeMinutes": 55,
+  "lessonIds": [
+   "programming-pitcher-microcycle",
+   "science-workload-limits",
+   "science-interpret-communicate"
+  ],
+  "sourceRefs": [
+   "perf-nsca"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter2, pp.118–120; Chapter4, pp.164–165 in the supplied extraction.",
+    "application": "Interpret multiple exposure categories together with the individual response; integrate training with sport demands.",
+    "limit": "Cross-sport framework. No validated individual availability classifier is constructed.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   }
+  ],
+  "brief": [
+   "You support a healthy reliever who may pitch on any game day. The player likes predictable lifting appointments, but two scheduled sessions were recently missed when the bullpen changed. The solution is not to label him noncompliant. Build options that can be selected with the pitching coach and the athlete. A short session should have a purpose; it is not simply the full session performed faster.",
+   "Monday he throws nine official game pitches after 18 recorded mound warm-ups. Tuesday he does not enter the game, but gets ready twice: 14 and 12 recorded mound warm-ups. On Wednesday he throws 17 game pitches plus 18 pregame and six between-inning mound pitches. Catch-play counts are unavailable. Thursday the manager and pitching coach confirm no planned game use at the morning briefing; this is a staff decision for this scenario, not a rule derived from Wednesday’s count. Confirmation can still change.",
+   "All athlete data and menu doses are synthetic. You are evaluated on how clearly you preserve a training objective, handle uncertainty and communicate the cost of each choice. Multiple schedules can be defensible. The preferred answer to each decision is the one that best fits the information currently supplied, not the only acceptable professional practice."
+  ],
+  "athlete": {
+   "Role": "Relief pitcher; experienced with all proposed movements",
+   "Status": "Healthy in this scenario; athlete response reviewed before every training option",
+   "Priority": "Retain familiar strength exposure despite uncertain game use",
+   "Full window": "25 minutes Thursday, only if staff confirmation and athlete response support it",
+   "Brief window": "8–12 minutes on a suitable day; no requirement to use it every day",
+   "Known mound work": "Monday 27; Tuesday 26; Wednesday 41; catch-play counts incomplete",
+   "Communication": "Morning plan, pre-session confirmation and postgame completed-work update"
+  },
+  "constraints": [
+   "Being unused in the game does not mean unexposed; warm-ups are recorded separately.",
+   "Do not infer a guaranteed no-pitch day from a particular game count.",
+   "Exercise selection and loading must be familiar; avoid making a short window into a novel metabolic challenge.",
+   "The full option targets strength; the brief option retains a small familiar exposure; omission protects the current priorities when a useful dose will not fit.",
+   "Game use can change after the morning meeting. Confirm again before the session and agree on a communication channel.",
+   "Retrospective review uses completed work over a rolling period, not whether every calendar box contains a lift."
+  ],
+  "timeline": [
+   {
+    "day": "Monday",
+    "event": "Short game appearance",
+    "load": "9 game + 18 mound warm-up = 27 documented mound pitches; no mandatory postgame lift",
+    "reason": "Log the complete known categories and ask about response. Do not promise Tuesday availability from nine game pitches."
+   },
+   {
+    "day": "Tuesday",
+    "event": "Two bullpen warm-ups, no game entry",
+    "load": "14 + 12 mound warm-ups = 26; optional lifting deferred after staff update",
+    "reason": "The official game count of zero conceals preparation work. Deferral is recorded with a reason, not silently marked as noncompliance."
+   },
+   {
+    "day": "Wednesday",
+    "event": "Longer appearance",
+    "load": "17 game + 18 pregame + 6 between-inning = 41 documented mound pitches",
+    "reason": "Avoid adding the missed Tuesday session automatically. Review the accumulated work and Thursday plan with staff."
+   },
+   {
+    "day": "Thursday",
+    "event": "Staff-confirmed opening for full option",
+    "load": "If supported: 6-min preparation; trap bar 2 × 4; split squat 2 × 4/side; chest-supported row 2 × 6",
+    "reason": "Use familiar loads with about 3 reps in reserve and adequate rest within 25 minutes. No failure sets; actual response can reduce or cancel work."
+   },
+   {
+    "day": "Friday",
+    "event": "Available for potential game use",
+    "load": "Normal game preparation; no additional strength requirement",
+    "reason": "Thursday’s completed session already served the priority. More calendar entries do not automatically improve the plan."
+   },
+   {
+    "day": "Saturday",
+    "event": "Reassess opportunity before game",
+    "load": "Brief option only if useful: progressive preparation, then goblet squat 2 × 3 and supported row 1 × 6 at familiar comfortable loads",
+    "reason": "This is an 8–12 minute option, not equivalent to the full session. If preparation or rest would be rushed, omit it."
+   },
+   {
+    "day": "Sunday",
+    "event": "Close weekly record / plan next opportunities",
+    "load": "Record actual game, warm-up and completed gym work; agree next full-session opportunity",
+    "reason": "A flexible system still needs accountability. Explain what objective was met and what requires attention next week."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "unused",
+    "prompt": "Tuesday’s official count is zero. Which statement belongs in the morning report?",
+    "options": [
+     {
+      "text": "The player rested Tuesday and must complete the missed lift Wednesday.",
+      "feedback": "He completed 26 known mound warm-ups. Neither full rest nor a mandatory make-up session follows from zero official game pitches."
+     },
+     {
+      "text": "No game appearance; 26 documented mound warm-ups; catch-play count unavailable; confirm today’s role and athlete response.",
+      "feedback": "This separates categories and leaves the uncertainty visible. The report creates a useful next decision without pretending the record is complete."
+     },
+     {
+      "text": "Add the warm-ups to an injury-risk score and declare him unavailable above the weekly cutoff.",
+      "feedback": "No validated cutoff or individual injury-risk model is supplied. Exposure documentation is useful without turning it into unsupported clearance."
+     }
+    ],
+    "correct": 1,
+    "why": "Availability is a coordinated decision. A transparent record of observed work supports that conversation without replacing it."
+   },
+   {
+    "id": "window",
+    "prompt": "Thursday’s proposed 25-minute session is interrupted: the coach now expects possible use tonight. What should happen?",
+    "options": [
+     {
+      "text": "Finish the whole session faster so the total set count is preserved.",
+      "feedback": "Rushing rest and preparation changes the session and may undermine its purpose. The old time plan no longer fits."
+     },
+     {
+      "text": "Automatically substitute high-repetition bodyweight work because it is always less demanding.",
+      "feedback": "Bodyweight or low external load does not guarantee low demand. Repetition count, effort and novelty still matter."
+     },
+     {
+      "text": "Reconfirm the role, discuss the athlete response, then select the brief option or omit the lift with an explicit next opportunity.",
+      "feedback": "This preserves choice and accountability. A brief session is acceptable only if it has a useful purpose and fits the revised priorities."
+     }
+    ],
+    "correct": 2,
+    "why": "The menu makes adaptation operational. It does not turn one abbreviated choice into a universal rule for every available reliever."
+   },
+   {
+    "id": "equivalence",
+    "prompt": "The full and brief sessions each receive a session-RPE × duration value of 120 AU. What can you conclude?",
+    "options": [
+     {
+      "text": "Their recorded products are equal, but exercise content and mechanical exposure can differ.",
+      "feedback": "Correct. A single scalar does not preserve which tissues, actions, intensities or skills were involved."
+     },
+     {
+      "text": "They produced identical fatigue and can always replace each other.",
+      "feedback": "Equal products do not establish identical internal response or adaptation. The brief option intentionally delivers a different dose."
+     },
+     {
+      "text": "The shorter session must be safer because it uses fewer minutes.",
+      "feedback": "Shorter duration alone is not a safety determination. The athlete, exercise demands and current context remain relevant."
+     }
+    ],
+    "correct": 0,
+    "why": "Use session-RPE as one descriptive layer. Keep exercise, throwing and athlete response information alongside it."
+   },
+   {
+    "id": "review",
+    "prompt": "At the weekly review, what is the most useful evidence that the flexible plan worked operationally?",
+    "options": [
+     {
+      "text": "Every planned appointment has a green completion mark.",
+      "feedback": "This can reward completion despite a poor fit. It also penalizes justified omissions and hides whether the intended stimulus occurred."
+     },
+     {
+      "text": "Completed doses, reasons for changes, athlete response, and a confirmed next opportunity are documented.",
+      "feedback": "This lets the coordinator assess whether flexibility preserved a useful stimulus and whether an unresolved gap needs attention."
+     },
+     {
+      "text": "A jump score stayed within a normal band, proving the player was safe all week.",
+      "feedback": "One measurement cannot certify safety or retrospectively validate every training decision. Method and context also determine what the score means."
+     }
+    ],
+    "correct": 1,
+    "why": "Good operations preserve a traceable rationale. They make it possible to revise the system after repeated missed opportunities rather than blaming the player."
+   },
+   {
+    "id": "four-week-progression",
+    "prompt": "The reliever has completed only brief options for two weeks, with no new concern reported and no full main-lift exposure. Which first change most directly protects the original strength objective?",
+    "options": [
+     {
+      "text": "Continue the brief menu unchanged because the athlete has attended every opportunity offered.",
+      "feedback": "Attendance is useful, and this could fit an explicitly revised objective. It leaves the original full-strength exposure unresolved, so it needs a deliberate program change rather than silent acceptance."
+     },
+     {
+      "text": "Negotiate a confirmed full-session window and return to the familiar dose, with a brief/defer backup and a review of actual completion.",
+      "feedback": "Best first step for the stated goal. It addresses the opportunity constraint and tests whether the original plan is feasible, without automatically adding make-up volume."
+     },
+     {
+      "text": "Replace the full session with three brief sessions designed together to meet a revised weekly objective.",
+      "feedback": "This is a plausible redesign if daily access is more reliable. It requires specifying exercise, effort, progression and combined demands; simply tripling the old backup menu does not prove equivalence. It is a stronger next option if the negotiated full window repeatedly fails."
+     }
+    ],
+    "correct": 1,
+    "why": "The issue is not player compliance. First determine whether the planned stimulus can be scheduled. If not, redesign it explicitly and evaluate the delivered dose rather than declaring all short sessions interchangeable."
+   }
+  ],
+  "assignment": {
+   "brief": "Build a three-option session menu and a decision message for Thursday’s changed availability. Then write the weekly review. Include enough detail that another coach could apply your logic without guessing.",
+   "deliverables": [
+    "Full, brief and omit options, each with a purpose, time budget, exercise dose and selection conditions.",
+    "A simple diagram or written branch: confirm role → review response → select option → record completion → set next review.",
+    "Monday–Wednesday mound-count reconciliation and a statement about missing catch-play data.",
+    "A 90-word weekly handoff that explains what was completed and the next opportunity.",
+    "Four-week continuity plan showing which objective was actually delivered, what operational change you would make after repeated lost appointments, and how a new symptom report changes decision ownership."
+   ],
+   "rubric": [
+    "Flexibility: all three options are legitimate choices; omission has a reason and a next review.",
+    "Dose clarity: preparation and rest fit the time window; familiar loading and effort are explicit.",
+    "Arithmetic: 27 + 26 + 41 = 94 documented mound pitches; official game total is 26.",
+    "Scope: the plan does not assign medical clearance or infer a guaranteed rest day from pitch count.",
+    "Learning: the review identifies a system improvement if full-session opportunities repeatedly disappear.",
+    "Continuity and boundaries: distinguish successful attendance from delivery of the intended stimulus; recognize the medical handoff and do not equate gym permission with throwing availability."
+   ],
+   "modelResponse": [
+    "Full option: a 25-minute strength session following a staff-confirmed opening and a satisfactory individual review. Allocate six minutes to familiar progressive preparation, then two sets of four trap-bar repetitions, two sets of four split squats per side and two sets of six supported rows. Use established loads that leave about three repetitions in reserve, rest about two minutes for trap-bar work and about 60–90 seconds as needed for accessories, and omit an accessory if the clock or response requires it. The point is a familiar stimulus, not reaching failure.",
+    "Brief option: 8–12 minutes including preparation, two sets of three familiar goblet squats and one set of six supported rows, with comfortable loading and unhurried movement. This can preserve routine and a small exposure; it is not declared equivalent to the full plan. Omit option: no extra strength work when staff priorities, athlete response or available time make a useful session impractical. Record the reason and agree the next full opportunity. Never convert a missed lift into an automatic doubled session.",
+    "The known mound record totals 94 pitches: Monday 27, Tuesday 26 and Wednesday 41. Only 26 were official game pitches, so 68 were documented preparation pitches. Catch play is still missing; these are not all throws. Example review: Thursday’s full session was shortened after availability changed. The player completed the brief option without reported concern; actual doses are logged. No extra Friday work was required. We will confirm Saturday’s role and reassess a full-session opportunity with the pitching coach. If this pattern repeats, the coordinator should revise appointment timing and facility access rather than treating the player as noncompliant.",
+    "Week 1 establishes an actual 2 × 4 × 100 kg main-lift exposure (800 kg). Week 2’s brief sessions may serve a limited purpose, but I would negotiate a confirmed full opening or deliberately redesign the program rather than call them equivalent. In Week 3 the new forearm symptom changes the process: defer the proposed lift pending medical guidance and record the handoff. Under Week 4’s stated permission for familiar gym work, reassess the old 100 kg dose through the build-up and use a full, reduced or deferred option as appropriate. There is no automatic catch-up load, fixed waiting period or S&C-derived pitching clearance."
+   ]
+  },
+  "mnemonic": {
+   "word": "FLEX",
+   "expansion": "Find the role • Listen to response • Execute the fitting dose • eXplain the change"
+  },
+  "recall": {
+   "prompt": "Why are “unused,” “available” and “recovered” three different statements?",
+   "answer": "Unused describes no game entry, even if warm-ups occurred. Available describes a current staff decision. Recovered is a broader physiological claim that cannot be established from either label alone."
+  },
+  "transfer": {
+   "prompt": "For three weeks the reliever only completes brief options. What should change?",
+   "answer": "Review whether the intended strength stimulus is being delivered and tolerated, then examine appointment timing, staffing, equipment and communication. Agree a workable full-session opportunity or a deliberately revised program. Flexibility should not quietly erase the training objective."
+  },
+  "progression": {
+   "title": "Four weeks: preserve the objective through uncertain availability",
+   "brief": "This follow-up adds a fictional established trap-bar working load of 100 kg to make the dose comparisons concrete. It is not a body-mass-based recommendation. Evaluate whether the flexible system actually delivers the agreed strength objective across weeks, then change logistics or one training variable. Staff confirmation of game use remains separate from medical clearance.",
+   "weeks": [
+    {
+     "week": "Week 1 — document a full exposure",
+     "observations": "Thursday’s full opportunity remains available. The reliever completes 2 × 4 trap-bar repetitions at a familiar 100 kg, plus the prescribed split squats and rows. Estimated repetition reserve is three. The session and subsequent player report raise no new concern in this fictional record.",
+     "decision": "Record the actual stimulus and response as a comparison point.",
+     "plan": "Keep the full option at 2 × 4 at 100 kg and the existing accessory doses for the next suitable confirmed opening. Brief options remain alternatives when the calendar changes; they are not automatically added on top.",
+     "rationale": "The main lift contributes 800 kg of external volume-load. This identifies what was delivered rather than declaring that one completed appointment proves the athlete is developing."
+    },
+    {
+     "week": "Week 2 — flexibility starts erasing the objective",
+     "observations": "The full appointment disappears twice after game-use changes. Only two brief options occur, each using the familiar goblet squat and supported row. The athlete tolerates them, but the originally intended main-lift exposure has not occurred this week.",
+     "decision": "Fix the opportunity problem before prescribing more work.",
+     "plan": "Arrange a specific 25-minute opening with the pitching coach and facility staff, with a same-day confirmation. At that opening, return to 2 × 4 at 100 kg if the current review supports it. Do not double the sets to compensate for the missed week; if the window closes again, record a coordinator-level scheduling problem.",
+     "rationale": "Brief options are useful but were not defined as equivalent to the full strength plan. Repeated omissions require an explicit program or operational revision, not indefinite reliance on a backup menu."
+    },
+    {
+     "week": "Week 3 — new symptoms change the decision owner",
+     "observations": "At the next morning check-in the player reports new forearm discomfort during his last throwing warm-up. The gym appointment is available, and a jump result resembles his recent values. No clinical assessment has yet been documented.",
+     "decision": "Pause the proposed lift and route the new symptom report to medical staff.",
+     "plan": "Do not use the normal jump result or the open schedule as permission to proceed. Record the reported symptom and contact the responsible clinician. Any subsequent permitted training must follow the clinician’s documented restrictions and the agreed staff plan; this case does not prescribe a diagnosis or waiting period.",
+     "rationale": "This is a boundary of the S&C decision process. A program may resume, change or remain deferred after assessment, but the dataset and earlier successful sessions cannot determine that outcome."
+    },
+    {
+     "week": "Week 4 — re-enter from the actual restriction status",
+     "observations": "For this scenario, the medical team has now provided a documented plan permitting the familiar gym exercises without additional gym restrictions; throwing availability remains managed separately. The coach confirms a 25-minute opening. The last full 100 kg session is now several weeks old.",
+     "decision": "Re-establish a tolerable current dose before progressing.",
+     "plan": "Use the normal progressive build-up and offer 2 × 4 at 100 kg only if current clinical instructions and the athlete’s response support it. Reduce load, reduce sets or defer if needed; log what actually occurs. Consider a later increase only after current comparable sessions support the goal.",
+     "rationale": "Permission for the listed gym work does not establish pitching availability or guarantee that the old dose remains appropriate. The proposed 800 kg option is a starting comparison, not an automatic return-to-performance clearance."
+    }
+   ]
+  }
+ },
+ {
+  "id": "lab-position-travel",
+  "title": "Position player: protect speed in a congested travel week",
+  "kind": "programming",
+  "subtitle": "Fit strength, speed and recovery logistics around six games.",
+  "role": "Minor League S&C Coach / Rehab & Academy S&C Manager",
+  "timeMinutes": 60,
+  "lessonIds": [
+   "programming-position-players",
+   "strength-sprint-brake",
+   "strength-conditioning-mobility"
+  ],
+  "sourceRefs": [
+   "perf-nsca",
+   "depth-cscs-strength"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter2, pp.118–120; Chapter4, pp.164–165 in the supplied extraction.",
+    "application": "Integrate training with games and recognize that similar metabolic descriptions can hide different neuromuscular demands.",
+    "limit": "Predominantly general/cross-sport framework. Travel, doses and baseball decisions below are fictional applications.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "depth-cscs-strength",
+    "locator": "Chapter14, pp.334–336, printed pp.318–320: progressive task-specific preparation.",
+    "application": "Include movement preparation and progressive running before a small high-quality acceleration exposure.",
+    "limit": "The case does not establish a hamstring injury-prevention dose or a universal speed threshold.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   }
+  ],
+  "brief": [
+   "You coach a healthy center fielder during a six-game road week. He played 48 defensive innings last week, has a long-standing goal of improving first-step acceleration, and normally tolerates two brief strength sessions. Monday is a six-hour bus trip with no game. Tuesday through Sunday are scheduled games; Saturday is a day game after Friday’s night game. The player is expected to start Tuesday through Saturday, but Sunday’s lineup remains uncertain. The road gym is available Tuesday and Friday, while the best field window is Wednesday before batting practice.",
+   "The player already practices stealing and outfield reads. Those activities count as work, but a list of innings does not tell you how much near-maximal running or deceleration occurred. You have no reliable wearable data this week. Ask what was actually done, use an observed task log and avoid inventing a sprint total. The aim is to retain a useful strength stimulus and one small, well-prepared acceleration exposure while avoiding an unnecessary conditioning burden.",
+   "This is a synthetic scheduling exercise for an unrestricted athlete, not a return-to-running prescription. The doses are illustrative and assume familiarity. A player returning from injury would require an individualized clinical and performance plan; this week cannot supply that clearance. The learner must explain which competing demand is being protected when a session is shortened or omitted."
+  ],
+  "athlete": {
+   "Role": "Center fielder; experienced lifter and sprinter",
+   "Recent game exposure": "48 defensive innings last week; detailed high-speed running count unavailable",
+   "Development emphasis": "First-step acceleration while retaining strength through the season",
+   "Normal gym pattern": "Two brief familiar sessions, with approximately 3 repetitions in reserve",
+   "Calendar": "Monday bus; Tuesday–Sunday games; Friday night into Saturday day game",
+   "Facilities": "Gym Tuesday/Friday; good field window Wednesday; no reliable wearable running data",
+   "Current status": "Healthy and unrestricted for the case; daily response still reviewed"
+  },
+  "constraints": [
+   "Coordinate field work with the hitting and defensive staff so a separate S&C block does not duplicate demanding skill work.",
+   "Do not treat innings, distance and high-speed sprint exposure as interchangeable measurements.",
+   "Monday travel time is a logistical constraint, not proof that every player needs a hard conditioning session or complete rest.",
+   "Avoid introducing an unfamiliar high-volume eccentric exercise in this crowded week.",
+   "Wednesday speed work needs a suitable surface, progressive preparation, enough recovery and a response-based stop decision.",
+   "Friday’s limited window precedes a short night-to-day turnaround. Preserve meal and sleep opportunities; do not chase a weekly set total at any cost."
+  ],
+  "timeline": [
+   {
+    "day": "Monday",
+    "event": "Six-hour bus trip / no game",
+    "load": "Brief comfortable movement breaks when feasible; no mandatory conditioning session",
+    "reason": "Coordinate food, arrival and sleep opportunities. No-game day does not automatically mean the best day for the hardest training."
+   },
+   {
+    "day": "Tuesday",
+    "event": "Game + main gym opportunity",
+    "load": "25–30 min: familiar preparation; trap bar 2 × 4; split squat 2 × 4/side; supported row 2 × 6",
+    "reason": "Use normal submaximal loads, approximately 3 reps in reserve, and adequate rest. Confirm placement relative to batting practice and game preparation."
+   },
+   {
+    "day": "Wednesday",
+    "event": "Game + planned acceleration exposure",
+    "load": "Progressive preparation, then 4 × 10 m from a baseball-relevant start; roughly 90–120 s rest, longer if needed",
+    "reason": "Forty meters of planned acceleration is a clear small dose. It is not 40 m at maximal velocity or an injury-prevention guarantee."
+   },
+   {
+    "day": "Thursday",
+    "event": "Game / normal skill work",
+    "load": "No separate speed or conditioning requirement; log observed demanding skill actions",
+    "reason": "Allow the week’s existing game and field demands to inform additions. Unknown running exposure is not filled with a guessed number."
+   },
+   {
+    "day": "Friday",
+    "event": "Night game / second gym window",
+    "load": "12–15 min option: preparation; goblet squat 2 × 3; supported row 2 × 5 at familiar comfortable effort",
+    "reason": "Retain a brief exposure if the review supports it. Omit it if it would crowd the higher-priority schedule or the response is unfavorable."
+   },
+   {
+    "day": "Saturday",
+    "event": "Day game after night game",
+    "load": "Usual progressive game preparation; no compensatory early conditioning",
+    "reason": "The short turnaround makes logistics consequential. Do not punish a shortened Friday session with extra Saturday work."
+   },
+   {
+    "day": "Sunday",
+    "event": "Lineup uncertain / review opportunity",
+    "load": "If not starting, coordinate a small task-specific top-up only after actual game involvement is known",
+    "reason": "A reserve player may have pinch-run or field exposure. Select work by the identified gap and response, not by the label bench player."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "priority",
+    "prompt": "The hitting coach adds demanding baserunning practice on Wednesday. What is the best adjustment?",
+    "options": [
+     {
+      "text": "Complete all four planned accelerations anyway because S&C work has a different purpose.",
+      "feedback": "Purpose can overlap even when staff labels differ. Review the actual practice content and decide whether it already supplies the intended exposure."
+     },
+     {
+      "text": "Cancel every speed exposure for the rest of the season.",
+      "feedback": "This overreacts to one scheduling conflict and abandons the development objective without evaluating what the athlete actually does."
+     },
+     {
+      "text": "Coordinate the practice details, identify any remaining acceleration gap, and reduce, integrate or omit the separate sprint block.",
+      "feedback": "This protects the quality and total context of the work. Record the chosen change and reassess the next opportunity."
+     }
+    ],
+    "correct": 2,
+    "why": "The athlete experiences the combined day. Integration requires knowing what another coach’s block actually contains."
+   },
+   {
+    "id": "speed",
+    "prompt": "What does the planned 4 × 10 m session most directly specify?",
+    "options": [
+     {
+      "text": "Forty meters of planned short acceleration work, with a defined start and recovery; it does not establish maximal-velocity exposure.",
+      "feedback": "Correct. Ten-meter accelerations emphasize the early sprint task. Surface, starting posture, intent and recovery make the prescription interpretable."
+     },
+     {
+      "text": "Forty meters at the player’s maximum sprint speed.",
+      "feedback": "Distance alone does not establish velocity, and a short acceleration from rest does not mean the whole distance was run at maximum speed."
+     },
+     {
+      "text": "A proven dose that prevents hamstring injury in professional outfielders.",
+      "feedback": "No such finding supports this invented dose. It is a coaching example for a healthy athlete, not a validated injury-prevention protocol."
+     }
+    ],
+    "correct": 0,
+    "why": "Name the physical task you actually programmed. Do not add a performance or clinical outcome that was not measured."
+   },
+   {
+    "id": "travel",
+    "prompt": "Friday’s gym window shrinks to eight minutes, including preparation, before a night game. What is most defensible?",
+    "options": [
+     {
+      "text": "Compress the session into a nonstop circuit to preserve all planned repetitions.",
+      "feedback": "That changes the stimulus and discards rest. It may create a different demand rather than preserving the intended strength exposure."
+     },
+     {
+      "text": "Reassess whether a useful familiar dose fits; if not, omit it, record the reason and plan the next opportunity.",
+      "feedback": "This protects the actual objective and current schedule. An omission with clear follow-up can be more coherent than forcing a nominal completion."
+     },
+     {
+      "text": "Double Saturday’s pregame work to meet the weekly target.",
+      "feedback": "Training is not a debt ledger. The Saturday day game and short turnaround must inform any new prescription."
+     }
+    ],
+    "correct": 1,
+    "why": "A calendar target should guide decisions without overriding the athlete’s combined demands and the available conditions."
+   },
+   {
+    "id": "reserve",
+    "prompt": "Sunday the player does not start but pinch-runs twice. How should a top-up be selected?",
+    "options": [
+     {
+      "text": "Give every nonstarter the same conditioning session immediately.",
+      "feedback": "This ignores actual game involvement, training history, individual gaps and response. Nonstarter is not a complete needs analysis."
+     },
+     {
+      "text": "Skip all assessment because two pinch-running appearances equal a full game.",
+      "feedback": "Two appearances do not establish the same physical or skill exposure as nine innings. The task record still matters."
+     },
+     {
+      "text": "Review what the two appearances involved, identify a specific unmet objective, then agree a suitable top-up or omission.",
+      "feedback": "A short strength, speed or conditioning option needs its own rationale. Do not add all three just because time is available."
+     }
+    ],
+    "correct": 2,
+    "why": "Top-up training fills an identified gap. It should not mechanically imitate starter minutes or a generic load number."
+   },
+   {
+    "id": "four-week-progression",
+    "prompt": "Two comparable 4 × 10 m exposures were manageable. A clear field window is available and the objective is still early acceleration. Which option best isolates a modest increase in that same task?",
+    "options": [
+     {
+      "text": "Trial 5 × 10 m with the same start and adequate recovery, retaining permission to stop at four or fewer.",
+      "feedback": "Best fit for the stated question. The task is retained and one repetition is added. The 40-to-50 m change is 25% in planned distance only, not a validated tissue-load or injury threshold."
+     },
+     {
+      "text": "Repeat 4 × 10 m while improving start execution through one focused coaching cue.",
+      "feedback": "This is a credible skill-focused hold, especially if execution quality remains the priority. Explain why technique refinement is more valuable now than the proposed volume increase."
+     },
+     {
+      "text": "Use 4 × 15 m to expose the athlete to a longer acceleration phase.",
+      "feedback": "Potentially useful if the staff choose that objective, but it changes distance and task demands while increasing planned distance to 60 m. It is not the smallest isolated progression of the current ten-meter task."
+     }
+    ],
+    "correct": 0,
+    "why": "The best answer follows the stated purpose. Alternatives can be defensible when the objective changes explicitly; they should not be presented as interchangeable because all are labeled speed work."
+   }
+  ],
+  "assignment": {
+   "brief": "Submit a weekly schedule plus a 60-second staff explanation. Show the original plan, the baserunning change and the shortened Friday window. Include a reserve-player branch for Sunday.",
+   "deliverables": [
+    "Calendar with games, travel, preparation, strength, acceleration and review points.",
+    "Detailed Wednesday preparation and acceleration prescription, including what would prompt reduction or omission.",
+    "A revised Friday plan and a Sunday decision branch based on actual participation.",
+    "A short explanation of the development objective retained, the work removed and the uncertainty remaining.",
+    "Four-week acceleration plan separating the observed drill dose from unmeasured game running, with a justified progression, a congestion adjustment and a decision about restoring or changing the task."
+   ],
+   "rubric": [
+    "Integration: skill work is explicitly checked before adding speed or conditioning.",
+    "Specificity: 4 × 10 m is described as acceleration; no invented maximum-speed total or injury-prevention claim.",
+    "Dose: loads, effort, rest and preparation are feasible and familiar; a reduced plan is available.",
+    "Operations: travel, meals, access and the night-to-day turnaround appear in the rationale.",
+    "Decision quality: reserve-player work is individualized to the actual gap; uncertain data remain uncertain.",
+    "Progression specificity: calculate 40 → 50 m as 25% more planned drill distance without treating it as a validated progression rate; distinguish more repetitions from a longer acceleration task."
+   ],
+   "modelResponse": [
+    "Keep Tuesday as the main gym opportunity if the athlete review and skill schedule support it. Use familiar preparation, two sets of four trap-bar repetitions, two sets of four split squats per side and two sets of six supported rows. Established loads with roughly three repetitions in reserve make the intended effort clear; allow about two minutes between main-lift sets and sufficient accessory recovery rather than turning the session into conditioning. If the gym opening cannot fit the whole plan, remove the least important accessory first and log actual completion.",
+    "For Wednesday, prepare progressively with comfortable general movement, familiar dynamic range-of-motion tasks, start-position rehearsal and two or three progressive accelerations. The original main dose is four ten-meter accelerations, resting roughly 90–120 seconds or longer as needed to preserve execution. Stop or modify for new symptoms, deteriorating mechanics, an unsuitable surface or an athlete response that conflicts with the goal; new symptoms go to the appropriate clinician. When the hitting coach adds baserunning, agree which actions provide the desired short-acceleration exposure and reduce the separate block accordingly. Do not count every drill automatically as an equivalent maximal effort.",
+    "Friday’s eight-minute window may not fit a useful prepared session. I would discuss omission rather than rush all the work, preserve the night-game logistics and set the next strength opportunity. Saturday does not become a make-up day. Sunday’s two pinch-running appearances require a task description: starts, effort, distance, turns and any subsequent response. Only then select a small top-up for a defined gap, or omit it. Lack of reliable tracking is documented rather than replaced by guessed high-speed meters.",
+    "Staff explanation: Our priority was retaining strength and giving this outfielder a quality acceleration exposure through six games. Tuesday delivered the main lift. Wednesday baserunning supplied part of the planned acceleration work, so we reduced the separate block. Friday’s shortened window did not justify rushing a session before the night-to-day turnaround. We will review Sunday’s actual involvement and confirm the next strength opportunity. We have observed task notes but no reliable running-speed total, so this is an informed plan with visible uncertainty, not a claim that game load is fully measured.",
+    "I would first verify that the integrated skill repetitions actually meet the planned short-start objective and record 40 m of that specific work. After two manageable comparable exposures and a clear window, a trial of five ten-meter repetitions may be reasonable: 50 m, with the same preparation and adequate recovery. The 25% arithmetic increase is not a safety rule. During the doubleheader week, coordinate actual field work and remove a duplicated separate block rather than preserve five repetitions at any cost. When the original window returns, restore four or five familiar repetitions as appropriate. A move to twenty meters requires a new task rationale and dose, not automatic doubling. Strength, game demands and new symptoms remain part of each review."
+   ]
+  },
+  "mnemonic": {
+   "word": "SPACE",
+   "expansion": "Schedule the sport • Protect the purpose • Account for actual work • Choose the fitting dose • Evaluate the response"
+  },
+  "recall": {
+   "prompt": "Why do six games and 48 innings fail to tell you the athlete’s complete speed exposure?",
+   "answer": "Game count and innings describe participation, not the number, intensity, direction or velocity of running efforts. Review actual tasks and preserve missing data rather than converting participation into invented sprint meters."
+  },
+  "transfer": {
+   "prompt": "How would this week change for a catcher who starts five games?",
+   "answer": "Begin a new needs analysis: catcher-specific field demands, squat/catching exposure, equipment and warm-up routines, individual strength priorities and actual game participation. Keep the integration and review process; do not copy the center fielder’s sprint prescription or assume the same recovery pattern."
+  },
+  "progression": {
+   "title": "Four weeks: advance acceleration without losing the skill context",
+   "brief": "The follow-up varies short-acceleration distance and session opportunities. All meters are planned drill distances, not measured maximum-speed exposure or tissue load. Progression requires an appropriate surface, preparation, current response and agreement with the skill staff. The specific doses are editorial examples for this healthy, familiarized athlete.",
+   "weeks": [
+    {
+     "week": "Week 1 — establish actual acceleration work",
+     "observations": "The planned four ten-meter accelerations become two standalone repetitions plus two explicitly observed ten-meter acceleration repetitions within baserunning practice. All four use a similar start and intended task. Execution and the athlete report raise no new concern. Other game running is not reliably quantified.",
+     "decision": "Count the agreed task exposure without pretending the whole week is measured.",
+     "plan": "Log four planned/observed ten-meter accelerations, with their source blocks identified: 40 m of this specific work. Keep the next comparable exposure at four repetitions with unhurried recovery unless the next review changes the decision.",
+     "rationale": "Integrated skill work can supply an intended task when its content is actually checked. Forty meters describes these repetitions only; it does not capture all game sprinting or establish equal intensity across every effort."
+    },
+    {
+     "week": "Week 2 — progress volume modestly in an open window",
+     "observations": "The four-repetition exposure has been completed twice across comparable opportunities without a new concern. Next week has a suitable field and a confirmed window, with no separate demanding baserunning block that day. The current objective remains early acceleration.",
+     "decision": "Trial one additional familiar repetition rather than changing distance, start and rest together.",
+     "plan": "Offer 5 × 10 m after progressive preparation, with roughly 90–120 seconds or longer recovery as needed. Retain the same start task. End at four or fewer repetitions if execution, symptoms or current response warrant; document the actual count.",
+     "rationale": "Planned drill distance rises from 40 to 50 m, a 25% arithmetic increase. This is not a universal weekly progression rule or an estimate of a 25% increase in tissue load. One extra repetition is a conditional coaching choice."
+    },
+    {
+     "week": "Week 3 — game and skill demands become denser",
+     "observations": "The five-repetition session was manageable, but the following week adds a doubleheader and extra outfield/baserunning work. The staff cannot give a reliable total sprint count, although several demanding starts have been directly observed. Friday’s strength window also contracts.",
+     "decision": "Hold the development target while reducing optional additions to fit actual demands.",
+     "plan": "Do not automatically repeat all five standalone accelerations. Review the observed field tasks with skill staff; add only a small identified gap, or omit the separate block. Retain the familiar main strength opportunity if it fits, and shorten or defer the second option rather than rushing it.",
+     "rationale": "An honest incomplete record still supports coordination. Exact total-speed meters are not required to recognize that a duplicated block may be unnecessary, but the uncertainty must remain visible."
+    },
+    {
+     "week": "Week 4 — restore before changing the task",
+     "observations": "The congested week is over, the athlete reports no new concern and the next schedule offers the original field window. The last comparable standalone session used five ten-meter accelerations. The hitting coach asks whether twenty-meter starts might serve a different baserunning objective.",
+     "decision": "Separate restoring a known short-acceleration dose from testing a different task.",
+     "plan": "For the current early-acceleration objective, offer 4–5 × 10 m with the established preparation and recovery, after checking that day’s skill work. If staff instead select a longer acceleration objective, design and document that exposure separately; do not simply double every repetition to twenty meters.",
+     "rationale": "Restoring 40–50 m of familiar short starts and doubling to 80–100 m are materially different decisions. A change in distance also changes the task. Review execution and baseball context before proposing the next progression."
+    }
+   ]
+  }
+ }
+]

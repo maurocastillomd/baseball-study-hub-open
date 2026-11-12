@@ -1,0 +1,110 @@
+{
+ "title": "The NSCA baseball book: what we used, and what we could verify.",
+ "reviewed": "2026-10-13",
+ "fullTextReviewed": false,
+ "summary": "Cross-reference to Strength Training for Baseball, edited by A. Eugene Coleman and David J. Szymanski (NSCA/Human Kinetics, 2022).",
+ "access": "Verified: the publisher’s contents and four public excerpts. The complete book was not accessible. Chapter presence guides coverage; it is not evidence that we have read or incorporated those chapters.",
+ "sourceIds": [
+  "graduate-nsca-baseball-contents",
+  "graduate-nsca-baseball-position",
+  "graduate-nsca-baseball-season",
+  "graduate-nsca-baseball-bench",
+  "graduate-nsca-baseball-throw"
+ ],
+ "alignments": [
+  {
+   "topic": "Individual demand profiles",
+   "access": "Position excerpt reviewed",
+   "use": "Programming starts with the player’s role, exposures and constraints. The exercise asks you to distinguish a positional description from an individual assessment.",
+   "limit": "No exercise-to-velocity benefit is inferred.",
+   "routes": [
+    {
+     "route": "#unit/m06-u1",
+     "label": "Demand analysis"
+    }
+   ]
+  },
+  {
+   "topic": "Assessment methods and interpretation",
+   "access": "Bench assessment excerpt reviewed",
+   "use": "The testing course includes protocol comparability: measured versus estimated outcomes, different implements and the population behind reference values.",
+   "limit": "A testing protocol is not a readiness diagnosis.",
+   "routes": [
+    {
+     "route": "#unit/m07-u2",
+     "label": "Testing protocols"
+    }
+   ]
+  },
+  {
+   "topic": "Exercise demonstration versus measurement evidence",
+   "access": "Medicine-ball excerpt reviewed",
+   "use": "A critical-reading task asks what must be standardized and validated before an exercise is used as a performance test.",
+   "limit": "Movement instruction supplies neither local reliability nor sport transfer.",
+   "routes": [
+    {
+     "route": "#unit/m07-u1",
+     "label": "Validity and test purpose"
+    }
+   ]
+  },
+  {
+   "topic": "Offseason, preseason, in-season and postseason",
+   "access": "Contents reviewed; only postseason examples accessible",
+   "use": "The annual portfolio must justify transitions across all four phases, including restoration after competition. This is a curriculum alignment, not a reconstruction of the book’s plans.",
+   "limit": "Detailed professional prescriptions come from the sources actually read and the synthetic case, not unread book chapters.",
+   "routes": [
+    {
+     "route": "#course/m06",
+     "label": "Annual programming portfolio"
+    }
+   ]
+  },
+  {
+   "topic": "Total-body, lower-body, upper-body and trunk methods",
+   "access": "Chapter coverage confirmed only",
+   "use": "These remain part of the strength and exercise-methods expansion. Existing foundation chapters provide a starting point.",
+   "limit": "No claim of full exercise-catalog coverage in this release.",
+   "routes": [
+    {
+     "route": "#section/strength",
+     "label": "Strength foundations"
+    }
+   ]
+  }
+ ],
+ "connections": {
+  "m06-u1": {
+   "title": "A position is a starting hypothesis.",
+   "context": "The publisher’s position excerpt provides role context. Build the actual plan from the individual’s tasks and observed demands.",
+   "assignment": "Compare a starter and an outfielder. List three exposure questions you still need answered before selecting the training dose.",
+   "response": "Separate the role description from the athlete profile. Specify the observation or staff input that could change each assumption; do not infer tissue capacity from position alone.",
+   "sourceId": "graduate-nsca-baseball-position",
+   "locator": "Position-specific movement excerpt."
+  },
+  "m07-u2": {
+   "title": "The protocol is part of the score.",
+   "context": "The public bench excerpt includes maximal or estimated assessment and implement alternatives. Those outcomes require explicit protocol labels.",
+   "assignment": "Audit a file mixing measured barbell 1RM, estimated barbell 1RM and neutral-grip dumbbell results. Which rows can you directly compare?",
+   "response": "Do not pool unlike measures as one trend. Preserve method and implement, inspect estimation and trial rules, and seek comparable repeat testing. A reference sample cannot establish local readiness.",
+   "sourceId": "graduate-nsca-baseball-bench",
+   "locator": "Purpose, procedures and coaching guidance; reference table images not used."
+  },
+  "m07-u1": {
+   "title": "A movement demonstration is not a validation study.",
+   "context": "The public medicine-ball page teaches an exercise. Treating it as a test creates additional measurement questions.",
+   "assignment": "Design the evidence checklist required before using a medicine-ball task as a testing outcome.",
+   "response": "Define the construct, implement, release constraints, outcome and repeat-trial procedure. Establish relevant validity and local error before interpreting a change. Do not call a movement score “baseball power” without evidence.",
+   "sourceId": "graduate-nsca-baseball-throw",
+   "locator": "Starting position, movement and coaching guidance."
+  },
+  "m06-u3": {
+   "title": "Close the annual cycle.",
+   "context": "The accessible sample page concerns school and college postseason examples. The contents also identify the other seasonal phases.",
+   "assignment": "Add a postseason-to-offseason transition to your portfolio. Name what you would restore, assess and renegotiate before increasing training.",
+   "response": "Explain the athlete’s recent season and future constraints. Do not transplant the published school or college prescription into a professional case.",
+   "sourceId": "graduate-nsca-baseball-season",
+   "locator": "Postseason examples, Tables 12.1–12.2; quantities not reproduced."
+  }
+ }
+}

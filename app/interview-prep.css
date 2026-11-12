@@ -1,0 +1,12 @@
+/* Interview case studies */
+.iv-profile dl{display:grid;grid-template-columns:minmax(120px,180px) 1fr;gap:6px 18px;margin:0}
+.iv-profile dt{font-weight:600;padding-top:2px}
+.iv-profile dd{margin:0}
+.iv-profile dd ul{margin:0;padding-left:18px}
+.iv-read,.iv-check{margin:18px 0}
+.iv-task{margin:28px 0}
+.iv-prompt{font-style:italic}
+.iv-task textarea,.iv-recall textarea{min-height:180px}
+.iv-over{color:#a3382b;font-weight:600}
+.iv-recall{margin:34px 0 20px}
+@media (max-width:700px){.iv-profile dl{grid-template-columns:1fr}.iv-profile dt{margin-top:10px}}

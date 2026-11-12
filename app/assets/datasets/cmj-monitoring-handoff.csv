@@ -1,0 +1,29 @@
+day,date,athlete_id,phase,cmj_cm,sleep_hours,prior_game_innings,travel_hours,protocol_ok,context
+1,2026-08-01,SYN-OF12,baseline,39,7.8,0,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+2,2026-08-02,SYN-OF12,baseline,40,7.4,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+3,2026-08-03,SYN-OF12,baseline,41,8.0,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+4,2026-08-04,SYN-OF12,baseline,39,7.6,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+5,2026-08-05,SYN-OF12,baseline,40,7.5,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+6,2026-08-06,SYN-OF12,baseline,41,8.1,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+7,2026-08-07,SYN-OF12,baseline,40,7.8,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+8,2026-08-08,SYN-OF12,baseline,44,7.3,0,0,False,Staff note confirms arm-swing protocol used in error; retain raw result but exclude from hands-on-hips comparison.
+9,2026-08-09,SYN-OF12,baseline,39,7.9,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+10,2026-08-10,SYN-OF12,baseline,41,7.7,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+11,2026-08-11,SYN-OF12,baseline,,7.2,9,0,True,Missed testing slot; no jump measurement. Do not fill with zero or carry a previous score forward.
+12,2026-08-12,SYN-OF12,baseline,40,7.8,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+13,2026-08-13,SYN-OF12,baseline,39,7.6,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+14,2026-08-14,SYN-OF12,baseline,41,8.0,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+15,2026-08-15,SYN-OF12,monitoring,40.2,7.5,0,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+16,2026-08-16,SYN-OF12,monitoring,39.8,7.8,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+17,2026-08-17,SYN-OF12,monitoring,39.5,7.1,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+18,2026-08-18,SYN-OF12,monitoring,40.1,7.6,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+19,2026-08-19,SYN-OF12,monitoring,39.7,7.5,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+20,2026-08-20,SYN-OF12,monitoring,40.0,7.4,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+21,2026-08-21,SYN-OF12,monitoring,39.6,7.6,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+22,2026-08-22,SYN-OF12,monitoring,39.9,7.3,0,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+23,2026-08-23,SYN-OF12,monitoring,39.4,7.5,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+24,2026-08-24,SYN-OF12,monitoring,38.8,7.0,9,0,True,Routine testing; no new symptom reported in the fictional morning check-in.
+25,2026-08-25,SYN-OF12,monitoring,38.0,6.4,9,0,True,Late travel planned after the game; jump occurs before that travel. Do not attribute this morning result to a later trip.
+26,2026-08-26,SYN-OF12,monitoring,38.2,5.2,9,6,True,"Arrived after a 6-hour overnight bus trip; sleep duration is athlete-reported, not device measured."
+27,2026-08-27,SYN-OF12,monitoring,38.1,5.6,9,0,True,Second short-sleep report; ask about context and data quality before assigning a cause.
+28,2026-08-28,SYN-OF12,monitoring,37.9,6.1,9,0,True,"Staff handoff day. Repeated lower jumps, no new symptom reported; clinical symptoms still require the medical pathway if disclosed."

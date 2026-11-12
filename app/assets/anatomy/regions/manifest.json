@@ -1,0 +1,56 @@
+{
+ "built": "2026-11-12",
+ "source": "Official Z-Anatomy Startup.blend (github.com/Z-Anatomy/Models-of-human-anatomy), exported by tools/anatomy/export_from_blend.py",
+ "license": "CC BY-SA 4.0 (Z-Anatomy); BodyParts3D CC BY-SA 2.1 Japan",
+ "regions": [
+  {
+   "region": "shoulder",
+   "meshes": 27,
+   "schematic": 0,
+   "bytes": 780172,
+   "missing": []
+  },
+  {
+   "region": "scapula",
+   "meshes": 59,
+   "schematic": 0,
+   "bytes": 1798040,
+   "missing": []
+  },
+  {
+   "region": "elbow",
+   "meshes": 32,
+   "schematic": 0,
+   "bytes": 778856,
+   "missing": []
+  },
+  {
+   "region": "trunk",
+   "meshes": 58,
+   "schematic": 0,
+   "bytes": 2666140,
+   "missing": []
+  },
+  {
+   "region": "hip",
+   "meshes": 29,
+   "schematic": 0,
+   "bytes": 980620,
+   "missing": []
+  },
+  {
+   "region": "hamstring",
+   "meshes": 24,
+   "schematic": 0,
+   "bytes": 708056,
+   "missing": []
+  },
+  {
+   "region": "ankle",
+   "meshes": 55,
+   "schematic": 5,
+   "bytes": 904324,
+   "missing": []
+  }
+ ]
+}

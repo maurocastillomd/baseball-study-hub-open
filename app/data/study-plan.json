@@ -1,0 +1,1142 @@
+{
+ "version": 1,
+ "title": "Your baseball study sequence",
+ "subtitle": "Learn the foundations, apply them to a baseball decision, then explain the decision from memory.",
+ "pacingNote": "Twelve flexible study weeks, each with five suggested sessions. A week is a learning block, not a deadline: repeat a session or stretch the block across several calendar weeks. Start where your understanding allows, and revisit earlier work when the next decision exposes a gap.",
+ "completionNote": "Existing chapter, unit, lab and case records remain the source of progress. A checked item means the recorded study activity is complete; it is not an independent assessment of professional competence.",
+ "rhythm": [
+  {
+   "title": "Learn",
+   "purpose": "Read the theory and use its pictures to build an explanation."
+  },
+  {
+   "title": "Connect",
+   "purpose": "Link the idea to the player, task, anatomy and measurement."
+  },
+  {
+   "title": "Apply",
+   "purpose": "Make the chapter or case decision before revealing the worked reasoning."
+  },
+  {
+   "title": "Defend",
+   "purpose": "Write a brief that states the evidence, action, owner and remaining uncertainty."
+  },
+  {
+   "title": "Recall",
+   "purpose": "Explain it without looking, then revisit the weak link."
+  }
+ ],
+ "parts": [
+  {
+   "id": "physical",
+   "title": "Physical foundations",
+   "summary": "Force, power, speed and the capacity to repeat baseball work.",
+   "weeks": [
+    "week-01"
+   ]
+  },
+  {
+   "id": "science",
+   "title": "Ask, measure and interpret",
+   "summary": "Turn baseball questions into tests, collect data you can trust, and read real change.",
+   "weeks": [
+    "week-02",
+    "week-03",
+    "week-04"
+   ]
+  },
+  {
+   "id": "programming",
+   "title": "Plan, program and individualize",
+   "summary": "Build the plan, program for pitchers and position players, and follow one player through a season.",
+   "weeks": [
+    "week-05",
+    "week-06",
+    "week-07",
+    "week-08"
+   ]
+  },
+  {
+   "id": "return",
+   "title": "Return to performance",
+   "summary": "Bring the elbow, shoulder and hamstrings back to full baseball work.",
+   "weeks": [
+    "week-09",
+    "week-10",
+    "week-11"
+   ]
+  },
+  {
+   "id": "integrate",
+   "title": "Integrate and defend",
+   "summary": "Bring the work together, defend your decisions and revisit gaps.",
+   "weeks": [
+    "week-12"
+   ]
+  }
+ ],
+ "weeks": [
+  {
+   "id": "week-01",
+   "number": 1,
+   "title": "Build the physical foundations",
+   "topic": "Physical qualities",
+   "goal": "Connect force, speed, energy supply and usable motion to the work a baseball player performs.",
+   "theory": [
+    {
+     "route": "#lesson/strength-force-power",
+     "label": "Build force. Express it fast.",
+     "topic": "Strength and power"
+    },
+    {
+     "route": "#lesson/strength-sprint-brake",
+     "label": "Accelerate, sprint, then brake",
+     "topic": "Speed and braking"
+    },
+    {
+     "route": "#lesson/strength-conditioning-mobility",
+     "label": "Condition for the job. Move for the task.",
+     "topic": "Conditioning and mobility"
+    },
+    {
+     "route": "#lesson/rehab-shoulder-01",
+     "label": "The throwing shoulder: mobility with control",
+     "topic": "Shoulder anatomy"
+    }
+   ],
+   "applied": [],
+   "anatomy": [
+    {
+     "route": "#anatomy/shoulder",
+     "label": "Shoulder Anatomy Lab"
+    },
+    {
+     "route": "#anatomy/hamstring",
+     "label": "Hamstring Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Force and the throwing system",
+     "purpose": "Read the force and power chapter. Then orient the shoulder structures in the anatomy foundation chapter and the Lab. Spread this session across several days if needed.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/strength-force-power",
+      "#lesson/rehab-shoulder-01",
+      "#anatomy/shoulder"
+     ]
+    },
+    {
+     "title": "Running, braking and movement",
+     "purpose": "Read the running chapter and connect its tasks to the visible hamstring structures. Distinguish the task you train from the test you use.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/strength-sprint-brake",
+      "#anatomy/hamstring"
+     ]
+    },
+    {
+     "title": "Energy systems and usable range",
+     "purpose": "Read the conditioning and mobility chapter. Explain why a conditioning session, a speed exposure and a mobility task serve different purposes.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/strength-conditioning-mobility"
+     ]
+    },
+    {
+     "title": "Use the chapter cases",
+     "purpose": "Open the Apply stages. Choose a force, running or conditioning task and defend its purpose for a baseball player.",
+     "mode": "applied",
+     "routes": [
+      "#lesson/strength-force-power",
+      "#lesson/strength-sprint-brake",
+      "#lesson/strength-conditioning-mobility"
+     ]
+    },
+    {
+     "title": "Explain without looking",
+     "purpose": "Use Recall, then revisit the pictures and your answers. Explain the shoulder structures and one limit of transferring a gym result to baseball.",
+     "mode": "review",
+     "routes": [
+      "#lesson/strength-force-power",
+      "#lesson/strength-conditioning-mobility",
+      "#lesson/rehab-shoulder-01"
+     ]
+    }
+   ],
+   "integrationNote": "Applied work starts inside these chapters. Longer stand-alone cases come after you have built the measurement and planning foundations.",
+   "review": []
+  },
+  {
+   "id": "week-02",
+   "number": 2,
+   "title": "Turn baseball questions into testable priorities",
+   "topic": "Needs analysis and testing",
+   "goal": "Define the player, the baseball task, the training question and a measurement that can help answer it.",
+   "theory": [
+    {
+     "route": "#lesson/programming-needs-season",
+     "label": "From a baseball problem to a seasonal plan",
+     "topic": "Seasonal planning"
+    },
+    {
+     "route": "#unit/m06-u1",
+     "label": "Needs analysis and testable priorities",
+     "topic": "Needs analysis"
+    },
+    {
+     "route": "#lesson/science-testing-reliability",
+     "label": "Is the change larger than the noise?",
+     "topic": "Test reliability"
+    },
+    {
+     "route": "#unit/m07-u1",
+     "label": "Choose a test that can answer the baseball question",
+     "topic": "Test selection"
+    }
+   ],
+   "applied": [],
+   "anatomy": [],
+   "sessions": [
+    {
+     "title": "Start with a real baseball problem",
+     "purpose": "Read the seasonal planning foundation and write a specific player-role problem before choosing exercises or tests.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/programming-needs-season"
+     ]
+    },
+    {
+     "title": "Make the priority testable",
+     "purpose": "Work through the deeper needs-analysis unit. Separate role demands, individual capacities and delivery constraints.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u1"
+     ]
+    },
+    {
+     "title": "Choose what the test can tell you",
+     "purpose": "Read the reliability foundation, then the deeper unit on matching a test to a baseball question.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/science-testing-reliability",
+      "#unit/m07-u1"
+     ]
+    },
+    {
+     "title": "Defend one assessment choice",
+     "purpose": "Use the chapter and unit applications to justify a small assessment set and reject an inference the measurement cannot support.",
+     "mode": "applied",
+     "routes": [
+      "#unit/m06-u1",
+      "#unit/m07-u1"
+     ]
+    },
+    {
+     "title": "Recall the question-to-decision chain",
+     "purpose": "Rebuild your player brief from memory and identify what evidence would make you revise the priority.",
+     "mode": "review",
+     "routes": [
+      "#lesson/programming-needs-season",
+      "#lesson/science-testing-reliability"
+     ]
+    }
+   ],
+   "integrationNote": "These are the same in-depth units previously housed in separate study paths. They now sit directly beside the foundation chapters they extend.",
+   "review": []
+  },
+  {
+   "id": "week-03",
+   "number": 3,
+   "title": "Collect data you can trust",
+   "topic": "Data collection",
+   "goal": "Describe the collection process, inspect the signal and keep completed work distinct from missing information.",
+   "theory": [
+    {
+     "route": "#unit/m07-u2",
+     "label": "Standardize the session: calibration, instructions and metadata",
+     "topic": "Testing procedures"
+    },
+    {
+     "route": "#unit/m07-u3",
+     "label": "What force plates, dynamometers and timing gates actually measure",
+     "topic": "Measurement tools"
+    },
+    {
+     "route": "#unit/m07-u4",
+     "label": "Inspect the signal: sampling, filtering and event detection",
+     "topic": "Signal processing"
+    },
+    {
+     "route": "#lesson/science-workload-limits",
+     "label": "Count exposure. Preserve uncertainty.",
+     "topic": "Workload monitoring"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#lab/analysis-exposure-audit",
+     "label": "The pitch dashboard and the throwing log disagree"
+    }
+   ],
+   "anatomy": [],
+   "sessions": [
+    {
+     "title": "Make the testing session reproducible",
+     "purpose": "Read the standardization unit. Write the instructions, equipment checks and metadata another staff member would need.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m07-u2"
+     ]
+    },
+    {
+     "title": "Trace the number back to its measurement",
+     "purpose": "Read the instrument and signal-processing units. Follow a derived metric back to the raw observation, units and processing choices.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m07-u3",
+      "#unit/m07-u4"
+     ]
+    },
+    {
+     "title": "Record exposure honestly",
+     "purpose": "Read the workload foundation and define zero, missing, estimated and not applicable before adding totals.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/science-workload-limits"
+     ]
+    },
+    {
+     "title": "Reconcile a throwing ledger",
+     "purpose": "Complete the exposure-audit assignment. Explain why the dashboard and the throwing log do not necessarily describe the same work.",
+     "mode": "applied",
+     "routes": [
+      "#lab/analysis-exposure-audit"
+     ]
+    },
+    {
+     "title": "Check the audit trail",
+     "purpose": "Review your calculations and the source fields. Explain what remains unknown and which staff member should resolve it.",
+     "mode": "review",
+     "routes": [
+      "#lab/analysis-exposure-audit",
+      "#lesson/science-workload-limits"
+     ]
+    }
+   ],
+   "integrationNote": "The lab uses the collection and missing-data principles from this week. A count is evidence about recorded exposure, not a complete account of the athlete.",
+   "review": []
+  },
+  {
+   "id": "week-04",
+   "number": 4,
+   "title": "Interpret change and communicate uncertainty",
+   "topic": "Interpreting change",
+   "goal": "Separate measurement error, meaningful change and a defensible next action.",
+   "theory": [
+    {
+     "route": "#unit/m07-u5",
+     "label": "Design a reliability study that matches the real workflow",
+     "topic": "Reliability study design"
+    },
+    {
+     "route": "#unit/m07-u6",
+     "label": "Interpret ICC, typical error, SEM, CV and detectable change",
+     "topic": "Reliability statistics"
+    },
+    {
+     "route": "#unit/m07-u7",
+     "label": "Decide what matters without pretending uncertainty disappears",
+     "topic": "Meaningful change"
+    },
+    {
+     "route": "#lesson/science-interpret-communicate",
+     "label": "Turn a number into a useful conversation",
+     "topic": "Reporting to staff"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#lab/analysis-reliability",
+     "label": "Can this jump test detect the change you care about?"
+    },
+    {
+     "route": "#lab/analysis-monitoring-handoff",
+     "label": "Turn a jump trend into a useful staff conversation"
+    }
+   ],
+   "anatomy": [],
+   "sessions": [
+    {
+     "title": "Design the reliability question",
+     "purpose": "Read the reliability-design unit. Match the repeated observations to the workflow you intend to evaluate.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m07-u5"
+     ]
+    },
+    {
+     "title": "Work through error and detectable change",
+     "purpose": "Read the error-statistics unit with its worked examples. State the assumptions before interpreting a number.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m07-u6"
+     ]
+    },
+    {
+     "title": "Decide what matters and how to say it",
+     "purpose": "Read the uncertainty unit and reporting foundation. Keep observation, explanation and action separate.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m07-u7",
+      "#lesson/science-interpret-communicate"
+     ]
+    },
+    {
+     "title": "Calculate, then write the handoff",
+     "purpose": "Work through the reliability and monitoring assignments. These are two substantial tasks; repeat this session over as many days as useful.",
+     "mode": "applied",
+     "routes": [
+      "#lab/analysis-reliability",
+      "#lab/analysis-monitoring-handoff"
+     ]
+    },
+    {
+     "title": "Defend the decision under uncertainty",
+     "purpose": "Revisit both outputs without copying the worked answers. Identify what changed, what did not, and what would alter the next action.",
+     "mode": "review",
+     "routes": [
+      "#lab/analysis-reliability",
+      "#lab/analysis-monitoring-handoff"
+     ]
+    }
+   ],
+   "integrationNote": "The measurement sequence is cumulative: collection in week 3 comes before interpretation here. The final testing unit in week 5 pulls it into a complete protocol.",
+   "review": []
+  },
+  {
+   "id": "week-05",
+   "number": 5,
+   "title": "Build a plan and test baseball transfer",
+   "topic": "Planning and transfer",
+   "goal": "Connect an annual plan to a documented measurement process and distinguish physical improvement from task performance.",
+   "theory": [
+    {
+     "route": "#unit/m06-u2",
+     "label": "Periodization models and their evidence",
+     "topic": "Periodization"
+    },
+    {
+     "route": "#unit/m06-u3",
+     "label": "Annual planning and developmental blocks",
+     "topic": "Annual planning"
+    },
+    {
+     "route": "#unit/m07-u8",
+     "label": "Collect, audit and defend a testing SOP",
+     "topic": "Testing SOP"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-pitching-transfer",
+     "label": "Pitching: capacity, execution and exposure"
+    },
+    {
+     "route": "#case/bb-hitting-baserunning",
+     "label": "Hitting and baserunning: test the right task"
+    }
+   ],
+   "anatomy": [],
+   "sessions": [
+    {
+     "title": "Compare planning models",
+     "purpose": "Read the periodization unit. Describe the actual exposures and evaluation question behind a model name.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u2"
+     ]
+    },
+    {
+     "title": "Build the plan and its measurement process",
+     "purpose": "Read the annual-planning and testing-SOP units. Assemble the planning and measurement work samples at a pace that lets you explain each choice.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u3",
+      "#unit/m07-u8"
+     ]
+    },
+    {
+     "title": "Pitching: separate capacity from execution",
+     "purpose": "Work through the four pitching-transfer decisions, including pitch mix and incomplete exposure records.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-pitching-transfer"
+     ]
+    },
+    {
+     "title": "Hitting and baserunning: measure the task",
+     "purpose": "Work through the four hitting and running decisions. Keep local test definitions distinct from game statistics.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-hitting-baserunning"
+     ]
+    },
+    {
+     "title": "Defend the plan and the claim",
+     "purpose": "Review your plan, testing SOP and case handoffs. Explain what your measurements support about delivery, physical change and baseball transfer.",
+     "mode": "review",
+     "routes": [
+      "#unit/m06-u3",
+      "#unit/m07-u8",
+      "#case/bb-hitting-baserunning"
+     ]
+    }
+   ],
+   "integrationNote": "These cases use the physical foundations from week 1 and the measurement sequence from weeks 2–4. Their purpose is to make those strands meet.",
+   "review": []
+  },
+  {
+   "id": "week-06",
+   "number": 6,
+   "title": "Program for starters and relievers",
+   "topic": "Pitcher programming",
+   "goal": "Coordinate physical preparation with the confirmed throwing plan, current role and changing schedule.",
+   "theory": [
+    {
+     "route": "#lesson/programming-pitcher-microcycle",
+     "label": "Plan the starter. Prepare options for the reliever.",
+     "topic": "Pitcher training week"
+    },
+    {
+     "route": "#unit/m06-u4",
+     "label": "Starter and reliever cycle design",
+     "topic": "Starter and reliever cycles"
+    },
+    {
+     "route": "#lesson/rehab-elbow-01",
+     "label": "The medial elbow: ligament, muscle and load",
+     "topic": "Elbow anatomy"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#lab/lab-starter-rainout",
+     "label": "Starter: rebuild the week after a rainout"
+    },
+    {
+     "route": "#lab/lab-reliever-availability",
+     "label": "Reliever: train when availability keeps changing"
+    }
+   ],
+   "anatomy": [
+    {
+     "route": "#anatomy/elbow",
+     "label": "Elbow Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Understand the elbow and the throwing context",
+     "purpose": "Read the elbow anatomy foundation and locate the available structures in the Lab. Keep the Lab’s missing-structure limits in view.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-elbow-01",
+      "#anatomy/elbow"
+     ]
+    },
+    {
+     "title": "Build the pitcher cycle",
+     "purpose": "Read the pitcher foundation and deeper cycle-design unit. Distinguish a starter’s known events from a reliever’s changing availability.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/programming-pitcher-microcycle",
+      "#unit/m06-u4"
+     ]
+    },
+    {
+     "title": "Adapt when the start moves",
+     "purpose": "Complete the rainout lab. Reconcile what happened with what is now planned before changing the supporting session.",
+     "mode": "applied",
+     "routes": [
+      "#lab/lab-starter-rainout"
+     ]
+    },
+    {
+     "title": "Prepare options for uncertain use",
+     "purpose": "Complete the reliever lab and explain when you would choose full, brief or deferred work.",
+     "mode": "applied",
+     "routes": [
+      "#lab/lab-reliever-availability"
+     ]
+    },
+    {
+     "title": "Compare the two handoffs",
+     "purpose": "Review both plans and recall the elbow structures. Name the decision owners and the event that would trigger a revision.",
+     "mode": "review",
+     "routes": [
+      "#lab/lab-starter-rainout",
+      "#lab/lab-reliever-availability",
+      "#lesson/rehab-elbow-01"
+     ]
+    }
+   ],
+   "integrationNote": "The elbow chapter introduces the anatomy needed to understand the throwing task. Detailed rehabilitation pathways follow in week 9.",
+   "review": []
+  },
+  {
+   "id": "week-07",
+   "number": 7,
+   "title": "Individualize position-player work",
+   "topic": "Position-player programming",
+   "goal": "Build distinct plans for everyday players, catchers and reserves while preserving the physical purpose of each exposure.",
+   "theory": [
+    {
+     "route": "#lesson/programming-position-players",
+     "label": "Same team. Different training needs.",
+     "topic": "Position-player needs"
+    },
+    {
+     "route": "#unit/m06-u5",
+     "label": "Position players, catchers and reserves",
+     "topic": "Role-based programming"
+    },
+    {
+     "route": "#lesson/rehab-hamstring-01",
+     "label": "Hamstring anatomy: one region, different tissues",
+     "topic": "Hamstring anatomy"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-catching-fielding",
+     "label": "Catching, fielding and the reserve role"
+    },
+    {
+     "route": "#lab/lab-position-travel",
+     "label": "Position player: protect speed in a congested travel week"
+    }
+   ],
+   "anatomy": [
+    {
+     "route": "#anatomy/hamstring",
+     "label": "Hamstring Anatomy Lab"
+    },
+    {
+     "route": "#anatomy/shoulder",
+     "label": "Shoulder Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Locate the tissues behind the running task",
+     "purpose": "Read the hamstring anatomy foundation. Revisit the Lab and the running chapter when the structure-to-task connection needs reinforcement.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-hamstring-01",
+      "#anatomy/hamstring"
+     ]
+    },
+    {
+     "title": "Plan for role and actual opportunity",
+     "purpose": "Read the position-player foundation and deeper unit. Distinguish roster label from the work the player actually performs.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/programming-position-players",
+      "#unit/m06-u5"
+     ]
+    },
+    {
+     "title": "Catching, fielding and the reserve role",
+     "purpose": "Complete the four player-demand decisions and write the handoffs. Revisit shoulder anatomy when reviewing throwing tasks.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-catching-fielding",
+      "#anatomy/shoulder"
+     ]
+    },
+    {
+     "title": "Protect the purpose through travel",
+     "purpose": "Complete the position-player travel lab. Explain which qualities the revised week still trains and which exposure needs review.",
+     "mode": "applied",
+     "routes": [
+      "#lab/lab-position-travel"
+     ]
+    },
+    {
+     "title": "Explain the individual differences",
+     "purpose": "Review the case and lab outputs. Defend a different choice for a catcher, an everyday player and a reserve.",
+     "mode": "review",
+     "routes": [
+      "#case/bb-catching-fielding",
+      "#lab/lab-position-travel",
+      "#lesson/rehab-hamstring-01"
+     ]
+    }
+   ],
+   "integrationNote": "This week joins the running foundations, the anatomy of the posterior thigh and the practical constraints of position-player roles.",
+   "review": []
+  },
+  {
+   "id": "week-08",
+   "number": 8,
+   "title": "Follow one player through a baseball year",
+   "topic": "The baseball year",
+   "goal": "Revise the plan through travel, roster transitions and uncertain feedback, then evaluate what the season actually demonstrates.",
+   "theory": [
+    {
+     "route": "#unit/m06-u6",
+     "label": "Travel, roster changes and concurrent demands",
+     "topic": "Travel and roster changes"
+    },
+    {
+     "route": "#unit/m06-u7",
+     "label": "Dose revision using uncertain feedback",
+     "topic": "Adjusting the dose"
+    },
+    {
+     "route": "#unit/m06-u8",
+     "label": "Evaluate adaptation and defend the season",
+     "topic": "Season review"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-season-journey",
+     "label": "One outfielder, one connected baseball year"
+    }
+   ],
+   "anatomy": [],
+   "sessions": [
+    {
+     "title": "Plan for disruption",
+     "purpose": "Read the travel and roster-change unit. Preserve a clear training purpose when the facilities or schedule change.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u6"
+     ]
+    },
+    {
+     "title": "Revise a dose without overstating the data",
+     "purpose": "Read the uncertain-feedback unit. State the competing explanations and the follow-up attached to a proposed change.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u7"
+     ]
+    },
+    {
+     "title": "Build a defensible season review",
+     "purpose": "Read the season-evaluation unit and prepare its work sample. Separate delivery, adaptation and baseball transfer.",
+     "mode": "theory",
+     "routes": [
+      "#unit/m06-u8"
+     ]
+    },
+    {
+     "title": "Season simulation: offseason to affiliate",
+     "purpose": "Work through the first three briefings. Carry the player’s documented priorities, completed work and unknowns forward.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-season-journey"
+     ]
+    },
+    {
+     "title": "Season simulation: transition to review",
+     "purpose": "Complete the later three briefings and the final assignment. Revisit earlier decisions before defending the season.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-season-journey"
+     ]
+    }
+   ],
+   "integrationNote": "The simulation is one connected player story. Each briefing supplies new facts; later events are not a prediction caused by your earlier answer.",
+   "review": []
+  },
+  {
+   "id": "week-09",
+   "number": 9,
+   "title": "Return the elbow to a baseball role",
+   "topic": "Elbow return",
+   "goal": "Compare documented elbow pathways and connect restrictions, capacity, throwing exposure and repeatability.",
+   "theory": [
+    {
+     "route": "#lesson/rehab-elbow-02",
+     "label": "UCL rehabilitation: build and defend the pathway",
+     "topic": "UCL rehab pathway"
+    },
+    {
+     "route": "#lesson/rehab-elbow-03",
+     "label": "From cleared throwing to a repeatable baseball role",
+     "topic": "Elbow return to role"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-rehab-elbow-pathways",
+     "label": "Three elbows, three plans"
+    },
+    {
+     "route": "#lab/rehab-lab-elbow",
+     "label": "The returning starter: permission, exposure and repeatability"
+    }
+   ],
+   "anatomy": [
+    {
+     "route": "#anatomy/elbow",
+     "label": "Elbow Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Refresh the structures, then compare pathways",
+     "purpose": "Recall the elbow foundation from week 6 and read the in-depth rehabilitation chapter. Distinguish the specific care plans before discussing progression.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-elbow-01",
+      "#lesson/rehab-elbow-02",
+      "#anatomy/elbow"
+     ]
+    },
+    {
+     "title": "Define the return-to-role evidence",
+     "purpose": "Read the return-to-performance chapter. Build the distinction between a permitted task, a completed task and a repeatable role.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-elbow-03"
+     ]
+    },
+    {
+     "title": "Three elbows, three plans",
+     "purpose": "Complete the contrasting pathway case and record what must remain patient- and procedure-specific.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-rehab-elbow-pathways"
+     ]
+    },
+    {
+     "title": "Manage the returning starter",
+     "purpose": "Complete the staged elbow lab and its staff handoff. Keep permission, exposure and response separate.",
+     "mode": "applied",
+     "routes": [
+      "#lab/rehab-lab-elbow"
+     ]
+    },
+    {
+     "title": "Defend the next decision",
+     "purpose": "Review both outputs and explain what the evidence supports, what remains unresolved and who owns the next clinical decision.",
+     "mode": "review",
+     "routes": [
+      "#case/bb-rehab-elbow-pathways",
+      "#lab/rehab-lab-elbow"
+     ]
+    }
+   ],
+   "integrationNote": "The anatomy chapter is a deliberate revisit, not new required content. These educational comparisons do not grant clinical clearance.",
+   "review": [
+    {
+     "route": "#lesson/rehab-elbow-01",
+     "label": "The medial elbow: ligament, muscle and load"
+    }
+   ]
+  },
+  {
+   "id": "week-10",
+   "number": 10,
+   "title": "Return the shoulder to repeatable baseball work",
+   "topic": "Shoulder return",
+   "goal": "Use the actual diagnosis and procedure details to connect permitted training with throwing, fielding and batting demands.",
+   "theory": [
+    {
+     "route": "#lesson/rehab-shoulder-02",
+     "label": "Shoulder pathways: the diagnosis changes the plan",
+     "topic": "Shoulder rehab pathways"
+    },
+    {
+     "route": "#lesson/rehab-shoulder-03",
+     "label": "Return to throwing is a progression of evidence",
+     "topic": "Return to throwing"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-rehab-shoulder-pathways",
+     "label": "A shoulder label is not a rehabilitation plan"
+    },
+    {
+     "route": "#lab/rehab-lab-shoulder",
+     "label": "The outfielder who can throw—but cannot yet play every day"
+    }
+   ],
+   "anatomy": [
+    {
+     "route": "#anatomy/shoulder",
+     "label": "Shoulder Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Refresh the shoulder and read the care pathway",
+     "purpose": "Recall the shoulder foundation from week 1, then read the pathway chapter. Locate the available structures in the Lab.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-shoulder-01",
+      "#lesson/rehab-shoulder-02",
+      "#anatomy/shoulder"
+     ]
+    },
+    {
+     "title": "Define the evidence for throwing and role demands",
+     "purpose": "Read the return-to-throwing chapter and connect its evidence to repeated baseball participation.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-shoulder-03"
+     ]
+    },
+    {
+     "title": "Replace the label with a specific plan",
+     "purpose": "Complete the shoulder pathway case. Identify why different documented treatments cannot share one assumed progression.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-rehab-shoulder-pathways"
+     ]
+    },
+    {
+     "title": "Manage the outfielder’s return",
+     "purpose": "Complete the shoulder lab. Integrate controlled catch, reactive defense, batting and repeated days.",
+     "mode": "applied",
+     "routes": [
+      "#lab/rehab-lab-shoulder"
+     ]
+    },
+    {
+     "title": "Explain what is still missing",
+     "purpose": "Review both handoffs and recall the anatomy. Describe the unproven task or exposure and the next review that could resolve it.",
+     "mode": "review",
+     "routes": [
+      "#case/bb-rehab-shoulder-pathways",
+      "#lab/rehab-lab-shoulder",
+      "#lesson/rehab-shoulder-01"
+     ]
+    }
+   ],
+   "integrationNote": "The shoulder structures introduced in week 1 now support a more demanding care-plan and performance discussion.",
+   "review": [
+    {
+     "route": "#lesson/rehab-shoulder-01",
+     "label": "The throwing shoulder: mobility with control"
+    }
+   ]
+  },
+  {
+   "id": "week-11",
+   "number": 11,
+   "title": "Return the hamstrings to sprinting and play",
+   "topic": "Hamstring return",
+   "goal": "Connect tissue context and loading to running tasks, baseball movement and repeated role demands.",
+   "theory": [
+    {
+     "route": "#lesson/rehab-hamstring-02",
+     "label": "Hamstring pathways: loading a strain, protecting a repair",
+     "topic": "Hamstring rehab pathways"
+    },
+    {
+     "route": "#lesson/rehab-hamstring-03",
+     "label": "Return to sprinting, then return to baseball",
+     "topic": "Return to sprinting"
+    }
+   ],
+   "applied": [
+    {
+     "route": "#case/bb-rehab-hamstring-pathways",
+     "label": "Fast once is not the same as ready for the role"
+    },
+    {
+     "route": "#lab/rehab-lab-hamstring",
+     "label": "The center fielder who can jog but cannot yet play"
+    }
+   ],
+   "anatomy": [
+    {
+     "route": "#anatomy/hamstring",
+     "label": "Hamstring Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Refresh the tissues and compare loading pathways",
+     "purpose": "Recall the hamstring anatomy from week 7 and read the pathway chapter. Keep muscle-strain reasoning distinct from a repaired proximal injury.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-hamstring-01",
+      "#lesson/rehab-hamstring-02",
+      "#anatomy/hamstring"
+     ]
+    },
+    {
+     "title": "Build the sprint-to-baseball progression question",
+     "purpose": "Read the return-to-performance chapter. Distinguish acceleration, speed, volume, density and task execution.",
+     "mode": "theory",
+     "routes": [
+      "#lesson/rehab-hamstring-03"
+     ]
+    },
+    {
+     "title": "Compare first and recurrent strain cases",
+     "purpose": "Complete the contrasting hamstring case and explain why one fast effort does not establish a repeatable baseball role.",
+     "mode": "applied",
+     "routes": [
+      "#case/bb-rehab-hamstring-pathways"
+     ]
+    },
+    {
+     "title": "Manage the returning center fielder",
+     "purpose": "Complete the hamstring lab and integrate running, braking, reactive tasks and repeated game demands.",
+     "mode": "applied",
+     "routes": [
+      "#lab/rehab-lab-hamstring"
+     ]
+    },
+    {
+     "title": "Defend a complete return packet",
+     "purpose": "Review the case and lab outputs. Explain the permissions, completed tasks, response, remaining uncertainty and proposed review.",
+     "mode": "review",
+     "routes": [
+      "#case/bb-rehab-hamstring-pathways",
+      "#lab/rehab-lab-hamstring"
+     ]
+    }
+   ],
+   "integrationNote": "This block reconnects the speed chapter, position-player planning and hamstring anatomy. The cases are practice in reasoning, not universal clearance rules.",
+   "review": [
+    {
+     "route": "#lesson/rehab-hamstring-01",
+     "label": "Hamstring anatomy: one region, different tissues"
+    },
+    {
+     "route": "#lesson/strength-sprint-brake",
+     "label": "Accelerate, sprint, then brake"
+    }
+   ]
+  },
+  {
+   "id": "week-12",
+   "number": 12,
+   "title": "Integrate, defend and revisit",
+   "topic": "Integration",
+   "goal": "Use your existing work to explain one coherent baseball decision from the player’s task through evidence, planning and staff communication.",
+   "theory": [],
+   "applied": [],
+   "anatomy": [
+    {
+     "route": "#anatomy/shoulder",
+     "label": "Shoulder Anatomy Lab"
+    },
+    {
+     "route": "#anatomy/elbow",
+     "label": "Elbow Anatomy Lab"
+    },
+    {
+     "route": "#anatomy/hamstring",
+     "label": "Hamstring Anatomy Lab"
+    }
+   ],
+   "sessions": [
+    {
+     "title": "Choose the player and rebuild the question",
+     "purpose": "Return to your needs-analysis brief and one player-demand case. Explain the role, priority and competing explanations without reading the model answer.",
+     "mode": "review",
+     "routes": [
+      "#unit/m06-u1",
+      "#case/bb-pitching-transfer",
+      "#case/bb-hitting-baserunning"
+     ]
+    },
+    {
+     "title": "Defend the measurement process",
+     "purpose": "Revisit your testing SOP and one data-analysis assignment. Show that another staff member could reproduce the record and understand its limitations.",
+     "mode": "review",
+     "routes": [
+      "#unit/m07-u8",
+      "#lab/analysis-reliability",
+      "#lab/analysis-exposure-audit"
+     ]
+    },
+    {
+     "title": "Defend and revise the season plan",
+     "purpose": "Return to the season evaluation and connected simulation. Explain one programming change and the evidence that would make you revise it again.",
+     "mode": "review",
+     "routes": [
+      "#unit/m06-u8",
+      "#case/bb-season-journey"
+     ]
+    },
+    {
+     "title": "Connect rehabilitation to the role",
+     "purpose": "Choose one completed rehab lab. Rebuild its handoff and use the matching Anatomy Lab to explain the relevant structures.",
+     "mode": "review",
+     "routes": [
+      "#lab/rehab-lab-elbow",
+      "#lab/rehab-lab-shoulder",
+      "#lab/rehab-lab-hamstring"
+     ]
+    },
+    {
+     "title": "Choose the next learning loop",
+     "purpose": "Review your work, feedback and saved reading. Identify a weak explanation, a calculation to repeat and an applied decision that needs outside feedback. Continue with those items before treating the sequence as finished.",
+     "mode": "review",
+     "routes": [
+      "#case/bb-season-journey",
+      "#unit/m07-u8"
+     ]
+    }
+   ],
+   "integrationNote": "This is an integration and retrieval week, with no new content requirement. Use the existing notes and assignments to revise your work. Completing the guide records study, not externally assessed professional competence.",
+   "review": [
+    {
+     "route": "#unit/m06-u1",
+     "label": "Needs analysis and testable priorities"
+    },
+    {
+     "route": "#unit/m07-u8",
+     "label": "Collect, audit and defend a testing SOP"
+    },
+    {
+     "route": "#unit/m06-u8",
+     "label": "Evaluate adaptation and defend the season"
+    },
+    {
+     "route": "#case/bb-pitching-transfer",
+     "label": "Pitching: capacity, execution and exposure"
+    },
+    {
+     "route": "#case/bb-hitting-baserunning",
+     "label": "Hitting and baserunning: test the right task"
+    },
+    {
+     "route": "#lab/analysis-reliability",
+     "label": "Can this jump test detect the change you care about?"
+    },
+    {
+     "route": "#lab/analysis-exposure-audit",
+     "label": "The pitch dashboard and the throwing log disagree"
+    },
+    {
+     "route": "#case/bb-season-journey",
+     "label": "One outfielder, one connected baseball year"
+    },
+    {
+     "route": "#lab/rehab-lab-elbow",
+     "label": "The returning starter: permission, exposure and repeatability"
+    },
+    {
+     "route": "#lab/rehab-lab-shoulder",
+     "label": "The outfielder who can throw—but cannot yet play every day"
+    },
+    {
+     "route": "#lab/rehab-lab-hamstring",
+     "label": "The center fielder who can jog but cannot yet play"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2806 @@
+{
+ "id": "m07",
+ "title": "Testing and measurement for baseball",
+ "subtitle": "Choose useful tests, control the measurement process and interpret player data before making a baseball decision.",
+ "section": "science",
+ "plannedHours": 75,
+ "status": "Baseball study path · independent practical review pending",
+ "prerequisites": [
+  "Complete the foundation chapter on testing and reliability.",
+  "Be comfortable with means, sample standard deviation, units and basic spreadsheet formulas.",
+  "Real athlete collection requires appropriate permission, equipment competence and supervision; simulation is available when those are absent."
+ ],
+ "outcomes": [
+  "Choose a test using a decision-specific validity argument.",
+  "Build a reproducible SOP with calibration/check records and metadata.",
+  "Explain direct signals, derived metrics and processing assumptions.",
+  "Design and interpret a reliability study with appropriate uncertainty.",
+  "Communicate measurement findings without unsupported readiness or clinical claims.",
+  "Defend and revise a complete testing portfolio with external review."
+ ],
+ "foundationIds": [
+  "science-testing-reliability",
+  "science-workload-limits",
+  "science-interpret-communicate"
+ ],
+ "sourceRefs": [
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+   "application": "Core measurement foundations.",
+   "limit": "Owned textbook; original material remains private.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+   "application": "Processing and version control.",
+   "limit": "Does not replace device-specific documentation.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+   "application": "Reliability and change interpretation.",
+   "limit": "Explicit model assumptions qualify all thresholds.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-cmj",
+   "locator": "Methods: Participants and Protocol, printed pp.7–9; Results/Table 1 and Discussion, printed pp.10–13.",
+   "application": "Concise critical study comparison.",
+   "limit": "Active adults; no professional-baseball threshold transfer."
+  },
+  {
+   "id": "grad-force-events",
+   "locator": "Sections 2.1–2.4 (participants, familiarization and apparatus),3.1 (signal processing),3.2 (body mass, kinematic and kinetic variables).",
+   "application": "Concise documented processing example.",
+   "limit": "Settings are study-specific."
+  },
+  {
+   "id": "grad-icc-methods",
+   "locator": "Table 1; Sections 2.1–2.5 (data matrix, variance models, agreement and consistency); Sections 4–7 (simulation, interpretation and reporting).",
+   "application": "Concise methodological comparison.",
+   "limit": "Does not validate a baseball test."
+  },
+  {
+   "id": "grad-icc-reporting",
+   "locator": "How to Select the Correct ICC Form: Model, Type and Definition Selection; reporting recommendations. Selected publicly indexed sections only.",
+   "application": "ICC reporting checklist.",
+   "limit": "Selected public sections, not full article review."
+  },
+  {
+   "id": "depth-cscs-strength",
+   "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+   "application": "Foundational mechanics for original instrument calculations.",
+   "limit": "",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  }
+ ],
+ "units": [
+  {
+   "id": "m07-u1",
+   "title": "Choose a test that can answer the baseball question",
+   "minutes": 60,
+   "studyHours": 8,
+   "outcomes": [
+    "Translate a baseball decision into a measurable construct and defensible outcome.",
+    "Distinguish validity, agreement, repeatability and utility.",
+    "Reject a metric whose inference exceeds its measurement."
+   ],
+   "body": [
+    {
+     "heading": "Start with the decision, not the device",
+     "text": "A test is useful when its result can change a decision that someone is authorized to make. Start with a concrete question: should the staff retain the current lower-body development emphasis over the next training block? Name the athlete group, time horizon and decision owner. Then identify the capacity or behavior that the test could inform. “Measure readiness” is too broad: readiness includes many interacting physical, psychological and contextual factors, and a single jump does not directly observe them all.\n\nSeparate four layers: the construct you care about, the task used to sample it, the measured signal, and the conclusion. A countermovement jump is a task. Vertical ground-reaction force is a signal. Jump height estimated from that signal is an outcome. The player’s capacity to repeat effective baseball actions is a broader construct. Moving between layers requires evidence and explicit assumptions, not a more impressive dashboard label.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Write the inference you intend to defend",
+     "text": "An operational definition tells another practitioner what the number actually means. “Best hands-on-hips CMJ height, estimated by impulse–momentum from three valid trials” differs from “mean flight-time height during arm-swing jumps.” Both may be recorded in centimeters while measuring different versions of the task. The unit alone does not establish comparability.\n\nFor each proposed metric, finish two sentences: “This result directly describes…” and “This result may inform…, provided that…”. For jump height, the first sentence concerns the performed jump under the recorded conditions. The second might concern a longitudinal development discussion, provided testing is comparable and uncertainty is considered. It should not automatically concern tissue health, injury probability, mechanical power, or permission to play. Write the unsupported inferences beside the supported ones so the limits survive transfer between staff.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Validity belongs to a use and context",
+     "text": "Criterion evidence compares a measurement with an appropriate reference method. Construct evidence examines whether the measure behaves in ways expected from a defensible account of the underlying attribute. Neither is a permanent stamp attached to a brand. A device may estimate jump height acceptably for one movement but perform differently for a rapid landing metric. A test may distinguish widely separated groups yet fail to resolve a small within-player change.\n\nAsk whether the study population, instructions, device version, outcome definition and measurement range resemble your planned use. An experiment in physically active adults can support a measurement principle without establishing a professional-baseball threshold. Read methods before borrowing conclusions. A baseball badge on a product page cannot replace a protocol comparison, and a general textbook cannot demonstrate that your own collection process is accurate.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Association cannot demonstrate interchangeability",
+     "text": "Imagine two fictional systems measuring the same three trials. System A reports 30,40,50 cm; system B reports 35,45,55 cm. Their rank order is identical and their Pearson correlation is 1, yet B is 5 cm higher for every trial. A coach comparing yesterday’s A result with today’s B result could invent a training gain that never occurred.\n\nAgreement asks about these differences: their direction, size and variation across the measurement range. Before testing a replacement system, agree what disagreement would matter for the intended decision. Report differences in useful units and inspect individual observations. A statistically nonsignificant mean difference does not prove that two systems agree closely enough; small samples can provide imprecise estimates. Conversely, a tiny precisely estimated difference can be statistically detectable while irrelevant to the practical decision.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Reliability is necessary, but an unchanging number can still be useless",
+     "text": "Repeatability means that repeated measurements under the defined conditions produce sufficiently consistent results. A broken scale that always returns the same value is consistent but does not measure meaningful change. Similarly, athletes can learn to give the same questionnaire answer to avoid follow-up. Low variation must therefore be interpreted alongside validity, collection behavior and the question being asked.\n\nThe cost of a test includes athlete effort, disruption of baseball work, setup, analysis and the consequences of a misleading result. A precise maximal test performed at a poorly chosen time may cost more than its information is worth. A less elaborate measure can be preferable when it answers the actual question with acceptable uncertainty. Specify what you would do with a higher result, a lower result, an ambiguous result and no valid result before requesting athlete time.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Build a small battery with a clear ownership map",
+     "text": "For a fictional position-player development review, a small battery might sample a lower-body task, acceleration performance and relevant baseball exposure. Each addresses a different question. Redundant metrics from one jump do not automatically create independent evidence; they may share the same raw signal and processing error. Prefer a short list of interpretable outcomes over dozens of correlated flags.\n\nDocument who collects, checks, interprets and acts. The performance scientist owns measurement quality and its explanation. S&C and baseball staff integrate the result with training and skill priorities. Clinical symptoms or restrictions remain with the appropriate medical team. Disagreement among these inputs is a reason to investigate context. It is not permission to average them into a universal readiness score whose weighting and consequences have never been validated.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Read a methods section with a decision worksheet",
+     "text": "When reading a study, make a compact extraction table rather than highlighting only the conclusion. Record the sample, test version, device, operator structure, timing, number of valid trials, summary metric, error estimate and its uncertainty. Then add a final column: “What changes in our setting?” This makes transfer limits visible before the study becomes a departmental rule.\n\nUse the Souza CMJ paper as a short appraisal exercise: it concerns active adult men and a specified protocol, and reliability differs by metric. Its usefulness is showing why one test can produce outcomes of unequal repeatability. It does not provide an error value for every professional-baseball affiliate. Your proposed application should identify which methodological features you can reproduce and which require new local evidence.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u1-g1",
+     "title": "From question to justified action",
+     "type": "flow",
+     "caption": "Original conceptual map; no test directly measures all of baseball performance.",
+     "mnemonic": {
+      "cue": "Q-T-S-I",
+      "meaning": "Question → task → signal → inference."
+     },
+     "alt": "From question to justified action. Original conceptual map; no test directly measures all of baseball performance.",
+     "items": [
+      {
+       "label": "Decision",
+       "detail": "Revise a development emphasis?"
+      },
+      {
+       "label": "Task",
+       "detail": "Standardized CMJ"
+      },
+      {
+       "label": "Signal",
+       "detail": "Force recorded over time"
+      },
+      {
+       "label": "Inference",
+       "detail": "Task-specific change, with uncertainty"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u1-g2",
+     "title": "Four different questions about one test",
+     "type": "compare",
+     "caption": "These properties complement one another; passing one does not answer all four.",
+     "mnemonic": {
+      "cue": "V-R-A-U",
+      "meaning": "Valid, repeatable, agreeing, useful."
+     },
+     "alt": "Four different questions about one test. These properties complement one another; passing one does not answer all four.",
+     "items": [
+      {
+       "label": "Validity",
+       "detail": "Does the interpretation fit the construct?"
+      },
+      {
+       "label": "Repeatability",
+       "detail": "How much does it vary on repetition?"
+      },
+      {
+       "label": "Agreement",
+       "detail": "How different are methods or occasions?"
+      },
+      {
+       "label": "Utility",
+       "detail": "Would the information improve a decision?"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u1-g3",
+     "title": "Perfect rank order can conceal bias",
+     "type": "bars",
+     "caption": "Synthetic trial 2: SystemA40 cm, SystemB45 cm. The 5 cm offset exists despite identical rank order across all three fictional trials.",
+     "mnemonic": {
+      "cue": "Same order ≠ same number",
+      "meaning": "A correlation does not remove an offset."
+     },
+     "alt": "Perfect rank order can conceal bias. Synthetic trial 2: SystemA40 cm, SystemB45 cm. The 5 cm offset exists despite identical rank order across all three fictional trials.",
+     "items": [
+      {
+       "label": "System A",
+       "detail": "Reference reading in centimeters",
+       "value": 40
+      },
+      {
+       "label": "System B",
+       "detail": "Same trial, different method",
+       "value": 45
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "The vendor’s “readiness” score",
+    "scenario": "An affiliate offers a proprietary readiness index derived from three jump variables. It correlates 0.92 with jump height in college athletes. The coordinator wants to use a five-point decline to cancel speed work for professional outfielders. No agreement data, local reliability study or decision validation is supplied. All details are synthetic.",
+    "task": "Write a 200-word recommendation that preserves any useful measurement while rejecting unsupported action rules.",
+    "worked": [
+     "The reported correlation supports an association in that study, not a five-point decision threshold or an estimate of injury risk. Request definitions, scoring, processing, protocol and agreement/error evidence before using the index longitudinally.",
+     "Continue collecting a small interpretable outcome only if its burden and validity fit the development question. Establish a local repeatability study and a communication plan. Until the action rule is evaluated, use the number to trigger a contextual conversation rather than to determine training automatically."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "Two systems correlate 1.00 but one is always 5 cm higher. Can they be substituted without adjustment?",
+     "options": [
+      {
+       "text": "Yes; perfect correlation proves agreement.",
+       "feedback": "Correlation describes association. A persistent offset can create false longitudinal change."
+      },
+      {
+       "text": "No; evaluate bias and its stability for the intended use.",
+       "feedback": "Correct. Rank order can be perfect while readings differ materially."
+      },
+      {
+       "text": "Only if every athlete is a professional.",
+       "feedback": "Population relevance does not remove the observed offset."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240."
+    },
+    {
+     "prompt": "What does a hands-on-hips CMJ most directly describe?",
+     "options": [
+      {
+       "text": "The entire lower-body strength profile.",
+       "feedback": "One movement and loading condition do not span every strength quality."
+      },
+      {
+       "text": "The performed jump under specified conditions.",
+       "feedback": "Correct. Broader interpretations require additional evidence."
+      },
+      {
+       "text": "The player’s probability of injury.",
+       "feedback": "The test does not directly measure or validate that probability."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457."
+    },
+    {
+     "prompt": "Which proposal has the clearest decision rationale?",
+     "options": [
+      {
+       "text": "Choose the metric with the highest team average.",
+       "feedback": "A high numerical average says nothing about decision relevance."
+      },
+      {
+       "text": "Specify the decision, construct, protocol, uncertainty and possible actions.",
+       "feedback": "Correct. These steps connect measurement to an accountable use."
+      },
+      {
+       "text": "Collect every available variable for future use.",
+       "feedback": "Large collections create cost and ambiguous interpretation without a question."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240."
+    }
+   ],
+   "assignment": {
+    "prompt": "Design a three-test maximum battery for a fictional professional outfielder’s eight-week development review. Do not assume access to expensive devices.",
+    "deliverables": [
+     "A decision–construct–task–metric table with units.",
+     "A250-word methods comparison using one reviewed source and its population limits.",
+     "One unsupported inference and one no-valid-data response for each test."
+    ],
+    "rubric": [
+     "Each test could change a named decision; no generic readiness claim.",
+     "Methods, aggregation and units are explicit.",
+     "Validity and reliability are distinguished from utility.",
+     "Baseball application is separated from cross-sport evidence."
+    ],
+    "model": [
+     "Start with a training emphasis that staff can actually revise. Pair a standardized lower-body task with an acceleration task only if they provide complementary information. A third measure must earn its place rather than fill a quota.",
+     "State the exact protocol and how uncertainty could change the interpretation. A missing or invalid session stays missing; it must not become a zero or a bad-performance score. Defend why each selected measurement is worth the athlete’s time."
+    ]
+   },
+   "recall": {
+    "prompt": "Without looking, trace the four layers between “baseball performance” and a force-plate report.",
+    "answer": "Construct → task → signal → inference. The report directly describes the performed task; broader baseball conclusions require evidence and context."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Try baseline 40, follow-up 42 and error 1 cm. The explorer addresses uncertainty in this measurement only. It cannot establish whether CMJ height is valid for your decision or whether 2 cm matters to the player.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+     "application": "Decision-specific validity and source appraisal.",
+     "limit": "Textbook synthesis; the baseball battery is original.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-cmj",
+     "locator": "Methods: Participants and Protocol, printed pp.7–9; Results/Table 1 and Discussion, printed pp.10–13.",
+     "application": "Example of protocol- and metric-specific evidence.",
+     "limit": "Active adult men, not professional-baseball thresholds."
+    }
+   ],
+   "tags": [
+    "validity",
+    "test selection",
+    "construct",
+    "agreement"
+   ]
+  },
+  {
+   "id": "m07-u2",
+   "title": "Standardize the session: calibration, instructions and metadata",
+   "minutes": 60,
+   "studyHours": 8,
+   "outcomes": [
+    "Write a reproducible collection procedure with explicit stop and invalid-trial rules.",
+    "Distinguish zeroing, checking and calibration.",
+    "Preserve enough metadata to reconstruct a measurement."
+   ],
+   "body": [
+    {
+     "heading": "A number is the end of a collection chain",
+     "text": "Consider two reported jumps of 40 cm. One followed a familiar warm-up on the usual platform before training. The other followed a long bus trip, used a different operator and allowed arm swing. The same value does not establish the same performance state. Metadata describes the chain that generated each observation so that comparisons can be judged rather than assumed.\n\nDefine session identifiers, athlete identifiers, date and local time with time-zone handling, protocol version, device serial number, software and firmware, operator, task instructions, trial sequence, units and aggregation. Include relevant context such as preceding training and deviations from the intended procedure. Keep identifiers stable when an athlete changes affiliate; team names and names alone are unreliable join keys. Collect sensitive context only when needed, authorized and appropriately protected.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Zeroing is not a full calibration",
+     "text": "Zeroing or taring establishes the current unloaded reference according to the device’s procedure. A functional check tests whether the device behaves as expected under known conditions. Calibration establishes the relationship between readings and known reference quantities, with procedures and tolerances appropriate to the instrument. These activities are related but not interchangeable. Do not call an empty-platform zero a complete verification of accuracy across the force range.\n\nFollow the actual manufacturer’s setup, warm-up, mounting, capacity and maintenance instructions. A classroom diagram cannot supply the correct calibration procedure for every model. Record when and by whom checks were completed, the reference used, readings, acceptance rule and corrective action. An unexplained discrepancy is a reason to pause affected collection and investigate. Silently subtracting an offset after seeing athlete results can conceal an unresolved instrument problem.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Standardize the task without confusing uniformity with realism",
+     "text": "Write the warm-up, footwear and surface requirements, permitted movement, start position, instructions, rest and trial count. Teach the task before using it to evaluate training. Familiarization helps reduce learning-related differences, but the number of sessions required is athlete- and task-dependent. A universal familiarization dose is not established by this course.\n\nDecide which features must remain fixed and which can vary within the protocol. For example, allowing self-selected countermovement depth may be deliberate, but changing from fixed to self-selected depth halfway through a series changes the measurement context. Record the decision. Use the same encouragement script and feedback policy. If the purpose is monitoring under routine field conditions, estimate reliability under those conditions instead of claiming that ideal laboratory repeatability automatically transfers to travel-heavy baseball operations.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Define an invalid trial before you see the score",
+     "text": "An invalid trial violates a measurement rule: stepping off a platform, an equipment dropout, a false gate trigger, or an unauthorized movement under that protocol. A low result can be perfectly valid. Write rejection criteria before collection and retain rejected trials with reasons. This prevents selective deletion of inconvenient observations and preserves the ability to audit a surprising report.\n\nA synthetic session contains three CMJ estimates:38.0,41.0 and 40.0 cm. Video shows the 41.0 cm trial used arm swing despite a hands-on-hips rule. If the SOP requires the mean of three valid trials, you do not average the remaining two and pretend the requirement was met. Follow the predeclared replacement or incomplete-session rule. If a safe replacement produces 39.0 cm, the valid mean is 39.0 cm. The rejected value remains in the raw record.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Aggregation is part of the outcome definition",
+     "text": "The best trial, mean of all valid trials and median answer different questions and respond differently to noise. Choose one because it matches the intended use, then estimate reliability for that exact summary. A best-of-five estimate is not interchangeable with a mean-of-three estimate. More attempts create more opportunities for an extreme result and may also introduce fatigue or learning.\n\nKeep trial-level data even when the dashboard displays one number. Store validity, order and reason codes separately from the value. A displayed session average must be traceable to the exact included trials. Avoid rounding before aggregation or uncertainty calculations; round for communication at the end. Report precision consistent with the method. A software export containing six decimals does not demonstrate six-decimal accuracy or justify interpreting tiny fluctuations.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Version changes need a bridge, not a hidden edit",
+     "text": "Suppose a new software release changes movement-onset detection. Archive the previous procedure, document the release and determine which metrics could change. Where feasible, process the same retained raw traces using both versions. This paired comparison helps separate algorithm differences from athlete change, although it cannot validate parts of the collection chain that also changed.\n\nIf comparable reprocessing is impossible, mark a break in the longitudinal record and collect a new baseline under the revised method. Explain what can and cannot be compared. For device replacement, a planned overlap study may be needed, subject to staff expertise and athlete burden. Do not blend two methods into one trend line merely because the column names match. A good SOP includes ownership of revisions, a version date and a process for staff training.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Make the instructions understandable to the athlete",
+     "text": "Standardization depends on shared understanding, not simply reading identical words. Check that the athlete understands the task, the requested effort and the reason for repeating it. If instructions are delivered in more than one language, agree a consistent translation and demonstration with qualified staff, and document meaningful changes. A memorized script that the athlete interprets differently is not a standardized procedure.\n\nRecord whether feedback is given after each trial or only after the session. Competitive feedback can change behavior and may be an intentional feature, but it should not appear unpredictably. Use a brief teach-back or demonstration during familiarization. If the athlete misunderstands today’s task, correct the instruction and apply the established trial policy; do not interpret the resulting discrepancy as lost physical capacity.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u2-g1",
+     "title": "The measurement passport",
+     "type": "flow",
+     "caption": "An original workflow map. Each record should be traceable to its collection and processing context.",
+     "mnemonic": {
+      "cue": "Who–What–How–When",
+      "meaning": "Identity, task, method and context travel with the value."
+     },
+     "alt": "The measurement passport. An original workflow map. Each record should be traceable to its collection and processing context.",
+     "items": [
+      {
+       "label": "Identity",
+       "detail": "Athlete, session and trial IDs"
+      },
+      {
+       "label": "Setup",
+       "detail": "Device, operator, software version"
+      },
+      {
+       "label": "Execution",
+       "detail": "Instructions, conditions and validity"
+      },
+      {
+       "label": "Output",
+       "detail": "Units, aggregation and processing"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u2-g2",
+     "title": "Three equipment checks with different purposes",
+     "type": "compare",
+     "caption": "Follow the actual device manual and competent supervision; this is not a calibration instruction.",
+     "mnemonic": {
+      "cue": "Zero, check, calibrate",
+      "meaning": "Baseline, expected behavior, reference relationship."
+     },
+     "alt": "Three equipment checks with different purposes. Follow the actual device manual and competent supervision; this is not a calibration instruction.",
+     "items": [
+      {
+       "label": "Zero",
+       "detail": "Establish unloaded reference"
+      },
+      {
+       "label": "Check",
+       "detail": "Test expected operation"
+      },
+      {
+       "label": "Calibrate",
+       "detail": "Establish reference-to-reading relationship"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u2-g3",
+     "title": "An invalid high score stays excluded",
+     "type": "bars",
+     "caption": "Synthetic valid trials after the documented replacement:38,40,39 cm. Their mean is 39 cm; the invalid 41 cm trial remains in the audit record.",
+     "mnemonic": {
+      "cue": "Rule before result",
+      "meaning": "Reject protocol violations, not low scores."
+     },
+     "alt": "An invalid high score stays excluded. Synthetic valid trials after the documented replacement:38,40,39 cm. Their mean is 39 cm; the invalid 41 cm trial remains in the audit record.",
+     "items": [
+      {
+       "label": "Valid 1",
+       "detail": "Hands on hips",
+       "value": 38
+      },
+      {
+       "label": "Valid 2",
+       "detail": "Hands on hips",
+       "value": 40
+      },
+      {
+       "label": "Replacement",
+       "detail": "Valid replacement after a rule violation",
+       "value": 39
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "A coordinator receives two different “CMJ means”",
+    "scenario": "AffiliateA reports the mean of three valid hands-on-hips trials. AffiliateB reports the highest of five arm-swing trials. Both columns are namedcmj_cm and the coordinator wants a single organization ranking. A firmware update occurred at AffiliateB last week. All details are fictional.",
+    "task": "Write the minimum repair before producing comparisons.",
+    "worked": [
+     "Do not rank the combined values as though they share one definition. Recover trial-level records and the protocol/version history. Rename outcomes so the task and aggregation remain visible.",
+     "Choose an organization procedure through staff review, then train collectors and test its feasibility. A transition may require overlap data or a new baseline. Historical values can remain available as separate series; erasing them is unnecessary, and combining them without qualification is misleading."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "The empty platform reads zero after taring. What is established?",
+     "options": [
+      {
+       "text": "The current unloaded reference, under that procedure.",
+       "feedback": "Correct. Further checks and calibration depend on the instrument."
+      },
+      {
+       "text": "That the athlete is fully recovered.",
+       "feedback": "Equipment setup says nothing about recovery."
+      },
+      {
+       "text": "Accuracy at every force level.",
+       "feedback": "Zero does not verify the full measurement range."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313."
+    },
+    {
+     "prompt": "A low jump follows the protocol exactly. Should it be deleted?",
+     "options": [
+      {
+       "text": "Yes, if it lowers the average.",
+       "feedback": "Deleting a valid low score biases the summary."
+      },
+      {
+       "text": "Yes, if the next trial is higher.",
+       "feedback": "Normal variation does not retrospectively invalidate an observation."
+      },
+      {
+       "text": "No; retain it and investigate context if needed.",
+       "feedback": "Correct. Validity rules concern the procedure, not whether the result is pleasing."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80."
+    },
+    {
+     "prompt": "Valid jumps 38,40 and 39 cm give which session mean?",
+     "options": [
+      {
+       "text": "39.5 cm.",
+       "feedback": "That does not follow the stated three-trial mean."
+      },
+      {
+       "text": "39 cm.",
+       "feedback": "Correct:117/3 = 39 cm."
+      },
+      {
+       "text": "40 cm.",
+       "feedback": "That is the maximum, a different aggregation rule."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313."
+    }
+   ],
+   "assignment": {
+    "prompt": "Create a one-page CMJ collection SOP and a companion trial-level data dictionary. If you lack a force plate, label your work a simulation and propose a feasible alternative task.",
+    "deliverables": [
+     "Setup/check log, instructions, trial and rest rules, predefined invalid/replacement rules.",
+     "Dictionary for identifiers, timestamps, versions, values, units and missingness.",
+     "A worked audit of the 38,41-invalid,40,39-replacement session."
+    ],
+    "rubric": [
+     "Another trained collector can reconstruct the procedure.",
+     "Zeroing, checking and calibration are distinguished.",
+     "Valid low observations remain included; rejection reasons persist.",
+     "Aggregation and version transitions are reproducible."
+    ],
+    "model": [
+     "Keep a raw trial table with four rows and explicit validity reasons; derive the three-valid-trial mean in a separate summary table. A replacement is acceptable only under the predeclared rule and appropriate participant conditions.",
+     "Include a final check that the summary references the intended protocol version and all required valid trials. Document the missing-data response and staff contact rather than improvising a score when the session cannot be completed."
+    ]
+   },
+   "recall": {
+    "prompt": "What makes a number comparable beyond sharing the same unit?",
+    "answer": "A sufficiently comparable task, collection/processing procedure, aggregation, athlete context and known uncertainty, with any differences documented."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Use the explorer to see how an unchanged error estimate changes a detectable-change margin. Then explain why a protocol or firmware change can invalidate borrowing that same error estimate.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+     "application": "Standardization and repeatability under the intended use.",
+     "limit": "Device-specific calibration must come from its verified manual.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+     "application": "Version and processing documentation.",
+     "limit": "No single filtering setting is prescribed.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    }
+   ],
+   "tags": [
+    "SOP",
+    "calibration",
+    "metadata",
+    "invalid trials"
+   ]
+  },
+  {
+   "id": "m07-u3",
+   "title": "What force plates, dynamometers and timing gates actually measure",
+   "minutes": 60,
+   "studyHours": 9,
+   "outcomes": [
+    "Trace instrument readings to derived metrics with units and assumptions.",
+    "Distinguish force, torque, impulse, power and time.",
+    "Specify device-specific limits and a feasible measurement plan."
+   ],
+   "body": [
+    {
+     "heading": "The instrument does not observe every quantity on the report",
+     "text": "A force plate measures forces, and depending on its design also moments, through a calibrated sensing system. Many displayed outputs are subsequently calculated. Vertical center-of-mass acceleration requires a force balance and an estimate of body mass. Velocity requires integration and an initial condition. Jump height requires further assumptions. The chain matters because an error at an early step can affect several apparently separate metrics.\n\nFor a stationary 80 kg athlete usingg = 9.81 m/s², expected vertical support force is approximately 784.8 N. During a fictional instant with vertical ground-reaction force 1,200 N, net vertical force is 1,200 − 784.8 = 415.2 N, giving upward acceleration 415.2/80 = 5.19 m/s². The 1,200 N reading is not itself net force. With two platforms under separate feet, use the appropriately synchronized total vertical force for whole-body acceleration, not one side alone.",
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Force, impulse and power answer different questions",
+     "text": "Force describes interaction at an instant; impulse integrates net force over time and changes momentum. Power is a rate of mechanical energy transfer and depends on the specified force and corresponding velocity. Multiplying a reported peak force by a peak velocity measured at a different instant does not generally yield true peak power. The maxima may occur at different times.\n\nFor a deliberately simple synthetic interval, constant net upward force 200 N applied for 0.20 s produces 40 N·s of net impulse. For an 80 kg system initially at rest, the associated velocity change is 40/80 = 0.50 m/s. This arithmetic is a small segment example, not an entire jump. Real movement requires the whole relevant trace, signed force, an appropriate integration method and valid initial conditions. An impressive peak alone cannot explain how the athlete accumulated velocity across the movement.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Dynamometry: respect the lever arm and the setup",
+     "text": "A dynamometer reading in newtons describes a force at the contact point. External joint torque requires the perpendicular moment arm: torque = force × perpendicular distance. In a synthetic example,200 N applied with a 0.30 m perpendicular moment arm corresponds to 60 N·m. The same 200 N at 0.25 m corresponds to 50 N·m. Comparing force alone while changing placement can therefore misrepresent the mechanical comparison.\n\nDocument joint angle, body position, stabilization, device placement, contraction instruction and duration, side, rest and operator. A handheld setup can be limited by examiner capacity or stabilization. A fixed apparatus introduces its own alignment and setup requirements. Do not equate measured external torque with the force in one muscle or with tissue load. Multiple muscles and passive structures can contribute, and the calculation does not solve their individual contributions.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Timing systems measure an interval defined by events",
+     "text": "A timing result is the time between specified trigger events. Gate position, beam height, start procedure, athlete distance behind the first gate and the body part that breaks the beam can change that interval. A standing-start 10 m time and a flying 10 m time do not answer the same performance question. A stopwatch adds human event-detection error and should not silently replace an electronic system in a longitudinal series.\n\nIf a fictional 10 m interval takes 1.50 s, average speed over that interval is 10/1.50 ≈ 6.67 m/s. This is not maximum instantaneous speed. A runner could accelerate throughout the interval. If the question concerns acceleration from a baseball start, reproduce and document the start task; if it concerns peak-speed exposure, choose a method capable of addressing that different question. Surface, footwear and wind conditions belong in the comparison.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Choose the metric before choosing the shopping list",
+     "text": "A resource-limited affiliate can still conduct disciplined testing. Start with the question, available method and meaningful resolution. A simpler test with transparent procedures can support a limited conclusion. It cannot be made equivalent to a laboratory measurement merely by renaming its output. Likewise, expensive hardware does not remove a poorly chosen task, an inconsistent operator or a weak interpretation.\n\nBuild an instrument specification sheet: what is sensed directly, what is derived, required units, relevant measurement range, sampling or timing resolution, access to raw data, processing transparency, known validation evidence and local operating constraints. Ask vendors to define proprietary terms. If the method is undisclosed, state what cannot be independently reconstructed and decide whether the remaining information is sufficient for the intended use. Treat procurement and measurement design as connected decisions.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Testing technique is a practical skill that needs observation",
+     "text": "Reading the procedure and calculating the examples prepare you for practical work. They do not verify that you can align a sensor, identify a false trigger, coach a repeatable effort or stop an inappropriate test. The course project therefore separates a documented simulation from an observed collection. Keep an honest evidence log: source reviewed, mock setup rehearsed, supervised session completed and feedback acted upon.\n\nBefore working with athletes, obtain the appropriate organizational permission and supervision, explain the purpose and burden, and respect existing restrictions. Do not add maximal tests to a rehabilitation plan without the responsible team’s authorization. When equipment is unavailable, work from synthetic traces and critique demonstration footage or a mock SOP. Record the missing practical competency rather than turning a paper exercise into a claim of real-device competence.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "An asymmetry percentage needs a denominator and a task",
+     "text": "Two hypothetical unilateral forces of 900 N and 1,000 N differ by 100 N. Dividing by the larger value gives 10%; dividing by their mean 950 N gives approximately 10.53%. Both are possible formulas, but they are not identical and should not share an unexplained “asymmetry” label. Record the equation and which side is higher, not just the magnitude.\n\nA side difference in one test does not locate an injured tissue or establish a dangerous threshold. Side dominance, movement strategy, setup and measurement error can contribute, and a bilateral task does not automatically isolate unilateral capacity. Check whether the direction persists across comparable observations and whether the result matters for the named task. Do not prescribe a correction solely because one percentage exceeds a generic number from a different test.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u3-g1",
+     "title": "From support force to acceleration",
+     "type": "flow",
+     "caption": "Synthetic 80 kg example; g = 9.81 m/s². Upward is positive. Values are instructional, not a test standard.",
+     "mnemonic": {
+      "cue": "Subtract weight, divide mass",
+      "meaning": "Acceleration uses net force, not total support force."
+     },
+     "alt": "From support force to acceleration. Synthetic 80 kg example; g = 9.81 m/s². Upward is positive. Values are instructional, not a test standard.",
+     "items": [
+      {
+       "label": "Measured force",
+       "detail": "1,200 N upward"
+      },
+      {
+       "label": "Subtract weight",
+       "detail": "1,200 − 784.8 = 415.2 N net"
+      },
+      {
+       "label": "Divide by mass",
+       "detail": "415.2/80 = 5.19 m/s²"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u3-g2",
+     "title": "Same force, different torque",
+     "type": "bars",
+     "caption": "Synthetic torque in N·m for 200 N of perpendicular applied force:60 N·m at 0.30 m and 50 N·m at 0.25 m.",
+     "mnemonic": {
+      "cue": "Force × arm",
+      "meaning": "Placement changes the mechanical interpretation."
+     },
+     "alt": "Same force, different torque. Synthetic torque in N·m for 200 N of perpendicular applied force:60 N·m at 0.30 m and 50 N·m at 0.25 m.",
+     "items": [
+      {
+       "label": "0.30 m moment arm",
+       "detail": "200 × 0.30",
+       "value": 60
+      },
+      {
+       "label": "0.25 m moment arm",
+       "detail": "200 × 0.25",
+       "value": 50
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u3-g3",
+     "title": "Match the tool to its direct observation",
+     "type": "compare",
+     "caption": "Derived values need an explicit model. This map does not validate any commercial device.",
+     "mnemonic": {
+      "cue": "Sense → derive → qualify",
+      "meaning": "Know which step produced the displayed number."
+     },
+     "alt": "Match the tool to its direct observation. Derived values need an explicit model. This map does not validate any commercial device.",
+     "items": [
+      {
+       "label": "Force plate",
+       "detail": "Force signal; other outcomes need processing"
+      },
+      {
+       "label": "Dynamometer",
+       "detail": "Force at specified contact and setup"
+      },
+      {
+       "label": "Timing gates",
+       "detail": "Interval between defined trigger events"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "Three ways to overstate a testing report",
+    "scenario": "A fictional report calls a 1,200 N platform reading “1,200 N net force,” calls 10 m/1.50 s “maximum speed,” and compares dynamometer forces despite moving the pad from 0.30 m to 0.25 m from the joint axis. The athlete has 80 kg mass and the distances are perpendicular moment arms.",
+    "task": "Correct all three statements and identify what additional information is needed.",
+    "worked": [
+     "Net vertical force is 415.2 N and instantaneous acceleration is 5.19 m/s² under the stated assumptions. Confirm that the reported platform value is total support force and that mass was measured appropriately.",
+     "The 10 m result gives average interval speed 6.67 m/s. The force comparison needs consistent setup or correctly calculated torque:200 N would represent 60 versus 50 N·m at the two locations. Neither external torque nor a sprint interval identifies a single muscle’s force or a universal baseball performance state."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "An 80 kg athlete has 1,200 N vertical support force. Usingg = 9.81, what is net upward force?",
+     "options": [
+      {
+       "text": "784.8 N.",
+       "feedback": "That is the estimated body weight, not net force."
+      },
+      {
+       "text": "1,200 N.",
+       "feedback": "That includes support against gravity."
+      },
+      {
+       "text": "415.2 N.",
+       "feedback": "Correct:1,200 − 80 × 9.81 = 415.2 N."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "depth-cscs-strength",
+     "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values."
+    },
+    {
+     "prompt": "200 N at a 0.25 m perpendicular moment arm produces what torque?",
+     "options": [
+      {
+       "text": "800 N·m.",
+       "feedback": "Dividing by distance reverses the torque relationship."
+      },
+      {
+       "text": "200 N·m.",
+       "feedback": "Newtons and newton-meters are different quantities."
+      },
+      {
+       "text": "50 N·m.",
+       "feedback": "Correct:200 × 0.25 = 50 N·m."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457."
+    },
+    {
+     "prompt": "10 m covered in 1.50 s supports which conclusion?",
+     "options": [
+      {
+       "text": "Maximum speed was 6.67 m/s.",
+       "feedback": "The average does not reveal the maximum."
+      },
+      {
+       "text": "The athlete must have run at constant speed.",
+       "feedback": "Many varying speed traces can produce the same interval time."
+      },
+      {
+       "text": "Average speed across that interval was about 6.67 m/s.",
+       "feedback": "Correct. The start, triggers and route define the interval."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457."
+    }
+   ],
+   "assignment": {
+    "prompt": "Create a measurement specification for one available device or a clearly labeled simulated device. Include a hand calculation that checks a derived metric.",
+    "deliverables": [
+     "Direct-signal versus derived-output map with units.",
+     "Setup diagram description, metadata and major error sources.",
+     "A worked calculation and a practical observation still required."
+    ],
+    "rubric": [
+     "Units and sign conventions are correct.",
+     "Derived outputs have stated assumptions and initial conditions.",
+     "Device-specific procedures are not invented.",
+     "Real-device competence is claimed only with observed evidence."
+    ],
+    "model": [
+     "For a force plate, map total vertical force to net force and acceleration, then explain what integration additionally needs. Use a quiet-standing check as a plausibility check, not as proof of complete calibration.",
+     "For timing gates, define the interval and start trigger before calculating speed. For dynamometry, include perpendicular moment arm and stabilization. State who must observe the setup before you use the method independently."
+    ]
+   },
+   "recall": {
+    "prompt": "Why can two devices report the same units while answering different questions?",
+    "answer": "The task, trigger, setup, direct signal, model and aggregation can differ. Units are necessary for interpretation but do not establish equivalence."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Choose one metric and keep its unit consistent. The measurement explorer handles a baseline difference, not the force-balance, torque or timing model. Explain that boundary before interpreting its uncertainty.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 13, measurement methods and task specificity; pp.437–445 and 448–457.",
+     "application": "Mechanical specificity and measurement chains.",
+     "limit": "General sport-science foundation; device manuals and practical sign-off remain necessary.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "grad-force-events",
+     "locator": "Sections 2.1–2.4 (participants, familiarization and apparatus),3.1 (signal processing),3.2 (body mass, kinematic and kinetic variables).",
+     "application": "Documented force-to-kinematic processing example.",
+     "limit": "32 active men; original arithmetic here is synthetic and is not a universal acquisition prescription."
+    },
+    {
+     "id": "depth-cscs-strength",
+     "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+     "application": "Original force-balance, torque, impulse and kinematics teaching from foundational mechanics.",
+     "limit": "The textbook is a foundation; worked traces and arithmetic are synthetic, not a validated device algorithm.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    }
+   ],
+   "tags": [
+    "instrumentation",
+    "force plates",
+    "dynamometry",
+    "timing",
+    "units"
+   ]
+  },
+  {
+   "id": "m07-u4",
+   "title": "Inspect the signal: sampling, filtering and event detection",
+   "minutes": 60,
+   "studyHours": 9,
+   "outcomes": [
+    "Explain how processing choices alter a derived metric.",
+    "Audit force-time events using signs, units and boundary conditions.",
+    "Preserve raw data and compare processing versions without inventing athlete change."
+   ],
+   "body": [
+    {
+     "heading": "A sampled signal is a sequence, not continuous truth",
+     "text": "A digital recording samples a physical signal at discrete times. At 1,000 Hz the nominal interval is 0.001 s; at 100 Hz it is 0.01 s. The latter offers fewer observations of rapid changes, but a high advertised sample rate alone does not guarantee an accurate measurement. Sensor behavior, analog conditioning, synchronization, resolution and processing also matter. Confirm what the exported rate represents and whether samples were resampled or averaged.\n\nCheck timestamps rather than assuming the requested rate was achieved without gaps. A missing segment is not a string of zero-force observations. A zero-filled gap can create false event boundaries and distort integration. Record whether data were lost, interpolated or excluded, and why. Sampling requirements should be justified for the metric and instrument; this lesson does not prescribe one universal frequency for every sport-science application.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Filtering trades noise reduction against signal detail",
+     "text": "A filter changes the frequency content of a signal. Smoothing can reduce unwanted fluctuations, but it can also change peaks, slopes and event timing. The result depends on filter type, order, cutoff, implementation and boundary handling. A visually smooth curve is not automatically more valid. Preserve the original acquisition export and create a separately versioned processed copy.\n\nThe Sahrom study provides a documented example of selecting and reporting processing methods for a particular CMJ investigation. Its settings are study methods, not a recipe to paste into every platform. For your own workflow, ask what noise is being removed, what real behavior could be attenuated, and whether the method has been evaluated for the target metric. A proprietary export labeled “raw” may already contain internal processing; document that uncertainty rather than claiming access to untouched sensor data.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      },
+      {
+       "id": "grad-force-events",
+       "locator": "Sections 2.1–2.4 (participants, familiarization and apparatus),3.1 (signal processing),3.2 (body mass, kinematic and kinetic variables)."
+      }
+     ]
+    },
+    {
+     "heading": "Find events with a definition that can be checked",
+     "text": "Movement onset, minimum velocity, the transition from downward to upward motion, takeoff and landing are different events. A force threshold may be used in an algorithm, but its definition must be explicit: reference baseline, threshold direction, duration requirement, search window and handling of noise. Review detected events against plausible traces, not only against the final number.\n\nDuring a CMJ with upward defined as positive, downward center-of-mass velocity can coexist with upward acceleration. That is braking: motion remains downward while the force balance is slowing it. The lowest center-of-mass position occurs when vertical velocity crosses from negative to positive, not necessarily at the highest force. Confusing force, acceleration and velocity signs can shift phase boundaries and alter the impulse or duration attributed to each phase.",
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Integration accumulates both signal and error",
+     "text": "For vertical motion, subtract body weight from support force and divide by mass to estimate acceleration. Integrating acceleration gives change in velocity; an initial velocity must be supplied. In a quiet-standing start, zero initial vertical velocity is a reasonable model assumption if the athlete was actually stationary. Integrating velocity then gives displacement relative to an initial position. Small baseline errors can accumulate across these steps.\n\nIn a synthetic example, an unrecognized 8 N net-force offset for an 80 kg athlete adds 0.10 m/s² acceleration. Across 0.50 s it adds 0.05 m/s of velocity error under constant-offset assumptions. That error then affects subsequent calculations. The example explains sensitivity, not a universal allowable offset. Quiet-standing quality, mass estimation, the integration window and the actual force baseline must therefore be inspected together.",
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Different height calculations have different assumptions",
+     "text": "Impulse–momentum estimation uses takeoff velocity and the ballistic relationshiph = v²/(2g) to estimate center-of-mass rise after takeoff, assuming flight is governed by gravity. With synthetic takeoff velocity 2.50 m/s andg = 9.81 m/s², h = 6.25/19.62 ≈ 0.319 m. This is not automatically total center-of-mass displacement from quiet standing to the apex; pre-takeoff movement changes the reference position.\n\nFlight-time estimation commonly usesh = gt²/8 under the assumption that center-of-mass height at landing equals that at takeoff. Altered landing posture can violate this assumption. Do not compare a flight-time estimate with an impulse–momentum estimate as though changing the equation cannot change the result. Identify which height is reported, its reference point, the detected events and the assumptions. Neither equation by itself establishes the player’s readiness or the cause of a change.",
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "A processing comparison is an experiment on the pipeline",
+     "text": "Suppose the same stored traces produce a fictional mean height 40.0 cm with processing versionA and 41.2 cm with versionB. Because the athletes did not repeat the jumps, the 1.2 cm difference is a processing difference, not new adaptation. Inspect per-trial differences and the events that changed. The average alone may conceal larger disagreements on unusual trials.\n\nLock the chosen method for a comparison period where feasible. If revision is warranted, retain both versions, document the reason and assess whether historical data can be reprocessed consistently. Do not choose settings simply because they produce the desired training story. Your audit should include an anomalous trace, a missing-data example and a normal trace. A second analyst should be able to reproduce the same output from the same input and named settings.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Audit time before integrating anything",
+     "text": "A deliberately tiny exported sequence has timestamps 0.000,0.001,0.002 and 0.010 s. The first gaps are 1 ms, but the last is 8 ms. Treating all four points as evenly spaced 1 ms observations would misrepresent elapsed time. The correct response is to inspect the acquisition record, determine whether samples are missing and apply a documented rule appropriate to the analysis. The sequence is a diagnostic toy, not a usable jump trace.\n\nAlso inspect clipping: a flat top at the instrument’s range limit may indicate saturation rather than a genuine force plateau. Interpolation or smoothing cannot reconstruct information that the sensor never recorded with acceptable certainty. Flag the affected metric, preserve the trace and explain what is unavailable. A plausible-looking final curve does not excuse an undocumented repair.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u4-g1",
+     "title": "Sampling interval",
+     "type": "bars",
+     "caption": "Nominal interval in milliseconds:1,000 Hz gives 1 ms;100 Hz gives 10 ms. A smaller interval alone does not establish measurement accuracy.",
+     "mnemonic": {
+      "cue": "Rate up, interval down",
+      "meaning": "Interval = 1/sample rate."
+     },
+     "alt": "Sampling interval. Nominal interval in milliseconds:1,000 Hz gives 1 ms;100 Hz gives 10 ms. A smaller interval alone does not establish measurement accuracy.",
+     "items": [
+      {
+       "label": "1,000 Hz",
+       "detail": "One sample every 1 ms",
+       "value": 1
+      },
+      {
+       "label": "100 Hz",
+       "detail": "One sample every 10 ms",
+       "value": 10
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u4-g2",
+     "title": "Moving down while slowing down",
+     "type": "compare",
+     "caption": "Upward is positive. This is a conceptual CMJ phase distinction, not an event-detection prescription.",
+     "mnemonic": {
+      "cue": "Direction ≠ acceleration",
+      "meaning": "Velocity tells motion; acceleration tells its change."
+     },
+     "alt": "Moving down while slowing down. Upward is positive. This is a conceptual CMJ phase distinction, not an event-detection prescription.",
+     "items": [
+      {
+       "label": "Unweighting example",
+       "detail": "Downward motion speeds up: velocity negative, acceleration negative"
+      },
+      {
+       "label": "Braking example",
+       "detail": "Downward motion slows: velocity negative, acceleration positive"
+      },
+      {
+       "label": "Upward transition",
+       "detail": "Velocity passes through zero at the lowest position"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u4-g3",
+     "title": "Small offset, accumulated error",
+     "type": "flow",
+     "caption": "Synthetic constant-offset example for 80 kg over 0.50 s. Not an instrument acceptance limit.",
+     "mnemonic": {
+      "cue": "Offset travels downstream",
+      "meaning": "Force error becomes acceleration and velocity error."
+     },
+     "alt": "Small offset, accumulated error. Synthetic constant-offset example for 80 kg over 0.50 s. Not an instrument acceptance limit.",
+     "items": [
+      {
+       "label": "Force offset",
+       "detail": "8 N"
+      },
+      {
+       "label": "Acceleration error",
+       "detail": "8/80 = 0.10 m/s²"
+      },
+      {
+       "label": "Velocity error",
+       "detail": "0.10 × 0.50 = 0.05 m/s"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "The athlete improved after a software update—without jumping again",
+    "scenario": "A scientist reprocesses ten stored synthetic CMJ traces. Mean estimated height rises from 40.0 to 41.2 cm. Two traces have shifted onset markers; one contains a missing segment that the import routine filled with zeros. No athlete performed an additional trial.",
+    "task": "Explain the result, identify the invalid processing step and design the comparison needed before deployment.",
+    "worked": [
+     "The 1.2 cm mean difference is attributable to the changed processing of the same recorded trials, not a new athlete response. Examine paired trace-level differences and event markers. Do not label the update a performance improvement.",
+     "Restore missingness, inspect the raw export and apply a documented missing-trace rule. Compare versions after fixing that error, record the method chosen and establish whether all earlier traces can be processed consistently. The adopted pipeline needs metric-specific evaluation, not just a pleasing appearance."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "Velocity is downward but acceleration is upward during a CMJ. What can this describe?",
+     "options": [
+      {
+       "text": "Braking of downward movement.",
+       "feedback": "Correct. The athlete can still move down while slowing that movement."
+      },
+      {
+       "text": "A physically impossible signal.",
+       "feedback": "Velocity and acceleration need not share the same sign."
+      },
+      {
+       "text": "The flight phase in every case.",
+       "feedback": "This sign pattern alone does not identify flight."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "depth-cscs-strength",
+     "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values."
+    },
+    {
+     "prompt": "At 1,000 Hz, the nominal sample interval is…",
+     "options": [
+      {
+       "text": "1,000 s.",
+       "feedback": "Frequency is samples per second, not seconds per sample."
+      },
+      {
+       "text": "0.1 s.",
+       "feedback": "That corresponds to 10 Hz."
+      },
+      {
+       "text": "0.001 s.",
+       "feedback": "Correct:1/1,000 s, or 1 ms."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306."
+    },
+    {
+     "prompt": "An 80 kg athlete has a constant 8 N offset for 0.50 s. What added velocity error follows?",
+     "options": [
+      {
+       "text": "8 m/s.",
+       "feedback": "Force units cannot be treated as velocity units."
+      },
+      {
+       "text": "0.05 m/s.",
+       "feedback": "Correct:(8/80) × 0.50 = 0.05 m/s under the stated assumptions."
+      },
+      {
+       "text": "0.50 m/s.",
+       "feedback": "This is ten times the stated calculation."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "depth-cscs-strength",
+     "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values."
+    }
+   ],
+   "assignment": {
+    "prompt": "Write a processing audit for a synthetic force-time recording. Include one missing segment and two plausible onset definitions. You may use a spreadsheet or pseudocode.",
+    "deliverables": [
+     "A raw-to-derived flow with units, sign convention and initial conditions.",
+     "A parameter log and a comparison of two processing versions on identical input.",
+     "A missing-data rule and an explanation of one phase-boundary disagreement."
+    ],
+    "rubric": [
+     "Raw input remains intact and processing is reproducible.",
+     "Events and signs are mechanically coherent.",
+     "Missing samples are not silently converted to real zeros.",
+     "Algorithm differences are not called athlete adaptation."
+    ],
+    "model": [
+     "Start by checking timestamps, force units and the quiet-standing interval. Define how mass and net force are obtained, then document integration and event detection. Retain a plot or table of the intermediate values.",
+     "Use identical input for the comparison and report which events or peaks changed. If the metric cannot be independently reconstructed because its algorithm is proprietary, describe that limitation and restrict the claim rather than inventing a calculation."
+    ]
+   },
+   "recall": {
+    "prompt": "Name three things you must know before trusting a derived jump metric.",
+    "answer": "The measured signal and units; processing/event definitions; and the model’s assumptions and reference points. Also check missingness, setup, version and uncertainty."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "The measurement explorer treats the entered values as comparable observations. Change a follow-up value by 1.2 cm to mimic the synthetic processing shift, then explain why the resulting difference cannot be interpreted as athlete change.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+     "application": "Filtering transparency, software changes and reproducibility.",
+     "limit": "No universal cutoff or sample-rate prescription.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "grad-force-events",
+     "locator": "Sections 2.1–2.4 (participants, familiarization and apparatus),3.1 (signal processing),3.2 (body mass, kinematic and kinetic variables).",
+     "application": "Force-derived kinematics and event-definition example.",
+     "limit": "Study-specific methods; schematic calculations are original and do not replicate a validated device pipeline."
+    },
+    {
+     "id": "depth-cscs-strength",
+     "locator": "Chapter 2, Basic Definitions, Positive/Negative Work and Power, Angular Work and Power; pp.41,44–47 (printed pp.25,28–31). Original derivations use Newtonian mechanics, stated assumptions and synthetic values.",
+     "application": "Original force-balance, torque, impulse and kinematics teaching from foundational mechanics.",
+     "limit": "The textbook is a foundation; worked traces and arithmetic are synthetic, not a validated device algorithm.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    }
+   ],
+   "tags": [
+    "signal processing",
+    "force-time",
+    "event detection",
+    "integration",
+    "raw data"
+   ]
+  },
+  {
+   "id": "m07-u5",
+   "title": "Design a reliability study that matches the real workflow",
+   "minutes": 60,
+   "studyHours": 9,
+   "outcomes": [
+    "Match the repetition design to the intended source of error.",
+    "Separate systematic bias from random scatter.",
+    "Inspect magnitude-dependent error, missingness and aggregation."
+   ],
+   "body": [
+    {
+     "heading": "Decide what you want to generalize",
+     "text": "A reliability study is a design problem before it is a calculation. Repeating trials within one session answers a narrower question than repeating sessions on different days. Using the same operator does not estimate the additional variation introduced by different operators. Testing one platform does not establish agreement among every platform in an organization. Write the intended future use first, then reproduce the relevant variations in the study.\n\nFor an affiliate dashboard using the mean of three valid CMJs collected by rotating staff, a useful design should address the session summary and the staff workflow. Three trials by one expert in a quiet laboratory cannot fully represent that deployment. You may begin with a controlled pilot to locate technical problems, then test the intended field process. Label each stage and avoid presenting a narrow pilot as a completed organization-wide reliability evaluation.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Choose an interval that avoids both carryover and real change",
+     "text": "If sessions are too close, residual fatigue, practice or memory can influence the retest. If they are too far apart, true training adaptation, detraining or clinical change may occur. There is no universal interval that solves this for every test. Choose and justify the timing based on task burden, athlete experience and the operating context, while recording intervening activity.\n\nA study designed to estimate short-term measurement repeatability should aim for a sufficiently stable underlying attribute across observations. Stability cannot simply be declared because the calendar interval looks reasonable. Inspect symptoms, training, travel and protocol deviations that could challenge it. Excluding every inconvenient real-world condition can produce an estimate too optimistic for routine use; including major true changes can make an instrument appear noisier than it is. State which question your design addresses.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Bias and scatter are different features",
+     "text": "For each athlete, calculate retest minus baseline using one consistent sign convention. The average difference estimates the systematic shift between occasions in that sample. The spread of differences reflects random disagreement around that shift, plus any unmodeled true changes. If everyone gains 2 cm after learning the task, average bias is 2 cm; a method that ignores this shift can overstate comparability.\n\nUse a paired table and a difference-versus-mean plot. The horizontal coordinate is the average of each pair; the vertical coordinate is retest−baseline. Look for a common offset, increasing spread at larger values, unusual observations and subgroups. A single summary coefficient can conceal these patterns. Investigate an unusual point through the raw record and prespecified rules; do not delete it simply because it weakens the desired reliability result.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Work through paired differences by hand",
+     "text": "Five synthetic athlete differences are−1,0,1,2,3 cm. Mean difference is 1 cm. Deviations from that mean are−2,−1,0,1,2 cm; their squared sum is 10 cm². Using the sample denominatorn−1 = 4, the difference variance is 2.5 cm² and SD is√2.5 ≈ 1.581 cm. Under a stable-trait, equal independent error model, typical error isSD of differences/√2 ≈ 1.118 cm.\n\nThe 1 cm shift and 1.118 cm random-error estimate answer different questions and should both be reported. Approximate 95% limits of agreement are mean difference ± 1.96 × SD of differences, here 1 ± 3.099 cm, or about−2.10 to 4.10 cm. These describe a model of individual between-session differences, not the confidence interval for the mean bias. Five invented pairs illustrate arithmetic; they do not provide a sufficiently precise estimate for professional decisions.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Inspect whether error grows with the size of the measure",
+     "text": "Absolute differences can be larger in stronger or higher-performing athletes simply because variability scales with the size of the measure. This is heteroscedasticity: the spread is not constant across the measurement range. A single error expressed in newtons may then describe small and large readings unequally. Plot the data before deciding whether an absolute or proportional model is appropriate.\n\nFor positive ratio-scale outcomes, log transformation can help model proportional error when the pattern supports it. Differences on the log scale represent ratios after back-transformation. Do not apply logarithms to zero or negative values, and do not introduce an arbitrary constant simply to make an inconvenient dataset fit. If residual behavior remains problematic or the sample is tiny, state the limitation and seek statistical review. A transformation does not repair protocol mixing, data entry errors or missing observations.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Report the design as carefully as the coefficient",
+     "text": "Describe the athlete sample, selection, task, device, operators, repetitions, interval, conditions, aggregation, exclusions and uncertainty. Report how many participants provided complete pairs and why others did not. Missing retests may be informative: the players unavailable because of symptoms or travel may differ from those with complete data. An error estimate from only the easiest-to-test athletes may not represent the full operational setting.\n\nPlan sample size around desired precision and the analysis, with appropriate statistical support. Do not invent a universal minimum number. Distinguish an early feasibility pilot from a definitive estimate. Preserve trial-level and session-level tables, code or formulas, and plots. A competent reader should understand what varied, what was held constant and which future measurements the result can reasonably inform. Reliability is a property of measurements under a process, not a timeless property of a device name.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Keep technical and biological repeatability distinct",
+     "text": "Repeated analysis of the identical stored trace can test processing reproducibility but contains no new athlete effort. Repeated jumps within a visit add execution variability. Repeating the visit adds more possible variation from context and biology. These nested questions can be investigated in stages to locate a problem efficiently.\n\nFor example, if two analysts produce different numbers from identical raw input and nominally identical settings, first resolve the processing discrepancy. Asking athletes to repeat the test will not fix that software or procedure issue. If analysis agrees but session summaries vary, inspect execution and context. This staged approach helps direct limited athlete time toward the uncertainty that remains. Report exactly which layer has been evaluated and avoid calling every form of repetition “test–retest reliability.”",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u5-g1",
+     "title": "Match repetitions to the question",
+     "type": "compare",
+     "caption": "Each design estimates a different scope of variation. They are not interchangeable.",
+     "mnemonic": {
+      "cue": "Repeat what will vary",
+      "meaning": "Session, operator and device must match the intended use."
+     },
+     "alt": "Match repetitions to the question. Each design estimates a different scope of variation. They are not interchangeable.",
+     "items": [
+      {
+       "label": "Within session",
+       "detail": "Repeat trials under one visit"
+      },
+      {
+       "label": "Between sessions",
+       "detail": "Repeat the session summary on another occasion"
+      },
+      {
+       "label": "Between operators",
+       "detail": "Include the intended staff variation"
+      },
+      {
+       "label": "Between devices",
+       "detail": "Study the instruments to be compared"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u5-g2",
+     "title": "Read the difference plot",
+     "type": "flow",
+     "caption": "Conceptual diagnostic sequence for retest−baseline differences versus paired means.",
+     "mnemonic": {
+      "cue": "Offset–Spread–Scale",
+      "meaning": "Look for bias, random variation and magnitude dependence."
+     },
+     "alt": "Read the difference plot. Conceptual diagnostic sequence for retest−baseline differences versus paired means.",
+     "items": [
+      {
+       "label": "Offset",
+       "detail": "Is the average difference away from zero?"
+      },
+      {
+       "label": "Spread",
+       "detail": "How scattered are individual differences?"
+      },
+      {
+       "label": "Scale",
+       "detail": "Does spread increase with the paired mean?"
+      },
+      {
+       "label": "Context",
+       "detail": "Do deviations or subgroups explain a pattern?"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u5-g3",
+     "title": "Two different parts of disagreement",
+     "type": "bars",
+     "caption": "Synthetic five-pair example: mean bias 1 cm; typical error about 1.118 cm. These are different quantities, both in centimeters.",
+     "mnemonic": {
+      "cue": "Bias is not noise",
+      "meaning": "Report systematic shift separately from random error."
+     },
+     "alt": "Two different parts of disagreement. Synthetic five-pair example: mean bias 1 cm; typical error about 1.118 cm. These are different quantities, both in centimeters.",
+     "items": [
+      {
+       "label": "Mean bias",
+       "detail": "Retest−baseline average",
+       "value": 1
+      },
+      {
+       "label": "Typical error",
+       "detail": "SD of differences divided by √2",
+       "value": 1.118
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "The “reliable” test that changes operators",
+    "scenario": "A lab reports low within-session variation using one expert and the best of three trials. An affiliate wants to use the mean of three trials collected on separate days by rotating interns. Its first five synthetic paired differences are−1,0,1,2,3 cm, and one additional player missed the retest after travel.",
+    "task": "Calculate bias and typical error, then explain why the laboratory result cannot settle the affiliate’s question.",
+    "worked": [
+     "Bias is+1 cm; sample SD of differences is√2.5 ≈ 1.581 cm; typical error is√1.25 ≈ 1.118 cm under the stated model. Preserve the missing retest rather than imputing zero change.",
+     "The aggregation, interval and operator structure differ from the laboratory study. The affiliate needs a design that matches its intended process, with familiarization and contextual records. The five complete pairs are an arithmetic pilot, not a stable local standard."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "Which study best matches a dashboard using a mean of three trials on separate days?",
+     "options": [
+      {
+       "text": "The same mean-of-three session procedure repeated on appropriate days.",
+       "feedback": "Correct. Include the staff and conditions relevant to intended use."
+      },
+      {
+       "text": "A correlation between jump height and athlete height.",
+       "feedback": "That does not estimate test–retest error."
+      },
+      {
+       "text": "A single best trial repeated within one session.",
+       "feedback": "That changes both aggregation and the time scope of error."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313."
+    },
+    {
+     "prompt": "Differences−1,0,1,2,3 cm have which mean bias?",
+     "options": [
+      {
+       "text": "+1 cm.",
+       "feedback": "Correct: the sum is 5 cm across 5 pairs."
+      },
+      {
+       "text": "0 cm.",
+       "feedback": "The differences are centered on 1, not 0."
+      },
+      {
+       "text": "+3 cm.",
+       "feedback": "That is the largest difference, not the average."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "Limits of agreement and the confidence interval for mean bias are…",
+     "options": [
+      {
+       "text": "Different quantities serving different purposes.",
+       "feedback": "Correct. Label the interval and its assumptions explicitly."
+      },
+      {
+       "text": "The same interval with different names.",
+       "feedback": "One concerns individual differences; the other uncertainty in the average bias."
+      },
+      {
+       "text": "Always zero when correlation is high.",
+       "feedback": "Correlation does not force either interval to zero."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240."
+    }
+   ],
+   "assignment": {
+    "prompt": "Draft a field reliability study for your chosen test. Include a paired-data template and analyze the five synthetic differences supplied here.",
+    "deliverables": [
+     "A design map naming the intended future use, variation and aggregation.",
+     "Bias, sample SD of differences, typical error and an annotated difference plot.",
+     "A precision plan, missing-data account and limitations paragraph."
+    ],
+    "rubric": [
+     "Design matches the operational question.",
+     "Arithmetic uses sample SD and the stated difference direction.",
+     "Bias is retained rather than hidden inside a single number.",
+     "Pilot data are not promoted to universal professional thresholds."
+    ],
+    "model": [
+     "Begin with the exact session output the staff will use. Reproduce its conditions while recording deviations, and include the operator variation if your conclusion concerns rotating staff.",
+     "The supplied example gives 1 cm bias and 1.118 cm typical error. The tiny sample and missing player limit inference. Recommend further appropriately planned observations and report how the error model and participant selection might change in the full setting."
+    ]
+   },
+   "recall": {
+    "prompt": "What three features should you inspect before reducing paired observations to one statistic?",
+    "answer": "Systematic offset, random scatter and whether scatter changes with measurement magnitude; then check context, missingness and unusual observations."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Enter a synthetic difference and the 1.118 cm error from the worked example. Explain why this tiny pilot estimate is only an arithmetic illustration and why a systematic 1 cm shift must be examined separately.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+     "application": "Reliability design and contextual error.",
+     "limit": "General guidance; local precision requires an appropriate study.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+     "application": "Difference-versus-mean inspection and magnitude-dependent disagreement.",
+     "limit": "Original calculations use synthetic data.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-cmj",
+     "locator": "Methods: Participants and Protocol, printed pp.7–9; Results/Table 1 and Discussion, printed pp.10–13.",
+     "application": "Critical comparison of metric-specific repeatability.",
+     "limit": "Study settings and population differ from the affiliate example."
+    }
+   ],
+   "tags": [
+    "reliability design",
+    "bias",
+    "heteroscedasticity",
+    "paired data"
+   ]
+  },
+  {
+   "id": "m07-u6",
+   "title": "Interpret ICC, typical error, SEM, CV and detectable change",
+   "minutes": 60,
+   "studyHours": 10,
+   "outcomes": [
+    "Select and report an ICC that matches the design and intended score.",
+    "Calculate absolute error and a two-measurement detectable-change margin with explicit assumptions.",
+    "Distinguish measurement SEM from the standard error of a sample mean."
+   ],
+   "body": [
+    {
+     "heading": "Use a family of statistics, not one reliability badge",
+     "text": "Relative reliability concerns separation among people compared with unwanted variation. Absolute error concerns the size of uncertainty in the original measurement units or a justified proportional scale. A broad sample can retain clear rank differences despite error too large for a subtle within-player decision. A homogeneous elite group can have a modest ICC even when absolute error is small. Report both perspectives and the sample context.\n\nIn a simplified variance illustration with no systematic bias, between-athlete variance 100 and error variance 4 yield 100/(100+4) ≈ 0.962. If the between-athlete variance is 4 with the same error variance 4, the ratio becomes 0.50. The measurement error has not improved or worsened between these constructed examples; the population spread changed. This ratio is a conceptual illustration, not a substitute for fitting the correct ICC to real repeated measurements.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "State the ICC question in words",
+     "text": "An ICC report should identify its model, agreement definition, score type, software and confidence interval. Are the same operators used for everyone? Are conclusions restricted to those operators or generalized more broadly? Does the application use one measurement or an average of several? Must readings agree numerically, or is a consistent offset acceptable? These choices precede interpretation.\n\nKoo and Li’s selected reporting guidance distinguishes model, single-versus-average type, and absolute agreement versus consistency. Liljequist and colleagues show why agreement and consistency can diverge when systematic shifts occur. For this course, write the intended interpretation before selecting software options. Do not copy an ICC label from another paper without checking its notation. A negative sample estimate is possible and is not “negative measurement error”; investigate the design and uncertainty rather than silently converting it into a favorable value.",
+     "sourceRefs": [
+      {
+       "id": "grad-icc-methods",
+       "locator": "Table 1; Sections 2.1–2.5 (data matrix, variance models, agreement and consistency); Sections 4–7 (simulation, interpretation and reporting)."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Typical error from repeated pairs",
+     "text": "With two comparable occasions and a stable underlying quantity, letd = follow-up−baseline for each participant. The sample SD ofd describes the variation of paired differences around their average. If occasion errors are independent and have equal variance, variance of the difference is twice the single-measurement error variance. Therefore typical error = SD(d)/√2. State the systematic mean difference separately.\n\nFor the earlier synthetic differences−1,0,1,2,3 cm, SD(d) = 1.581 cm and typical error ≈ 1.118 cm. It does not follow that every result is exactly 1.118 cm wrong. The statistic describes a model of variation in the population and conditions studied. If the trait changes between sessions, errors correlate, or variability differs across occasions, the simple model needs revision. Repeating the formula cannot rescue an unsuitable design.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "SEM has a specific measurement meaning here",
+     "text": "SEM in this course means standard error of measurement: an estimate of the random spread around a person’s underlying score under a specified measurement model. It is not the standard error of a sample mean, often calculated asSD/√n to describe precision of a group mean. These answer different questions. Increasing the number of athletes improves estimation precision; it does not by itself make an individual measurement less noisy.\n\nA common classical expression isSEM = SD × √(1−reliability), but the SD and reliability coefficient must come from compatible variance definitions and the intended design. Incompatible combinations can produce a misleading number. A residual error estimate from an appropriate model may be more direct. Typical error and measurement SEM can coincide under the same simple error model, but the names alone do not guarantee identical estimands. Always state how your error estimate was obtained.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "CV describes relative variation only when its scale makes sense",
+     "text": "For a positive ratio-scale outcome, a simple coefficient of variation is 100 × SD/mean, expressed as a percentage. In a reliability context, specify whether the numerator is a within-person error estimate or an ordinary SD across observations. A between-athlete SD divided by the team mean describes team dispersion; it is not automatically measurement error. The denominator and analysis scale matter.\n\nUsing a synthetic error estimate 1.0 cm around a 40 cm reference mean gives an approximate relative error of 2.5%. Around 20 cm the same absolute 1.0 cm is 5%. This illustrates why units and scale should remain visible. Ratios become unstable near zero and can be meaningless for scales without a meaningful zero. When a log-scale model is justified, back-transform with the model-appropriate expression and document it; do not mix arithmetic and log-derived CV values as though they were computed identically.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Detectable change combines error from both measurements",
+     "text": "For two independent measurements with equal SEM and approximately normal random error, the standard deviation of their difference is√2 × SEM. A conventional two-sided 95% detectable-change margin is 1.96 × √2 × SEM, approximately 2.77 × SEM. WithSEM1.0 cm, that margin is 2.77 cm. A change from 40 to 43 cm is+3 cm; its approximate measurement-error interval is 3 ± 2.77 cm, or 0.23 to 5.77 cm, if bias is negligible and the model holds.\n\nA change from 40 to 42 cm gives 2 ± 2.77 cm, or−0.77 to 4.77 cm. Crossing zero means these observations do not resolve the direction under this error model; it does not prove no adaptation. Exceeding the margin does not prove training caused the change or that it matters in baseball. The margin is a statement about measurement detectability under assumptions, not a readiness, injury or clearance threshold.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "When the simple difference formula no longer fits",
+     "text": "If baseline and follow-up errors have different standard deviations, the independent-error standard deviation of their difference is√(SEMbaseline²+SEMfollow-up²), not automatically√2 times either one. With synthetic errors 1 and 2 cm, it is√5 ≈ 2.236 cm, giving a conventional 95% margin of about 4.383 cm. The equal-error shortcut would be inappropriate.\n\nIf errors are correlated, the variance of the difference additionally includes−2 × covariance. This is why shared calibration errors and repeated measurements need an explicit model. Do not estimate covariance from one athlete pair or choose an assumption because it produces the desired answer. These extensions illustrate the design logic; the built-in explorer uses the simpler equal-independent-error model. For complex data, obtain a statistically reviewed analysis that matches the collection design.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "The score type must match the table you analyze",
+     "text": "Suppose each row is one athlete and each column is one occasion’s mean of three valid jumps. The planned deployment uses that same three-jump session summary. In this table, one recorded measurement is already a session mean. Selecting an “average of occasions” ICC would address a different score from one future session; it does not simply mean that three trials were averaged within each occasion.\n\nFor a fixed test–retest setup where exact numerical agreement of one future session score matters, specify that intention to the analyst, including the fixed versus generalizable facets. A two-way mixed-effects, absolute-agreement, single-score formulation may match that question when its model assumptions fit. If rotating operators are part of deployment, design and analyze that variation explicitly. Report the words and software definition, not just an ambiguous number in parentheses.",
+     "sourceRefs": [
+      {
+       "id": "grad-icc-reporting",
+       "locator": "How to Select the Correct ICC Form: Model, Type and Definition Selection; reporting recommendations. Selected publicly indexed sections only."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u6-g1",
+     "title": "Same noise, different relative reliability",
+     "type": "bars",
+     "caption": "Synthetic variance ratios:100/(100+4) = 0.962 versus 4/(4+4) = 0.50. Error variance remains 4 units².",
+     "mnemonic": {
+      "cue": "Spread changes ICC",
+      "meaning": "Relative reliability depends on who is measured."
+     },
+     "alt": "Same noise, different relative reliability. Synthetic variance ratios:100/(100+4) = 0.962 versus 4/(4+4) = 0.50. Error variance remains 4 units².",
+     "items": [
+      {
+       "label": "Wide athlete spread",
+       "detail": "Between variance 100; error 4",
+       "value": 0.962
+      },
+      {
+       "label": "Narrow athlete spread",
+       "detail": "Between variance 4; error 4",
+       "value": 0.5
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u6-g2",
+     "title": "A complete ICC sentence",
+     "type": "flow",
+     "caption": "Report the design and interval; a coefficient without its definition is incomplete.",
+     "mnemonic": {
+      "cue": "Model–Type–Definition",
+      "meaning": "Who varies, which score, and what agreement means."
+     },
+     "alt": "A complete ICC sentence. Report the design and interval; a coefficient without its definition is incomplete.",
+     "items": [
+      {
+       "label": "Model",
+       "detail": "Explain the operator/occasion structure"
+      },
+      {
+       "label": "Type",
+       "detail": "Single score or specified average"
+      },
+      {
+       "label": "Definition",
+       "detail": "Absolute agreement or consistency"
+      },
+      {
+       "label": "Precision",
+       "detail": "Estimate, confidence interval and software"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "grad-icc-reporting",
+       "locator": "How to Select the Correct ICC Form: Model, Type and Definition Selection; reporting recommendations. Selected publicly indexed sections only."
+      }
+     ]
+    },
+    {
+     "id": "m07-u6-g3",
+     "title": "Two readings bring two error terms",
+     "type": "flow",
+     "caption": "Equal independent normal-error approximation. SEM1 cm gives MDC95 ≈ 2.77 cm.",
+     "mnemonic": {
+      "cue": "One–Two–95",
+      "meaning": "One error,√2 for the difference,1.96 for 95%."
+     },
+     "alt": "Two readings bring two error terms. Equal independent normal-error approximation. SEM1 cm gives MDC95 ≈ 2.77 cm.",
+     "items": [
+      {
+       "label": "One reading",
+       "detail": "SEM = 1 cm"
+      },
+      {
+       "label": "Difference",
+       "detail": "SD error = √2 × 1 = 1.414 cm"
+      },
+      {
+       "label": "95% margin",
+       "detail": "1.96 × 1.414 = 2.77 cm"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "The dashboard confuses sample size with athlete certainty",
+    "scenario": "A fictional analyst uses a team SD of 4 cm, divides by √16 and reports 1 cm as each athlete’s SEM. They then call every change over 1 cm “real.” The actual comparable-repeat study gives a measurement SEM of 1.2 cm for the intended session summary. A player changes 40 → 43 cm.",
+    "task": "Repair the definitions, calculate the correct conventional margin and write a cautious interpretation.",
+    "worked": [
+     "The 4/√16 calculation is a standard error of the team mean under its assumptions, not automatically individual measurement SEM. Use the compatible repeated-measurement error estimate 1.2 cm.",
+     "MDC95 = 1.96 × √2 × 1.2 ≈ 3.326 cm. The observed+3 cm change has an approximate error interval−0.326 to 6.326 cm. It is not resolved from zero at this conventional margin, but a meaningful improvement remains possible. Review context and additional evidence; do not label either certain improvement or certain no-change."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "A high ICC in a highly varied sample guarantees tiny individual error. True?",
+     "options": [
+      {
+       "text": "Only if there are more than ten athletes.",
+       "feedback": "No universal sample-count rule makes that statement valid."
+      },
+      {
+       "text": "Yes, because ICC is expressed in centimeters.",
+       "feedback": "ICC is dimensionless and depends on variance structure."
+      },
+      {
+       "text": "No; report absolute error and the sample context.",
+       "feedback": "Correct. Rank separation can coexist with important within-person uncertainty."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "With measurement SEM1.2 cm, what is the conventional MDC95 for two equal independent measurements?",
+     "options": [
+      {
+       "text": "1.2 cm.",
+       "feedback": "That is a single-measurement error estimate, not the 95% difference margin."
+      },
+      {
+       "text": "0.3 cm.",
+       "feedback": "Dividing by sample size does not give the requested individual-change margin."
+      },
+      {
+       "text": "About 3.33 cm.",
+       "feedback": "Correct:1.96 × √2 × 1.2 ≈ 3.326 cm."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "A2 cm observed change is smaller than an MDC95 of 2.77 cm. What follows?",
+     "options": [
+      {
+       "text": "There was definitely no true change.",
+       "feedback": "A small or meaningful true change can remain unresolved."
+      },
+      {
+       "text": "The athlete cannot train.",
+       "feedback": "This is not a training or medical clearance rule."
+      },
+      {
+       "text": "The pair does not resolve change beyond that conventional error margin.",
+       "feedback": "Correct. State assumptions and seek relevant context; uncertainty is not proof of absence."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    }
+   ],
+   "assignment": {
+    "prompt": "Produce a one-page reliability interpretation for a fictional test. UseSEM1.2 cm, baseline 40 cm and follow-up 43 cm. Include an ICC reporting template without inventing an ICC value.",
+    "deliverables": [
+     "Correct definitions of ICC, TE, measurement SEM, CV and MDC95.",
+     "Worked 3.326 cm margin and−0.326 to 6.326 cm error interval.",
+     "A reporting sentence naming the needed ICC design and confidence interval information."
+    ],
+    "rubric": [
+     "Measurement SEM is distinguished from standard error of the mean.",
+     "Two-measurement assumptions and potential bias are explicit.",
+     "Absolute uncertainty is visible beside relative reliability.",
+     "No threshold is promoted to baseball readiness or medical clearance."
+    ],
+    "model": [
+     "State that the local repeat study, not the cross-sectional team SD, supplies the applicable measurement error. Report+3 cm with the approximate interval and explain that both negligible and potentially important increases remain compatible with the measurement model.",
+     "Leave the ICC estimate blank until the correct analysis is conducted. Record its model, score type, agreement definition, software and interval. This is more rigorous than inventing a high coefficient to complete the table."
+    ]
+   },
+   "recall": {
+    "prompt": "Explain SEM versus standard error of a mean, then reconstruct the 2.77 multiplier.",
+    "answer": "Measurement SEM describes individual score uncertainty under a model; standard error of a mean describes precision of a group average. For two equal independent normal errors,95% margin = 1.96 × √2 × SEM ≈ 2.77 × SEM."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Set baseline 40, follow-up 43 and typical error/SEM1.2 cm only under the stated compatible simple model. Predict a+3 cm difference and approximately 3.33 cm detectable-change margin. Then lower the error estimate and explain why actual precision cannot be improved merely by moving a slider.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+     "application": "Absolute error, meaningful change and conventional MDC arithmetic.",
+     "limit": "The source’s categorical language is qualified with explicit assumptions; below-margin change is not proof of no change.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "grad-icc-methods",
+     "locator": "Table 1; Sections 2.1–2.5 (data matrix, variance models, agreement and consistency); Sections 4–7 (simulation, interpretation and reporting).",
+     "application": "Agreement/consistency distinction and variance dependence.",
+     "limit": "Methodological research, not a baseball validation study."
+    },
+    {
+     "id": "grad-icc-reporting",
+     "locator": "How to Select the Correct ICC Form: Model, Type and Definition Selection; reporting recommendations. Selected publicly indexed sections only.",
+     "application": "Concise reporting checklist.",
+     "limit": "Selected indexed public sections reviewed; complete article was not accessible in this session."
+    }
+   ],
+   "tags": [
+    "ICC",
+    "SEM",
+    "typical error",
+    "CV",
+    "MDC",
+    "uncertainty"
+   ]
+  },
+  {
+   "id": "m07-u7",
+   "title": "Decide what matters without pretending uncertainty disappears",
+   "minutes": 60,
+   "studyHours": 9,
+   "outcomes": [
+    "Distinguish detectable, worthwhile and causally attributable change.",
+    "Build a decision rule that considers consequences and complementary evidence.",
+    "Communicate unresolved change and specify a useful follow-up."
+   ],
+   "body": [
+    {
+     "heading": "Three questions sit beside every before-and-after difference",
+     "text": "First, how large is the observed change relative to the measurement process? Second, is a change of that size important for the decision? Third, what caused it? These are different questions. A highly detectable change can be too small to matter; a potentially worthwhile change can be hidden within uncertainty; and either can occur for reasons unrelated to the training program under discussion.\n\nDefine practical importance before seeing the result where possible. It may depend on the athlete’s task, performance needs, cost and decision consequences. A generic fraction of the team SD is a distribution-based convention, not automatic evidence of what matters to one professional player. Discuss the proposed worthwhile threshold with relevant staff and document the rationale. Do not let a convenient statistical formula silently become the organization’s performance philosophy.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Compare an uncertainty interval with the decision boundary",
+     "text": "Consider a synthetic CMJ change from 40 to 43 cm, with compatible measurement SEM1 cm and negligible bias. The conventional two-measurement error margin is 2.77 cm; the approximate interval is 0.23 to 5.77 cm. Under those assumptions, the pair resolves a positive direction at this margin. Suppose the staff had provisionally defined 2 cm as the smallest change that would justify revising a development emphasis. The interval includes values both below and above 2 cm, so practical importance is still unresolved.\n\nThe 2 cm boundary is an invented teaching choice, not a validated baseball threshold. Display its rationale and uncertainty separately from measurement error. Do not report that the player has a particular probability of being improved from this simple calculation. The interval here is a frequentist-style measurement-error approximation with an externally supplied error estimate, not a fully specified Bayesian probability model or a complete model of all biological variation.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Choose an action by its consequences as well as the estimate",
+     "text": "A measurement can justify a conversation or a low-cost reversible adjustment without supporting a high-stakes restriction. Compare the consequence of acting when no important change occurred with the consequence of failing to act when one did. The acceptable evidence may differ for scheduling an extra review, revising an eight-week development plan and making a clinical availability decision.\n\nWrite an action rule with a named owner: validate the observation, gather specific context, compare complementary evidence, select an authorized action and record a follow-up. Avoid converting every amber result into less training; repeated automatic reductions can become an unexamined intervention. Conversely, a normal score should not override a concerning symptom report. Medical concerns go through the appropriate clinical process rather than being averaged against a favorable jump metric.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Repeated observations can help, but dependence matters",
+     "text": "Additional observations can reduce uncertainty when they are relevant and collected under a suitable design. Averaging independent errors reduces their variance, but repeated trials can share the same device offset, warm-up, motivation or fatigue. Closely spaced observations may therefore be correlated. ApplyingSEM/√k automatically to every set of repeated results can overstate the gain in precision.\n\nEstimate reliability for the actual summary used in practice. If you adopt a mean-of-three session metric, evaluate that summary rather than recycling the error for one trial. For repeated days, consider genuine day-to-day changes as well as technical noise. Collect more data only when it can change the decision and its burden is justified. A second test requested merely to obtain a preferred answer introduces selection and can make the process less trustworthy.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Baseball context explains what the metric cannot",
+     "text": "A decline after overnight travel may reflect altered sleep, testing time, warm-up or other factors, but the sequence alone does not prove which mechanism caused it. Record these plausible explanations and seek the information that could distinguish them. An unchanged jump after a large throwing exposure does not demonstrate that the elbow has recovered. The measured task and the tissue-specific question are different.\n\nUse a short evidence table: observation, collection quality, uncertainty, relevant context and unresolved alternatives. Give contextual information a traceable role rather than using it to rationalize any preferred conclusion. When different inputs disagree, state the disagreement. A coach may provide a task-specific observation that the sensor cannot detect, while the measurement may challenge an impression that deserves checking. Integration is a structured discussion, not an unvalidated weighted average.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Finish with a report the next person can act on",
+     "text": "Lead with the observation and its limit: “The session mean increased 3 cm; under our current error model the direction is clearer than the practical importance.” Add the intended action, responsible person and next evidence needed. Keep the raw number, uncertainty and protocol version available for technical review. A short coach-facing message and a detailed methods appendix can express the same conclusion at different resolutions.\n\nThen ask the receiver to explain the next step in their own words. If they hear “below the threshold” as “nothing happened,” correct that interpretation. If they hear “detectable” as “safe to play,” correct it immediately. Log the action actually taken and the subsequent observation so the measurement process can be evaluated. A dashboard that is never connected to a documented decision cannot demonstrate that it improves practice.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Avoid a search for whichever metric changes most",
+     "text": "A platform may produce dozens of correlated outputs. Inspecting every one and highlighting only the largest favorable change creates a selective story. Decide the primary outcome and a small number of supporting outcomes before reviewing the block where possible. Retain the complete agreed report and label unplanned findings as exploratory.\n\nThis does not mean ignoring an unexpected pattern. It means distinguishing a new question from a confirmed conclusion. Verify the underlying trace and processing, consider the number of metrics inspected and seek a relevant follow-up. If a surprising phase metric changes while the primary outcome remains stable, explain that both can occur and that the finding needs interpretation. Do not upgrade an exploratory signal into proof that the athlete needs a specific exercise.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u7-g1",
+     "title": "Three questions, three different answers",
+     "type": "compare",
+     "caption": "A result can be detectable without being important or causally attributable to a program.",
+     "mnemonic": {
+      "cue": "D-W-C",
+      "meaning": "Detectable, worthwhile, caused by what?"
+     },
+     "alt": "Three questions, three different answers. A result can be detectable without being important or causally attributable to a program.",
+     "items": [
+      {
+       "label": "Detectable?",
+       "detail": "Compared with measurement uncertainty"
+      },
+      {
+       "label": "Worthwhile?",
+       "detail": "Compared with a justified decision boundary"
+      },
+      {
+       "label": "Caused by training?",
+       "detail": "Requires an appropriate causal comparison"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u7-g2",
+     "title": "Observed change and decision boundaries",
+     "type": "bars",
+     "caption": "Synthetic magnitudes in cm: observed change 3; error margin 2.77; provisional worthwhile boundary 2. Bars compare magnitudes, not probabilities or safe zones.",
+     "mnemonic": {
+      "cue": "Two rulers",
+      "meaning": "Measurement uncertainty and practical importance are separate."
+     },
+     "alt": "Observed change and decision boundaries. Synthetic magnitudes in cm: observed change 3; error margin 2.77; provisional worthwhile boundary 2. Bars compare magnitudes, not probabilities or safe zones.",
+     "items": [
+      {
+       "label": "Observed change",
+       "detail": "40 → 43 cm",
+       "value": 3
+      },
+      {
+       "label": "Error margin",
+       "detail": "1.96 × √2 × 1 cm",
+       "value": 2.77
+      },
+      {
+       "label": "Provisional boundary",
+       "detail": "Fictional staff-defined decision value",
+       "value": 2
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u7-g3",
+     "title": "A cautious result can still support action",
+     "type": "flow",
+     "caption": "Original decision workflow; medical availability remains with the responsible clinical team.",
+     "mnemonic": {
+      "cue": "Check–Context–Choose–Check again",
+      "meaning": "Validate first, then act within scope and follow up."
+     },
+     "alt": "A cautious result can still support action. Original decision workflow; medical availability remains with the responsible clinical team.",
+     "items": [
+      {
+       "label": "Check",
+       "detail": "Confirm protocol and valid data"
+      },
+      {
+       "label": "Context",
+       "detail": "Consider relevant baseball and athlete information"
+      },
+      {
+       "label": "Choose",
+       "detail": "Name an authorized proportionate action"
+      },
+      {
+       "label": "Follow up",
+       "detail": "Record owner, timing and new evidence"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "A detectable increase with uncertain practical importance",
+    "scenario": "A synthetic player improves 40 → 43 cm. Applicable measurement SEM is 1 cm. Staff provisionally agreed that 2 cm would matter for revising the next development block, but that boundary has not been validated against baseball outcomes. The athlete changed both training and jump technique during the period.",
+    "task": "Separate detectability, importance and causation; recommend a follow-up that could actually change the plan.",
+    "worked": [
+     "The approximate error interval is 0.23–5.77 cm, so the pair supports a positive direction under the stated model but includes changes below and above the provisional 2 cm boundary. Its baseball importance is not settled.",
+     "The altered technique and training both offer explanations; the before-and-after comparison cannot isolate either. Review whether the technique change violates the original protocol or represents a permitted strategy. Use the valid task-specific result with the broader development evidence, and avoid declaring either proof of program success or an automatic new prescription."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "A change exceeds MDC95. What is established most directly under its assumptions?",
+     "options": [
+      {
+       "text": "The training intervention caused improvement.",
+       "feedback": "Measurement detectability does not isolate causation."
+      },
+      {
+       "text": "The change exceeds a conventional measurement-error margin.",
+       "feedback": "Correct. Importance and cause remain separate questions."
+      },
+      {
+       "text": "The athlete is medically cleared.",
+       "feedback": "That is outside the meaning of the statistic."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "An interval spans values below and above a justified worthwhile boundary. What is the best wording?",
+     "options": [
+      {
+       "text": "Every value in the interval is equally probable.",
+       "feedback": "The interval alone does not assign that probability distribution."
+      },
+      {
+       "text": "The practical importance remains uncertain.",
+       "feedback": "Correct. The interval crosses the decision boundary."
+      },
+      {
+       "text": "The change is certainly worthless.",
+       "feedback": "Potentially important values remain compatible with the data."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "Which follow-up is most defensible?",
+     "options": [
+      {
+       "text": "Reduce all training whenever one metric declines.",
+       "feedback": "An automatic general reduction requires its own justification."
+      },
+      {
+       "text": "Specify what uncertainty the next observation addresses and how it could change action.",
+       "feedback": "Correct. Additional testing should earn its burden."
+      },
+      {
+       "text": "Retest repeatedly until the preferred number appears.",
+       "feedback": "Selective retesting biases the evidence."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80."
+    }
+   ],
+   "assignment": {
+    "prompt": "Write both a 100-word staff message and a technical appendix for the synthetic 40 → 43 cm case. Add a second scenario with a concerning symptom report despite an unchanged jump.",
+    "deliverables": [
+     "Observation, uncertainty, practical boundary and causal limitation in separate statements.",
+     "An authorized action, owner and follow-up question.",
+     "A symptom scenario that respects clinical ownership."
+    ],
+    "rubric": [
+     "No confidence interval is misrepresented as an individual probability statement.",
+     "A provisional worthwhile threshold is clearly labeled.",
+     "Symptoms are not overridden by a normal general-performance measure.",
+     "The follow-up could change a specified decision."
+    ],
+    "model": [
+     "The staff message can say that the jump result improved but the amount important to the next block remains uncertain, especially because strategy changed. The appendix retains the calculation, protocol history and assumptions.",
+     "For the symptom scenario, document the report and notify the responsible clinical team through the local process. Do not use the unchanged jump to cancel the concern. S&C adjustments should follow the agreed clinical and performance plan."
+    ]
+   },
+   "recall": {
+    "prompt": "Why are detectable change, worthwhile change and causation three separate judgments?",
+    "answer": "Error determines detectability; the decision’s consequences determine importance; an appropriate comparison and design address cause. One calculation cannot answer all three."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Use 40,43 and 1 cm, then compare the resulting interval with an explicitly fictional 2 cm worthwhile boundary. Explain why moving either the boundary or the error estimate changes the interpretation without establishing a clinical rule.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+     "application": "Meaningful change and uncertainty.",
+     "limit": "Original decision scenarios do not establish validated cutoffs.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+     "application": "Interdisciplinary interpretation and accountable communication.",
+     "limit": "Medical availability requires the appropriate clinical process.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    }
+   ],
+   "tags": [
+    "meaningful change",
+    "decision rules",
+    "uncertainty",
+    "communication"
+   ]
+  },
+  {
+   "id": "m07-u8",
+   "title": "Collect, audit and defend a testing SOP",
+   "minutes": 60,
+   "studyHours": 13,
+   "outcomes": [
+    "Assemble a reproducible protocol, dataset and reliability report.",
+    "Respond to an unfamiliar measurement problem with an auditable revision.",
+    "Defend practical competence honestly and identify the assessment still required."
+   ],
+   "body": [
+    {
+     "heading": "Your final product is a reproducible decision process",
+     "text": "The course ends with an operational package, not a score copied from a calculator. Another trained person should be able to understand the question, repeat the collection procedure, reconstruct the analysis and see why the proposed action follows. Choose one test that your resources can support. A carefully executed modest project is stronger than a complex device portfolio with no traceable methods.\n\nState the athlete role and decision: for example, reviewing a lower-body development emphasis for an outfielder over a defined block. Separate the proposed testing question from any medical clearance question. List prerequisites for collection, including organizational permission, participant explanation, equipment competence and applicable restrictions. If you cannot meet them, conduct the supplied-data simulation and mark practical observation pending. The written work remains valuable without overstating what it demonstrates.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 0
+    },
+    {
+     "heading": "Write the SOP and rehearse the failure cases",
+     "text": "Your SOP should cover setup and checks, task instruction, familiarization, trial count, rest, validity rules, replacement policy, termination process and aggregation. Include the data dictionary and a setup diagram. A concise document can be complete if its terms are precise. “Perform a normal warm-up” is not reproducible; identify the sequence and the allowed individual adjustments.\n\nRehearse what happens when a device fails, an athlete cannot complete the task, a trial is invalid, a collector changes or a symptom is reported. Do not improvise the policy after seeing a result. Assign who can stop collection and who resolves uncertainty. Test the instructions with a colleague using a mock session. Their questions reveal hidden assumptions that a polished document may conceal. Record the revision rather than presenting the first draft as final.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Build a raw-to-report audit trail",
+     "text": "Keep the original export read-only where practical. Create a separate clean table, a rejection log and a derived session-summary table. Each row needs stable identifiers and a documented relationship to the other tables. A correction records original value, revised value, reason, date and responsible person. Avoid overwriting history merely to make the final spreadsheet look tidy.\n\nFor a synthetic pilot, use six paired session means: baseline 32,36,40,44,48,52 cm; retest 31,37,40,46,47,55 cm. Differences are−1,+1,0,+2,−1,+3 cm. These are already session means; do not invent trial-level precision that was not supplied. Create a separate clearly synthetic trial demonstration for invalid-trial handling if needed. Distinguish the real provenance of every table: observed, supplied, generated, corrected or derived.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 1
+    },
+    {
+     "heading": "Analyze the pilot and explain its limitations",
+     "text": "The six synthetic differences sum to 4 cm, so mean bias is 4/6 ≈ 0.667 cm. Their sample variance is[(−1 − 2/3)²+(1 − 2/3)²+(0 − 2/3)²+(2 − 2/3)²+(−1 − 2/3)²+(3 − 2/3)²]/5 ≈ 2.667 cm². SD of differences is 1.633 cm and typical error is 1.633/√2 ≈ 1.155 cm under the equal-independent-error model.\n\nApproximate limits of agreement are 0.667 ± 1.96 × 1.633, or about−2.534 to 3.867 cm. A conventional unbiased two-measurement error margin using that typical error is 1.96 × √2 × 1.155 ≈ 3.201 cm. Because the sample has a positive mean shift, investigate its source rather than silently assuming no bias. The six pairs are a teaching pilot, with substantial estimation uncertainty. Do not issue organization-wide individual action thresholds from this dataset.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ],
+     "graphic": 2
+    },
+    {
+     "heading": "Defend your work against an unfamiliar change",
+     "text": "A reviewer now tells you that half the retests used a new software version, one operator changed encouragement, and the fastest athlete was missing because of travel. Your first task is to inspect the metadata and determine which comparisons remain interpretable. Do not simply add a limitation sentence while leaving an unjustified combined estimate unchanged.\n\nPropose a repair proportional to the problem: reprocess comparable raw traces under one algorithm where possible, repeat staff instruction, analyze clearly labeled subsets when defensible, or collect a new baseline if comparability cannot be recovered. Report the uncertainty introduced by fewer observations. Explain which question the revised dataset can answer and which remains unresolved. A strong defence acknowledges a broken inference and repairs it; it does not defend every original output at all costs.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Separate completion, competence and external assessment",
+     "text": "You can finish the readings and quizzes, complete a reproducible simulation, perform a supervised collection and pass an external defence at different times. Record these milestones separately. A self-marked exercise demonstrates engagement; it is not independent confirmation of measurement competence. The project needs review by a performance scientist who understands the chosen equipment and methods.\n\nSubmit the protocol, evidence trail, calculations, interpretation, presentation and revision log. Ask the reviewer to challenge event definitions, invalid-trial handling, assumptions, missingness and what action the evidence can support. Revise after feedback. If an athlete session or external reviewer is unavailable, label that component pending rather than declaring graduate or professional competence. The goal is an honest portfolio of demonstrated work that can grow as access and supervision improve.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "heading": "Run a cold reconstruction before the defence",
+     "text": "Give a colleague the inputs, protocol version and analysis instructions without your final report. Ask them to reconstruct one session mean and the paired-difference analysis. Differences reveal missing instructions, hidden spreadsheet selections or inconsistent rounding. Record what failed and repair the workflow before interpreting disagreement as an analyst’s lack of skill.\n\nThen choose one result and trace it backward: report to derived table, derived table to included trials, and trials to the original record and validity decision. This is a practical audit of provenance. If you only have the supplied session means, stop the trace there and say that trial-level reconstruction is unavailable. A trustworthy portfolio makes the boundary of the evidence visible instead of filling gaps with invented detail.",
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "graphics": [
+    {
+     "id": "m07-u8-g1",
+     "title": "The assessment portfolio",
+     "type": "flow",
+     "caption": "Completion of the online unit does not substitute for observed equipment competence or external assessment.",
+     "mnemonic": {
+      "cue": "Plan–Perform–Prove–Revise",
+      "meaning": "A defensible method leaves evidence at each step."
+     },
+     "alt": "The assessment portfolio. Completion of the online unit does not substitute for observed equipment competence or external assessment.",
+     "items": [
+      {
+       "label": "Plan",
+       "detail": "Decision, SOP and permission"
+      },
+      {
+       "label": "Perform",
+       "detail": "Observed collection or labeled simulation"
+      },
+      {
+       "label": "Prove",
+       "detail": "Reproducible analysis and defence"
+      },
+      {
+       "label": "Revise",
+       "detail": "Feedback, corrections and remaining gaps"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u8-g2",
+     "title": "The evidence trail",
+     "type": "flow",
+     "caption": "Preserve provenance; never label generated observations as collected athlete data.",
+     "mnemonic": {
+      "cue": "Raw stays raw",
+      "meaning": "Corrections and summaries remain traceable."
+     },
+     "alt": "The evidence trail. Preserve provenance; never label generated observations as collected athlete data.",
+     "items": [
+      {
+       "label": "Original",
+       "detail": "Unchanged acquisition export"
+      },
+      {
+       "label": "Clean",
+       "detail": "Documented corrections and flags"
+      },
+      {
+       "label": "Derived",
+       "detail": "Versioned calculations and session summaries"
+      },
+      {
+       "label": "Report",
+       "detail": "Interpretation linked to exact inputs"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    {
+     "id": "m07-u8-g3",
+     "title": "Pilot quantities with different meanings",
+     "type": "bars",
+     "caption": "Synthetic six-pair dataset; units are cm. Bias ≈ 0.667; TE ≈ 1.155; conventional difference margin ≈ 3.201. The pilot is too small to establish a local standard.",
+     "mnemonic": {
+      "cue": "Name the number",
+      "meaning": "A shift, a noise estimate and a margin are not interchangeable."
+     },
+     "alt": "Pilot quantities with different meanings. Synthetic six-pair dataset; units are cm. Bias ≈ 0.667; TE ≈ 1.155; conventional difference margin ≈ 3.201. The pilot is too small to establish a local standard.",
+     "items": [
+      {
+       "label": "Mean bias",
+       "detail": "Average retest−baseline difference",
+       "value": 0.667
+      },
+      {
+       "label": "Typical error",
+       "detail": "Single-measurement random-error model",
+       "value": 1.155
+      },
+      {
+       "label": "95% difference margin",
+       "detail": "1.96 × √2 × TE, conditional on assumptions",
+       "value": 3.201
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    }
+   ],
+   "case": {
+    "title": "Defend a testing report after the metadata changes",
+    "scenario": "You have completed the six-pair synthetic analysis. A late audit shows that retests for players 4–6 used a different processing version. Original raw traces are available for players 4–5 but not player 6. No new athlete testing is authorized today.",
+    "task": "Specify what can be repaired now, what must remain unresolved, and what you will tell the coordinator.",
+    "worked": [
+     "Compare and reprocess the available identical raw traces under a consistent documented method if technically justified. Preserve both versions and the reason for the change. Player 6 cannot simply be assigned the average correction observed in others without a defensible model and uncertainty account.",
+     "Report which pairs remain comparable and whether the smaller dataset can answer even the pilot question. Mark missing comparability explicitly, propose the needed future collection and avoid claiming that a favorable coefficient validates the whole organization. No new testing is required merely to complete the lesson."
+    ]
+   },
+   "questions": [
+    {
+     "prompt": "The six differences−1,+1,0,+2,−1,+3 cm have what mean?",
+     "options": [
+      {
+       "text": "0 cm.",
+       "feedback": "The positive differences do not cancel the negatives."
+      },
+      {
+       "text": "About 0.667 cm.",
+       "feedback": "Correct:4/6 ≈ 0.667 cm."
+      },
+      {
+       "text": "4 cm.",
+       "feedback": "That is their sum, not their mean."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398."
+    },
+    {
+     "prompt": "A protocol change affects one retest and its raw trace is unavailable. What is best?",
+     "options": [
+      {
+       "text": "Preserve the record and label the comparison unresolved.",
+       "feedback": "Correct. Do not invent recoverable comparability."
+      },
+      {
+       "text": "Apply another athlete’s correction exactly.",
+       "feedback": "A borrowed correction ignores individual and processing uncertainty."
+      },
+      {
+       "text": "Delete the history without a log.",
+       "feedback": "That destroys the audit trail."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80."
+    },
+    {
+     "prompt": "Which claim is appropriate after a complete simulated project but no observed collection?",
+     "options": [
+      {
+       "text": "The simulation has no educational value.",
+       "feedback": "It can build analysis and reasoning skills while practical work remains outstanding."
+      },
+      {
+       "text": "Independently qualified to operate all testing equipment.",
+       "feedback": "The evidence does not support that practical claim."
+      },
+      {
+       "text": "Completed a reproducible simulation; observed collection remains pending.",
+       "feedback": "Correct. Distinguish demonstrated work from missing assessment."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80."
+    }
+   ],
+   "assignment": {
+    "prompt": "Submit the course project portfolio. Use the supplied six-pair data if real collection is unavailable, and label every simulated component.",
+    "deliverables": [
+     "Decision brief, SOP, setup diagram and data dictionary.",
+     "Raw/clean/derived structure, calculations, plots and missingness log.",
+     "Reliability interpretation, staff message and an unfamiliar-change response.",
+     "Reviewer questions, feedback or pending-review note, and a revision log."
+    ],
+    "rubric": [
+     "A second analyst can reconstruct the reported results.",
+     "The collection and error model match the intended decision.",
+     "Invalid and missing observations are handled without result-driven deletion.",
+     "Practical competence and external assessment are represented honestly."
+    ],
+    "model": [
+     "The pilot calculations are bias 0.667 cm, SDdifference 1.633 cm and TE1.155 cm. Report the assumptions, small-sample uncertainty and possible positive shift. Do not use the conventional 3.201 cm margin as a universal decision threshold.",
+     "Provide a short coordinator message that explains the next useful action and the limitation. Attach the technical evidence trail. The final revision should respond to specific reviewer challenges; if no reviewer is available, preserve the questions and mark the defence pending."
+    ]
+   },
+   "recall": {
+    "prompt": "What evidence lets another person trust a testing report beyond an impressive coefficient?",
+    "answer": "A justified question, reproducible SOP, traceable raw-to-report workflow, correct uncertainty model, honest limitations, observed practical evidence where required, and documented revision after review."
+   },
+   "interactive": {
+    "type": "measurement",
+    "title": "Explore the measurement, then defend its use",
+    "prompt": "Use one internally consistent unit for baseline, follow-up and error. Change one input at a time; predict the result before moving the control.",
+    "explanation": "Use the pilot TE ≈ 1.155 cm only as a synthetic illustration. Predict a 3.201 cm conventional margin, then identify why a positive 0.667 cm bias and the tiny sample prevent treating that number as a definitive local standard.",
+    "sourceRefs": [
+     {
+      "id": "perf-nsca",
+      "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+      "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+     }
+    ]
+   },
+   "sourceRefs": [
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Maintaining Data Integrity; pp.306–313. Chapter 1, interdisciplinary interpretation; pp.79–80.",
+     "application": "Reproducible workflow and interdisciplinary reporting.",
+     "limit": "Independent equipment assessment remains pending until observed.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    },
+    {
+     "id": "perf-nsca",
+     "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+     "application": "Error interpretation for the original synthetic pilot.",
+     "limit": "Six pairs teach arithmetic; they do not validate an action rule.",
+     "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+    }
+   ],
+   "tags": [
+    "course project",
+    "SOP defence",
+    "audit",
+    "portfolio",
+    "external assessment"
+   ]
+  }
+ ],
+ "project": {
+  "title": "Defend an affiliate testing SOP and reliability report",
+  "brief": "Create a complete, auditable measurement package for one baseball development decision. Use authorized supervised collection if available; otherwise use the supplied synthetic pilot and mark practical collection pending. Project time is included in the 75-hour course estimate, especially unit 8.",
+  "deliverables": [
+   "A one-page decision brief with construct, test, outcomes, burden and decision owner.",
+   "Versioned SOP, setup diagram, check log, invalid/replacement rules and data dictionary.",
+   "Original/clean/derived files or a clearly labeled synthetic equivalent, with reproducible formulas or code.",
+   "Paired reliability analysis, bias, error, plots, uncertainty and an ICC design/reporting plan.",
+   "A concise staff report and a 10-minute oral defence addressing limitations and an unfamiliar change.",
+   "Reviewer feedback, revisions, evidence of observed collection or its pending status."
+  ],
+  "rubric": [
+   {
+    "criterion": "Decision and validity",
+    "strongResponse": "The test can inform a named decision; the construct, task, measurement and inference remain distinct."
+   },
+   {
+    "criterion": "Collection integrity",
+    "strongResponse": "Setup, checks, task instructions, trial rules and metadata can be reproduced by another competent collector."
+   },
+   {
+    "criterion": "Analysis",
+    "strongResponse": "Units, sign conventions, aggregation and error calculations are correct; assumptions, missingness and bias are visible."
+   },
+   {
+    "criterion": "Interpretation",
+    "strongResponse": "Detectability, importance and causation are separated; no unvalidated readiness or medical clearance rule is asserted."
+   },
+   {
+    "criterion": "Practical evidence and defence",
+    "strongResponse": "Claims match actual observed work; the learner explains alternatives, handles an unfamiliar defect and revises after qualified feedback."
+   }
+  ],
+  "unseenChallenge": "The reviewer changes one element after submission: a software version, operator, aggregation rule, missing retest, or device. Identify the broken comparison, repair what is recoverable and defend the remaining uncertainty.",
+  "workedApproach": [
+   "Begin with the decision and the smallest useful test. Rehearse the SOP and failure cases, then preserve trial-level provenance and a clear processing history.",
+   "For the six-pair synthetic pilot, verify mean bias 0.667 cm, SDdifference 1.633 cm and TE1.155 cm. Do not confuse the conventional 3.201 cm error margin with practical importance or a local validated threshold.",
+   "Create a technical appendix and a short staff message with the same conclusion. Obtain a performance-scientist review, answer questions about the measurement chain, and revise. A simulation can complete the analytical component while observed collection and external defence remain pending."
+  ],
+  "defenceQuestions": [
+   "Which inference would remain unsupported even if the test were perfectly repeatable?",
+   "What sources of variation does your reliability design include and exclude?",
+   "Why did you choose this aggregation and this ICC interpretation?",
+   "Which processing change could create false longitudinal improvement?",
+   "How would you handle a concerning symptom alongside a normal general-performance score?",
+   "What would make you change the recommendation, and who owns that decision?"
+  ],
+  "reviewer": "A performance scientist with competence in the selected equipment and reliability methods; relevant clinical oversight for any rehabilitation context.",
+  "scope": "This is an assessed-work blueprint and original teaching course, not an accredited degree or proof of independent equipment or clinical competence. Real-world collection and external review must be documented separately."
+ },
+ "readingGuide": [
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Measurement Validity; pp.292–297. Chapter 6, Profiling and Benchmarking; pp.235–240.",
+   "purpose": "Read the original validity discussion, then write a task-specific inference map.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Reliability; pp.297–302, and Maintaining Data Integrity; pp.306–313.",
+   "purpose": "Compare your SOP with the original standardization and integrity framework.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Filtering and Maintaining Data Integrity; pp.302–306.",
+   "purpose": "Explain how software and filtering can alter a longitudinal record.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-nsca",
+   "locator": "Chapter 8, Reliability; pp.300–302. Chapter 11, Standard Deviation, Standard Error of Measurement, and Minimal Detectable Change; pp.397–398.",
+   "purpose": "Work the original measurement concepts, then state the assumptions needed for your application.",
+   "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+  },
+  {
+   "id": "perf-cmj",
+   "locator": "Methods: Participants and Protocol, printed pp.7–9; Results/Table 1 and Discussion, printed pp.10–13.",
+   "purpose": "Critique population, protocol and metric specificity rather than importing coefficients."
+  },
+  {
+   "id": "grad-force-events",
+   "locator": "Sections 2.1–2.4 (participants, familiarization and apparatus),3.1 (signal processing),3.2 (body mass, kinematic and kinetic variables).",
+   "purpose": "Inspect a documented research processing chain; identify what would need local verification."
+  },
+  {
+   "id": "grad-icc-methods",
+   "locator": "Table 1; Sections 2.1–2.5 (data matrix, variance models, agreement and consistency); Sections 4–7 (simulation, interpretation and reporting).",
+   "purpose": "Compare consistency with agreement and examine the role of variance."
+  },
+  {
+   "id": "grad-icc-reporting",
+   "locator": "How to Select the Correct ICC Form: Model, Type and Definition Selection; reporting recommendations. Selected publicly indexed sections only.",
+   "purpose": "Use the selected reporting checklist; access is limited to publicly indexed sections."
+  }
+ ],
+ "hoursNote": "75 planned study hours across the eight units, including source reading, independent assignments and the course project within unit 8. The 60-minute unit label estimates an initial lesson pass, not total study or assessment time. Actual effort varies; external review and scheduling may require additional calendar time."
+}

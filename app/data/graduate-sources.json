@@ -1,0 +1,77 @@
+[
+ {
+  "id": "grad-cscs-periodization",
+  "title": "Essentials of Strength Training and Conditioning, fourth edition — reviewed periodization passages",
+  "authors": "G. Gregory Haff, Chapter 21; G. Gregory Haff and N. Travis Triplett, editors; NSCA",
+  "year": 2016,
+  "url": null,
+  "type": "Foundational textbook · selected programming passages reviewed",
+  "population": "General strength and conditioning; the chapter annual-plan example concerns a collegiate basketball athlete, not professional baseball.",
+  "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced.",
+  "findings": "Defines periodization and programming hierarchy, describes annual-season organization and short-term variation, and discusses contrasting model terminology and mixed comparison findings. Supports original planning and critical-appraisal exercises.",
+  "limitations": "Historical textbook synthesis, not a current systematic review or evidence of an optimal professional-baseball model. The course does not adopt generic peak-duration limits, fixed recovery periods, automatic phase doses, categorical overtraining claims or source sample schedules as prescriptions. New cases, numbers, graphics and assignments are original.",
+  "locations": [
+   "Chapter 21, p. 600 (printed p. 584): central concepts and definition; reviewed for conceptual organization, not categorical physiological predictions.",
+   "Chapter 21, pp. 603–604 (printed pp. 587–588): periodization hierarchy and periods.",
+   "Chapter 21, pp. 608–609 (printed pp. 592–593): seasonal organization and undulating versus linear terminology, including conflicting comparative findings.",
+   "Chapter 21, pp. 610–611 (printed pp. 594–595): scope of the illustrative basketball annual plan, joint planning and limits of generalization."
+  ],
+  "license": "Copyrighted textbook, cited only. Hub text and graphics are newly written.",
+  "reviewed": "2026-10-13: selected full passages read; not a complete textbook review or a new systematic evidence review."
+ },
+ {
+  "id": "grad-force-events",
+  "title": "The use of yank-time signal as an alternative to identify kinematic events and define phases in human countermovement jumping",
+  "authors": "Sofyan B. Sahrom, Jodie C. Wilkie, Kazunori Nosaka, Anthony J. Blazevich",
+  "year": 2020,
+  "url": "https://doi.org/10.1098/rsos.192093",
+  "type": "Original research · measurement methods",
+  "population": "32 physically active healthy adult men; activity ranged from recreational exercise to international running-based sport. Not a professional-baseball cohort.",
+  "access": "Full open article XML verified through the official Europe PMC repository; selected methods read. The direct PMC webpage returned a verification page.",
+  "findings": "Provides a documented example of acquisition, processing and event definition in CMJ analysis. Used for a concise methods comparison rather than a device prescription.",
+  "limitations": "Study-specific acquisition and processing. It does not establish a universal sample rate, filter setting, baseball readiness threshold or equivalence across devices. The course mechanical calculations and diagrams are original synthetic teaching exercises.",
+  "locations": [
+   "Sections2.1–2.4: sample, familiarization and apparatus.",
+   "Sections3.1–3.2: signal processing and force-derived kinematics."
+  ],
+  "license": "CC BY4.0 as stated by the journal; original figures and study data are not reproduced.",
+  "reviewed": "2026-10-13: selected full-text methods reviewed"
+ },
+ {
+  "id": "grad-icc-methods",
+  "title": "Intraclass correlation – A discussion and demonstration of basic features",
+  "authors": "David Liljequist, Britt Elfving, Kirsti Skavberg Roaldsen",
+  "year": 2019,
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0219854",
+  "type": "Methodological research · theory and Monte Carlo simulation",
+  "population": "Statistical models and simulations with a clinical illustration; no baseball cohort.",
+  "access": "Full open text verified at PLOS and through Europe PMC; selected theory/reporting sections read.",
+  "findings": "Explains variance dependence and why consistency and absolute agreement can differ when systematic shifts occur.",
+  "limitations": "The article centers on single-score ICC and proposes a particular analytical approach. It does not validate a baseball test or replace a design-specific statistical analysis. The course does not adopt every procedural recommendation or give categorical ICC quality thresholds.",
+  "locations": [
+   "Table1: notation.",
+   "Sections2.1–2.5: measurement matrix, variance models, agreement and consistency.",
+   "Sections4–7: simulations, interpretation and reporting discussion."
+  ],
+  "license": "CC BY as stated by PLOS; no source figures, tables or datasets reproduced.",
+  "reviewed": "2026-10-13: selected full-text sections reviewed"
+ },
+ {
+  "id": "grad-icc-reporting",
+  "title": "A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research",
+  "authors": "Terry K. Koo, Mae Y. Li",
+  "year": 2016,
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4913118/",
+  "type": "Methodological guidance · selected public sections",
+  "population": "Clinical reliability methodology; no baseball-specific sample.",
+  "access": "Abstract and publicly indexed Model, Type and Definition Selection sections verified. Direct PMC page returned a verification page and full XML was unavailable; complete article not reviewed in this session.",
+  "findings": "Supports a concise ICC reporting checklist specifying model, score type, agreement definition, software and confidence interval.",
+  "limitations": "Only the selected accessible sections support the checklist. Generic qualitative ICC cutoffs are not adopted as universal practical standards. No detailed unseen content is attributed to this source.",
+  "locations": [
+   "Abstract: reporting recommendations.",
+   "How to Select the Correct ICC Form: Model Selection, Type Selection, Definition Selection; selected publicly indexed text."
+  ],
+  "license": "Publisher copyright; link and brief original paraphrase only.",
+  "reviewed": "2026-10-13: abstract and selected indexed sections only"
+ }
+]

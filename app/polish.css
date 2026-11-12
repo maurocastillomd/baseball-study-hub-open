@@ -1,0 +1,65 @@
+/* Final presentation layer (October 2026). Loaded last; presentation only.
+   No content, route or saved-progress change. */
+
+/* Smoother, more tactile interaction. */
+html { scroll-behavior:smooth; }
+.lesson-card,.source-card,.study-week-row,.study-mode-tabs a,.study-item,.bb-case-card,.lab-card,.graduate-path,.feature { transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease,background-color .18s ease; }
+a.lesson-card:hover,a.study-week-row:hover,.study-mode-tabs a:hover,a.lab-card:hover,a.bb-case-card:hover { border-color:var(--accent);box-shadow:0 10px 28px -18px rgba(20,48,35,.45);transform:translateY(-2px); }
+a.lesson-card:active,a.study-week-row:active,.study-mode-tabs a:active { transform:translateY(0); }
+.button,button.secondary,.filter,.step-tab,.section-tabs a,.reader-controls button,.reader-controls a { transition:background-color .15s ease,border-color .15s ease,color .15s ease,transform .1s ease; }
+.button:active,button.secondary:active,.filter:active,.step-tab:active { transform:scale(.98); }
+.step-tab[aria-selected=true],.step-tab.active { box-shadow:inset 0 -3px 0 var(--accent); }
+
+/* Keyboard focus that matches the palette in both themes. */
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible { outline:3px solid var(--accent);outline-offset:3px; }
+
+/* Readable measure and calmer long-form text. */
+.reading p,.reading li,.bb-reading p,.graduate-reading p { max-width:72ch; }
+.reading img,.reading svg { max-width:100%;height:auto; }
+
+/* Inputs that look editable. */
+textarea,input[type=text],input[type=number],input[type=search],select { border-radius:6px; }
+textarea:focus,input[type=text]:focus,input[type=number]:focus,select:focus { border-color:var(--accent); }
+
+/* Page entrance: content fades in instead of popping. */
+@keyframes hub-in { from { opacity:0;transform:translateY(6px); } to { opacity:1;transform:none; } }
+main#main>* { animation:hub-in .22s ease-out both; }
+
+/* Mobile: the old header stacked brand, three icons, search, three reading buttons
+   and a progress bar before any content (about 330px on a phone). Compact it. */
+@media(max-width:740px) {
+  .sidebar { position:sticky;top:0;z-index:30;padding:12px 16px 10px;box-shadow:0 1px 0 var(--line); }
+  .brand { gap:2px; }
+  .wordmark-name { font-size:19px; }
+  .nav-toggle { top:10px;right:12px; }
+  .sidebar nav.open { max-height:calc(100dvh - 70px);overflow-y:auto;padding-bottom:12px; }
+  .topbar { display:flex;flex-wrap:nowrap;align-items:center;padding:10px 16px;gap:8px; }
+  #quick-tools { flex:0 0 auto;gap:6px; }
+  #quick-tools button,#quick-tools a { min-width:40px;min-height:40px;padding:8px; }
+  #search-form { flex:1 1 auto;min-width:0; }
+  #search { min-height:40px;padding:8px 12px; }
+  #reader-tools { padding:8px 16px; }
+  .reader-controls { flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch; }
+  .reader-controls::-webkit-scrollbar { display:none; }
+  .reader-controls button,.reader-controls a { flex:0 0 auto;min-height:38px;padding:7px 11px;white-space:nowrap; }
+  .reader-progress { grid-template-columns:auto 1fr auto;align-items:center;gap:4px 10px;margin-top:6px; }
+  .reader-progress>div span { display:none; }
+  .reader-progress>progress { grid-column:2;grid-row:1;width:100%;margin:0; }
+  .reader-progress>a { grid-column:auto;grid-row:auto; }
+  main { padding-top:20px; }
+  .lesson-toolbar,.study-week-tabs { flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none; }
+  .lesson-toolbar::-webkit-scrollbar,.study-week-tabs::-webkit-scrollbar { display:none; }
+  .step-tab { flex:0 0 auto; }
+}
+@media(max-width:480px) {
+  #search-form { flex-basis:auto; }
+  .reader-progress { grid-template-columns:auto 1fr auto; }
+  .reader-progress>div { grid-column:auto; }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  main#main>*,a.lesson-card:hover,a.study-week-row:hover { animation:none;transform:none; }
+}
+@media print { main#main>* { animation:none; } }
+.source-card h1.source-title{font-size:clamp(26px,3vw,36px);margin:10px 0 12px}

@@ -1,0 +1,69 @@
+{
+  "file": "assets/datasets/throwing-exposure-audit.csv",
+  "dictionaryFile": "assets/datasets/throwing-exposure-audit.dictionary.json",
+  "columns": [
+    {
+      "key": "row_id",
+      "label": "Raw row",
+      "unit": "ID",
+      "meaning": "Unique import-row ID; not necessarily a unique throwing event."
+    },
+    {
+      "key": "athlete_id",
+      "label": "Athlete",
+      "unit": "ID",
+      "meaning": "Invented reliever ID; one athlete throughout."
+    },
+    {
+      "key": "date",
+      "label": "Date",
+      "unit": "YYYY-MM-DD",
+      "meaning": "Fictional local date; no timezone conversion is required for this exercise."
+    },
+    {
+      "key": "event_id",
+      "label": "Event",
+      "unit": "ID",
+      "meaning": "Event identity established by the source ledger. Verified repeats share this ID."
+    },
+    {
+      "key": "category",
+      "label": "Category",
+      "unit": "enum",
+      "meaning": "game, bullpen and between_innings are mutually exclusive mound pitches; flat_ground is counted separately."
+    },
+    {
+      "key": "count",
+      "label": "Recorded count",
+      "unit": "throws",
+      "meaning": "Nonnegative integer. Blank CSV cell / JSON null means unknown. Zero means staff confirmed none in that category."
+    },
+    {
+      "key": "source",
+      "label": "Source",
+      "unit": "enum",
+      "meaning": "Origin of the row; repeat_import requires duplicate review."
+    },
+    {
+      "key": "status",
+      "label": "Audit status",
+      "unit": "enum",
+      "meaning": "recorded, unresolved or verified_duplicate. Duplicate status is supplied by the fictional import audit, not inferred from equal numbers."
+    },
+    {
+      "key": "note",
+      "label": "Source note",
+      "unit": "text",
+      "meaning": "Evidence to retain or exclude a row; review before cleaning."
+    }
+  ],
+  "cleaningRules": [
+    "Preserve the 30 raw rows. Use row_id to reference decisions and event_id to identify events.",
+    "Exclude RAW-29 and RAW-30 from analysis only: their notes verify repeat imports of RAW-13 and RAW-26. Keep a two-row exclusion log.",
+    "Retain all 28 unique events, including the two events with unknown counts. Missing values remain null/NA, never zero.",
+    "The categories are mutually exclusive for this exercise. Mound subtotal = game + bullpen + between_innings for known counts, accompanied by unknown flags.",
+    "A complete day has all 4 category counts recorded, including verified zeros. Label incomplete-day known sums as partial.",
+    "Do not infer injury risk, readiness, equal tissue stress or a rest-day prescription from these counts."
+  ],
+  "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+}

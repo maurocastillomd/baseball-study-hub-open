@@ -1,0 +1,3203 @@
+{
+ "version": 2,
+ "reviewed": "2026-11-09",
+ "side": "Right",
+ "atlas": "Z-Anatomy (BodyParts3D-based)",
+ "attribution": "Z-Anatomy, the open source atlas of anatomy (CC BY-SA 4.0), derived from BodyParts3D, © The Database Center for Life Science (CC BY-SA 2.1 Japan).",
+ "licenseUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+ "limits": "Static, reduced-resolution meshes from one adult male model. Ligaments are modeled as whole structures (for example, UCL bundles are not separated). Not modeled: coracoacromial ligament, lateral ulnar collateral ligament, patellar ligament, spinal ligaments, nerves. The lateral ankle ligaments (ATFL, CFL, PTFL) and the ankle joint axes are not in the atlas, so they are drawn as simple bands. Cards summarise standard references; they are not a diagnosis tool and have not had independent expert review.",
+ "sources": {
+  "cuff": {
+   "title": "StatPearls: Anatomy, Rotator Cuff",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK441844/",
+   "type": "Anatomy reference"
+  },
+  "shoulder-muscles": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Shoulder Muscles",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30521257/",
+   "type": "Anatomy reference"
+  },
+  "pectoral": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Pectoral Muscles",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31424825/",
+   "type": "Anatomy reference"
+  },
+  "gh-joint": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Glenohumeral Joint",
+   "url": "https://www.statpearls.com/point-of-care/32409",
+   "type": "Anatomy reference"
+  },
+  "elbow-joint": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Elbow Joint",
+   "url": "https://www.statpearls.com/point-of-care/32402",
+   "type": "Anatomy reference"
+  },
+  "annular": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Elbow Annular Ligament",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30860729/",
+   "type": "Anatomy reference"
+  },
+  "forearm": {
+   "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Forearm Compartments",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK539784/",
+   "type": "Anatomy reference"
+  },
+  "fcu": {
+   "title": "StatPearls: Forearm Flexor Carpi Ulnaris Muscle",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK526051/",
+   "type": "Anatomy reference"
+  },
+  "abdominal-wall": {
+   "title": "StatPearls: Anatomy, Abdomen and Pelvis, Abdominal Wall",
+   "url": "https://www.statpearls.com/kb/viewarticle/32123",
+   "type": "Anatomy reference"
+  },
+  "hip-joint": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Hip Joint",
+   "url": "https://www.statpearls.com/point-of-care/32237",
+   "type": "Anatomy reference"
+  },
+  "glute-min": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Gluteus Minimus Muscle",
+   "url": "https://statpearls.com/point-of-care/22327",
+   "type": "Anatomy reference"
+  },
+  "gemelli": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Gemelli Muscles",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32491352/",
+   "type": "Anatomy reference"
+  },
+  "acl": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Knee Anterior Cruciate Ligament",
+   "url": "https://www.statpearls.com/point-of-care/58321",
+   "type": "Anatomy reference"
+  },
+  "pcl": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Knee Posterior Cruciate Ligament",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30571037/",
+   "type": "Anatomy reference"
+  },
+  "hamstrings": {
+   "title": "StatPearls: Anatomy, Bony Pelvis and Lower Limb, Hamstring Muscle",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK546688/",
+   "type": "Anatomy reference"
+  },
+  "hamstring-dissection": {
+   "title": "Unique morphological architecture of the hamstring muscles and its functional relevance",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335370/",
+   "type": "Primary anatomical research"
+  },
+  "neumann": {
+   "title": "Neumann's Kinesiology of the Musculoskeletal System, 4th ed. (Elsevier)",
+   "url": "https://shop.elsevier.com/books/neumann-s-kinesiology-of-the-musculoskeletal-system/neumann/978-0-323-71859-2",
+   "type": "Textbook (purchase)"
+  },
+  "atlas": {
+   "title": "Z-Anatomy, the open source atlas of anatomy (models)",
+   "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+   "type": "Atlas"
+  }
+ },
+ "structures": [
+  {
+   "id": "clavicle",
+   "name": "Clavicle",
+   "type": "bone",
+   "meshes": [
+    "Clavicle.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "scapula",
+   "name": "Scapula",
+   "type": "bone",
+   "meshes": [
+    "Scapula.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "humerus",
+   "name": "Humerus",
+   "type": "bone",
+   "meshes": [
+    "Humerus.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "radius",
+   "name": "Radius",
+   "type": "bone",
+   "meshes": [
+    "Radius.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "ulna",
+   "name": "Ulna",
+   "type": "bone",
+   "meshes": [
+    "Ulna.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "sternum",
+   "name": "Sternum",
+   "type": "bone",
+   "meshes": [
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "ribs",
+   "name": "Ribs 1–12 (right)",
+   "type": "bone",
+   "meshes": [
+    "First rib.r",
+    "Second rib.r",
+    "Third rib.r",
+    "Fourth rib.r",
+    "Fifth rib.r",
+    "Sixth rib.r",
+    "Seventh rib.r",
+    "Eighth rib.r",
+    "Ninth rib.r",
+    "Tenth rib.r",
+    "Eleventh rib.r",
+    "Twelfth rib.r",
+    "Costal cartilage of first rib.r",
+    "Costal cartilage of second rib.r",
+    "Costal cartilage of third rib.r",
+    "Costal cartilage of fourth rib.r",
+    "Costal cartilage of fifth rib.r",
+    "Costal cartilage of sixth rib.r",
+    "Costal cartilage of seventh rib.r",
+    "Costal cartilage of eighth rib.r",
+    "Costal cartilage of ninth rib.r",
+    "Costal cartilage of tenth rib.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "thoracic-spine",
+   "name": "Thoracic vertebrae T1–T12",
+   "type": "bone",
+   "meshes": [
+    "Vertebra T1",
+    "Vertebra T2",
+    "Vertebra T3",
+    "Vertebra T4",
+    "Vertebra T5",
+    "Vertebra T6",
+    "Vertebra T7",
+    "Vertebra T8",
+    "Vertebra T9",
+    "Vertebra T10",
+    "Vertebra T11",
+    "Vertebra T12",
+    "Vertebra C7"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "lumbar-spine",
+   "name": "Lumbar vertebrae L1–L5",
+   "type": "bone",
+   "meshes": [
+    "Vertebra L1",
+    "Vertebra L2",
+    "Vertebra L3",
+    "Vertebra L4",
+    "Vertebra L5"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "sacrum",
+   "name": "Sacrum and coccyx",
+   "type": "bone",
+   "meshes": [
+    "Sacrum",
+    "Coccyx"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "hip",
+   "name": "Hip bone (ilium, ischium, pubis)",
+   "type": "bone",
+   "meshes": [
+    "Hip bone.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "femur",
+   "name": "Femur",
+   "type": "bone",
+   "meshes": [
+    "Femur.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "patella",
+   "name": "Patella",
+   "type": "bone",
+   "meshes": [
+    "Patella.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "tibia",
+   "name": "Tibia",
+   "type": "bone",
+   "meshes": [
+    "Tibia.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "fibula",
+   "name": "Fibula",
+   "type": "bone",
+   "meshes": [
+    "Fibula.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "gh-joint",
+   "name": "Glenohumeral joint",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of glenohumeral joint.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "classification": "Synovial ball-and-socket joint between the humeral head and the glenoid fossa.",
+   "motion": "Three degrees of freedom: flexion–extension, abduction–adduction, internal–external rotation.",
+   "closePacked": "Full abduction with external rotation.",
+   "stabilizers": "Static: glenoid labrum, capsule, glenohumeral and coracohumeral ligaments, negative joint pressure. Dynamic: rotator cuff, long head of biceps, deltoid and scapular position.",
+   "baseball": "Throwers usually show more external rotation and less internal rotation on the throwing side. The total arc and the side-to-side difference matter more than either number alone.",
+   "rom": "shoulder",
+   "note": "The mesh shown is the joint capsule."
+  },
+  {
+   "id": "glenoid-labrum",
+   "name": "Glenoid labrum",
+   "type": "ligament",
+   "meshes": [
+    "Glenoid labrum.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "attachments": "Fibrocartilage rim attached around the glenoid margin. Superiorly it blends with the long head of biceps tendon.",
+   "function": "Deepens and widens the socket, adds to concavity–compression and anchors the glenohumeral ligaments.",
+   "baseball": "Superior labral (SLAP) lesions are common in overhead throwers. The \"peel-back\" model links them to biceps tension in abduction with maximal external rotation (late cocking)."
+  },
+  {
+   "id": "sghl",
+   "name": "Superior glenohumeral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Superior glenohumeral ligament.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "attachments": "Anterosuperior glenoid and labrum, near the biceps origin, to the humerus just above the lesser tubercle.",
+   "function": "Limits inferior translation and external rotation with the arm at the side. Part of the rotator interval.",
+   "baseball": "Matters most with the arm adducted; contributes little in the 90° abducted throwing position."
+  },
+  {
+   "id": "mghl",
+   "name": "Middle glenohumeral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Middle glenohumeral ligament.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "attachments": "Anterior glenoid and labrum to the anatomical neck, medial to the lesser tubercle.",
+   "function": "Limits anterior translation and external rotation in mid-range abduction (around 45°).",
+   "baseball": "Highly variable: it can be thin, cord-like or absent. Do not expect the same picture in every athlete."
+  },
+  {
+   "id": "ighl",
+   "name": "Inferior glenohumeral ligament complex",
+   "type": "ligament",
+   "meshes": [
+    "Inferior glenohumeral ligament.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "attachments": "Inferior glenoid and labrum to the anatomical neck. Anterior band, axillary pouch and posterior band act like a hammock under the head.",
+   "function": "Main static restraint at 90° abduction. The anterior band tightens in abduction with external rotation; the posterior band tightens in abduction with internal rotation.",
+   "baseball": "Late cocking (abduction plus maximal external rotation) loads the anterior band. A thick, tight posteroinferior capsule is one proposed driver of internal-rotation loss (GIRD); treat that as a model, not settled fact.",
+   "note": "The mesh models the complex as one structure; the bands are not separated."
+  },
+  {
+   "id": "chl",
+   "name": "Coracohumeral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Coracohumeral ligament.r"
+   ],
+   "sourceIds": [
+    "gh-joint",
+    "neumann"
+   ],
+   "attachments": "Lateral base of the coracoid process to the greater and lesser tubercles, blending with the capsule and supraspinatus/subscapularis tendons.",
+   "function": "Limits inferior translation and external rotation with the arm at the side; roofs the rotator interval.",
+   "baseball": "A stiff rotator interval limits external rotation at the side, a different picture from the abducted-ER gain throwers show."
+  },
+  {
+   "id": "thl",
+   "name": "Transverse humeral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Transverse humeral ligament.r"
+   ],
+   "sourceIds": [
+    "gh-joint"
+   ],
+   "attachments": "Spans the intertubercular groove between the greater and lesser tubercles.",
+   "function": "Holds the long head of biceps tendon in the groove, with help from subscapularis and the coracohumeral ligament.",
+   "baseball": "Biceps instability in the groove usually involves the subscapularis and the pulley, not this band alone."
+  },
+  {
+   "id": "subacromial-bursa",
+   "name": "Subacromial–subdeltoid bursa",
+   "type": "bursa",
+   "meshes": [
+    "Subacromial bursa.r",
+    "Subdeltoid bursa.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Between the acromion, coracoacromial arch and deltoid above, and the supraspinatus tendon and humeral head below.",
+   "function": "Lets the cuff glide under the arch.",
+   "baseball": "In throwers, posterosuperior (internal) impingement inside the joint is a separate mechanism from subacromial impingement under the arch.",
+   "note": "The coracoacromial ligament is not modeled in this atlas."
+  },
+  {
+   "id": "supraspinatus",
+   "name": "Supraspinatus",
+   "type": "muscle",
+   "meshes": [
+    "Supraspinatus muscle.r"
+   ],
+   "sourceIds": [
+    "cuff",
+    "neumann"
+   ],
+   "origin": "Supraspinous fossa of the scapula.",
+   "insertion": "Superior facet of the greater tubercle.",
+   "action": "Abduction (with deltoid) and compression of the humeral head into the glenoid.",
+   "innervation": "Suprascapular nerve (C5–C6).",
+   "baseball": "Undersurface tears of the supraspinatus–infraspinatus junction are a classic finding with internal impingement in throwers."
+  },
+  {
+   "id": "infraspinatus",
+   "name": "Infraspinatus",
+   "type": "muscle",
+   "meshes": [
+    "Infraspinatus muscle.r"
+   ],
+   "sourceIds": [
+    "cuff",
+    "neumann"
+   ],
+   "origin": "Infraspinous fossa of the scapula.",
+   "insertion": "Middle facet of the greater tubercle.",
+   "action": "External rotation; posterior stability of the humeral head.",
+   "innervation": "Suprascapular nerve (C5–C6).",
+   "baseball": "With teres minor, works eccentrically to slow internal rotation and horizontal adduction after ball release."
+  },
+  {
+   "id": "teres-minor",
+   "name": "Teres minor",
+   "type": "muscle",
+   "meshes": [
+    "Teres minor muscle.r"
+   ],
+   "sourceIds": [
+    "cuff",
+    "neumann"
+   ],
+   "origin": "Upper two-thirds of the lateral border of the scapula.",
+   "insertion": "Inferior facet of the greater tubercle.",
+   "action": "External rotation; posterior stability.",
+   "innervation": "Axillary nerve (C5–C6).",
+   "baseball": "Part of the posterior \"brake\" in deceleration; often trained with infraspinatus."
+  },
+  {
+   "id": "subscapularis",
+   "name": "Subscapularis",
+   "type": "muscle",
+   "meshes": [
+    "Subscapularis muscle.r"
+   ],
+   "sourceIds": [
+    "cuff",
+    "neumann"
+   ],
+   "origin": "Subscapular fossa on the anterior scapula.",
+   "insertion": "Lesser tubercle of the humerus.",
+   "action": "Internal rotation; anterior stability, especially low in the range.",
+   "innervation": "Upper and lower subscapular nerves (C5–C6).",
+   "baseball": "Active in acceleration as the arm whips into internal rotation."
+  },
+  {
+   "id": "deltoid-anterior",
+   "name": "Deltoid · anterior (clavicular) part",
+   "type": "muscle",
+   "meshes": [
+    "Clavicular part of deltoid muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Lateral third of the clavicle.",
+   "insertion": "Deltoid tuberosity of the humerus.",
+   "action": "Flexion, internal rotation and horizontal adduction.",
+   "innervation": "Axillary nerve (C5–C6)."
+  },
+  {
+   "id": "deltoid-middle",
+   "name": "Deltoid · middle (acromial) part",
+   "type": "muscle",
+   "meshes": [
+    "Acromial part of deltoid muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Lateral border of the acromion.",
+   "insertion": "Deltoid tuberosity of the humerus.",
+   "action": "Abduction.",
+   "innervation": "Axillary nerve (C5–C6).",
+   "baseball": "Holds the arm at shoulder height through the delivery; needs the cuff to keep the head centered."
+  },
+  {
+   "id": "deltoid-posterior",
+   "name": "Deltoid · posterior (spinal) part",
+   "type": "muscle",
+   "meshes": [
+    "Scapular spinal part of deltoid muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Spine of the scapula.",
+   "insertion": "Deltoid tuberosity of the humerus.",
+   "action": "Extension, external rotation and horizontal abduction.",
+   "innervation": "Axillary nerve (C5–C6).",
+   "baseball": "Contributes to slowing the arm in follow-through."
+  },
+  {
+   "id": "pec-major-clavicular",
+   "name": "Pectoralis major · clavicular head",
+   "type": "muscle",
+   "meshes": [
+    "Clavicular head of pectoralis major muscle.r"
+   ],
+   "sourceIds": [
+    "pectoral",
+    "neumann"
+   ],
+   "origin": "Medial half of the clavicle.",
+   "insertion": "Lateral lip of the intertubercular groove.",
+   "action": "Flexion, horizontal adduction and internal rotation.",
+   "innervation": "Lateral pectoral nerve (C5–C7)."
+  },
+  {
+   "id": "pec-major-sternal",
+   "name": "Pectoralis major · sternocostal head",
+   "type": "muscle",
+   "meshes": [
+    "Sternocostal head of pectoralis major muscle.r"
+   ],
+   "sourceIds": [
+    "pectoral",
+    "neumann"
+   ],
+   "origin": "Sternum, upper six costal cartilages and the external oblique aponeurosis.",
+   "insertion": "Lateral lip of the intertubercular groove.",
+   "action": "Adduction, internal rotation, and extension from a flexed position.",
+   "innervation": "Medial and lateral pectoral nerves (C6–T1).",
+   "baseball": "One of the main internal rotators that drives the arm forward in acceleration."
+  },
+  {
+   "id": "latissimus",
+   "name": "Latissimus dorsi",
+   "type": "muscle",
+   "meshes": [
+    "Latissimus dorsi muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Spinous processes T7–T12, thoracolumbar fascia, iliac crest and lower 3–4 ribs.",
+   "insertion": "Floor of the intertubercular groove.",
+   "action": "Extension, adduction and internal rotation; links the pelvis and trunk to the arm.",
+   "innervation": "Thoracodorsal nerve (C6–C8).",
+   "baseball": "Highly active in acceleration. Latissimus and teres major strains are reported in professional pitchers."
+  },
+  {
+   "id": "teres-major",
+   "name": "Teres major",
+   "type": "muscle",
+   "meshes": [
+    "Teres major muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Posterior surface near the inferior angle of the scapula.",
+   "insertion": "Medial lip of the intertubercular groove.",
+   "action": "Extension, adduction and internal rotation.",
+   "innervation": "Lower subscapular nerve (C5–C6).",
+   "baseball": "Works with latissimus; often injured with it in pitchers."
+  },
+  {
+   "id": "biceps-lh",
+   "name": "Biceps brachii · long head",
+   "type": "muscle",
+   "meshes": [
+    "Long head of biceps brachii.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Supraglenoid tubercle and superior labrum.",
+   "insertion": "Radial tuberosity and bicipital aponeurosis.",
+   "action": "Elbow flexion and supination; tendon helps depress and steady the humeral head.",
+   "innervation": "Musculocutaneous nerve (C5–C6).",
+   "baseball": "Its anchor on the superior labrum is where the peel-back mechanism acts. Also slows elbow extension in follow-through."
+  },
+  {
+   "id": "biceps-sh",
+   "name": "Biceps brachii · short head",
+   "type": "muscle",
+   "meshes": [
+    "Short head of biceps brachii.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Tip of the coracoid process.",
+   "insertion": "Radial tuberosity and bicipital aponeurosis.",
+   "action": "Elbow flexion and supination; weak shoulder flexion.",
+   "innervation": "Musculocutaneous nerve (C5–C6)."
+  },
+  {
+   "id": "coracobrachialis",
+   "name": "Coracobrachialis",
+   "type": "muscle",
+   "meshes": [
+    "Coracobrachialis muscle.r"
+   ],
+   "sourceIds": [
+    "shoulder-muscles",
+    "neumann"
+   ],
+   "origin": "Tip of the coracoid process.",
+   "insertion": "Medial shaft of the humerus near its midpoint.",
+   "action": "Flexion and adduction.",
+   "innervation": "Musculocutaneous nerve (C5–C7)."
+  },
+  {
+   "id": "triceps-long",
+   "name": "Triceps brachii · long head",
+   "type": "muscle",
+   "meshes": [
+    "Long head of triceps brachii.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Infraglenoid tubercle of the scapula.",
+   "insertion": "Olecranon of the ulna.",
+   "action": "Elbow extension; shoulder extension and adduction.",
+   "innervation": "Radial nerve (C6–C8).",
+   "baseball": "Crosses both shoulder and elbow; tight long head limits overhead flexion with the elbow bent."
+  },
+  {
+   "id": "scapulothoracic",
+   "name": "Scapulothoracic articulation",
+   "type": "joint",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Functional (not true synovial) articulation: the scapula glides on the rib cage, guided by the AC and SC joints.",
+   "motion": "Upward/downward rotation, posterior/anterior tilt, internal/external rotation, elevation/depression, protraction/retraction.",
+   "closePacked": "Not applicable (no articular surfaces).",
+   "stabilizers": "Serratus anterior and trapezius force couple, rhomboids, levator scapulae, pectoralis minor; the clavicle as a strut.",
+   "baseball": "Scapular upward rotation and posterior tilt keep the subacromial space and glenoid aligned under the humerus at arm cocking. Altered motion (\"dyskinesis\") is common and not always symptomatic.",
+   "rom": "scapula",
+   "note": "No mesh: this articulation has no capsule."
+  },
+  {
+   "id": "ac-joint",
+   "name": "Acromioclavicular joint",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of acromioclavicular joint.r",
+    "Articular disc of acromioclavicular joint.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial plane joint between the lateral clavicle and the acromion, often with an incomplete disc.",
+   "motion": "Small rotations and glides that let the scapula rotate and tilt on the clavicle.",
+   "closePacked": "Around 90° abduction.",
+   "stabilizers": "AC ligament (horizontal), coracoclavicular ligaments (vertical), deltotrapezial fascia.",
+   "baseball": "Falls on the shoulder while diving or sliding are the usual mechanism of AC sprains in fielders.",
+   "rom": "scapula",
+   "note": "The mesh shows the capsule and disc."
+  },
+  {
+   "id": "sc-joint",
+   "name": "Sternoclavicular joint",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of sternoclavicular joint.r",
+    "Articular disc of sternoclavicular joint.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial saddle joint with an articular disc between the medial clavicle, manubrium and first costal cartilage.",
+   "motion": "Elevation–depression, protraction–retraction and long-axis rotation of the clavicle.",
+   "closePacked": "Full arm elevation (maximal posterior clavicular rotation).",
+   "stabilizers": "Anterior and posterior SC ligaments, interclavicular and costoclavicular ligaments, articular disc.",
+   "baseball": "The only bony link between the arm and the axial skeleton.",
+   "rom": "scapula"
+  },
+  {
+   "id": "ac-ligament",
+   "name": "Acromioclavicular ligament",
+   "type": "ligament",
+   "meshes": [
+    "Acromioclavicular ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Lateral clavicle to the acromion over the AC joint capsule.",
+   "function": "Main restraint to horizontal (anteroposterior) AC translation."
+  },
+  {
+   "id": "conoid",
+   "name": "Conoid ligament (coracoclavicular)",
+   "type": "ligament",
+   "meshes": [
+    "Conoid ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Base of the coracoid process to the conoid tubercle on the underside of the clavicle.",
+   "function": "Limits superior displacement of the clavicle; couples clavicular rotation to scapular motion.",
+   "baseball": "Torn in higher-grade AC separations."
+  },
+  {
+   "id": "trapezoid",
+   "name": "Trapezoid ligament (coracoclavicular)",
+   "type": "ligament",
+   "meshes": [
+    "Trapezoid ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Upper surface of the coracoid to the trapezoid line of the clavicle.",
+   "function": "Limits superior and medial displacement of the clavicle on the acromion.",
+   "baseball": "Torn in higher-grade AC separations."
+  },
+  {
+   "id": "sc-ligaments",
+   "name": "Sternoclavicular ligaments (anterior and posterior)",
+   "type": "ligament",
+   "meshes": [
+    "Anterior sternoclavicular ligament.r",
+    "Posterior sternoclavicular ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Medial clavicle to the manubrium, in front of and behind the joint.",
+   "function": "Limit anterior and posterior translation of the medial clavicle; the posterior ligament is the stronger restraint."
+  },
+  {
+   "id": "trap-upper",
+   "name": "Trapezius · upper (descending) part",
+   "type": "muscle",
+   "meshes": [
+    "Ascending part of trapezius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "External occipital protuberance, nuchal ligament.",
+   "insertion": "Lateral third of the clavicle.",
+   "action": "Scapular elevation and upward rotation (via the clavicle).",
+   "innervation": "Accessory nerve (CN XI); C3–C4 sensory/proprioceptive fibers.",
+   "baseball": "Part of the upward-rotation force couple with lower trapezius and serratus anterior."
+  },
+  {
+   "id": "trap-middle",
+   "name": "Trapezius · middle (transverse) part",
+   "type": "muscle",
+   "meshes": [
+    "Transverse part of trapezius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Spinous processes C7–T3 (approximately).",
+   "insertion": "Acromion and spine of the scapula.",
+   "action": "Retraction (and external rotation) of the scapula.",
+   "innervation": "Accessory nerve (CN XI).",
+   "baseball": "Holds the scapula back as the trunk rotates forward in the delivery."
+  },
+  {
+   "id": "trap-lower",
+   "name": "Trapezius · lower (ascending) part",
+   "type": "muscle",
+   "meshes": [
+    "Descending part of trapezius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Spinous processes of the middle and lower thoracic vertebrae (about T4–T12).",
+   "insertion": "Root (medial end) of the scapular spine.",
+   "action": "Depression, upward rotation and posterior tilt of the scapula.",
+   "innervation": "Accessory nerve (CN XI).",
+   "baseball": "Often a training target in throwers to support upward rotation and posterior tilt."
+  },
+  {
+   "id": "rhomboid-major",
+   "name": "Rhomboid major",
+   "type": "muscle",
+   "meshes": [
+    "Rhomboid major muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Spinous processes T2–T5.",
+   "insertion": "Medial border of the scapula below the spine.",
+   "action": "Retraction and downward rotation; holds the scapula to the thorax.",
+   "innervation": "Dorsal scapular nerve (C4–C5).",
+   "baseball": "Works eccentrically to control scapular protraction in follow-through."
+  },
+  {
+   "id": "rhomboid-minor",
+   "name": "Rhomboid minor",
+   "type": "muscle",
+   "meshes": [
+    "Rhomboid minor muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Nuchal ligament and spinous processes C7–T1.",
+   "insertion": "Medial border of the scapula at the root of the spine.",
+   "action": "Retraction and downward rotation.",
+   "innervation": "Dorsal scapular nerve (C4–C5)."
+  },
+  {
+   "id": "levator-scapulae",
+   "name": "Levator scapulae",
+   "type": "muscle",
+   "meshes": [
+    "Levator scapulae.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Transverse processes C1–C4.",
+   "insertion": "Medial border of the scapula from the superior angle to the spine.",
+   "action": "Elevation and downward rotation of the scapula.",
+   "innervation": "Dorsal scapular nerve (C5) and C3–C4."
+  },
+  {
+   "id": "serratus-anterior",
+   "name": "Serratus anterior",
+   "type": "muscle",
+   "meshes": [
+    "Serratus anterior muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Outer surfaces of ribs 1–8 or 9.",
+   "insertion": "Costal (anterior) surface of the medial border of the scapula.",
+   "action": "Protraction, upward rotation and posterior tilt; keeps the scapula on the thorax.",
+   "innervation": "Long thoracic nerve (C5–C7).",
+   "baseball": "Key upward rotator through cocking and acceleration. Weakness shows as medial-border prominence."
+  },
+  {
+   "id": "pec-minor",
+   "name": "Pectoralis minor",
+   "type": "muscle",
+   "meshes": [
+    "Pectoralis minor muscle.r"
+   ],
+   "sourceIds": [
+    "pectoral",
+    "neumann"
+   ],
+   "origin": "Ribs 3–5 near their costal cartilages.",
+   "insertion": "Medial border of the coracoid process.",
+   "action": "Anterior tilt, internal rotation and depression of the scapula.",
+   "innervation": "Medial pectoral nerve (C8–T1).",
+   "baseball": "A short pec minor is linked to reduced posterior tilt; length is hard to measure reliably."
+  },
+  {
+   "id": "subclavius",
+   "name": "Subclavius",
+   "type": "muscle",
+   "meshes": [
+    "Subclavius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "First rib and its costal cartilage.",
+   "insertion": "Underside of the middle third of the clavicle.",
+   "action": "Depresses and steadies the clavicle at the SC joint.",
+   "innervation": "Nerve to subclavius (C5–C6)."
+  },
+  {
+   "id": "elbow-joint",
+   "name": "Elbow joint complex",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of elbow joint.r"
+   ],
+   "sourceIds": [
+    "elbow-joint",
+    "neumann"
+   ],
+   "classification": "Compound synovial joint: humeroulnar (hinge), humeroradial, and proximal radioulnar (pivot) in one capsule.",
+   "motion": "Two degrees of freedom: flexion–extension and pronation–supination.",
+   "closePacked": "Humeroulnar: full extension (with supination).",
+   "stabilizers": "Bony fit of the olecranon in its fossa (in extension), UCL anterior bundle (valgus), lateral collateral complex and annular ligament (varus and posterolateral), flexor–pronator mass (dynamic valgus support).",
+   "baseball": "Late cocking and early acceleration put a large valgus load on the elbow. Many pitchers lose a few degrees of extension on the throwing side.",
+   "rom": "elbow",
+   "note": "The mesh shows the joint capsule."
+  },
+  {
+   "id": "ucl",
+   "name": "Ulnar (medial) collateral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Ulnar collateral ligament.r"
+   ],
+   "sourceIds": [
+    "elbow-joint",
+    "neumann"
+   ],
+   "attachments": "Anterior bundle: anteroinferior medial epicondyle to the sublime tubercle of the ulna. Posterior and transverse bundles complete the complex.",
+   "function": "The anterior bundle is the primary restraint to valgus load from about 20° to 120° of flexion.",
+   "baseball": "Peak elbow varus torque in late cocking (Fleisig 1995) exceeds isolated cadaveric UCL failure loads, so the flexor–pronator muscles are thought to share the load. The UCL is the structure repaired or reconstructed in \"Tommy John\" surgery.",
+   "note": "Modeled as one structure; the anterior, posterior and transverse bundles are not separated."
+  },
+  {
+   "id": "rcl",
+   "name": "Radial (lateral) collateral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Radial collateral ligament.r"
+   ],
+   "sourceIds": [
+    "elbow-joint",
+    "neumann"
+   ],
+   "attachments": "Lateral epicondyle to the annular ligament.",
+   "function": "Resists varus load; part of the lateral collateral complex with the lateral ulnar collateral ligament.",
+   "baseball": "The lateral ulnar collateral band (main restraint to posterolateral rotatory instability) is not modeled separately."
+  },
+  {
+   "id": "annular",
+   "name": "Annular ligament of radius",
+   "type": "ligament",
+   "meshes": [
+    "Annular ligament of radius.r"
+   ],
+   "sourceIds": [
+    "annular",
+    "neumann"
+   ],
+   "attachments": "Anterior and posterior margins of the radial notch of the ulna, encircling the radial head.",
+   "function": "Holds the radial head against the ulna while it spins in pronation and supination."
+  },
+  {
+   "id": "forearm-iom",
+   "name": "Interosseous membrane of forearm",
+   "type": "ligament",
+   "meshes": [
+    "Interosseous membrane of forearm.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Interosseous borders of the radius and ulna. Central fibers run distal and medial from radius to ulna.",
+   "function": "Transfers compressive load from the radius to the ulna and separates the anterior and posterior compartments."
+  },
+  {
+   "id": "pronator-teres",
+   "name": "Pronator teres",
+   "type": "muscle",
+   "meshes": [
+    "Superficial head of pronator teres.r",
+    "Deep head of pronator teres.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Humeral head: medial epicondyle (common flexor origin). Ulnar head: coronoid process.",
+   "insertion": "Middle of the lateral radius.",
+   "action": "Pronation; assists elbow flexion.",
+   "innervation": "Median nerve (C6–C7).",
+   "baseball": "Part of the flexor–pronator mass over the medial elbow; pronation continues through ball release.",
+   "note": "Both heads are selected together."
+  },
+  {
+   "id": "fcu",
+   "name": "Flexor carpi ulnaris",
+   "type": "muscle",
+   "meshes": [
+    "Humeral head of flexor carpi ulnaris.r",
+    "Ulnar head of flexor carpi ulnaris.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "fcu",
+    "neumann"
+   ],
+   "origin": "Humeral head: medial epicondyle. Ulnar head: olecranon and posterior border of the ulna.",
+   "insertion": "Pisiform, with ligamentous continuity to the hamate and fifth metacarpal.",
+   "action": "Wrist flexion and ulnar deviation.",
+   "innervation": "Ulnar nerve (C7–T1).",
+   "baseball": "Sits directly over the UCL anterior bundle. Cadaver work suggests it and FDS give the most dynamic valgus support. The ulnar nerve passes between its two heads.",
+   "note": "Both heads are selected together."
+  },
+  {
+   "id": "fds",
+   "name": "Flexor digitorum superficialis",
+   "type": "muscle",
+   "meshes": [
+    "Humero-ulnar head of flexor digitorum superficialis.r",
+    "Radial head of flexor digitorum superficialis.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Humeroulnar head: medial epicondyle and coronoid process. Radial head: anterior oblique line of the radius.",
+   "insertion": "Sides of the middle phalanges of digits 2–5.",
+   "action": "Flexes the PIP and MCP joints and the wrist.",
+   "innervation": "Median nerve (C8–T1).",
+   "baseball": "With FCU, the main dynamic support over the UCL. Grip and finger flexion are trained partly for this reason."
+  },
+  {
+   "id": "fcr",
+   "name": "Flexor carpi radialis",
+   "type": "muscle",
+   "meshes": [
+    "Flexor carpi radialis.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Medial epicondyle (common flexor origin).",
+   "insertion": "Bases of the 2nd and 3rd metacarpals.",
+   "action": "Wrist flexion and radial deviation.",
+   "innervation": "Median nerve (C6–C7)."
+  },
+  {
+   "id": "palmaris-longus",
+   "name": "Palmaris longus",
+   "type": "muscle",
+   "meshes": [
+    "Palmaris longus muscle.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Medial epicondyle (common flexor origin).",
+   "insertion": "Flexor retinaculum and palmar aponeurosis.",
+   "action": "Weak wrist flexion; tenses the palmar fascia.",
+   "innervation": "Median nerve (C7–C8).",
+   "baseball": "Absent in a share of people. When present, its tendon is a common graft for UCL reconstruction."
+  },
+  {
+   "id": "fdp",
+   "name": "Flexor digitorum profundus",
+   "type": "muscle",
+   "meshes": [
+    "Flexor digitorum profundus.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Anterior and medial ulna and the interosseous membrane.",
+   "insertion": "Bases of the distal phalanges of digits 2–5.",
+   "action": "Flexes the DIP joints, then the other finger joints and the wrist.",
+   "innervation": "Medial part: ulnar nerve. Lateral part: anterior interosseous branch of the median nerve (C8–T1)."
+  },
+  {
+   "id": "pronator-quadratus",
+   "name": "Pronator quadratus",
+   "type": "muscle",
+   "meshes": [
+    "Pronator quadratus.r"
+   ],
+   "sourceIds": [
+    "forearm",
+    "neumann"
+   ],
+   "origin": "Distal quarter of the anterior ulna.",
+   "insertion": "Distal quarter of the anterior radius.",
+   "action": "Primary pronator; holds the distal radioulnar joint together.",
+   "innervation": "Anterior interosseous nerve (C8–T1)."
+  },
+  {
+   "id": "biceps-brachii",
+   "name": "Biceps brachii (both heads)",
+   "type": "muscle",
+   "meshes": [
+    "Long head of biceps brachii.r",
+    "Short head of biceps brachii.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Long head: supraglenoid tubercle. Short head: coracoid tip.",
+   "insertion": "Radial tuberosity and bicipital aponeurosis.",
+   "action": "Elbow flexion and forearm supination (strongest with the elbow flexed).",
+   "innervation": "Musculocutaneous nerve (C5–C6).",
+   "baseball": "Works eccentrically to slow elbow extension after ball release.",
+   "note": "Both heads are selected together. See the shoulder region for each head."
+  },
+  {
+   "id": "brachialis",
+   "name": "Brachialis",
+   "type": "muscle",
+   "meshes": [
+    "Brachialis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Distal half of the anterior humerus.",
+   "insertion": "Coronoid process and ulnar tuberosity.",
+   "action": "Elbow flexion in every forearm position.",
+   "innervation": "Musculocutaneous nerve (C5–C6), small lateral part from the radial nerve.",
+   "baseball": "The workhorse elbow flexor; also decelerates elbow extension."
+  },
+  {
+   "id": "brachioradialis",
+   "name": "Brachioradialis",
+   "type": "muscle",
+   "meshes": [
+    "Brachioradialis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral supracondylar ridge of the humerus.",
+   "insertion": "Radial styloid process.",
+   "action": "Elbow flexion, strongest in mid-pronation.",
+   "innervation": "Radial nerve (C5–C6)."
+  },
+  {
+   "id": "triceps",
+   "name": "Triceps brachii (three heads)",
+   "type": "muscle",
+   "meshes": [
+    "Long head of triceps brachii.r",
+    "Lateral head of triceps brachii.r",
+    "Medial head of triceps brachii.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Long head: infraglenoid tubercle. Lateral head: posterior humerus above the radial groove. Medial head: posterior humerus below the radial groove.",
+   "insertion": "Olecranon of the ulna.",
+   "action": "Elbow extension; long head also extends and adducts the shoulder.",
+   "innervation": "Radial nerve (C6–C8).",
+   "baseball": "Drives elbow extension in acceleration. Valgus extension overload loads the posteromedial olecranon at the same time.",
+   "note": "All three heads are selected together."
+  },
+  {
+   "id": "anconeus",
+   "name": "Anconeus",
+   "type": "muscle",
+   "meshes": [
+    "Anconeus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Posterior lateral epicondyle.",
+   "insertion": "Lateral olecranon and upper posterior ulna.",
+   "action": "Assists extension; steadies the ulna in pronation.",
+   "innervation": "Radial nerve (C7–C8)."
+  },
+  {
+   "id": "supinator",
+   "name": "Supinator",
+   "type": "muscle",
+   "meshes": [
+    "Supinator.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral epicondyle, radial collateral and annular ligaments, supinator crest of the ulna.",
+   "insertion": "Lateral, posterior and anterior proximal third of the radius.",
+   "action": "Supination.",
+   "innervation": "Deep branch of the radial nerve / posterior interosseous nerve (C6–C7).",
+   "baseball": "The posterior interosseous nerve passes through it."
+  },
+  {
+   "id": "ecrl",
+   "name": "Extensor carpi radialis longus",
+   "type": "muscle",
+   "meshes": [
+    "Extensor carpi radialis longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral supracondylar ridge of the humerus.",
+   "insertion": "Base of the 2nd metacarpal.",
+   "action": "Wrist extension and radial deviation.",
+   "innervation": "Radial nerve (C6–C7)."
+  },
+  {
+   "id": "ecrb",
+   "name": "Extensor carpi radialis brevis",
+   "type": "muscle",
+   "meshes": [
+    "Extensor carpi radialis brevis.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral epicondyle (common extensor origin).",
+   "insertion": "Base of the 3rd metacarpal.",
+   "action": "Wrist extension.",
+   "innervation": "Deep branch of the radial nerve (C7–C8).",
+   "baseball": "The usual site of lateral epicondylopathy; in baseball more common in hitters than throwers."
+  },
+  {
+   "id": "extensor-digitorum",
+   "name": "Extensor digitorum",
+   "type": "muscle",
+   "meshes": [
+    "Extensor digitorum.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral epicondyle (common extensor origin).",
+   "insertion": "Extensor expansions of digits 2–5.",
+   "action": "Extends the fingers and assists wrist extension.",
+   "innervation": "Posterior interosseous nerve (C7–C8)."
+  },
+  {
+   "id": "ecu",
+   "name": "Extensor carpi ulnaris",
+   "type": "muscle",
+   "meshes": [
+    "Humeral head of extensor carpi ulnaris.r",
+    "Ulnar head of extensor carpi ulnaris.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral epicondyle and posterior border of the ulna.",
+   "insertion": "Base of the 5th metacarpal.",
+   "action": "Wrist extension and ulnar deviation.",
+   "innervation": "Posterior interosseous nerve (C7–C8).",
+   "baseball": "ECU tendon subluxation at the wrist is reported in hitters, usually on the bottom (lead) hand.",
+   "note": "Both heads are selected together."
+  },
+  {
+   "id": "lumbar-spine-joints",
+   "name": "Lumbar spine (disc and facet joints)",
+   "type": "joint",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Each level combines an intervertebral disc (cartilaginous) and two facet joints (synovial plane).",
+   "motion": "Mostly flexion–extension; facet orientation limits axial rotation to a few degrees per level.",
+   "closePacked": "Full extension (facets).",
+   "stabilizers": "Discs, facet capsules, anterior and posterior longitudinal ligaments, ligamentum flavum, interspinous ligaments, multifidus.",
+   "baseball": "Most trunk rotation in throwing and hitting must come from the hips and thoracic spine. Repeated extension with rotation is a proposed mechanism for pars stress injuries in young players.",
+   "rom": "spine",
+   "note": "Spinal ligaments are not modeled in this atlas."
+  },
+  {
+   "id": "thoracic-joints",
+   "name": "Thoracic spine and rib joints",
+   "type": "joint",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Disc and facet joints plus costovertebral and costotransverse joints with the ribs.",
+   "motion": "Rotation and extension, more freely than the lumbar spine; ribs elevate and rotate in breathing.",
+   "closePacked": "Full extension.",
+   "stabilizers": "Rib cage, discs, facet capsules, costal ligaments.",
+   "baseball": "Thoracic rotation and extension supply much of hip–shoulder separation and the layback of the arm.",
+   "rom": "thorax",
+   "note": "No mesh."
+  },
+  {
+   "id": "si-joint",
+   "name": "Sacroiliac joint",
+   "type": "joint",
+   "meshes": [
+    "Anterior sacro-iliac ligament.r",
+    "Interosseous sacro-iliac ligament.r",
+    "Posterior sacro-iliac ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial (anterior) and fibrous (posterior) joint between the sacrum and ilium.",
+   "motion": "A few degrees of nutation and counternutation.",
+   "closePacked": "Nutation (sacral base tips forward).",
+   "stabilizers": "Interosseous, posterior and anterior SI ligaments, sacrotuberous and sacrospinous ligaments, thoracolumbar fascia.",
+   "baseball": "Transfers force from the legs into the trunk on every stride.",
+   "note": "The mesh shows the SI ligaments that wrap the joint."
+  },
+  {
+   "id": "iliolumbar",
+   "name": "Iliolumbar ligament",
+   "type": "ligament",
+   "meshes": [
+    "Iliolumbar ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Transverse process of L5 (sometimes L4) to the posterior iliac crest.",
+   "function": "Limits motion of L5 on the sacrum, especially lateral flexion and rotation."
+  },
+  {
+   "id": "sacrotuberous",
+   "name": "Sacrotuberous ligament",
+   "type": "ligament",
+   "meshes": [
+    "Sacrotuberous ligament.r"
+   ],
+   "sourceIds": [
+    "neumann",
+    "hamstrings"
+   ],
+   "attachments": "Posterior ilium, sacrum and coccyx to the ischial tuberosity.",
+   "function": "Resists nutation of the sacrum.",
+   "baseball": "Some biceps femoris long head fibers continue into it, a link between the hamstrings and the pelvis."
+  },
+  {
+   "id": "tlf",
+   "name": "Thoracolumbar fascia · posterior layer",
+   "type": "fascia",
+   "meshes": [
+    "Posterior layer of thoracolumbar fascia.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Spinous processes and supraspinous ligaments to the iliac crest and sacrum.",
+   "function": "Encloses the erector spinae; connects latissimus dorsi to the opposite gluteus maximus.",
+   "baseball": "A proposed path for force between the hip and the opposite arm."
+  },
+  {
+   "id": "external-oblique",
+   "name": "External oblique",
+   "type": "muscle",
+   "meshes": [
+    "External abdominal oblique muscle.r"
+   ],
+   "sourceIds": [
+    "abdominal-wall",
+    "neumann"
+   ],
+   "origin": "Outer surfaces of ribs 5–12.",
+   "insertion": "Linea alba, pubic tubercle and anterior half of the iliac crest.",
+   "action": "Contralateral trunk rotation, trunk flexion, ipsilateral side bending.",
+   "innervation": "Thoracoabdominal nerves T7–T11 and subcostal nerve T12.",
+   "baseball": "Oblique strains are common in baseball and occur mostly on the side opposite the throwing arm (lead side in hitters).",
+   "note": "Rotation pairs the external oblique of one side with the internal oblique of the other. This atlas shows the right side only."
+  },
+  {
+   "id": "internal-oblique",
+   "name": "Internal oblique",
+   "type": "muscle",
+   "meshes": [
+    "Internal abdominal oblique muscle.r"
+   ],
+   "sourceIds": [
+    "abdominal-wall",
+    "neumann"
+   ],
+   "origin": "Thoracolumbar fascia, anterior two-thirds of the iliac crest, lateral inguinal ligament.",
+   "insertion": "Lower borders of ribs 10–12, linea alba, pubic crest.",
+   "action": "Ipsilateral trunk rotation, trunk flexion, side bending.",
+   "innervation": "Thoracoabdominal nerves T7–T12, iliohypogastric and ilioinguinal nerves (L1)."
+  },
+  {
+   "id": "rectus-abdominis",
+   "name": "Rectus abdominis",
+   "type": "muscle",
+   "meshes": [
+    "Rectus abdominis muscle.r"
+   ],
+   "sourceIds": [
+    "abdominal-wall",
+    "neumann"
+   ],
+   "origin": "Pubic crest and symphysis.",
+   "insertion": "Xiphoid process and costal cartilages 5–7.",
+   "action": "Trunk flexion; resists trunk extension.",
+   "innervation": "Thoracoabdominal nerves T7–T12.",
+   "baseball": "Strains of the rectus abdominis on the non-throwing side have been described in pitchers; it resists the arched trunk position before acceleration."
+  },
+  {
+   "id": "transversus-abdominis",
+   "name": "Transversus abdominis",
+   "type": "muscle",
+   "meshes": [
+    "Transversus abdominis muscle.r"
+   ],
+   "sourceIds": [
+    "abdominal-wall",
+    "neumann"
+   ],
+   "origin": "Costal cartilages 7–12, thoracolumbar fascia, iliac crest, lateral inguinal ligament.",
+   "insertion": "Linea alba and pubic crest.",
+   "action": "Compresses the abdomen; tensions the thoracolumbar fascia.",
+   "innervation": "Thoracoabdominal nerves T7–T12 and L1."
+  },
+  {
+   "id": "quadratus-lumborum",
+   "name": "Quadratus lumborum",
+   "type": "muscle",
+   "meshes": [
+    "Quadratus lumborum muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Iliac crest and iliolumbar ligament.",
+   "insertion": "12th rib and transverse processes L1–L4.",
+   "action": "Side bending; steadies the 12th rib; elevates the pelvis on one side.",
+   "innervation": "Anterior rami T12–L4."
+  },
+  {
+   "id": "iliocostalis-lumborum",
+   "name": "Iliocostalis lumborum (erector spinae)",
+   "type": "muscle",
+   "meshes": [
+    "Iliocostalis lumborum muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Common erector spinae tendon: iliac crest, sacrum, lumbar spinous processes.",
+   "insertion": "Angles of the lower 6–8 ribs.",
+   "action": "Trunk extension and side bending.",
+   "innervation": "Dorsal rami of spinal nerves."
+  },
+  {
+   "id": "longissimus-thoracis",
+   "name": "Longissimus thoracis (erector spinae)",
+   "type": "muscle",
+   "meshes": [
+    "Longissimus thoracis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Common erector spinae tendon and lumbar transverse processes.",
+   "insertion": "Thoracic transverse processes and adjacent ribs.",
+   "action": "Trunk extension and side bending.",
+   "innervation": "Dorsal rami of spinal nerves."
+  },
+  {
+   "id": "multifidus",
+   "name": "Multifidus (lumbar)",
+   "type": "muscle",
+   "meshes": [
+    "Multifidus lumborum muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Sacrum, posterior superior iliac spine, mammillary processes of lumbar vertebrae.",
+   "insertion": "Spinous processes two to four levels above.",
+   "action": "Segmental extension and control of rotation and shear.",
+   "innervation": "Medial branches of the dorsal rami."
+  },
+  {
+   "id": "hip-joint",
+   "name": "Hip joint",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of hip joint.r"
+   ],
+   "sourceIds": [
+    "hip-joint",
+    "neumann"
+   ],
+   "classification": "Synovial ball-and-socket joint between the femoral head and the acetabulum.",
+   "motion": "Three degrees of freedom: flexion–extension, abduction–adduction, internal–external rotation.",
+   "closePacked": "Full extension with slight internal rotation and abduction.",
+   "stabilizers": "Deep acetabulum and labrum, iliofemoral, pubofemoral and ischiofemoral ligaments, deep hip rotators, gluteus medius and minimus.",
+   "baseball": "The lead hip must internally rotate as the pelvis turns over a planted leg; the back hip drives extension and rotation. Hip rotation deficits are commonly screened in pitchers.",
+   "rom": "hip",
+   "note": "The mesh shows the joint capsule."
+  },
+  {
+   "id": "acetabular-labrum",
+   "name": "Acetabular labrum",
+   "type": "ligament",
+   "meshes": [
+    "Acetabular labrum.r"
+   ],
+   "sourceIds": [
+    "hip-joint",
+    "neumann"
+   ],
+   "attachments": "Rim of the acetabulum, completed inferiorly by the transverse acetabular ligament.",
+   "function": "Deepens the socket and seals the joint fluid layer.",
+   "baseball": "Labral tears and femoroacetabular impingement occur in baseball players; they reduce hip rotation used in rotation-dominant tasks."
+  },
+  {
+   "id": "iliofemoral",
+   "name": "Iliofemoral ligament (\"Y ligament\")",
+   "type": "ligament",
+   "meshes": [
+    "Descending part of iliofemoral ligament.r",
+    "Transverse part of iliofemoral ligament.r"
+   ],
+   "sourceIds": [
+    "hip-joint",
+    "neumann"
+   ],
+   "attachments": "Anterior inferior iliac spine and acetabular rim to the intertrochanteric line.",
+   "function": "Strongest hip ligament. Limits extension; its lateral (transverse) band also limits external rotation.",
+   "baseball": "Tight in the trail leg at full hip extension at foot strike.",
+   "note": "Both bands are selected together."
+  },
+  {
+   "id": "pubofemoral",
+   "name": "Pubofemoral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Pubofemoral ligament.r"
+   ],
+   "sourceIds": [
+    "hip-joint",
+    "neumann"
+   ],
+   "attachments": "Superior pubic ramus to the inferior capsule and femoral neck.",
+   "function": "Limits abduction and extension; some external rotation."
+  },
+  {
+   "id": "ischiofemoral",
+   "name": "Ischiofemoral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Ischiofemoral ligament.r"
+   ],
+   "sourceIds": [
+    "hip-joint",
+    "neumann"
+   ],
+   "attachments": "Posterior acetabular rim (ischium) spiraling to the femoral neck near the greater trochanter.",
+   "function": "Limits internal rotation and extension; also adduction in flexion.",
+   "baseball": "Tightens as the lead hip internally rotates in late stride and acceleration."
+  },
+  {
+   "id": "it-band",
+   "name": "Iliotibial tract",
+   "type": "fascia",
+   "meshes": [
+    "Iliotibial tract.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Iliac crest (via tensor fasciae latae and gluteus maximus) to the lateral tibial condyle (Gerdy tubercle).",
+   "function": "Transmits TFL and gluteus maximus force down the lateral thigh; lateral knee stabilizer."
+  },
+  {
+   "id": "glute-max",
+   "name": "Gluteus maximus",
+   "type": "muscle",
+   "meshes": [
+    "Gluteus maximus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Posterior ilium, sacrum, coccyx, sacrotuberous ligament and thoracolumbar fascia.",
+   "insertion": "Iliotibial tract and gluteal tuberosity of the femur.",
+   "action": "Hip extension and external rotation; upper fibers abduct.",
+   "innervation": "Inferior gluteal nerve (L5–S2).",
+   "baseball": "Drives the back-leg push and decelerates the lead leg as the body moves over it."
+  },
+  {
+   "id": "glute-med",
+   "name": "Gluteus medius",
+   "type": "muscle",
+   "meshes": [
+    "Gluteus medius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Outer ilium between the anterior and posterior gluteal lines.",
+   "insertion": "Lateral facet of the greater trochanter.",
+   "action": "Hip abduction; anterior fibers internally rotate, posterior fibers externally rotate; stabilizes the pelvis in single-leg stance.",
+   "innervation": "Superior gluteal nerve (L4–S1).",
+   "baseball": "Controls the pelvis on the stance leg during leg lift and the stride."
+  },
+  {
+   "id": "glute-min",
+   "name": "Gluteus minimus",
+   "type": "muscle",
+   "meshes": [
+    "Gluteus minimus muscle.r"
+   ],
+   "sourceIds": [
+    "glute-min",
+    "neumann"
+   ],
+   "origin": "Outer ilium between the anterior and inferior gluteal lines.",
+   "insertion": "Anterior facet of the greater trochanter.",
+   "action": "Hip abduction and internal rotation; steadies the femoral head.",
+   "innervation": "Superior gluteal nerve (L4–S1)."
+  },
+  {
+   "id": "tfl",
+   "name": "Tensor fasciae latae",
+   "type": "muscle",
+   "meshes": [
+    "Tensor fasciae latae.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Anterior superior iliac spine and anterior iliac crest.",
+   "insertion": "Iliotibial tract.",
+   "action": "Hip flexion, abduction and internal rotation; tensions the IT tract.",
+   "innervation": "Superior gluteal nerve (L4–S1)."
+  },
+  {
+   "id": "piriformis",
+   "name": "Piriformis",
+   "type": "muscle",
+   "meshes": [
+    "Piriformis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Anterior surface of the sacrum.",
+   "insertion": "Upper border of the greater trochanter.",
+   "action": "External rotation of the extended hip; abducts the flexed hip.",
+   "innervation": "Nerve to piriformis (S1–S2).",
+   "baseball": "The sciatic nerve usually exits just below it; anatomical variants exist."
+  },
+  {
+   "id": "gemellus-superior",
+   "name": "Superior gemellus",
+   "type": "muscle",
+   "meshes": [
+    "Superior gemellus muscle.r"
+   ],
+   "sourceIds": [
+    "gemelli",
+    "neumann"
+   ],
+   "origin": "Ischial spine.",
+   "insertion": "Obturator internus tendon to the medial greater trochanter.",
+   "action": "External rotation.",
+   "innervation": "Nerve to obturator internus (L5–S2)."
+  },
+  {
+   "id": "obturator-internus",
+   "name": "Obturator internus",
+   "type": "muscle",
+   "meshes": [
+    "Obturator internus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Inner surface of the obturator membrane and surrounding bone.",
+   "insertion": "Medial surface of the greater trochanter.",
+   "action": "External rotation; steadies the femoral head.",
+   "innervation": "Nerve to obturator internus (L5–S2)."
+  },
+  {
+   "id": "gemellus-inferior",
+   "name": "Inferior gemellus",
+   "type": "muscle",
+   "meshes": [
+    "Inferior gemellus muscle.r"
+   ],
+   "sourceIds": [
+    "gemelli",
+    "neumann"
+   ],
+   "origin": "Ischial tuberosity.",
+   "insertion": "Obturator internus tendon to the medial greater trochanter.",
+   "action": "External rotation.",
+   "innervation": "Nerve to quadratus femoris (L4–S1)."
+  },
+  {
+   "id": "quadratus-femoris",
+   "name": "Quadratus femoris",
+   "type": "muscle",
+   "meshes": [
+    "Quadratus femoris muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral border of the ischial tuberosity.",
+   "insertion": "Quadrate tubercle on the intertrochanteric crest.",
+   "action": "External rotation.",
+   "innervation": "Nerve to quadratus femoris (L4–S1)."
+  },
+  {
+   "id": "obturator-externus",
+   "name": "Obturator externus",
+   "type": "muscle",
+   "meshes": [
+    "Obturator externus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Outer surface of the obturator membrane and surrounding bone.",
+   "insertion": "Trochanteric fossa of the femur.",
+   "action": "External rotation.",
+   "innervation": "Obturator nerve (L3–L4)."
+  },
+  {
+   "id": "iliacus",
+   "name": "Iliacus (iliopsoas)",
+   "type": "muscle",
+   "meshes": [
+    "Iliacus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Iliac fossa.",
+   "insertion": "Lesser trochanter (with psoas major).",
+   "action": "Hip flexion.",
+   "innervation": "Femoral nerve (L2–L3).",
+   "baseball": "Pulls the lead leg through in the stride and the back leg through after release."
+  },
+  {
+   "id": "psoas-major",
+   "name": "Psoas major (iliopsoas)",
+   "type": "muscle",
+   "meshes": [
+    "Psoas major.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Bodies and transverse processes T12–L5.",
+   "insertion": "Lesser trochanter.",
+   "action": "Hip flexion; contributes to lumbar stability.",
+   "innervation": "Anterior rami L1–L3."
+  },
+  {
+   "id": "adductor-longus",
+   "name": "Adductor longus",
+   "type": "muscle",
+   "meshes": [
+    "Adductor longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Body of the pubis below the pubic crest.",
+   "insertion": "Middle third of the linea aspera.",
+   "action": "Hip adduction; assists flexion.",
+   "innervation": "Obturator nerve (L2–L4).",
+   "baseball": "Groin strains are frequent in baseball, often with lateral movement and base-running."
+  },
+  {
+   "id": "adductor-brevis",
+   "name": "Adductor brevis",
+   "type": "muscle",
+   "meshes": [
+    "Adductor brevis.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Body and inferior ramus of the pubis.",
+   "insertion": "Upper linea aspera and pectineal line.",
+   "action": "Hip adduction.",
+   "innervation": "Obturator nerve (L2–L4)."
+  },
+  {
+   "id": "adductor-magnus",
+   "name": "Adductor magnus",
+   "type": "muscle",
+   "meshes": [
+    "Adductor magnus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Inferior pubic ramus, ischial ramus and ischial tuberosity.",
+   "insertion": "Linea aspera and adductor tubercle.",
+   "action": "Adduction; the ischial (\"hamstring\") part extends the hip.",
+   "innervation": "Obturator nerve (adductor part) and tibial division of the sciatic nerve (hamstring part), L2–L4."
+  },
+  {
+   "id": "gracilis",
+   "name": "Gracilis",
+   "type": "muscle",
+   "meshes": [
+    "Gracilis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Body and inferior ramus of the pubis.",
+   "insertion": "Medial proximal tibia (pes anserinus).",
+   "action": "Hip adduction, knee flexion and internal rotation.",
+   "innervation": "Obturator nerve (L2–L3)."
+  },
+  {
+   "id": "pectineus",
+   "name": "Pectineus",
+   "type": "muscle",
+   "meshes": [
+    "Pectineus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Pectineal line of the pubis.",
+   "insertion": "Pectineal line of the femur.",
+   "action": "Hip adduction and flexion.",
+   "innervation": "Femoral nerve (L2–L3), sometimes the obturator nerve."
+  },
+  {
+   "id": "sartorius",
+   "name": "Sartorius",
+   "type": "muscle",
+   "meshes": [
+    "Sartorius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Anterior superior iliac spine.",
+   "insertion": "Medial proximal tibia (pes anserinus).",
+   "action": "Hip flexion, abduction and external rotation; knee flexion.",
+   "innervation": "Femoral nerve (L2–L3)."
+  },
+  {
+   "id": "knee-joint",
+   "name": "Knee joint",
+   "type": "joint",
+   "meshes": [
+    "Articular capsule of knee joint.r"
+   ],
+   "sourceIds": [
+    "acl",
+    "pcl",
+    "neumann"
+   ],
+   "classification": "Synovial modified hinge (tibiofemoral) plus the patellofemoral joint.",
+   "motion": "Flexion–extension, with internal–external rotation when flexed.",
+   "closePacked": "Full extension with tibial external rotation (\"screw-home\").",
+   "stabilizers": "Cruciate and collateral ligaments, menisci, posterolateral corner, quadriceps and hamstrings.",
+   "baseball": "The lead knee braces as it extends after foot strike; a firmer lead leg is linked to more energy transfer up the chain. Catchers load the knee in deep flexion.",
+   "rom": "knee",
+   "note": "The mesh shows the joint capsule."
+  },
+  {
+   "id": "acl",
+   "name": "Anterior cruciate ligament",
+   "type": "ligament",
+   "meshes": [
+    "Anterior cruciate ligament.r"
+   ],
+   "sourceIds": [
+    "acl",
+    "neumann"
+   ],
+   "attachments": "Medial wall of the lateral femoral condyle to the anterior intercondylar area of the tibia.",
+   "function": "Limits anterior tibial translation and internal rotation; tight in extension.",
+   "baseball": "Non-contact ACL injuries happen in fielders and base-runners with cutting, landing and sudden deceleration."
+  },
+  {
+   "id": "pcl",
+   "name": "Posterior cruciate ligament",
+   "type": "ligament",
+   "meshes": [
+    "Posterior cruciate ligament.r"
+   ],
+   "sourceIds": [
+    "pcl",
+    "neumann"
+   ],
+   "attachments": "Lateral wall of the medial femoral condyle to the posterior intercondylar area of the tibia.",
+   "function": "Limits posterior tibial translation, most in flexion."
+  },
+  {
+   "id": "mcl",
+   "name": "Tibial (medial) collateral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Superficial part of tibial collateral ligament.r",
+    "Deep part of tibial collateral ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Medial femoral epicondyle to the medial tibia; the deep part attaches to the medial meniscus.",
+   "function": "Primary restraint to valgus; also limits external rotation.",
+   "baseball": "Valgus-stress injury on slides and collisions at the bag.",
+   "note": "Superficial and deep parts are selected together."
+  },
+  {
+   "id": "lcl",
+   "name": "Fibular (lateral) collateral ligament",
+   "type": "ligament",
+   "meshes": [
+    "Fibular collateral ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Lateral femoral epicondyle to the fibular head.",
+   "function": "Primary restraint to varus; part of the posterolateral corner."
+  },
+  {
+   "id": "medial-meniscus",
+   "name": "Medial meniscus",
+   "type": "cartilage",
+   "meshes": [
+    "Medial meniscus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "C-shaped fibrocartilage on the medial tibial plateau, firmly attached to the capsule and deep MCL.",
+   "function": "Spreads load, deepens the plateau, helps stability.",
+   "baseball": "Less mobile than the lateral meniscus, so more often torn with twisting under load. Catchers spend long periods in deep flexion."
+  },
+  {
+   "id": "lateral-meniscus",
+   "name": "Lateral meniscus",
+   "type": "cartilage",
+   "meshes": [
+    "Lateral meniscus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Nearly circular fibrocartilage on the lateral tibial plateau; loosely attached, separated from the LCL by the popliteus tendon.",
+   "function": "Spreads load; more mobile than the medial meniscus."
+  },
+  {
+   "id": "biceps-long",
+   "name": "Biceps femoris · long head",
+   "type": "muscle",
+   "meshes": [
+    "Long head of biceps femoris.r"
+   ],
+   "sourceIds": [
+    "hamstrings",
+    "neumann"
+   ],
+   "origin": "Ischial tuberosity.",
+   "insertion": "Primarily the fibular head; distal attachments also reach the lateral tibia.",
+   "action": "Hip extension, knee flexion, and external rotation of the flexed knee.",
+   "innervation": "Tibial division of the sciatic nerve.",
+   "baseball": "The most commonly strained hamstring, usually in sprinting (base-running), when it is long and absorbing force late in swing."
+  },
+  {
+   "id": "biceps-short",
+   "name": "Biceps femoris · short head",
+   "type": "muscle",
+   "meshes": [
+    "Short head of biceps femoris.r"
+   ],
+   "sourceIds": [
+    "hamstrings",
+    "neumann"
+   ],
+   "origin": "Lateral linea aspera of the femur.",
+   "insertion": "Distal biceps femoris attachment at the fibular head and lateral tibia.",
+   "action": "Knee flexion and external rotation; does not cross the hip.",
+   "innervation": "Common fibular division of the sciatic nerve."
+  },
+  {
+   "id": "semitendinosus",
+   "name": "Semitendinosus",
+   "type": "muscle",
+   "meshes": [
+    "Semitendinosus muscle.r"
+   ],
+   "sourceIds": [
+    "hamstrings",
+    "hamstring-dissection"
+   ],
+   "origin": "Ischial tuberosity; proximal connection with the long-head biceps tendon.",
+   "insertion": "Anteromedial proximal tibia at the pes anserinus.",
+   "action": "Hip extension, knee flexion, and internal rotation of the flexed knee.",
+   "innervation": "Tibial division of the sciatic nerve."
+  },
+  {
+   "id": "semimembranosus",
+   "name": "Semimembranosus",
+   "type": "muscle",
+   "meshes": [
+    "Semimembranosus muscle.r"
+   ],
+   "sourceIds": [
+    "hamstrings"
+   ],
+   "origin": "Ischial tuberosity.",
+   "insertion": "Medial tibial condyle.",
+   "action": "Hip extension, knee flexion, and internal rotation of the flexed knee.",
+   "innervation": "Tibial division of the sciatic nerve."
+  },
+  {
+   "id": "rectus-femoris",
+   "name": "Rectus femoris",
+   "type": "muscle",
+   "meshes": [
+    "Rectus femoris muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Anterior inferior iliac spine and the superior acetabular rim.",
+   "insertion": "Patella and, via the patellar ligament, the tibial tuberosity.",
+   "action": "Knee extension and hip flexion.",
+   "innervation": "Femoral nerve (L2–L4).",
+   "baseball": "The only quadriceps muscle crossing the hip; strains occur with sprinting and kicking-type actions."
+  },
+  {
+   "id": "vastus-lateralis",
+   "name": "Vastus lateralis",
+   "type": "muscle",
+   "meshes": [
+    "Vastus lateralis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Greater trochanter, intertrochanteric line and lateral linea aspera.",
+   "insertion": "Lateral patella and quadriceps tendon.",
+   "action": "Knee extension.",
+   "innervation": "Femoral nerve (L2–L4)."
+  },
+  {
+   "id": "vastus-medialis",
+   "name": "Vastus medialis",
+   "type": "muscle",
+   "meshes": [
+    "Vastus medialis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Intertrochanteric line and medial linea aspera.",
+   "insertion": "Medial patella and quadriceps tendon.",
+   "action": "Knee extension; distal oblique fibers help track the patella.",
+   "innervation": "Femoral nerve (L2–L4)."
+  },
+  {
+   "id": "vastus-intermedius",
+   "name": "Vastus intermedius",
+   "type": "muscle",
+   "meshes": [
+    "Vastus intermedius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Anterior and lateral femoral shaft.",
+   "insertion": "Deep quadriceps tendon to the patella.",
+   "action": "Knee extension.",
+   "innervation": "Femoral nerve (L2–L4)."
+  },
+  {
+   "id": "gastrocnemius",
+   "name": "Gastrocnemius (both heads)",
+   "type": "muscle",
+   "meshes": [
+    "Medial head of gastrocnemius.r",
+    "Lateral head of gastrocnemius.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Medial and lateral femoral condyles.",
+   "insertion": "Calcaneus via the calcaneal (Achilles) tendon.",
+   "action": "Ankle plantarflexion; assists knee flexion.",
+   "innervation": "Tibial nerve (S1–S2).",
+   "baseball": "Medial head strains occur with explosive push-off.",
+   "note": "Both heads are selected together."
+  },
+  {
+   "id": "popliteus",
+   "name": "Popliteus",
+   "type": "muscle",
+   "meshes": [
+    "Popliteus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral femoral condyle and lateral meniscus.",
+   "insertion": "Posterior tibia above the soleal line.",
+   "action": "Unlocks the extended knee (internal rotation of the tibia); limits external rotation.",
+   "innervation": "Tibial nerve (L4–S1)."
+  },
+  {
+   "id": "talus",
+   "name": "Talus",
+   "type": "bone",
+   "meshes": [
+    "Talus.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "calcaneus",
+   "name": "Calcaneus",
+   "type": "bone",
+   "meshes": [
+    "Calcaneus.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "navicular",
+   "name": "Navicular",
+   "type": "bone",
+   "meshes": [
+    "Navicular bone.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "cuboid",
+   "name": "Cuboid",
+   "type": "bone",
+   "meshes": [
+    "Cuboid bone.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "cuneiforms",
+   "name": "Cuneiforms (medial, intermediate, lateral)",
+   "type": "bone",
+   "meshes": [
+    "Medial cuneiform bone.r",
+    "Intermediate cuneiform bone.r",
+    "Lateral cuneiform bone.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "metatarsals",
+   "name": "Metatarsals 1–5",
+   "type": "bone",
+   "meshes": [
+    "First metatarsal bone.r",
+    "Second metatarsal bone.r",
+    "Third metatarsal bone.r",
+    "Fourth metatarsal bone.r",
+    "Fifth metatarsal bone.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "toe-phalanges",
+   "name": "Phalanges of the toes",
+   "type": "bone",
+   "meshes": [
+    "Proximal phalanx of first finger of foot.r",
+    "Distal phalanx of first finger of foot.r",
+    "Proximal phalanx of second finger of foot.r",
+    "Middle phalanx of second finger of foot.r",
+    "Distal phalanx of second finger of foot.r",
+    "Proximal phalanx of third finger of foot.r",
+    "Middle phalanx of third finger of foot.r",
+    "Distal phalanx of third finger of foot.r",
+    "Proximal phalanx of fourth finger of foot.r",
+    "Middle phalanx of fourth finger of foot.r",
+    "Distal phalanx of fourth finger of foot.r",
+    "Proximal phalanx of fifth finger of foot.r",
+    "Middle phalanx of fifth finger of foot.r",
+    "Distal phalanx of fifth finger of foot.r"
+   ],
+   "sourceIds": [
+    "atlas"
+   ],
+   "note": "Shown for spatial context. Attachment footprints are described in the muscle and ligament cards, not marked on the mesh."
+  },
+  {
+   "id": "talocrural",
+   "name": "Talocrural (ankle) joint",
+   "type": "joint",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial hinge: the talus sits in the mortise formed by the tibia and fibula.",
+   "motion": "Dorsiflexion–plantarflexion about an oblique axis, so dorsiflexion also turns the foot slightly out and plantarflexion slightly in.",
+   "closePacked": "Full dorsiflexion (the wider front of the talus wedges into the mortise).",
+   "stabilizers": "Bony mortise, lateral ligaments (ATFL, CFL, PTFL), deltoid ligament and the syndesmosis.",
+   "baseball": "Drive-leg dorsiflexion while loading at the rubber, lead-ankle stability at foot strike, and catcher squat depth all depend on this joint.",
+   "rom": "ankle",
+   "note": "Shown as its axis: a line through the tips of the two malleoli. The lateral malleolus sits lower and further back than the medial one, which is why the axis is tilted.",
+   "schematic": [
+    [
+     [
+      -0.1153,
+      0.0494,
+      -0.058
+     ],
+     [
+      -0.0404,
+      0.081,
+      -0.0259
+     ],
+     0.0013
+    ]
+   ]
+  },
+  {
+   "id": "subtalar",
+   "name": "Subtalar joint",
+   "type": "joint",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial joint between the talus and calcaneus (posterior, middle and anterior facets).",
+   "motion": "Inversion–eversion; with the midfoot this gives supination–pronation.",
+   "closePacked": "Full inversion (supination).",
+   "stabilizers": "Interosseous talocalcaneal and cervical ligaments, calcaneofibular ligament, tibiocalcaneal part of the deltoid ligament.",
+   "baseball": "Lets the foot adapt to the slope of the mound and uneven ground; the lead foot pronates as it takes load after foot strike.",
+   "rom": "ankle",
+   "note": "Shown as its axis, which rises from the back-outer heel to the top-inner talar neck: about 40° from horizontal and 17° toward the midline in this model, close to published averages.",
+   "schematic": [
+    [
+     [
+      -0.0865,
+      0.0082,
+      -0.0861
+     ],
+     [
+      -0.0606,
+      0.0795,
+      -0.0037
+     ],
+     0.0013
+    ]
+   ]
+  },
+  {
+   "id": "mtp-joints",
+   "name": "Metatarsophalangeal (MTP) joints",
+   "type": "joint",
+   "meshes": [
+    "Articular capsules of metatarsophalangeal joints.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "classification": "Synovial condyloid joints between the metatarsal heads and the proximal phalanges.",
+   "motion": "Toe flexion–extension, with a little abduction–adduction.",
+   "closePacked": "Full extension (dorsiflexion).",
+   "stabilizers": "Plantar plates, collateral ligaments, and the two sesamoids under the first MTP.",
+   "baseball": "Big-toe extension is the last lever of drive-leg push-off and sprinting; catchers sit on extended toes.",
+   "note": "The mesh shows the joint capsules of all five MTP joints."
+  },
+  {
+   "id": "atfl",
+   "name": "Anterior talofibular ligament (ATFL)",
+   "type": "ligament",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Anterior border of the lateral malleolus to the lateral neck of the talus.",
+   "function": "Limits forward slide of the talus and inversion, most when the foot is pointed down (plantarflexed). The weakest lateral ligament.",
+   "baseball": "The most commonly sprained ligament in the body: rolling the foot in on a base, a bag edge or uneven ground while running.",
+   "note": "The atlas has no mesh for this, so it is drawn as a simple band between its attachments.",
+   "schematic": [
+    [
+     [
+      -0.1017,
+      0.0653,
+      -0.0372
+     ],
+     [
+      -0.0847,
+      0.0633,
+      -0.0187
+     ],
+     0.0024
+    ]
+   ]
+  },
+  {
+   "id": "cfl",
+   "name": "Calcaneofibular ligament (CFL)",
+   "type": "ligament",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Tip of the lateral malleolus, down and back to the lateral calcaneus, deep to the fibular tendons.",
+   "function": "Limits inversion with the ankle neutral or dorsiflexed; it crosses both the ankle and the subtalar joint.",
+   "baseball": "Usually torn after the ATFL in a more severe inversion sprain.",
+   "note": "The atlas has no mesh for this, so it is drawn as a simple band between its attachments.",
+   "schematic": [
+    [
+     [
+      -0.1014,
+      0.0567,
+      -0.0518
+     ],
+     [
+      -0.0956,
+      0.0403,
+      -0.0597
+     ],
+     0.0024
+    ]
+   ]
+  },
+  {
+   "id": "ptfl",
+   "name": "Posterior talofibular ligament (PTFL)",
+   "type": "ligament",
+   "meshes": [],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Malleolar fossa on the inner back of the lateral malleolus to the lateral tubercle of the posterior talar process.",
+   "function": "Limits backward slide and external rotation of the talus. The strongest of the three lateral ligaments; rarely torn alone.",
+   "note": "The atlas has no mesh for this, so it is drawn as a simple band between its attachments.",
+   "schematic": [
+    [
+     [
+      -0.0988,
+      0.0641,
+      -0.0608
+     ],
+     [
+      -0.0795,
+      0.0623,
+      -0.0651
+     ],
+     0.0024
+    ]
+   ]
+  },
+  {
+   "id": "deltoid",
+   "name": "Deltoid (medial collateral) ligament",
+   "type": "ligament",
+   "meshes": [
+    "Tibiocalcaneal ligament.r",
+    "Tibionavicular ligament.r",
+    "Posterior tibiotalar ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Medial malleolus fanning out to the navicular, the talus and the sustentaculum tali of the calcaneus.",
+   "function": "Limits eversion and outward shift of the talus; much stronger than the lateral ligaments.",
+   "baseball": "Injured with eversion and external-rotation twists, often together with the syndesmosis.",
+   "note": "Tibionavicular, tibiocalcaneal and posterior tibiotalar parts are selected together; the deep anterior tibiotalar part is not in the atlas."
+  },
+  {
+   "id": "syndesmosis",
+   "name": "Distal tibiofibular syndesmosis",
+   "type": "ligament",
+   "meshes": [
+    "Anterior tibiofibular ligament.r",
+    "Posterior tibiofibular ligament.r",
+    "Transverse tibiofibular ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Anterior and posterior tibiofibular ligaments, the transverse ligament and the interosseous ligament binding the distal tibia and fibula.",
+   "function": "Holds the ankle mortise together; it is stretched as the wider front of the talus enters the mortise in dorsiflexion.",
+   "baseball": "A \"high ankle sprain\": the foot is forced into external rotation, for example when a cleat catches on a slide or a cut. Return to play usually takes longer than for a lateral sprain.",
+   "note": "Anterior, posterior and transverse ligaments are selected together."
+  },
+  {
+   "id": "leg-iom",
+   "name": "Interosseous membrane of the leg",
+   "type": "ligament",
+   "meshes": [
+    "Interosseous membrane of leg.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Interosseous borders of the tibia and fibula.",
+   "function": "Attachment for the deep calf and anterior compartment muscles; ties the two leg bones together and continues into the syndesmosis."
+  },
+  {
+   "id": "achilles",
+   "name": "Calcaneal (Achilles) tendon",
+   "type": "tendon",
+   "meshes": [
+    "Calcaneal tendon.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Joins gastrocnemius and soleus (often with plantaris) to the middle of the posterior calcaneal tuberosity.",
+   "function": "Transmits calf force to the heel and stores elastic energy in running and jumping.",
+   "baseball": "Tendinopathy and rupture occur with explosive push-off and sprinting; load it progressively after time off."
+  },
+  {
+   "id": "plantar-fascia",
+   "name": "Plantar aponeurosis (plantar fascia)",
+   "type": "fascia",
+   "meshes": [
+    "Plantar aponeurosis.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Medial calcaneal tuberosity to the plantar plates and flexor sheaths of the toes.",
+   "function": "Supports the longitudinal arch; tightens when the toes extend (windlass mechanism) to stiffen the foot for push-off.",
+   "baseball": "Plantar heel pain is common with high running volume and hard surfaces."
+  },
+  {
+   "id": "long-plantar",
+   "name": "Long plantar ligament",
+   "type": "ligament",
+   "meshes": [
+    "Long plantar ligament.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Plantar calcaneus to the cuboid ridge and bases of the 2nd–5th metatarsals.",
+   "function": "Supports the lateral longitudinal arch and covers the fibularis longus tendon groove."
+  },
+  {
+   "id": "mtp-plantar-plates",
+   "name": "Plantar plates (MTP joints)",
+   "type": "cartilage",
+   "meshes": [
+    "Plantar metatarsophalangeal ligaments.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "attachments": "Thick fibrocartilage on the plantar side of each MTP joint, from the metatarsal neck to the base of the proximal phalanx.",
+   "function": "Limits toe hyperextension and supports the metatarsal heads.",
+   "baseball": "\"Turf toe\": a hyperextension sprain of the big-toe plantar plate, from push-off on firm turf or a forced toe-up position.",
+   "note": "All five plantar plates are selected together."
+  },
+  {
+   "id": "soleus",
+   "name": "Soleus",
+   "type": "muscle",
+   "meshes": [
+    "Soleus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Back of the fibular head and upper fibula, soleal line and medial border of the tibia.",
+   "insertion": "Calcaneal tuberosity via the calcaneal (Achilles) tendon.",
+   "action": "Ankle plantarflexion at any knee angle; steadies the leg over the foot in stance.",
+   "innervation": "Tibial nerve (S1–S2).",
+   "baseball": "The main plantarflexor for running and drive-leg push; train it with bent-knee calf raises as well as straight-knee work."
+  },
+  {
+   "id": "plantaris",
+   "name": "Plantaris",
+   "type": "muscle",
+   "meshes": [
+    "Plantaris muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral supracondylar line of the femur, above the lateral gastrocnemius head.",
+   "insertion": "Calcaneus, beside or with the calcaneal tendon.",
+   "action": "Weak plantarflexion and knee flexion.",
+   "innervation": "Tibial nerve (S1–S2).",
+   "note": "Absent in a minority of people."
+  },
+  {
+   "id": "tibialis-anterior",
+   "name": "Tibialis anterior",
+   "type": "muscle",
+   "meshes": [
+    "Tibialis anterior muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral condyle and upper lateral tibia, interosseous membrane.",
+   "insertion": "Medial cuneiform and base of the first metatarsal.",
+   "action": "Dorsiflexion and inversion; lowers the forefoot under control after heel contact.",
+   "innervation": "Deep fibular nerve (L4–L5).",
+   "baseball": "Pulls the toes up as the lead leg swings toward foot strike."
+  },
+  {
+   "id": "tibialis-posterior",
+   "name": "Tibialis posterior",
+   "type": "muscle",
+   "meshes": [
+    "Tibialis posterior muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Posterior tibia, interosseous membrane and posterior fibula.",
+   "insertion": "Navicular tuberosity, cuneiforms, cuboid and bases of the 2nd–4th metatarsals.",
+   "action": "Inversion and plantarflexion; the main dynamic support of the medial arch.",
+   "innervation": "Tibial nerve (L4–L5).",
+   "baseball": "Controls lead-foot pronation as the foot takes load after foot strike."
+  },
+  {
+   "id": "fibularis-longus",
+   "name": "Fibularis (peroneus) longus",
+   "type": "muscle",
+   "meshes": [
+    "Fibularis longus muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Fibular head and upper lateral fibula.",
+   "insertion": "Medial cuneiform and base of the first metatarsal, after crossing the sole.",
+   "action": "Eversion and plantarflexion; presses the first ray down and supports the transverse arch.",
+   "innervation": "Superficial fibular nerve (L5–S1).",
+   "baseball": "Its quick reaction resists the roll-in of an inversion sprain."
+  },
+  {
+   "id": "fibularis-brevis",
+   "name": "Fibularis (peroneus) brevis",
+   "type": "muscle",
+   "meshes": [
+    "Fibularis brevis muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lower lateral fibula.",
+   "insertion": "Tuberosity at the base of the fifth metatarsal.",
+   "action": "Eversion and plantarflexion.",
+   "innervation": "Superficial fibular nerve (L5–S1).",
+   "baseball": "An inversion sprain can pull its attachment off the fifth metatarsal base (avulsion fracture)."
+  },
+  {
+   "id": "fibularis-tertius",
+   "name": "Fibularis (peroneus) tertius",
+   "type": "muscle",
+   "meshes": [
+    "Fibularis tertius muscle.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lower anterior fibula.",
+   "insertion": "Dorsal base of the fifth metatarsal.",
+   "action": "Dorsiflexion and eversion.",
+   "innervation": "Deep fibular nerve (L5–S1).",
+   "note": "Absent in some people."
+  },
+  {
+   "id": "edl",
+   "name": "Extensor digitorum longus",
+   "type": "muscle",
+   "meshes": [
+    "Extensor digitorum longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lateral tibial condyle, upper anterior fibula and interosseous membrane.",
+   "insertion": "Middle and distal phalanges of toes 2–5 via the extensor expansions.",
+   "action": "Extends toes 2–5; dorsiflexion and eversion.",
+   "innervation": "Deep fibular nerve (L5–S1)."
+  },
+  {
+   "id": "ehl",
+   "name": "Extensor hallucis longus",
+   "type": "muscle",
+   "meshes": [
+    "Extensor hallucis longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Middle anterior fibula and interosseous membrane.",
+   "insertion": "Base of the distal phalanx of the big toe.",
+   "action": "Extends the big toe; dorsiflexion.",
+   "innervation": "Deep fibular nerve (L5–S1)."
+  },
+  {
+   "id": "fdl",
+   "name": "Flexor digitorum longus",
+   "type": "muscle",
+   "meshes": [
+    "Flexor digitorum longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Posterior tibia below the soleal line.",
+   "insertion": "Bases of the distal phalanges of toes 2–5.",
+   "action": "Flexes toes 2–5; plantarflexion and inversion; supports the arch.",
+   "innervation": "Tibial nerve (S2–S3)."
+  },
+  {
+   "id": "fhl",
+   "name": "Flexor hallucis longus",
+   "type": "muscle",
+   "meshes": [
+    "Flexor hallucis longus.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Lower posterior fibula and interosseous membrane.",
+   "insertion": "Base of the distal phalanx of the big toe.",
+   "action": "Flexes the big toe; plantarflexion; supports the medial arch.",
+   "innervation": "Tibial nerve (S2–S3).",
+   "baseball": "Drives the big toe into the ground at the end of push-off and sprint stance."
+  },
+  {
+   "id": "abductor-hallucis",
+   "name": "Abductor hallucis",
+   "type": "muscle",
+   "meshes": [
+    "Abductor hallucis.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Medial process of the calcaneal tuberosity, flexor retinaculum and plantar aponeurosis.",
+   "insertion": "Medial base of the proximal phalanx of the big toe.",
+   "action": "Abducts and flexes the big toe; supports the medial arch.",
+   "innervation": "Medial plantar nerve (S1–S2).",
+   "baseball": "Part of the foot \"core\" that holds the arch while the drive foot pushes."
+  },
+  {
+   "id": "fdb",
+   "name": "Flexor digitorum brevis",
+   "type": "muscle",
+   "meshes": [
+    "Flexor digitorum brevis.r"
+   ],
+   "sourceIds": [
+    "neumann"
+   ],
+   "origin": "Medial process of the calcaneal tuberosity and plantar aponeurosis.",
+   "insertion": "Middle phalanges of toes 2–5.",
+   "action": "Flexes toes 2–5; supports the arch.",
+   "innervation": "Medial plantar nerve (S1–S2)."
+  }
+ ],
+ "regions": [
+  {
+   "id": "shoulder",
+   "name": "Shoulder",
+   "subtitle": "Glenohumeral joint: cuff, prime movers, labrum and capsular ligaments",
+   "joints": [
+    "gh-joint"
+   ],
+   "bones": [
+    "clavicle",
+    "scapula",
+    "humerus"
+   ],
+   "ligaments": [
+    "glenoid-labrum",
+    "sghl",
+    "mghl",
+    "ighl",
+    "chl",
+    "thl",
+    "subacromial-bursa"
+   ],
+   "muscles": [
+    "supraspinatus",
+    "infraspinatus",
+    "teres-minor",
+    "subscapularis",
+    "deltoid-anterior",
+    "deltoid-middle",
+    "deltoid-posterior",
+    "pec-major-clavicular",
+    "pec-major-sternal",
+    "latissimus",
+    "teres-major",
+    "biceps-lh",
+    "biceps-sh",
+    "coracobrachialis",
+    "triceps-long"
+   ],
+   "prompt": "Hide the deltoid, then trace each cuff tendon to its tubercle. Switch to Ligaments and find the inferior glenohumeral ligament: which band tightens in the late-cocking position?",
+   "lesson": "shoulder",
+   "model": "assets/anatomy/regions/shoulder.glb",
+   "quiz": [
+    "supraspinatus",
+    "infraspinatus",
+    "teres-minor",
+    "subscapularis",
+    "deltoid-anterior",
+    "deltoid-middle",
+    "deltoid-posterior",
+    "pec-major-clavicular",
+    "pec-major-sternal",
+    "latissimus",
+    "teres-major",
+    "biceps-lh",
+    "biceps-sh",
+    "coracobrachialis",
+    "triceps-long",
+    "glenoid-labrum",
+    "sghl",
+    "mghl",
+    "ighl",
+    "chl",
+    "thl",
+    "subacromial-bursa"
+   ],
+   "defaultSelection": "supraspinatus"
+  },
+  {
+   "id": "scapula",
+   "name": "Scapula & clavicle",
+   "subtitle": "Scapulothoracic control, AC and SC joints",
+   "joints": [
+    "scapulothoracic",
+    "ac-joint",
+    "sc-joint"
+   ],
+   "bones": [
+    "clavicle",
+    "scapula",
+    "humerus",
+    "sternum",
+    "ribs",
+    "thoracic-spine"
+   ],
+   "ligaments": [
+    "ac-ligament",
+    "conoid",
+    "trapezoid",
+    "sc-ligaments"
+   ],
+   "muscles": [
+    "trap-upper",
+    "trap-middle",
+    "trap-lower",
+    "rhomboid-major",
+    "rhomboid-minor",
+    "levator-scapulae",
+    "serratus-anterior",
+    "pec-minor",
+    "subclavius"
+   ],
+   "prompt": "Find the three muscles of the upward-rotation force couple. Which one pulls the inferior angle forward around the rib cage?",
+   "lesson": "shoulder",
+   "model": "assets/anatomy/regions/scapula.glb",
+   "quiz": [
+    "trap-upper",
+    "trap-middle",
+    "trap-lower",
+    "rhomboid-major",
+    "rhomboid-minor",
+    "levator-scapulae",
+    "serratus-anterior",
+    "pec-minor",
+    "subclavius",
+    "ac-ligament",
+    "conoid",
+    "trapezoid",
+    "sc-ligaments"
+   ],
+   "defaultSelection": "serratus-anterior"
+  },
+  {
+   "id": "elbow",
+   "name": "Elbow & forearm",
+   "subtitle": "UCL, collateral ligaments and the flexor–pronator mass",
+   "joints": [
+    "elbow-joint"
+   ],
+   "bones": [
+    "humerus",
+    "radius",
+    "ulna"
+   ],
+   "ligaments": [
+    "ucl",
+    "rcl",
+    "annular",
+    "forearm-iom"
+   ],
+   "muscles": [
+    "pronator-teres",
+    "fcu",
+    "fds",
+    "fcr",
+    "palmaris-longus",
+    "fdp",
+    "pronator-quadratus",
+    "biceps-brachii",
+    "brachialis",
+    "brachioradialis",
+    "triceps",
+    "anconeus",
+    "supinator",
+    "ecrl",
+    "ecrb",
+    "extensor-digitorum",
+    "ecu"
+   ],
+   "frame": [
+    "elbow-joint",
+    "ucl",
+    "rcl",
+    "annular",
+    "pronator-teres",
+    "fcu",
+    "brachialis",
+    "anconeus",
+    "supinator"
+   ],
+   "prompt": "Select the UCL, then show the muscles. Which two muscles sit directly over its anterior bundle?",
+   "lesson": "elbow",
+   "model": "assets/anatomy/regions/elbow.glb",
+   "quiz": [
+    "pronator-teres",
+    "fcu",
+    "fds",
+    "fcr",
+    "palmaris-longus",
+    "fdp",
+    "pronator-quadratus",
+    "biceps-brachii",
+    "brachialis",
+    "brachioradialis",
+    "triceps",
+    "anconeus",
+    "supinator",
+    "ecrl",
+    "ecrb",
+    "extensor-digitorum",
+    "ecu",
+    "ucl",
+    "rcl",
+    "annular",
+    "forearm-iom"
+   ],
+   "defaultSelection": "ucl"
+  },
+  {
+   "id": "trunk",
+   "name": "Trunk & core",
+   "subtitle": "Rotation, anti-extension and the lumbopelvic link",
+   "joints": [
+    "thoracic-joints",
+    "lumbar-spine-joints",
+    "si-joint"
+   ],
+   "bones": [
+    "ribs",
+    "thoracic-spine",
+    "lumbar-spine",
+    "sacrum",
+    "hip"
+   ],
+   "ligaments": [
+    "iliolumbar",
+    "sacrotuberous",
+    "tlf"
+   ],
+   "muscles": [
+    "external-oblique",
+    "internal-oblique",
+    "rectus-abdominis",
+    "transversus-abdominis",
+    "quadratus-lumborum",
+    "iliocostalis-lumborum",
+    "longissimus-thoracis",
+    "multifidus",
+    "latissimus"
+   ],
+   "prompt": "Follow the external oblique fibers down and forward. Which side’s internal oblique works with it to turn the trunk?",
+   "lesson": "",
+   "model": "assets/anatomy/regions/trunk.glb",
+   "quiz": [
+    "external-oblique",
+    "internal-oblique",
+    "rectus-abdominis",
+    "transversus-abdominis",
+    "quadratus-lumborum",
+    "iliocostalis-lumborum",
+    "longissimus-thoracis",
+    "multifidus",
+    "latissimus",
+    "iliolumbar",
+    "sacrotuberous",
+    "tlf"
+   ],
+   "defaultSelection": "external-oblique"
+  },
+  {
+   "id": "hip",
+   "name": "Hip & pelvis",
+   "subtitle": "Hip capsule ligaments, glutes, deep rotators and adductors",
+   "joints": [
+    "hip-joint"
+   ],
+   "bones": [
+    "hip",
+    "sacrum",
+    "femur"
+   ],
+   "ligaments": [
+    "acetabular-labrum",
+    "iliofemoral",
+    "pubofemoral",
+    "ischiofemoral",
+    "it-band"
+   ],
+   "muscles": [
+    "glute-max",
+    "glute-med",
+    "glute-min",
+    "tfl",
+    "piriformis",
+    "gemellus-superior",
+    "obturator-internus",
+    "gemellus-inferior",
+    "quadratus-femoris",
+    "obturator-externus",
+    "iliacus",
+    "psoas-major",
+    "adductor-longus",
+    "adductor-brevis",
+    "adductor-magnus",
+    "gracilis",
+    "pectineus",
+    "sartorius"
+   ],
+   "prompt": "Lead-hip internal rotation: which capsular ligament tightens, and which muscles must lengthen to allow it?",
+   "lesson": "",
+   "model": "assets/anatomy/regions/hip.glb",
+   "quiz": [
+    "glute-max",
+    "glute-med",
+    "glute-min",
+    "tfl",
+    "piriformis",
+    "gemellus-superior",
+    "obturator-internus",
+    "gemellus-inferior",
+    "quadratus-femoris",
+    "obturator-externus",
+    "iliacus",
+    "psoas-major",
+    "adductor-longus",
+    "adductor-brevis",
+    "adductor-magnus",
+    "gracilis",
+    "pectineus",
+    "sartorius",
+    "acetabular-labrum",
+    "iliofemoral",
+    "pubofemoral",
+    "ischiofemoral",
+    "it-band"
+   ],
+   "defaultSelection": "glute-med"
+  },
+  {
+   "id": "hamstring",
+   "name": "Thigh & knee",
+   "subtitle": "Hamstrings, quadriceps, cruciates, collaterals and menisci",
+   "joints": [
+    "knee-joint"
+   ],
+   "bones": [
+    "hip",
+    "femur",
+    "patella",
+    "tibia",
+    "fibula"
+   ],
+   "ligaments": [
+    "acl",
+    "pcl",
+    "mcl",
+    "lcl",
+    "medial-meniscus",
+    "lateral-meniscus"
+   ],
+   "muscles": [
+    "biceps-long",
+    "biceps-short",
+    "semitendinosus",
+    "semimembranosus",
+    "rectus-femoris",
+    "vastus-lateralis",
+    "vastus-medialis",
+    "vastus-intermedius",
+    "gastrocnemius",
+    "popliteus"
+   ],
+   "prompt": "Compare the two biceps femoris heads: only one crosses the hip. Then find the ACL and say which tibial motion it limits.",
+   "lesson": "hamstring",
+   "model": "assets/anatomy/regions/hamstring.glb",
+   "quiz": [
+    "biceps-long",
+    "biceps-short",
+    "semitendinosus",
+    "semimembranosus",
+    "rectus-femoris",
+    "vastus-lateralis",
+    "vastus-medialis",
+    "vastus-intermedius",
+    "gastrocnemius",
+    "popliteus",
+    "acl",
+    "pcl",
+    "mcl",
+    "lcl",
+    "medial-meniscus",
+    "lateral-meniscus"
+   ],
+   "defaultSelection": "biceps-long"
+  },
+  {
+   "id": "ankle",
+   "name": "Ankle & foot",
+   "subtitle": "Lateral and medial ankle ligaments, the syndesmosis, calf and foot muscles",
+   "joints": [
+    "talocrural",
+    "subtalar",
+    "mtp-joints"
+   ],
+   "bones": [
+    "tibia",
+    "fibula",
+    "talus",
+    "calcaneus",
+    "navicular",
+    "cuboid",
+    "cuneiforms",
+    "metatarsals",
+    "toe-phalanges"
+   ],
+   "ligaments": [
+    "atfl",
+    "cfl",
+    "ptfl",
+    "deltoid",
+    "syndesmosis",
+    "leg-iom",
+    "achilles",
+    "plantar-fascia",
+    "long-plantar",
+    "mtp-plantar-plates"
+   ],
+   "muscles": [
+    "gastrocnemius",
+    "soleus",
+    "plantaris",
+    "tibialis-anterior",
+    "tibialis-posterior",
+    "fibularis-longus",
+    "fibularis-brevis",
+    "fibularis-tertius",
+    "edl",
+    "ehl",
+    "fdl",
+    "fhl",
+    "abductor-hallucis",
+    "fdb"
+   ],
+   "frame": [
+    "talocrural",
+    "subtalar",
+    "atfl",
+    "deltoid",
+    "talus",
+    "calcaneus",
+    "achilles",
+    "metatarsals",
+    "toe-phalanges"
+   ],
+   "view": "angle",
+   "prompt": "Select the ATFL, CFL and PTFL in turn. Which one is tight when the foot is pointed down and turned in, the classic sprain position?",
+   "lesson": "",
+   "model": "assets/anatomy/regions/ankle.glb",
+   "quiz": [
+    "gastrocnemius",
+    "soleus",
+    "plantaris",
+    "tibialis-anterior",
+    "tibialis-posterior",
+    "fibularis-longus",
+    "fibularis-brevis",
+    "fibularis-tertius",
+    "edl",
+    "ehl",
+    "fdl",
+    "fhl",
+    "abductor-hallucis",
+    "fdb",
+    "atfl",
+    "cfl",
+    "ptfl",
+    "deltoid",
+    "syndesmosis",
+    "leg-iom",
+    "achilles",
+    "plantar-fascia",
+    "long-plantar",
+    "mtp-plantar-plates"
+   ],
+   "defaultSelection": "atfl"
+  }
+ ]
+}

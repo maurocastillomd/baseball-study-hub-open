@@ -1,0 +1,27 @@
+{
+  "family": "Atkinson Hyperlegible Next",
+  "provider": "Braille Institute / Google Fonts",
+  "source": "https://github.com/google/fonts/tree/main/ofl/atkinsonhyperlegiblenext",
+  "license": "SIL Open Font License 1.1",
+  "reviewed": "2026-10-12",
+  "files": [
+    {
+      "file": "AtkinsonHyperlegibleNext-Variable.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext%5Bwght%5D.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    {
+      "file": "AtkinsonHyperlegibleNext-Italic-Variable.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf",
+      "bytes": 123916,
+      "sha256": "ce9cffed32742ad2d9238c561a93220385e5934cdc02b8eb4097a50efa957dc6"
+    },
+    {
+      "file": "OFL-AtkinsonHyperlegibleNext.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/atkinsonhyperlegiblenext/OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    }
+  ]
+}

@@ -1,0 +1,1732 @@
+[
+ {
+  "id": "analysis-reliability",
+  "title": "Can this jump test detect the change you care about?",
+  "kind": "analysis",
+  "subtitle": "Audit paired CMJ measurements before you create a monitoring threshold.",
+  "role": "Applied performance scientist · affiliate S&C coach",
+  "timeMinutes": 45,
+  "lessonIds": [
+   "science-testing-reliability",
+   "science-interpret-communicate"
+  ],
+  "sourceRefs": [
+   "perf-nsca",
+   "perf-cmj"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 8, pp. 298–302, 307–311; Chapter 11, pp. 397–398.",
+    "application": "Standardize test conditions; separate systematic bias from random error; preserve raw data and qualify MDC interpretation.",
+    "limit": "General sport-science foundation. The synthetic paired-error model and numbers below are original exercises, not the textbook’s baseball thresholds.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-cmj",
+    "locator": "Methods, pp. 2–4; Results/Table 1 and Discussion, pp. 5–8.",
+    "application": "Reliability depends on the metric, protocol and study population.",
+    "limit": "41 physically active men, not professional baseball players. No published coefficient is imported as the local answer."
+   }
+  ],
+  "brief": [
+   "It is the final week of a fictional spring training camp. Your coordinator wants to know whether a 2 cm change in an individual player’s CMJ deserves attention. Before promising a traffic-light dashboard, you run two standardized sessions with 24 familiarized players. There is no intended training intervention between sessions. Each cell is the mean of three valid jumps, so your reliability estimate describes that session mean—not a single jump or the best of three.",
+   "Start in a spreadsheet with a new analysis sheet. Leave the downloaded raw CSV unchanged. Join sessions using athlete_id, confirm one complete pair per athlete, and compute Session 2 minus Session 1. The signed mean difference describes group bias. The sample standard deviation of those differences describes their spread after centering on the mean bias. Use STDEV.S, not STDEV.P, for the sample estimate.",
+   "For this exercise only, assume independent, equally variable measurement errors in the two sessions, no true between-session change, and approximately normal additive errors that do not increase with jump height. Under this model, typical error is SD(differences)/√2. To illustrate MDC, explicitly assume that this TE is an appropriate SEM for these same session means. In practice you must check the model and the intended testing conditions before adopting that equivalence.",
+   "The paired plot can reveal broad agreement, but inspect a second plot of each difference against its pair mean in your spreadsheet. Look for a shift away from zero, a slope or widening spread. A correlation or identity-line appearance cannot substitute for absolute error. The dataset is too small and intentionally simplified to establish a definitive local monitoring policy."
+  ],
+  "mnemonic": {
+   "word": "PAIR",
+   "expansion": "Pair the athlete IDs → Account for bias → Inspect random error → Report the decision limits."
+  },
+  "dataset": {
+   "file": "assets/datasets/paired-cmj-reliability.csv",
+   "dictionaryFile": "assets/datasets/paired-cmj-reliability.dictionary.json",
+   "columns": [
+    {
+     "key": "athlete_id",
+     "label": "Athlete",
+     "unit": "ID",
+     "meaning": "Invented unique athlete ID. One row is one athlete, not one jump."
+    },
+    {
+     "key": "test1_cm",
+     "label": "Session 1",
+     "unit": "cm",
+     "meaning": "Mean height of 3 valid hands-on-hips CMJs; force-plate impulse-momentum calculation."
+    },
+    {
+     "key": "test2_cm",
+     "label": "Session 2",
+     "unit": "cm",
+     "meaning": "Same summary, device, software and protocol at the second session."
+    },
+    {
+     "key": "protocol",
+     "label": "Protocol",
+     "unit": "text",
+     "meaning": "Both sessions use the same familiarized procedure, warm-up and trial aggregation."
+    },
+    {
+     "key": "device",
+     "label": "Device",
+     "unit": "ID",
+     "meaning": "Fictional device identifier; held constant."
+    },
+    {
+     "key": "interval_days",
+     "label": "Separation",
+     "unit": "days",
+     "meaning": "Sessions are 7 days apart in a fictional stable period. This is a study-design choice, not a universal recovery prescription."
+    }
+   ],
+   "rows": [
+    {
+     "athlete_id": "SYN-R01",
+     "test1_cm": 31.2,
+     "test2_cm": 29.6,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R02",
+     "test1_cm": 38.1,
+     "test2_cm": 37.5,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R03",
+     "test1_cm": 42.7,
+     "test2_cm": 42.1,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R04",
+     "test1_cm": 35.5,
+     "test2_cm": 35.9,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R05",
+     "test1_cm": 46.3,
+     "test2_cm": 46.7,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R06",
+     "test1_cm": 39.2,
+     "test2_cm": 40.6,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R07",
+     "test1_cm": 33.8,
+     "test2_cm": 35.2,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R08",
+     "test1_cm": 44.1,
+     "test2_cm": 46.5,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R09",
+     "test1_cm": 37.6,
+     "test2_cm": 36.0,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R10",
+     "test1_cm": 40.8,
+     "test2_cm": 40.2,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R11",
+     "test1_cm": 29.4,
+     "test2_cm": 28.8,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R12",
+     "test1_cm": 47.2,
+     "test2_cm": 47.6,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R13",
+     "test1_cm": 34.9,
+     "test2_cm": 35.3,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R14",
+     "test1_cm": 41.3,
+     "test2_cm": 42.7,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R15",
+     "test1_cm": 36.7,
+     "test2_cm": 38.1,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R16",
+     "test1_cm": 43.6,
+     "test2_cm": 46.0,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R17",
+     "test1_cm": 30.7,
+     "test2_cm": 29.1,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R18",
+     "test1_cm": 45.0,
+     "test2_cm": 44.4,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R19",
+     "test1_cm": 38.9,
+     "test2_cm": 38.3,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R20",
+     "test1_cm": 32.6,
+     "test2_cm": 33.0,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R21",
+     "test1_cm": 48.1,
+     "test2_cm": 48.5,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R22",
+     "test1_cm": 35.8,
+     "test2_cm": 37.2,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R23",
+     "test1_cm": 40.1,
+     "test2_cm": 41.5,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    },
+    {
+     "athlete_id": "SYN-R24",
+     "test1_cm": 42.0,
+     "test2_cm": 44.4,
+     "protocol": "CMJ hands on hips; mean of 3 valid trials",
+     "device": "SYN-PLATE-A",
+     "interval_days": 7
+    }
+   ],
+   "cleaningRules": [
+    "Keep all 24 complete athlete pairs; there are no duplicate IDs or missing measurements in this dataset.",
+    "Do not treat the 3 jumps behind each session mean as 3 independent athlete pairs.",
+    "Calculate each signed difference as test2_cm − test1_cm. Use the sample SD of the 24 differences.",
+    "Report the mean bias separately. Centering for the SD does not prove the source of bias or justify silently correcting future results."
+   ],
+   "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+  },
+  "chart": {
+   "type": "paired",
+   "title": "Each dot is one athlete’s two session means",
+   "description": "Session 1 on the horizontal axis, Session 2 on the vertical axis, both in cm. The diagonal is equality, not a pass/fail boundary. Compare the signed differences and their spread; high correlation alone is insufficient.",
+   "xKey": "test1_cm",
+   "yKey": "test2_cm",
+   "idKey": "athlete_id",
+   "unit": "cm",
+   "identityLine": true
+  },
+  "calculations": [
+   {
+    "id": "bias",
+    "prompt": "What is the mean signed difference, Session 2 − Session 1?",
+    "unit": "cm",
+    "answer": 0.4000000000000005,
+    "tolerance": 0.015,
+    "formula": "Mean bias = Σ(Test 2 − Test 1) / 24",
+    "worked": "The 24 signed differences sum to 9.60 cm. Divide by 24 to obtain +0.40 cm. Session 2 is slightly higher on average.",
+    "interpretation": "This is a group shift. It could reflect familiarization, changed conditions or another systematic influence; its cause is not identified by the arithmetic."
+   },
+   {
+    "id": "sd-difference",
+    "prompt": "What is the sample SD of the signed paired differences?",
+    "unit": "cm",
+    "answer": 1.2510864843424485,
+    "tolerance": 0.015,
+    "formula": "SDdiff = √[Σ(di − mean d)² / (n − 1)]",
+    "worked": "The squared deviations around the +0.40 cm bias sum to 36.00 cm². SDdiff = √(36/23) = 1.2511 cm.",
+    "interpretation": "Subtracting the bias before squaring separates the centered spread from the mean shift. Dividing by 24 instead of 23 gives a different estimator."
+   },
+   {
+    "id": "te",
+    "prompt": "Under the stated paired-error model, what is the typical error?",
+    "unit": "cm",
+    "answer": 0.8846517369293827,
+    "tolerance": 0.015,
+    "formula": "TE = SDdiff / √2",
+    "worked": "TE = 1.2511 / 1.4142 = 0.8847 cm. A difference contains error from two measurements, which explains the √2 divisor under the stated assumptions.",
+    "interpretation": "This TE belongs to these standardized session means. It cannot be assumed to apply to a different device, test technique, summary statistic or population."
+   },
+   {
+    "id": "mdc",
+    "prompt": "Assume SEM = this TE for the same session mean. What is MDC95?",
+    "unit": "cm",
+    "answer": 2.4521295093111988,
+    "tolerance": 0.02,
+    "formula": "MDC95 = 1.96 × √2 × SEM",
+    "worked": "With SEM explicitly set to 0.8847 cm, MDC95 = 2.4521 cm. The 1.96 multiplier is the normal-error 95% convention.",
+    "interpretation": "A change exceeding this model-based limit is more difficult to explain by the assumed random measurement error alone. It is not an injury cutoff, a worthwhile-change criterion or a clearance decision."
+   },
+   {
+    "id": "adjusted-change",
+    "prompt": "If an athlete later improves by +2.00 cm, what is the difference after subtracting the hypothetical +0.40 cm bias?",
+    "unit": "cm",
+    "answer": 1.6,
+    "tolerance": 0.015,
+    "formula": "Illustrative adjusted change = observed change − estimated bias",
+    "worked": "2.00 − 0.40 = +1.60 cm. This adjusted value is smaller than the illustrative MDC95 of 2.45 cm.",
+    "interpretation": "This is a sensitivity calculation, not permission to apply a permanent correction. Investigate the source and stability of the bias. A sub-MDC result is not proof of no real adaptation."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "reliability-decision-1",
+    "prompt": "A coach says, “The dots line up well, so a 1 cm gain is definitely real.” What is your best response?",
+    "options": [
+     {
+      "text": "Agree; a strong correlation proves small changes are real.",
+      "feedback": "Correlation can remain strong because players differ substantially from one another. It does not quantify the uncertainty of a small within-player change."
+     },
+     {
+      "text": "Explain the absolute error and bias, then discuss whether the proposed decision requires better precision.",
+      "feedback": "Correct. Use the local session-mean error estimate and the task’s decision consequences, while preserving the model assumptions."
+     },
+     {
+      "text": "Discard all CMJ testing because the TE is not zero.",
+      "feedback": "Nonzero error is expected. Whether the test is useful depends on the question, error magnitude, burden and complementary information."
+     }
+    ],
+    "correct": 1,
+    "why": "The useful question is whether the measurement is precise enough for the decision—not whether an across-player correlation looks impressive."
+   },
+   {
+    "id": "reliability-decision-2",
+    "prompt": "Next month the staff change from hands-on-hips session means to best arm-swing jumps. Can you keep the 2.45 cm MDC?",
+    "options": [
+     {
+      "text": "Yes, because both results use centimetres.",
+      "feedback": "The same unit does not make different tests or aggregation rules interchangeable."
+     },
+     {
+      "text": "Yes, after multiplying the old MDC by the new average height.",
+      "feedback": "An arbitrary rescaling does not establish reliability for a different procedure."
+     },
+     {
+      "text": "Re-establish comparability and reliability for the new protocol before using a threshold.",
+      "feedback": "Correct. Technique and aggregation changed the measurement. Record the new protocol and evaluate it on its own terms."
+     }
+    ],
+    "correct": 2,
+    "why": "Error estimates are conditional on how the measurement was collected and summarized."
+   }
+  ],
+  "assignment": {
+   "brief": "Deliver a one-page testing-method memo to the fictional coordinator. Include the paired plot and a difference-versus-mean plot generated from the CSV, your reproducible formulas, and a recommendation about the proposed 2 cm flag.",
+   "deliverables": [
+    "A preserved raw sheet and a separate analysis sheet with one row per athlete, pair mean and signed difference.",
+    "A calculation table reporting n, mean bias, sample SDdiff, TE, the explicitly assumed SEM, and MDC95 with units.",
+    "Two labeled plots with readable axes and a short statement about bias and possible proportional error.",
+    "A 120–180 word staff memo distinguishing detectability, practical importance and baseball performance.",
+    "A protocol checklist: familiarization, warm-up, device/software, instructions, timing, valid trials and aggregation."
+   ],
+   "rubric": [
+    "Reproducibility: another analyst can recover the calculations from the CSV; sample versus population SD is explicit.",
+    "Statistical meaning: bias and random error are separated; SEM = TE is declared as an assumption; MDC is not treated as a certainty guarantee.",
+    "Protocol fidelity: the session mean is the unit of measurement, and no claim transfers to a different jump protocol.",
+    "Decision quality: the memo offers a follow-up process and does not diagnose fatigue, injury or adaptation from one number."
+   ],
+   "modelResponse": [
+    "Twenty-four complete pairs produce a mean Session 2 − Session 1 difference of +0.40 cm and sample SDdiff of 1.25 cm. TE is 0.88 cm under the paired independent equal-error model. If TE is taken as SEM for this exact session-mean protocol, MDC95 is approximately 2.45 cm. The observed group bias should be investigated before routine use.",
+    "The proposed 2 cm alert could be used to request a quality check and athlete conversation, but this exercise does not validate it as a real-change or readiness threshold. A +2 cm observation becomes +1.6 cm in the illustrative bias-adjusted sensitivity calculation and remains inside the model-based MDC. A +3 cm observation would be +2.6 cm after that adjustment, but would still require contextual interpretation rather than an automatic training change.",
+    "Keep the current measurement procedure stable, inspect difference-versus-mean behavior, and collect a larger context-matched reliability sample. Predefine what decision the measurement will support. Report precision and uncertainty alongside athlete history; do not equate a detected jump change with a proportional change in baseball performance."
+   ]
+  },
+  "recall": {
+   "prompt": "Without looking: why do we divide SDdiff by √2, and why is SEM = TE an assumption here?",
+   "answer": "The paired difference contains two independent equally variable error terms, so its variance is twice the single-measure error variance. TE estimates that single-measure error under this model. SEM terminology and estimation depend on the design; equating it with TE here is an explicit teaching assumption for the same session means."
+  },
+  "transfer": {
+   "prompt": "The next affiliate has a different force-plate model and tests after games. What must you verify before importing your numbers?",
+   "answer": "Check device/calculation agreement, protocol and aggregation, timing and athlete conditions, familiarization, local reliability and intended decision. Different measurement conditions can change both bias and random variability. Do not silently import a threshold."
+  }
+ },
+ {
+  "id": "analysis-exposure-audit",
+  "title": "The pitch dashboard and the throwing log disagree",
+  "kind": "analysis",
+  "subtitle": "Clean a reliever’s seven-day ledger without turning unknown work into zero.",
+  "role": "Applied performance scientist · pitcher S&C coach",
+  "timeMinutes": 55,
+  "lessonIds": [
+   "science-workload-limits",
+   "science-testing-reliability",
+   "programming-pitcher-microcycle"
+  ],
+  "sourceRefs": [
+   "perf-nsca",
+   "perf-hidden-pitches"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 8, pp. 307–311; Chapter 2, pp. 118–119.",
+    "application": "Unique identifiers, explicit missing values, documented transformations and multiple dimensions of exposure.",
+    "limit": "The exercise uses a deliberately messy synthetic export. Its event taxonomy and cleaning decisions are stated locally rather than presented as a universal league data standard.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-hidden-pitches",
+    "locator": "Methods and Results, pp. 2–3; Limitations, p. 5.",
+    "application": "Official game totals can omit counted preparation pitches; retain distinct exposure categories.",
+    "limit": "High-school observational study. It did not measure non-mound work, injury associations or professional recovery requirements."
+   }
+  ],
+  "brief": [
+   "At a fictional affiliate, a reliever’s official game feed shows 57 pitches for the week. A combined staff export appears to show 298 throws. The pitching coach asks which number should drive the next lift. Your first task is to establish what the records actually contain, before proposing any training change.",
+   "Download the 30 raw rows. The four event categories for each day are mutually exclusive by the supplied ledger definition. The two repeat-import rows are confirmed repeats of existing event IDs; keep one authoritative record for each event. Equal counts on different event IDs are not duplicates. Two event counts are missing, and their blanks must survive cleaning as unknown values.",
+   "Game, bullpen and between-inning categories form documented mound pitches. Flat-ground throws are outside that mound subtotal. Adding all known categories produces a recorded-count total, but does not equate throws with tissue stress: the export contains no ball mass, intent, distance, velocity or mechanical measurement. Different throws need not impose equivalent demands.",
+   "Your report needs both a number and a completeness statement. A documented subtotal with two unknown events is not a complete weekly exposure estimate. An explicit zero on July 5 is different from the missing flat-ground log on July 3 or missing bullpen count on July 6. Audit the source rows, show who should resolve each gap, and preserve the cleaning decisions so another staff member can reproduce the result."
+  ],
+  "mnemonic": {
+   "word": "COUNT",
+   "expansion": "Check identity → Omit verified repeats → Unknown stays unknown → Name the denominator → Tell staff the limits."
+  },
+  "dataset": {
+   "file": "assets/datasets/throwing-exposure-audit.csv",
+   "dictionaryFile": "assets/datasets/throwing-exposure-audit.dictionary.json",
+   "columns": [
+    {
+     "key": "row_id",
+     "label": "Raw row",
+     "unit": "ID",
+     "meaning": "Unique import-row ID; not necessarily a unique throwing event."
+    },
+    {
+     "key": "athlete_id",
+     "label": "Athlete",
+     "unit": "ID",
+     "meaning": "Invented reliever ID; one athlete throughout."
+    },
+    {
+     "key": "date",
+     "label": "Date",
+     "unit": "YYYY-MM-DD",
+     "meaning": "Fictional local date; no timezone conversion is required for this exercise."
+    },
+    {
+     "key": "event_id",
+     "label": "Event",
+     "unit": "ID",
+     "meaning": "Event identity established by the source ledger. Verified repeats share this ID."
+    },
+    {
+     "key": "category",
+     "label": "Category",
+     "unit": "enum",
+     "meaning": "game, bullpen and between_innings are mutually exclusive mound pitches; flat_ground is counted separately."
+    },
+    {
+     "key": "count",
+     "label": "Recorded count",
+     "unit": "throws",
+     "meaning": "Nonnegative integer. Blank CSV cell / JSON null means unknown. Zero means staff confirmed none in that category."
+    },
+    {
+     "key": "source",
+     "label": "Source",
+     "unit": "enum",
+     "meaning": "Origin of the row; repeat_import requires duplicate review."
+    },
+    {
+     "key": "status",
+     "label": "Audit status",
+     "unit": "enum",
+     "meaning": "recorded, unresolved or verified_duplicate. Duplicate status is supplied by the fictional import audit, not inferred from equal numbers."
+    },
+    {
+     "key": "note",
+     "label": "Source note",
+     "unit": "text",
+     "meaning": "Evidence to retain or exclude a row; review before cleaning."
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "RAW-01",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-01",
+     "event_id": "D1-game",
+     "category": "game",
+     "count": 18,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-02",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-01",
+     "event_id": "D1-bullpen",
+     "category": "bullpen",
+     "count": 24,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-03",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-01",
+     "event_id": "D1-between_innings",
+     "category": "between_innings",
+     "count": 6,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-04",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-01",
+     "event_id": "D1-flat_ground",
+     "category": "flat_ground",
+     "count": 12,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-05",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-02",
+     "event_id": "D2-game",
+     "category": "game",
+     "count": 0,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-06",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-02",
+     "event_id": "D2-bullpen",
+     "category": "bullpen",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-07",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-02",
+     "event_id": "D2-between_innings",
+     "category": "between_innings",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-08",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-02",
+     "event_id": "D2-flat_ground",
+     "category": "flat_ground",
+     "count": 20,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-09",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-03",
+     "event_id": "D3-game",
+     "category": "game",
+     "count": 0,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-10",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-03",
+     "event_id": "D3-bullpen",
+     "category": "bullpen",
+     "count": 18,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-11",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-03",
+     "event_id": "D3-between_innings",
+     "category": "between_innings",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-12",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-03",
+     "event_id": "D3-flat_ground",
+     "category": "flat_ground",
+     "count": null,
+     "source": "staff_throw_log",
+     "status": "unresolved",
+     "note": "Log absent; count unknown; do not enter zero."
+    },
+    {
+     "row_id": "RAW-13",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-04",
+     "event_id": "D4-game",
+     "category": "game",
+     "count": 27,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-14",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-04",
+     "event_id": "D4-bullpen",
+     "category": "bullpen",
+     "count": 22,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-15",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-04",
+     "event_id": "D4-between_innings",
+     "category": "between_innings",
+     "count": 9,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-16",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-04",
+     "event_id": "D4-flat_ground",
+     "category": "flat_ground",
+     "count": 16,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-17",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-05",
+     "event_id": "D5-game",
+     "category": "game",
+     "count": 0,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-18",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-05",
+     "event_id": "D5-bullpen",
+     "category": "bullpen",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-19",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-05",
+     "event_id": "D5-between_innings",
+     "category": "between_innings",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-20",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-05",
+     "event_id": "D5-flat_ground",
+     "category": "flat_ground",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-21",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-06",
+     "event_id": "D6-game",
+     "category": "game",
+     "count": 12,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-22",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-06",
+     "event_id": "D6-bullpen",
+     "category": "bullpen",
+     "count": null,
+     "source": "staff_throw_log",
+     "status": "unresolved",
+     "note": "Log absent; count unknown; do not enter zero."
+    },
+    {
+     "row_id": "RAW-23",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-06",
+     "event_id": "D6-between_innings",
+     "category": "between_innings",
+     "count": 3,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-24",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-06",
+     "event_id": "D6-flat_ground",
+     "category": "flat_ground",
+     "count": 14,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-25",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-07",
+     "event_id": "D7-game",
+     "category": "game",
+     "count": 0,
+     "source": "official_game_feed",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-26",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-07",
+     "event_id": "D7-bullpen",
+     "category": "bullpen",
+     "count": 26,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-27",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-07",
+     "event_id": "D7-between_innings",
+     "category": "between_innings",
+     "count": 0,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Staff verified no throws in this category."
+    },
+    {
+     "row_id": "RAW-28",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-07",
+     "event_id": "D7-flat_ground",
+     "category": "flat_ground",
+     "count": 18,
+     "source": "staff_throw_log",
+     "status": "recorded",
+     "note": "Counted event; category excludes other event categories."
+    },
+    {
+     "row_id": "RAW-29",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-04",
+     "event_id": "D4-game",
+     "category": "game",
+     "count": 27,
+     "source": "repeat_import",
+     "status": "verified_duplicate",
+     "note": "Import audit confirms this repeats RAW-13; retain original event once, not both rows."
+    },
+    {
+     "row_id": "RAW-30",
+     "athlete_id": "SYN-P07",
+     "date": "2026-07-07",
+     "event_id": "D7-bullpen",
+     "category": "bullpen",
+     "count": 26,
+     "source": "repeat_import",
+     "status": "verified_duplicate",
+     "note": "Import audit confirms this repeats RAW-26; retain original event once, not both rows."
+    }
+   ],
+   "cleaningRules": [
+    "Preserve the 30 raw rows. Use row_id to reference decisions and event_id to identify events.",
+    "Exclude RAW-29 and RAW-30 from analysis only: their notes verify repeat imports of RAW-13 and RAW-26. Keep a two-row exclusion log.",
+    "Retain all 28 unique events, including the two events with unknown counts. Missing values remain null/NA, never zero.",
+    "The categories are mutually exclusive for this exercise. Mound subtotal = game + bullpen + between_innings for known counts, accompanied by unknown flags.",
+    "A complete day has all 4 category counts recorded, including verified zeros. Label incomplete-day known sums as partial.",
+    "Do not infer injury risk, readiness, equal tissue stress or a rest-day prescription from these counts."
+   ],
+   "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+  },
+  "chart": {
+   "type": "exposure",
+   "title": "Known counts and missing categories across seven days",
+   "description": "Plot verified unique events, not raw import rows. Keep mound categories separate from flat-ground throws. July 3 and July 6 have unknown categories: their displayed known sums are partial, not complete totals.",
+   "unit": "throws",
+   "series": [
+    {
+     "label": "Jul 1",
+     "date": "2026-07-01",
+     "game": 18,
+     "bullpen": 24,
+     "between_innings": 6,
+     "flat_ground": 12,
+     "known_total": 60,
+     "known_mound": 48,
+     "has_unknown": false,
+     "unknown_categories": []
+    },
+    {
+     "label": "Jul 2",
+     "date": "2026-07-02",
+     "game": 0,
+     "bullpen": 0,
+     "between_innings": 0,
+     "flat_ground": 20,
+     "known_total": 20,
+     "known_mound": 0,
+     "has_unknown": false,
+     "unknown_categories": []
+    },
+    {
+     "label": "Jul 3",
+     "date": "2026-07-03",
+     "game": 0,
+     "bullpen": 18,
+     "between_innings": 0,
+     "flat_ground": null,
+     "known_total": 18,
+     "known_mound": 18,
+     "has_unknown": true,
+     "unknown_categories": [
+      "flat_ground"
+     ]
+    },
+    {
+     "label": "Jul 4",
+     "date": "2026-07-04",
+     "game": 27,
+     "bullpen": 22,
+     "between_innings": 9,
+     "flat_ground": 16,
+     "known_total": 74,
+     "known_mound": 58,
+     "has_unknown": false,
+     "unknown_categories": []
+    },
+    {
+     "label": "Jul 5",
+     "date": "2026-07-05",
+     "game": 0,
+     "bullpen": 0,
+     "between_innings": 0,
+     "flat_ground": 0,
+     "known_total": 0,
+     "known_mound": 0,
+     "has_unknown": false,
+     "unknown_categories": []
+    },
+    {
+     "label": "Jul 6",
+     "date": "2026-07-06",
+     "game": 12,
+     "bullpen": null,
+     "between_innings": 3,
+     "flat_ground": 14,
+     "known_total": 29,
+     "known_mound": 15,
+     "has_unknown": true,
+     "unknown_categories": [
+      "bullpen"
+     ]
+    },
+    {
+     "label": "Jul 7",
+     "date": "2026-07-07",
+     "game": 0,
+     "bullpen": 26,
+     "between_innings": 0,
+     "flat_ground": 18,
+     "known_total": 44,
+     "known_mound": 26,
+     "has_unknown": false,
+     "unknown_categories": []
+    }
+   ],
+   "stackKeys": [
+    "game",
+    "bullpen",
+    "between_innings",
+    "flat_ground"
+   ],
+   "completeDayCount": 5
+  },
+  "calculations": [
+   {
+    "id": "unique-events",
+    "prompt": "How many unique event records remain after removing only verified repeat imports?",
+    "unit": "events",
+    "answer": 28,
+    "tolerance": 0,
+    "formula": "Unique events = 30 raw rows − 2 verified repeats",
+    "worked": "RAW-29 repeats RAW-13 (July 4 game). RAW-30 repeats RAW-26 (July 7 bullpen). Keep 28 events, including the two unknown counts.",
+    "interpretation": "Do not discard an event just because its count is missing. The unknown event still matters to the completeness audit."
+   },
+   {
+    "id": "game-count",
+    "prompt": "What is the cleaned official game-pitch total?",
+    "unit": "pitches",
+    "answer": 57,
+    "tolerance": 0,
+    "formula": "Game total = 18 + 0 + 0 + 27 + 0 + 12 + 0",
+    "worked": "The retained game records sum to 57. The repeated July 4 game row must not be counted twice.",
+    "interpretation": "This total is complete for the game category as supplied. It is not the total mound or all-throw exposure."
+   },
+   {
+    "id": "known-mound",
+    "prompt": "What is the documented mound-pitch subtotal, after cleaning?",
+    "unit": "pitches",
+    "answer": 165,
+    "tolerance": 0,
+    "formula": "Known mound = game 57 + known bullpen 90 + between-inning 18",
+    "worked": "57 + 90 + 18 = 165 documented mound pitches. The July 6 bullpen count is unknown.",
+    "interpretation": "Report “165 documented mound pitches, plus an unresolved July 6 bullpen count.” Do not label 165 as a complete weekly mound total."
+   },
+   {
+    "id": "known-all",
+    "prompt": "What is the sum of all known unique counts, including flat-ground throws?",
+    "unit": "throws",
+    "answer": 245,
+    "tolerance": 0,
+    "formula": "Known total = documented mound 165 + known flat-ground 80",
+    "worked": "The naïve raw sum is 298 because it double-counts 27 game and 26 bullpen pitches. 298 − 27 − 26 = 245 known unique throws.",
+    "interpretation": "The July 3 flat-ground and July 6 bullpen counts remain unknown. 245 is a documented count subtotal across distinct categories, not total tissue load."
+   },
+   {
+    "id": "complete-days",
+    "prompt": "How many dates have all four category counts recorded?",
+    "unit": "days",
+    "answer": 5,
+    "tolerance": 0,
+    "formula": "Complete day = every category has a recorded count; a verified zero counts as recorded",
+    "worked": "July 1, 2, 4, 5 and 7 are complete. July 3 and 6 are incomplete. There are 5 complete dates out of 7.",
+    "interpretation": "Completeness belongs to the question and denominator. All seven dates have complete game counts, but only five have complete all-category counts."
+   },
+   {
+    "id": "preparation-share",
+    "prompt": "What percentage of the documented mound subtotal consists of known bullpen plus between-inning pitches?",
+    "unit": "%",
+    "answer": 65.45454545454545,
+    "tolerance": 0.05,
+    "formula": "Documented preparation share = (90 + 18) / 165 × 100",
+    "worked": "108/165 × 100 = 65.45%. Both numerator and denominator refer to documented mound counts; the unresolved bullpen pitches are absent from both.",
+    "interpretation": "This is a partial-data composition statistic, not the complete-week share. Dividing 108 by the 57 game pitches answers a different question and produces 189.47%."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "exposure-decision-1",
+    "prompt": "An analyst replaces both blanks with zero so the dashboard can render. What is the most defensible correction?",
+    "options": [
+     {
+      "text": "Keep the zeros; a missing form is evidence that no throws occurred.",
+      "feedback": "Absence of a record does not establish absence of throwing. This creates false certainty and corrupts complete-day summaries."
+     },
+     {
+      "text": "Remove those two dates from every report.",
+      "feedback": "That would erase known game and other category counts. Preserve known values and mark the relevant category/day incomplete."
+     },
+     {
+      "text": "Restore unknown values, label the partial sums, and seek the missing logs from their owner.",
+      "feedback": "Correct. The July 3 flat-ground log and July 6 bullpen entry remain unresolved until source evidence arrives."
+     }
+    ],
+    "correct": 2,
+    "why": "The interface should adapt to incomplete data rather than changing the data to fit the interface."
+   },
+   {
+    "id": "exposure-decision-2",
+    "prompt": "The coach asks, “So does 165 mean he needs exactly two days off?” Choose the best reply.",
+    "options": [
+     {
+      "text": "Yes; a larger total establishes the required recovery interval.",
+      "feedback": "This dataset contains no validated recovery relationship, athlete response or clinical findings."
+     },
+     {
+      "text": "No exact interval follows from these counts. Review missing logs, throw characteristics, the athlete and the staff plan.",
+      "feedback": "Correct. Counts describe recorded exposure. Decision-making also requires context and shared responsibility; medical symptoms must reach the clinical team."
+     },
+     {
+      "text": "Use the 57 game pitches only because preparation pitches are meaningless.",
+      "feedback": "Preparation work may be relevant exposure even when absent from the official game feed. Its contribution cannot be dismissed from this export."
+     }
+    ],
+    "correct": 1,
+    "why": "The audit repairs the description of work. It does not turn a count into a biological dose or a validated prescription."
+   }
+  ],
+  "assignment": {
+   "brief": "Prepare a reproducible data-cleaning package and a 90-second staff handoff for the fictional pitching coach and athletic trainer.",
+   "deliverables": [
+    "Raw CSV retained unchanged; clean event table with 28 rows and null values preserved.",
+    "A change log naming RAW-29 and RAW-30, the retained event IDs, and the evidence for exclusion.",
+    "Daily game, known mound and known all-category counts, plus an explicit complete/partial flag.",
+    "A gap list: missing July 3 flat-ground and July 6 bullpen counts; name the fictional staff-log owner as the first point of follow-up.",
+    "A concise handoff that separates observed counts, unknown information and the next staff decision."
+   ],
+   "rubric": [
+    "Identity: repeats are removed by verified event identity, not by equal values or row order.",
+    "Missingness: unknown and confirmed zero remain distinct through tables, totals and plots.",
+    "Definitions: game, mound and all-category subtotals have clear denominators and category boundaries.",
+    "Interpretation: no total is converted into injury risk, a fatigue percentage or an automatic rest prescription.",
+    "Action: the receiving staff member can identify the unresolved source records and reproduce the report."
+   ],
+   "modelResponse": [
+    "The official feed has 57 game pitches. After removing two verified repeat imports, the staff ledger contains 28 unique events: 165 documented mound pitches and 80 documented flat-ground throws. The combined known-count subtotal is 245. It remains incomplete because the July 3 flat-ground and July 6 bullpen counts are unresolved. Five of seven dates have all four categories recorded.",
+    "The raw export’s 298 summed throws included a duplicate 27-pitch game row and a duplicate 26-pitch bullpen row. We excluded those two import rows only, retained the original source records, and kept the two unknown events. July 5 is a confirmed zero-throw day in this fictional ledger; the missing entries are not zeros.",
+    "Before discussing the next lift or throwing plan, the staff-log owner should reconcile the two missing events with the pitching coach. The remaining conversation needs throw intent and other relevant context, player report and any clinical restrictions. This report describes recorded counts; it does not calculate tissue stress, injury probability or a required recovery interval."
+   ]
+  },
+  "recall": {
+   "prompt": "Explain the difference between 57, 165 and 245 without looking.",
+   "answer": "57 is the cleaned game-pitch total. 165 is the known mound subtotal: game, bullpen and between-inning pitches, with one bullpen count unresolved. 245 adds known flat-ground throws and has two unresolved event counts. Each number answers a different question."
+  },
+  "transfer": {
+   "prompt": "A new affiliate labels every non-game event “practice.” What must happen before you merge its records?",
+   "answer": "Obtain the local definition and event boundaries, establish whether categories overlap, preserve source IDs, harmonize a documented mapping, and keep unresolved categories explicitly unmapped. A shared label is not proof that two systems measure the same exposure."
+  }
+ },
+ {
+  "id": "analysis-monitoring-handoff",
+  "title": "Turn a jump trend into a useful staff conversation",
+  "kind": "analysis",
+  "subtitle": "Build an athlete-specific baseline, avoid look-ahead bias, and write a measured handoff.",
+  "role": "Applied performance scientist · affiliate S&C coach · performance coordinator",
+  "timeMinutes": 60,
+  "lessonIds": [
+   "science-interpret-communicate",
+   "science-testing-reliability",
+   "programming-position-players"
+  ],
+  "sourceRefs": [
+   "perf-nsca"
+  ],
+  "sourceNotes": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 8, pp. 298–302, 307–311; Chapter 2, pp. 118–119; Chapter 17, pp. 629–630.",
+    "application": "Comparable testing, documented cleaning and contextual athlete-reported measures.",
+    "limit": "Baseline variability is not automatically measurement error. The invented review flag is a workflow exercise, not a validated readiness or injury model.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 1, pp. 79–80; Chapter 11, pp. 397–398.",
+    "application": "Shared interpretation and caution when translating test results into sport or clinical decisions.",
+    "limit": "A descriptive trend does not establish cause or independently authorize a change in player availability.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   }
+  ],
+  "brief": [
+   "You are preparing an 11:00 a.m. meeting on day 28 for a fictional outfielder. The dashboard shows several lower CMJ results after a dense game stretch. The coach asks, “Is he fatigued, and do we cancel his lower-body work?” You have 28 morning records, athlete-reported sleep, prior-game innings and travel notes. Your task is to make the uncertainty usable rather than rename the jump value “readiness.”",
+   "Before calculating the baseline, read the notes. The reference window was fixed as days 1–14 before monitoring began. Day 8 used arm swing and is not comparable to the hands-on-hips series. Day 11 has no measurement. Preserve both raw rows, but use the 12 comparable recorded baseline values for mean and sample SD. Do not include later low results to make the flag disappear.",
+   "The case’s pre-agreed review rule is two consecutive comparable recorded days with CMJ more than 1.5 cm below that fixed baseline mean. This is an invented workflow trigger for a human conversation, not a validated biological boundary. A missed or noncomparable day breaks the consecutive-day sequence for this exercise. The rule tells the staff when to look, not what diagnosis or program change to make.",
+   "Calculate the current percentage difference, a descriptive z-score and the last-three-day mean. The baseline sample SD includes all observed day-to-day variation; it is not the SEM from a controlled reliability study. Do not use it as if it were a local MDC estimate. Inspect the sequence and time stamps: the first lower observations precede the overnight bus trip, so the trip cannot explain the beginning of the trend.",
+   "Complete the staff handoff with four parts: the observation, limits of interpretation, the next check, and the person responsible for the next decision. A useful proposal can preserve a brief familiar training option while the coach and athlete discuss today’s demands. New symptoms or clinical concerns follow the medical team’s pathway; this dataset cannot grant or deny clinical clearance."
+  ],
+  "mnemonic": {
+   "word": "FACT",
+   "expansion": "Fix the reference → Audit comparability → Context before cause → Team decision and follow-up."
+  },
+  "dataset": {
+   "file": "assets/datasets/cmj-monitoring-handoff.csv",
+   "dictionaryFile": "assets/datasets/cmj-monitoring-handoff.dictionary.json",
+   "columns": [
+    {
+     "key": "day",
+     "label": "Day",
+     "unit": "day index",
+     "meaning": "Synthetic sequential day number from 1 to 28."
+    },
+    {
+     "key": "date",
+     "label": "Date",
+     "unit": "YYYY-MM-DD",
+     "meaning": "Fictional local morning testing date."
+    },
+    {
+     "key": "athlete_id",
+     "label": "Athlete",
+     "unit": "ID",
+     "meaning": "One invented outfielder throughout; no club or personal information."
+    },
+    {
+     "key": "phase",
+     "label": "Phase",
+     "unit": "enum",
+     "meaning": "Days 1–14 are the predefined reference window. Days 15–28 are monitoring; do not move the baseline after viewing results."
+    },
+    {
+     "key": "cmj_cm",
+     "label": "CMJ height",
+     "unit": "cm",
+     "meaning": "Mean of 3 valid force-plate CMJs using impulse-momentum height. Hands on hips except documented day 8 deviation. Blank means no measurement."
+    },
+    {
+     "key": "sleep_hours",
+     "label": "Reported sleep",
+     "unit": "hours",
+     "meaning": "Athlete-reported previous-night sleep duration. Contextual information, not an objective recovery measure."
+    },
+    {
+     "key": "prior_game_innings",
+     "label": "Previous game",
+     "unit": "innings",
+     "meaning": "Innings played on the preceding calendar date; it is not a complete measure of running or training exposure."
+    },
+    {
+     "key": "travel_hours",
+     "label": "Previous 24 h travel",
+     "unit": "hours",
+     "meaning": "Recorded travel within the 24 hours before testing. Day 25 travel occurs after testing and therefore appears in day 26’s field."
+    },
+    {
+     "key": "protocol_ok",
+     "label": "Comparable protocol",
+     "unit": "boolean",
+     "meaning": "False marks the verified arm-swing deviation on day 8; true means no recorded protocol deviation, not proof of zero measurement error."
+    },
+    {
+     "key": "context",
+     "label": "Context note",
+     "unit": "text",
+     "meaning": "Source notes to support exclusion, temporal interpretation and follow-up. No symptom report is not equivalent to medical clearance."
+    }
+   ],
+   "rows": [
+    {
+     "day": 1,
+     "date": "2026-08-01",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 39,
+     "sleep_hours": 7.8,
+     "prior_game_innings": 0,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 2,
+     "date": "2026-08-02",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 40,
+     "sleep_hours": 7.4,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 3,
+     "date": "2026-08-03",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 41,
+     "sleep_hours": 8.0,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 4,
+     "date": "2026-08-04",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 39,
+     "sleep_hours": 7.6,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 5,
+     "date": "2026-08-05",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 40,
+     "sleep_hours": 7.5,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 6,
+     "date": "2026-08-06",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 41,
+     "sleep_hours": 8.1,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 7,
+     "date": "2026-08-07",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 40,
+     "sleep_hours": 7.8,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 8,
+     "date": "2026-08-08",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 44,
+     "sleep_hours": 7.3,
+     "prior_game_innings": 0,
+     "travel_hours": 0,
+     "protocol_ok": false,
+     "context": "Staff note confirms arm-swing protocol used in error; retain raw result but exclude from hands-on-hips comparison."
+    },
+    {
+     "day": 9,
+     "date": "2026-08-09",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 39,
+     "sleep_hours": 7.9,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 10,
+     "date": "2026-08-10",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 41,
+     "sleep_hours": 7.7,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 11,
+     "date": "2026-08-11",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": null,
+     "sleep_hours": 7.2,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Missed testing slot; no jump measurement. Do not fill with zero or carry a previous score forward."
+    },
+    {
+     "day": 12,
+     "date": "2026-08-12",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 40,
+     "sleep_hours": 7.8,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 13,
+     "date": "2026-08-13",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 39,
+     "sleep_hours": 7.6,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 14,
+     "date": "2026-08-14",
+     "athlete_id": "SYN-OF12",
+     "phase": "baseline",
+     "cmj_cm": 41,
+     "sleep_hours": 8.0,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 15,
+     "date": "2026-08-15",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 40.2,
+     "sleep_hours": 7.5,
+     "prior_game_innings": 0,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 16,
+     "date": "2026-08-16",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.8,
+     "sleep_hours": 7.8,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 17,
+     "date": "2026-08-17",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.5,
+     "sleep_hours": 7.1,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 18,
+     "date": "2026-08-18",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 40.1,
+     "sleep_hours": 7.6,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 19,
+     "date": "2026-08-19",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.7,
+     "sleep_hours": 7.5,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 20,
+     "date": "2026-08-20",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 40.0,
+     "sleep_hours": 7.4,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 21,
+     "date": "2026-08-21",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.6,
+     "sleep_hours": 7.6,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 22,
+     "date": "2026-08-22",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.9,
+     "sleep_hours": 7.3,
+     "prior_game_innings": 0,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 23,
+     "date": "2026-08-23",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 39.4,
+     "sleep_hours": 7.5,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 24,
+     "date": "2026-08-24",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 38.8,
+     "sleep_hours": 7.0,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Routine testing; no new symptom reported in the fictional morning check-in."
+    },
+    {
+     "day": 25,
+     "date": "2026-08-25",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 38.0,
+     "sleep_hours": 6.4,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Late travel planned after the game; jump occurs before that travel. Do not attribute this morning result to a later trip."
+    },
+    {
+     "day": 26,
+     "date": "2026-08-26",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 38.2,
+     "sleep_hours": 5.2,
+     "prior_game_innings": 9,
+     "travel_hours": 6,
+     "protocol_ok": true,
+     "context": "Arrived after a 6-hour overnight bus trip; sleep duration is athlete-reported, not device measured."
+    },
+    {
+     "day": 27,
+     "date": "2026-08-27",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 38.1,
+     "sleep_hours": 5.6,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Second short-sleep report; ask about context and data quality before assigning a cause."
+    },
+    {
+     "day": 28,
+     "date": "2026-08-28",
+     "athlete_id": "SYN-OF12",
+     "phase": "monitoring",
+     "cmj_cm": 37.9,
+     "sleep_hours": 6.1,
+     "prior_game_innings": 9,
+     "travel_hours": 0,
+     "protocol_ok": true,
+     "context": "Staff handoff day. Repeated lower jumps, no new symptom reported; clinical symptoms still require the medical pathway if disclosed."
+    }
+   ],
+   "cleaningRules": [
+    "Keep all 28 raw rows. Do not overwrite day 8 or day 11.",
+    "Baseline = days 1–14, protocol_ok true and cmj_cm recorded. Exclude day 8 for verified protocol change and day 11 for a missing measurement; n = 12.",
+    "Use the sample SD of the eligible baseline observations. This is descriptive baseline variability, not an established SEM.",
+    "Current = day 28. Last-three-day mean = comparable observations on days 26, 27 and 28; state this exact window.",
+    "Review rule for this exercise: 2 consecutive comparable recorded days more than 1.5 cm below the fixed baseline mean. Missing or noncomparable days break the sequence.",
+    "Preserve time order: day 25’s late travel occurs after its morning jump and appears as prior-24-hour travel on day 26.",
+    "Do not interpolate missing values, refit the baseline after looking at the monitoring period, or label lower jump height as a quantified fatigue or injury state."
+   ],
+   "provenance": "Entirely synthetic teaching data authored for this hub. Athlete IDs, dates, values, logs and scenarios are invented; no club or patient records were used. Values are for analysis practice, not validated injury-risk, readiness or clearance thresholds."
+  },
+  "chart": {
+   "type": "trend",
+   "title": "One athlete, one fixed baseline, and a changing context",
+   "description": "Show recorded comparable jumps, with a visible gap on day 11 and a separately marked noncomparable day 8. The reference window is days 1–14. A dotted review line at 38.5 cm is an invented staff-review rule, not a clinical or injury-risk threshold.",
+   "xKey": "day",
+   "yKey": "cmj_cm",
+   "unit": "cm",
+   "baselineMean": 40,
+   "baselineSD": 0.8528028654224418,
+   "baselineEndDay": 14,
+   "reviewLine": 38.5,
+   "reviewRule": "Two consecutive comparable recorded days below 38.5 cm; missing/noncomparable days break the sequence.",
+   "firstReviewDay": 26,
+   "annotations": [
+    {
+     "day": 8,
+     "text": "Different protocol; exclude from reference"
+    },
+    {
+     "day": 11,
+     "text": "Missing test; show gap"
+    },
+    {
+     "day": 25,
+     "text": "Lower result before overnight travel"
+    },
+    {
+     "day": 26,
+     "text": "Review rule met; after travel"
+    }
+   ]
+  },
+  "calculations": [
+   {
+    "id": "baseline-n",
+    "prompt": "How many comparable recorded values belong in the fixed baseline?",
+    "unit": "observations",
+    "answer": 12,
+    "tolerance": 0,
+    "formula": "Eligible baseline = days 1–14 with protocol_ok and recorded cmj_cm",
+    "worked": "14 baseline dates − day 8 protocol deviation − day 11 missing test = 12 values.",
+    "interpretation": "The raw table still has 28 rows. Filtering for a specific comparison is not deletion of the source record."
+   },
+   {
+    "id": "baseline-mean",
+    "prompt": "What is the mean of those eligible baseline values?",
+    "unit": "cm",
+    "answer": 40,
+    "tolerance": 0.015,
+    "formula": "Baseline mean = sum of eligible baseline heights / 12",
+    "worked": "The 12 eligible values sum to 480 cm, giving 40.00 cm.",
+    "interpretation": "This is this athlete’s fixed comparison reference. It is not a normative professional-baseball target."
+   },
+   {
+    "id": "baseline-sd",
+    "prompt": "What is the sample SD of the eligible baseline values?",
+    "unit": "cm",
+    "answer": 0.8528028654224418,
+    "tolerance": 0.015,
+    "formula": "Baseline sample SD = √[Σ(x − 40)² / (12 − 1)]",
+    "worked": "The sum of squared deviations is 8 cm². √(8/11) = 0.8528 cm.",
+    "interpretation": "This combines day-to-day biological, contextual and measurement variation. It cannot simply be relabeled SEM or used to borrow the reliability lab’s MDC."
+   },
+   {
+    "id": "current-percent",
+    "prompt": "What is day 28’s percentage difference from the fixed baseline mean?",
+    "unit": "%",
+    "answer": -5.2500000000000036,
+    "tolerance": 0.03,
+    "formula": "Percent difference = (37.9 − 40.0) / 40.0 × 100",
+    "worked": "−2.1/40 × 100 = −5.25%. The direction is negative because the current height is lower.",
+    "interpretation": "Say “jump height is 5.25% below the baseline mean,” not “the athlete is 5.25% fatigued.”"
+   },
+   {
+    "id": "current-z",
+    "prompt": "What is day 28’s descriptive z-score using the baseline sample SD?",
+    "unit": "SD units",
+    "answer": -2.462468273907302,
+    "tolerance": 0.025,
+    "formula": "z = (current − baseline mean) / baseline sample SD",
+    "worked": "(37.9 − 40.0) / 0.8528 = −2.4625.",
+    "interpretation": "This describes distance from the reference mean. It is not a probability of injury, a diagnosis, or proof of abnormality under a known population distribution."
+   },
+   {
+    "id": "last-three",
+    "prompt": "What is the mean CMJ height on days 26–28?",
+    "unit": "cm",
+    "answer": 38.06666666666667,
+    "tolerance": 0.02,
+    "formula": "Three-day mean = (38.2 + 38.1 + 37.9) / 3",
+    "worked": "114.2/3 = 38.0667 cm, approximately 38.07 cm.",
+    "interpretation": "A smoother summary does not identify the cause. Report the window and the individual values rather than concealing their sequence."
+   },
+   {
+    "id": "first-review-day",
+    "prompt": "On which day is the case’s two-consecutive-day review rule first met?",
+    "unit": "day",
+    "answer": 26,
+    "tolerance": 0,
+    "formula": "First pair of consecutive comparable recorded days with CMJ < 38.5 cm",
+    "worked": "Day 24 = 38.8, so it does not qualify. Day 25 = 38.0 and day 26 = 38.2 both qualify. The first triggered review is day 26.",
+    "interpretation": "The rule prompts a staff review. It does not automatically cancel training or classify availability."
+   }
+  ],
+  "decisions": [
+   {
+    "id": "monitoring-decision-1",
+    "prompt": "Which statement best describes the timing of the bus trip and the lower jump trend?",
+    "options": [
+     {
+      "text": "The bus trip caused the entire decline.",
+      "feedback": "The lower morning results had already begun before the late day 25 trip. The sequence contradicts that explanation for the onset, and this observational record cannot prove a cause."
+     },
+     {
+      "text": "Lower results preceded the trip; travel and sleep may add context, but cause remains unresolved.",
+      "feedback": "Correct. Respect the event order and distinguish plausible influences from demonstrated causes."
+     },
+     {
+      "text": "Travel can be ignored because jump height is an objective measurement.",
+      "feedback": "Objective measurement does not remove contextual influences or explain why a result changed."
+     }
+    ],
+    "correct": 1,
+    "why": "Temporal order matters. A later exposure cannot cause an earlier measurement."
+   },
+   {
+    "id": "monitoring-decision-2",
+    "prompt": "The coach asks whether to cancel lower-body training today. What should the analyst recommend first?",
+    "options": [
+     {
+      "text": "Cancel automatically because the z-score is below −2.",
+      "feedback": "The descriptive z-score is not a validated training-cancellation rule."
+     },
+     {
+      "text": "Ignore the trend because no new symptom was reported.",
+      "feedback": "Absence of a new report is not proof that every relevant issue has been excluded. Repeated changes merit context and a data-quality check."
+     },
+     {
+      "text": "Verify the measurement, discuss the athlete’s current state and baseball demands, then agree a documented training option with the responsible staff.",
+      "feedback": "Correct. The analyst supplies a defensible observation and uncertainty. The training decision belongs in the appropriate staff process, with clinical concerns escalated."
+     }
+    ],
+    "correct": 2,
+    "why": "A useful monitoring system connects data to a decision process without pretending one metric makes the decision."
+   }
+  ],
+  "assignment": {
+   "brief": "Produce a one-page staff brief and a 90-second verbal handoff for day 28. The coach should know what changed, what remains uncertain, and what decision needs to happen next.",
+   "deliverables": [
+    "A dated analysis table with fixed baseline eligibility and a two-row exclusion log for days 8 and 11.",
+    "A time-series plot with units, missing gap, noncomparable point, fixed reference window and explicitly labeled illustrative review line.",
+    "A numeric panel: baseline n/mean/sample SD, current value and percentage difference, descriptive z-score and days 26–28 mean.",
+    "A 120–180 word handoff using observation → uncertainty → next check → responsible staff decision.",
+    "A plan for the next comparable measurement and for documenting whichever training option the responsible staff select."
+   ],
+   "rubric": [
+    "Reference integrity: the baseline is fixed before the monitored period and does not absorb later low values.",
+    "Data meaning: noncomparable and missing observations are handled differently and remain traceable.",
+    "Temporal reasoning: the report does not attribute pre-travel results to a later trip.",
+    "Statistical restraint: baseline SD is not called SEM; percent and z-score retain their descriptive meaning.",
+    "Operational usefulness: the handoff identifies a concrete follow-up and an accountable staff decision without automated clinical clearance."
+   ],
+   "modelResponse": [
+    "Today’s CMJ session mean is 37.9 cm, compared with a fixed baseline mean of 40.0 cm from 12 comparable observations. The difference is −2.1 cm (−5.25%); the descriptive z-score is −2.46 using baseline sample SD 0.85 cm. Days 26–28 average 38.07 cm. The case’s review rule first triggered on day 26. Day 8’s changed technique and day 11’s missed test are preserved in the raw record and excluded from the baseline.",
+    "These are repeated lower jump heights, not a measured fatigue percentage or a cause established by the dataset. The initial decline preceded the overnight trip. Travel and short reported sleep are relevant context for the later observations, but other influences and test conditions require review. The baseline SD is not a controlled SEM, and the fictional 1.5 cm rule is a workflow trigger rather than a validated readiness threshold.",
+    "Before today’s session, verify the testing procedure and speak with the athlete and responsible coach about current symptoms, perceived effort, recent work and today’s baseball demands. Route clinical concerns to the medical staff. Agree a familiar full, reduced or deferred training option with the coach, record the rationale, and review the next comparable result with the same staff. No automatic cancellation or medical clearance follows from this chart."
+   ]
+  },
+  "recall": {
+   "prompt": "Why are −5.25%, −2.46 SD and the review flag three different statements?",
+   "answer": "−5.25% describes relative jump-height difference from the mean. −2.46 SD describes distance from the baseline mean in units of its observed sample variability. The review flag applies an invented two-day workflow rule. None directly measures fatigue, identifies cause or determines clinical clearance."
+  },
+  "transfer": {
+   "prompt": "The athlete is promoted tomorrow. What should the receiving affiliate receive besides the latest jump score?",
+   "answer": "The protocol and calculation method, device/software and aggregation, fixed baseline dates and eligibility, raw/clean provenance, recent comparable sequence, missing/noncomparable notes, relevant timing/context, what staff decided and who will reassess. Confirm comparability before merging data from the receiving site."
+  }
+ }
+]

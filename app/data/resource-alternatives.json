@@ -1,0 +1,117 @@
+[
+ {
+  "id": "alt-baseball-wellness-cmj-2019",
+  "title": "Value of Wellness Ratings and Countermovement Jumping Velocity to Monitor Performance",
+  "authors": "Michael T. Brasch, Kevin L. Neeld, Kristen F. Konkol and Robert W. Pettitt",
+  "year": 2019,
+  "url": "https://intjexersci.com/files/ijes/vol12/iss4/2.pdf",
+  "access": "Verified PDF",
+  "accessChecked": "2026-10-12",
+  "scope": "Original study of 30 male NCAA Division II baseball players during a six-week offseason program.",
+  "adds": "A baseball example of training structure, repeated testing and disagreement between subjective wellness and an instrumented jump metric.",
+  "limitations": "Small, single-program collegiate sample. Mean concentric velocity was measured with a linear transducer; results do not establish the performance of every force-plate metric. This was not a professional-baseball readiness or injury-prediction validation.",
+  "recommendedUse": "Read alongside the reliability and monitoring assignments. Critique the measurement protocol before interpreting a change; compare a study's schedule with the constraints of a professional season.",
+  "exactSections": [
+   "Methods: Participants, Protocol and Statistical Analysis, printed pp. 90–92 (pp. 3–5).",
+   "Results, printed pp. 92–95 (pp. 5–8); Tables 1–2 on printed pp. 94–95.",
+   "Discussion, printed pp. 95–97 (pp. 8–10)."
+  ],
+  "type": "Original baseball research · monitoring"
+ },
+ {
+  "id": "alt-baseball-device-feasibility-2025",
+  "title": "Using Biomechanical Devices in Elite Baseball Pitchers: A Preliminary Feasibility Study",
+  "authors": "Chelsea L. Martin, Kelly R. Evenson, Justin B. Moore, et al.",
+  "year": 2025,
+  "url": "https://ijspt.scholasticahq.com/api/v1/articles/134013-using-biomechanical-devices-in-elite-baseball-pitchers-a-preliminary-feasibility-study.pdf",
+  "access": "Verified PDF",
+  "accessChecked": "2026-10-12",
+  "scope": "Prospective feasibility research with 22 collegiate summer-league pitchers; despite the title, this is not an MLB cohort.",
+  "adds": "Operational definitions for device uptake, continued use, eligible opportunities and missingness. Shows why a technically attractive monitoring system still needs a workable collection process.",
+  "limitations": "Small sample, device-specific implementation, and no game sleeve use. Numerical reporting differs between abstract/results/discussion; this resource map deliberately avoids adopting its percentages. It does not establish injury prevention or device validity.",
+  "recommendedUse": "Design an adherence dashboard and data-collection plan. Specify who records each measure, when it is collected, the denominator, missing-data reasons and who acts on the result.",
+  "exactSections": [
+   "Methods: Study Design and Description of Biomechanical Devices and Data Collection, pp. 2–3.",
+   "Main Outcomes: Uptake and Adherence; Statistical Analyses, p. 3.",
+   "Figures 1–2 and Limitations, p. 5."
+  ],
+  "type": "Original baseball research · implementation"
+ },
+ {
+  "id": "alt-statcast-csv-documentation",
+  "title": "Statcast Search CSV Documentation",
+  "authors": "MLB / Baseball Savant",
+  "year": "Living documentation",
+  "url": "https://baseballsavant.mlb.com/csv-docs",
+  "access": "Verified full HTML",
+  "accessChecked": "2026-10-12",
+  "scope": "Official field definitions and units for publicly available Statcast Search downloads.",
+  "adds": "A real baseball data dictionary for player identifiers, event dates, pitch and batted-ball variables. Documents tracking-era differences and deprecated fields.",
+  "limitations": "Observed game data omit bullpen and other untracked exposure, medical status, recovery and internal load. A measurement is not an injury-risk score. Definitions can change; document retrieval date, filters and units for every analysis.",
+  "recommendedUse": "After the synthetic assignments, export a small dated search from Baseball Savant and reproduce the same audit workflow: identify rows, check missingness, separate pitch types and report uncertainty. No player medical inference.",
+  "exactSections": [
+   "game_date, pitcher, batter, game_pk, at_bat_number and pitch_number.",
+   "release_speed, launch_speed, launch_angle and release_spin_rate.",
+   "plate_x and plate_z: documented 2026 measurement-location change; deprecated fields."
+  ],
+  "type": "Official baseball data documentation"
+ },
+ {
+  "id": "alt-overarm-strength-review-2024",
+  "title": "The Effect of Specific Strength Training on Throwing Velocity in Overarm Throwing: A Systematic Review",
+  "authors": "Andrea Bao Fredriksen and Roland van den Tillaar",
+  "year": 2024,
+  "url": "https://sportsmedicine-open.springeropen.com/counter/pdf/10.1186/s40798-024-00785-7.pdf",
+  "access": "Verified PDF",
+  "accessChecked": "2026-10-12",
+  "scope": "Seventeen intervention studies across overarm sports; predominantly handball, with only two baseball studies.",
+  "adds": "A comparative map of weighted implements, forearm loading, pulley devices and resistance-band work, including intervention/control comparisons.",
+  "limitations": "Cross-sport transfer is a major constraint. Heterogeneous populations and protocols, small evidence groups, and uncertain injury implications prevent a universal baseball prescription. General strength training was excluded. The authors' mechanistic explanations are not all directly tested.",
+  "recommendedUse": "Practice evidence appraisal: distinguish within-group improvement from superiority to a control, identify which rows are baseball, and explain why a velocity result alone cannot settle safety or program choice.",
+  "exactSections": [
+   "Methods: Experimental Approach to the Problem and Inclusion Criteria.",
+   "Results and Tables 1–3: sport, sample and intervention comparisons.",
+   "Discussion: learning effects, possible overlapping samples, generalizability; Conclusion."
+  ],
+  "type": "Systematic review · mostly cross-sport evidence"
+ },
+ {
+  "id": "alt-pbsccs-training-adaptations-2026",
+  "title": "The Weight Room Builds Athletes. The Field Builds Baseball Players. Train Adaptations, Not Exercises",
+  "authors": "Bob Alejo; published by PBSCCS",
+  "year": 2026,
+  "url": "https://pbsccs.org/professionalism-starts-before-you-become-a-professional-for-aspiring-strength-and-conditioning-coaches/",
+  "access": "Verified full HTML",
+  "accessChecked": "2026-10-12",
+  "scope": "Public coaching perspective from a practitioner with professional baseball experience; posted September 8, 2026.",
+  "adds": "A useful exercise-selection discussion: name the physical adaptation sought and connect physical preparation with baseball skill practice.",
+  "limitations": "Expert opinion, not an intervention study or complete periodized program. Broad exercise judgments and performance or durability claims need independent appraisal; strength transfer is not guaranteed.",
+  "recommendedUse": "For each exercise in a programming case, state the target quality, expected progression, coaching requirement and how transfer will be evaluated. Compare the argument with a strength and conditioning textbook chapter on exercise selection.",
+  "exactSections": [
+   "Train the Qualities Baseball Requires.",
+   "Strength Is the Foundation; Don't Confuse Training with Practice.",
+   "Build the Athlete First; The Takeaways."
+  ],
+  "type": "Professional baseball coaching perspective"
+ },
+ {
+  "id": "alt-nsca-professional-standards-2017",
+  "title": "NSCA Strength and Conditioning Professional Standards and Guidelines",
+  "authors": "National Strength and Conditioning Association",
+  "year": 2017,
+  "url": "https://www.nsca.com/globalassets/education/nsca_strength_and_conditioning_professional_standards_and_guidelines.pdf",
+  "access": "Verified PDF",
+  "accessChecked": "2026-10-12",
+  "scope": "General strength and conditioning operations; the 24-page document linked from NSCA's position-statements page at the access check.",
+  "adds": "A framework for staffing, instruction, facility operations, documentation, medical handoffs and emergency preparation that complements exercise programming.",
+  "limitations": "Published in 2017 and not specific to baseball. It is not a substitute for current local law, credential requirements, employer policy or venue-specific procedures. Access today does not make every detail newly updated.",
+  "recommendedUse": "Build an affiliate operating checklist and a clear handoff record. Use its operational categories to identify questions for the employing organization, rather than treating one checklist as universal compliance.",
+  "exactSections": [
+   "Scope of Practice, printed/p. 2.",
+   "Preparticipation Screening and Clearance, printed/pp. 4–5.",
+   "Emergency Planning and Response; Records and Record Keeping, printed/pp. 7–8 and 12.",
+   "Appendix 3: Strength and Conditioning Performance Team Development, printed/p. 16."
+  ],
+  "type": "Professional practice guidance · cross-sport"
+ }
+]

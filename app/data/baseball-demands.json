@@ -1,0 +1,1316 @@
+[
+ {
+  "id": "bb-pitching-transfer",
+  "title": "Pitching: capacity, execution and exposure",
+  "track": "demands",
+  "subtitle": "Four decisions that connect physical preparation with the actual pitching task.",
+  "context": "You join a synthetic professional development staff at the end of a training block. The athlete's gym results, bullpen observations and throwing records point in different directions. Your role is to help the team ask better questions and select the next useful action.\n\nWork through a capacity review, a pitch-mix audit, a video discussion and a throwing-exposure handoff. Each episode changes the information available. Numbers are supplied so you can check the conclusion yourself; they are not professional benchmarks.",
+  "outcomes": [
+   "Separate a physical-capacity gain from baseball transfer and causal explanation.",
+   "Audit pitch-type composition, measurement context and incomplete throwing records.",
+   "Write a practical handoff with a next action, an owner and a visible uncertainty."
+  ],
+  "scope": "All players, schedules, observations and numerical values are synthetic teaching examples. These decisions practice interpretation and coordination, not medical clearance, a validated injury-prediction system or an experimentally optimal training plan.",
+  "links": [
+   {
+    "route": "#lesson/strength-force-power",
+    "label": "Strength and power foundation"
+   },
+   {
+    "route": "#unit/m07-u1",
+    "label": "Choose a test for the baseball question"
+   },
+   {
+    "route": "#lesson/programming-pitcher-microcycle",
+    "label": "Starter and reliever planning"
+   }
+  ],
+  "stages": [
+   {
+    "id": "profile",
+    "title": "Strength increased. Did pitching improve?",
+    "brief": "A healthy synthetic professional starting pitcher finishes a six-week development block. A standardized trap-bar test rises from 180 to 192 kg. His mean four-seam velocity in two matched, coach-supervised bullpens changes from 92.0 to 92.1 mph; target-hit counts are 13/20 and 14/20. The number of observations is small and local error estimates are unavailable. The pitching coach asks whether the strength block failed.",
+    "teaching": [
+     {
+      "heading": "Separate capacity, execution and outcome",
+      "text": "A physical-capacity test asks what the athlete can produce within that test's constraints. A throwing task asks how the athlete coordinates a different action, at different speeds, with a ball and a target. A competitive result introduces still more influences. These are linked questions, but they are not interchangeable measurements. An improved lift is evidence about that lift before it is evidence about pitching.\n\nBuild three columns: the physical quality targeted, the baseball behavior expected to benefit, and the observation that would make you reconsider. Here the first column improved. The second is unresolved. A sensible next step is to inspect whether the original development target was actually a plausible limiting factor, while retaining the new capacity if it remains useful and affordable.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 13, pp. 437–457: task specificity and force–velocity assessment; Chapter 8, pp. 292–302: measurement quality.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Write a claim that matches the design",
+      "text": "The lift increased by 12 kg, or 6.7% relative to 180 kg. The velocity difference is 0.1 mph; without a local error estimate and repeated matched sessions, that number should not be sold as adaptation. Target hits changed by one successful pitch. Neither result identifies a muscle, a mechanical fault or a causal effect of the training block.\n\nAsk the athlete how the training fit throwing preparation and review adherence, pitch intent, equipment and test timing. The conversation can support a modified next block without forcing a verdict of success or failure on every outcome. Predefine when the staff will review the next matched observations rather than chasing the best single pitch.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 18, pp. 666–672 and 674–677: association, prediction and causal inference.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "profile",
+     "title": "Three questions, three kinds of evidence",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Three questions, three kinds of evidence: Capacity: What changed in the strength test?. Pitching task: What changed in a matched bullpen?. Competition: What happens against hitters?",
+     "mnemonic": {
+      "cue": "C–T–C",
+      "meaning": "Capacity → task → competition: measure each link."
+     },
+     "items": [
+      {
+       "label": "Capacity",
+       "detail": "What changed in the strength test?"
+      },
+      {
+       "label": "Pitching task",
+       "detail": "What changed in a matched bullpen?"
+      },
+      {
+       "label": "Competition",
+       "detail": "What happens against hitters?"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 13, pp. 437–457: task specificity and force–velocity assessment; Chapter 8, pp. 292–302: measurement quality.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What is the most defensible response to the pitching coach?",
+     "options": [
+      {
+       "text": "Keep the strength gain, verify the baseball outcome over repeated matched sessions, and revisit the original limiting-factor hypothesis.",
+       "feedback": "Best answer. This acknowledges a measured capacity gain without claiming transfer, then makes the next review useful."
+      },
+      {
+       "text": "Replace the strength block immediately with only high-speed work because velocity did not rise.",
+       "feedback": "The new emphasis might eventually be justified, but two bullpen summaries do not establish that strength work failed or that high-speed work is the missing cause."
+      },
+      {
+       "text": "Repeat the same block unchanged because the larger lift guarantees delayed velocity transfer.",
+       "feedback": "The lift improved, but neither a guaranteed transfer nor a predictable delay follows from these observations."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 18, pp. 666–672 and 674–677: association, prediction and causal inference."
+    },
+    "worked": [
+     "Report: “The strength-test result improved 6.7%. We have not established a meaningful change in bullpen velocity or execution. The next review will use the same pitch type, device, intent and session context, alongside the pitching coach’s task observations.”"
+    ],
+    "handoffPrompt": "Write one sentence each for the measured result, the untested transfer hypothesis and the person responsible for the next observation.",
+    "transfer": "The pitcher values lower perceived effort at the same velocity more than added velocity. Which additional observation would align the review with that goal?"
+   },
+   {
+    "id": "pitch-mix",
+    "title": "A faster average can hide slower pitches",
+    "brief": "Session A contains 20 four-seam pitches averaging 92 mph and 10 changeups averaging 84 mph. Session B contains 25 four-seam pitches averaging 91 mph and five changeups averaging 83 mph. Both sessions have 30 tracked pitches. A dashboard pools pitch types and announces “velocity improved.” These are synthetic arithmetic examples, not player norms.",
+    "teaching": [
+     {
+      "heading": "Check the denominator before the story",
+      "text": "The pooled average in A is (20 × 92 + 10 × 84) / 30 = 89.33 mph. In B it is (25 × 91 + 5 × 83) / 30 = 89.67 mph. The pooled result rises by 0.33 mph even though each pitch-type mean is 1 mph lower. More of the faster pitch type entered the second sample. This is a composition effect, not a contradiction.\n\nFor a pitching development question, compare like with like: pitch classification, intended task, device, mound setting, session phase and observation count. Keep the all-pitch number if operations needs it, but label its purpose. An aggregate can answer “what was thrown today?” while failing to answer “did this pitch improve?”",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Separate delivery of the task from selection of the task",
+      "text": "A pitcher may change pitch mix for a planned tactical reason. That decision is not a training failure. It does mean the analyst must separate within-pitch changes from changing opportunities. Missing velocity readings also need a count; quietly dropping untracked throws can change the apparent distribution.\n\nThe staff report should show both the type-specific summary and its denominator. It should also preserve location or execution measures rather than use speed as the whole definition of pitch quality. These means alone do not measure pitch movement, deception, command or tissue loading. The next action is an interpretation review, not a biomechanical diagnosis from a spreadsheet.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "pitch-mix",
+     "title": "Why the pooled average rose",
+     "type": "compare",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Why the pooled average rose: Session A: Two-thirds four-seam; pooled 89.33 mph. Session B: Five-sixths four-seam; pooled 89.67 mph. Within each type: Both means are 1 mph lower",
+     "mnemonic": {
+      "cue": "MIX",
+      "meaning": "Match the task, Inspect counts, eXplain composition."
+     },
+     "items": [
+      {
+       "label": "Session A",
+       "detail": "Two-thirds four-seam; pooled 89.33 mph"
+      },
+      {
+       "label": "Session B",
+       "detail": "Five-sixths four-seam; pooled 89.67 mph"
+      },
+      {
+       "label": "Within each type",
+       "detail": "Both means are 1 mph lower"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which summary should lead the staff discussion?",
+     "options": [
+      {
+       "text": "Lead with the pooled improvement because both sessions contain the same number of pitches.",
+       "feedback": "Equal total sample sizes do not make different mixtures comparable. The pooled result conceals both within-type declines."
+      },
+      {
+       "text": "Report both type-specific declines and the altered mixture; check matched context before interpreting the declines.",
+       "feedback": "Best answer. It explains the apparent improvement and keeps the next inference proportional to the available data."
+      },
+      {
+       "text": "Discard changeups and report only the fastest four-seam pitch in each session.",
+       "feedback": "A maximum can serve a predeclared ceiling question, but it does not repair the original comparison and is sensitive to opportunities and individual attempts."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow."
+    },
+    "worked": [
+     "The pooled dashboard statement is arithmetically true but answers the wrong question. Keep the type-specific values and counts visible; investigate context before calling the 1 mph differences a biological change."
+    ],
+    "handoffPrompt": "Draft a two-line dashboard correction that retains the original numbers and tells the pitching coach what comparison is still needed.",
+    "transfer": "Five Session B changeups were mislabeled as four-seam pitches. What changes in your audit and which previous conclusions must be withdrawn?"
+   },
+   {
+    "id": "mechanics",
+    "title": "Video identifies a question, not a joint load",
+    "brief": "The coach reviews ordinary side-view video and notices a different stride pattern on several pitches. The athlete reports trying a new cue. No calibrated three-dimensional capture, force data, synchronized timing validation or joint-load model is available. A colleague proposes prescribing a specific hip exercise because the pitcher looks “late.”",
+    "teaching": [
+     {
+      "heading": "Use observation to narrow the next question",
+      "text": "A video clip can support a conversation about what visibly changed, when it occurred and whether the intended task was performed. Document camera position, frame rate, the event being compared and which pitches were selected. A side view compresses movement into a projection. Rotation outside that plane, camera movement and event selection can alter the apparent picture.\n\nFirst ask the pitching coach what “late” means in observable task language. It might refer to a release event relative to another event, a missed location or a subjective impression. Those meanings call for different observations. Do not turn an ambiguous label into a measured timing deficit simply because a freeze-frame looks persuasive.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Match the claim to the instrument and owner",
+      "text": "An exercise choice can be based on a documented physical need and a reasonable training hypothesis. It is not proof that the selected exercise will repair a delivery pattern. Likewise, ordinary video does not directly measure internal elbow torque, ligament strain or a particular muscle's contribution. Those claims require suitable methods, assumptions and relevant expertise.\n\nPair the pitching coach's task question with the S&C coach's capacity assessment and the analyst's measurement plan. If the video suggests a clinical concern, the medical team determines that assessment. The immediate nonclinical output here is a short observation protocol: what to film again, which comparable pitches to include, and what would count as an informative change.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "mechanics",
+     "title": "From a clip to a useful question",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "From a clip to a useful question: Describe: Name the visible event and camera limits. Hypothesize: List competing explanations. Measure: Choose a method that can test the claim. Review: Coach, athlete and relevant specialist",
+     "mnemonic": {
+      "cue": "SEE",
+      "meaning": "State the observation, Explain alternatives, Evaluate with the right method."
+     },
+     "items": [
+      {
+       "label": "Describe",
+       "detail": "Name the visible event and camera limits"
+      },
+      {
+       "label": "Hypothesize",
+       "detail": "List competing explanations"
+      },
+      {
+       "label": "Measure",
+       "detail": "Choose a method that can test the claim"
+      },
+      {
+       "label": "Review",
+       "detail": "Coach, athlete and relevant specialist"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should the performance practitioner do first?",
+     "options": [
+      {
+       "text": "Adopt the hip exercise for all pitchers who show the same silhouette.",
+       "feedback": "This jumps from a projected appearance to a shared cause. Individual capacity, intent and measurement context are still unknown."
+      },
+      {
+       "text": "Stop using video because it cannot provide internal joint forces.",
+       "feedback": "Video remains useful for describing task behavior and coordinating observation. Its limits do not remove every valid use."
+      },
+      {
+       "text": "Clarify the coach’s observable question, standardize a comparison, and choose any capacity intervention from a separate assessment.",
+       "feedback": "Best answer. This retains useful coaching information while preventing a visual impression from becoming an unsupported mechanical diagnosis."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions."
+    },
+    "worked": [
+     "Write “Different visible stride pattern during the new cue” rather than “hip weakness caused excess elbow load.” The first claim fits the observation; the second introduces an unmeasured cause and an unmeasured consequence."
+    ],
+    "handoffPrompt": "Name the task question, one competing explanation, the next measurement and who owns interpretation.",
+    "transfer": "You receive calibrated three-dimensional motion data next week. Which model assumptions and reliability information are still required before interpreting calculated joint moments?"
+   },
+   {
+    "id": "throwing-context",
+    "title": "The game total is only one exposure record",
+    "brief": "A synthetic outing log contains 72 game pitches, 22 pregame bullpen pitches and 30 between-inning pitches. Catch play is recorded as “completed” with no throw count. The next day's lift is due for review. The athlete reports ordinary baseline soreness, but no clinician has made a new readiness assessment. The numbers describe recorded tasks; they do not carry validated recovery equivalents.",
+    "teaching": [
+     {
+      "heading": "Build an exposure ledger before a readiness score",
+      "text": "The observed categories total 124 counted throws: 72 + 22 + 30. The 52 counted throws outside the official game total are useful context. Catch play remains an unknown quantity, not zero. Retain purpose, surface, distance, intent description, sequencing and any available athlete response beside the count. Counting accurately improves the conversation even when it cannot quantify tissue stress.\n\nA high-school observational study counted substantial mound work outside official game totals. That supports asking where the missing work is, not borrowing a professional recovery limit. This synthetic ledger is an operational example. It does not claim that 124 mixed throws equal 124 game pitches or that two throws with equal speed impose equal internal loading.",
+      "sourceRefs": [
+       {
+        "id": "perf-hidden-pitches",
+        "locator": "Methods and Results, pp. 1–3; limitations, p. 5: high-school outings and uncounted mound throws."
+       }
+      ]
+     },
+     {
+      "heading": "Make the next session adjustable",
+      "text": "Review the planned lift against the intended adaptation, the next throwing task, the athlete's response and the staff's current assessment. A short maintenance option, a relocated session or the original plan may each be defensible depending on information that the count cannot provide. State what you would change and why; avoid pretending one arithmetic total selects the correct dose.\n\nAssign someone to improve the catch-play record prospectively. Keep changes feasible: a shared log with task categories may be more useful than a precise-looking score built from guessed conversions. If the player develops unexpected symptoms, the decision pathway changes to clinical review. A stable jump result or a low official pitch count cannot independently clear the athlete.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "throwing-context",
+     "title": "Counted does not mean equivalent",
+     "type": "bars",
+     "caption": "Synthetic counts, in recorded throws. Total = 124; catch-play count is unknown. Bar heights show counts, not tissue load, fatigue or required recovery.",
+     "alt": "Counted does not mean equivalent: Game: 72 recorded pitches. Pregame: 22 recorded bullpen pitches. Between innings: 30 recorded pitches",
+     "mnemonic": {
+      "cue": "COUNT",
+      "meaning": "Categories, Observations, Unknowns, Next task, Team review."
+     },
+     "items": [
+      {
+       "label": "Game",
+       "detail": "72 recorded pitches",
+       "value": 72
+      },
+      {
+       "label": "Pregame",
+       "detail": "22 recorded bullpen pitches",
+       "value": 22
+      },
+      {
+       "label": "Between innings",
+       "detail": "30 recorded pitches",
+       "value": 30
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-hidden-pitches",
+       "locator": "Methods and Results, pp. 1–3."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which plan best uses this record?",
+     "options": [
+      {
+       "text": "Review the 124 counted throws by task, retain catch play as unknown, and adapt the lift using the next task and athlete/staff response.",
+       "feedback": "Best answer. The count improves context without inventing a recovery conversion or replacing clinical judgment."
+      },
+      {
+       "text": "Use 72 as the complete daily exposure because only game pitches have official status.",
+       "feedback": "That may be the competition statistic, but it loses observed work relevant to the performance conversation."
+      },
+      {
+       "text": "Use 124 as equivalent game pitches and apply the organization’s usual recovery rule mechanically.",
+       "feedback": "The ledger includes unlike tasks and incomplete information. A count alone cannot establish equivalence or an individualized recovery requirement."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions."
+    },
+    "worked": [
+     "Handoff example: “124 throws were counted across three categories; catch play is unquantified. Before finalizing tomorrow’s lift, confirm the throwing plan and current athlete response with the pitching and medical staff. The S&C coach will document the selected session option and reason.”"
+    ],
+    "handoffPrompt": "Write the missing information, the owner of each next action and when the revised session will be reviewed.",
+    "transfer": "Catch play is later estimated as 35 throws from memory. How will you label that estimate differently from the directly counted categories?"
+   }
+  ],
+  "assignment": {
+   "prompt": "Produce a one-page pitching review for the next staff meeting. Use all four episodes without collapsing them into a single readiness score.",
+   "deliverables": [
+    "A three-column map linking capacity, pitching execution and competitive questions.",
+    "The corrected pitch-type summary with pooled and within-type arithmetic.",
+    "A short video observation protocol and a categorized throwing ledger.",
+    "A next-session recommendation with an owner, uncertainty and review point."
+   ],
+   "rubric": [
+    "Claims match the measured task and preserve unknowns.",
+    "Pitch-mix arithmetic is correct and the misleading aggregate is explained.",
+    "Video observations do not become unsupported joint-load or muscle diagnoses.",
+    "The proposed action is feasible, coordinated and open to revision."
+   ],
+   "model": [
+    "Keep the measured strength gain while labeling pitching transfer unresolved. Report both pitch-type means rather than letting the pooled average tell the story.",
+    "Use the video to define an observable question with the pitching coach. Record 124 counted throws by category and leave catch play unquantified. Select the next session after the planned baseball task and current athlete response are reviewed."
+   ],
+   "transferPrompt": "Repeat the report for a reliever whose game appearance is uncertain. Which information stays useful and which scheduling assumptions must change?"
+  },
+  "recall": {
+   "prompt": "Without looking back, name the three things a faster number does not automatically establish.",
+   "answer": "A different task improved; a specific cause produced the change; or the athlete is ready for any next workload. Match the task, check the design and review the next decision."
+  },
+  "sourceRefs": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapters 1, 3, 8, 13 and 18; exact PDF ranges appear in each stage.",
+    "application": "Foundational measurement, task specificity, programming and interdisciplinary reasoning.",
+    "limit": "Multi-sport textbook synthesis; original baseball examples are not intervention evidence.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "perf-hidden-pitches",
+    "locator": "Methods/Results pp. 1–3; limitations p. 5.",
+    "application": "Why category-level throwing records should include observed work outside official game totals.",
+    "limit": "High-school observational sample; no validated professional fatigue or recovery conversion."
+   }
+  ],
+  "tags": [
+   "pitching",
+   "velocity",
+   "pitch mix",
+   "mechanics",
+   "throwing exposure",
+   "capacity transfer"
+  ]
+ },
+ {
+  "id": "bb-hitting-baserunning",
+  "title": "Hitting and baserunning: test the right task",
+  "track": "demands",
+  "subtitle": "Compare swing protocols, contact distributions and the journey to first base.",
+  "context": "You support a synthetic corner outfielder during a development block that must fit a competitive schedule. The hitting coach wants better contact quality and the baserunning coach wants a more effective first movement. The athlete also needs a sustainable strength plan.\n\nThe case deliberately supplies measurements that sound similar but describe different tasks. Your job is to preserve useful observations, correct misleading comparisons and allocate a small amount of preparation time to questions that matter.",
+  "outcomes": [
+   "Define a reproducible bat-speed protocol and keep local tests distinct from game statistics.",
+   "Interpret contact distributions with explicit denominators and missing observations.",
+   "Connect controlled acceleration testing with baseball start transitions and feasible training."
+  ],
+  "scope": "All players, schedules, observations and numerical values are synthetic teaching examples. These decisions practice interpretation and coordination, not medical clearance, a validated injury-prediction system or an experimentally optimal training plan.",
+  "links": [
+   {
+    "route": "#unit/m07-u2",
+    "label": "Standardize testing and metadata"
+   },
+   {
+    "route": "#lesson/strength-sprint-brake",
+    "label": "Acceleration and braking foundation"
+   },
+   {
+    "route": "#unit/m06-u5",
+    "label": "Position-player and reserve planning"
+   }
+  ],
+  "stages": [
+   {
+    "id": "swing-protocol",
+    "title": "A bat-speed number needs a protocol",
+    "brief": "A synthetic corner outfielder performs two hitting assessments. Test A uses the same game bat against a fixed machine setting; ten valid swings average 70 mph on a local sensor. Test B uses a lighter training bat in dry swings; the selected five fastest swings average 74 mph. A staff note calls the difference a four-mph gain in game bat speed.",
+    "teaching": [
+     {
+      "heading": "Ask what actually moved and what was averaged",
+      "text": "The object, task, instrument and summary changed simultaneously. A local sensor's bat-speed estimate also needs a measurement-point definition. The same word on two dashboards does not establish the same measurement. Keep device version, sensor placement, bat properties, pitch delivery, intent, exclusions and the aggregation rule in the test record.\n\nThe official Statcast bat-tracking page specifies a bat location and a competitive-swing selection rule. Its main definition is more detailed than the shorthand in its footer. The local all-valid-swings mean in this case is deliberately a different protocol. Compare it with itself when evaluating a block; do not silently treat it as the published seasonal statistic.",
+      "sourceRefs": [
+       {
+        "id": "bb-savant-bat-tracking",
+        "locator": "Bat Tracking Leaderboard: introductory metric definitions and glossary; checked October 13, 2026."
+       }
+      ]
+     },
+     {
+      "heading": "Choose the next comparison from the decision",
+      "text": "If the question concerns game-bat swing performance under a repeatable machine task, repeat Test A. If the question concerns a training-bat exercise, Test B may have its own useful record. Both can remain in the athlete's file, but they require separate names and interpretation. A faster selected sample with a different implement does not quantify adaptation in the original task.\n\nStandardization need not eliminate every meaningful baseball variation. It creates a stable reference. Once the reference question is answered, the hitting coach can add varied pitch locations and speeds to examine execution. Label those tasks separately. The aim is to connect a controlled capacity observation with baseball behavior while preserving what each test can and cannot tell you.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "swing-protocol",
+     "title": "Four things to match",
+     "type": "compare",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Four things to match: Bat: Same implement and sensor position. Task: Same delivery and intent. Device: Same method and version. Summary: Same valid-swing rule",
+     "mnemonic": {
+      "cue": "B–T–D–S",
+      "meaning": "Bat, Task, Device, Summary: match before comparison."
+     },
+     "items": [
+      {
+       "label": "Bat",
+       "detail": "Same implement and sensor position"
+      },
+      {
+       "label": "Task",
+       "detail": "Same delivery and intent"
+      },
+      {
+       "label": "Device",
+       "detail": "Same method and version"
+      },
+      {
+       "label": "Summary",
+       "detail": "Same valid-swing rule"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What is the best response to the four-mph improvement claim?",
+     "options": [
+      {
+       "text": "Accept it provisionally because both devices report mph and the athlete felt faster.",
+       "feedback": "Matching units are necessary but insufficient. The implement, task and selection of swings changed, so the four-mph difference cannot isolate adaptation."
+      },
+      {
+       "text": "Rename the two protocols, withdraw the direct gain claim, and repeat the original task before judging change.",
+       "feedback": "Best answer. This protects both useful records while obtaining a comparison that answers the development question."
+      },
+      {
+       "text": "Delete the lighter-bat session because only the game bat can produce useful information.",
+       "feedback": "A training task can be useful when its purpose and protocol are clear. The problem is the unsupported comparison, not the existence of the exercise."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow."
+    },
+    "worked": [
+     "Report: “Test B produced a higher value under different conditions. A change in the standardized game-bat task has not been established.” Keep the training observation available to the hitting coach without converting it into a game-performance promise."
+    ],
+    "handoffPrompt": "Write a one-line test label and the minimum metadata you would preserve for each protocol.",
+    "transfer": "Both sessions now use the same bat, but one reports the best swing and the other the mean of all valid swings. What still prevents a direct comparison?"
+   },
+   {
+    "id": "contact-sample",
+    "title": "One hard contact is not the whole hitting profile",
+    "brief": "In a synthetic standardized machine session, ten tracked contacts in A have exit speeds of 88, 90, 91, 92, 93, 94, 95, 96, 97 and 104 mph. In B they are 90, 92, 93, 94, 95, 96, 97, 98, 99 and 101 mph. Each session also contains four swings without tracked contact. The hitting coach wants to know whether the athlete lost power because the best contact fell.",
+    "teaching": [
+     {
+      "heading": "Let the question select the summary",
+      "text": "The maximum fell from 104 to 101 mph. The mean of the ten tracked contacts rose from 94 to 95.5 mph. The median rose from 93.5 to 95.5 mph. These summaries are not competing versions of the truth: each answers a different question about the supplied sample. A peak asks about one observed ceiling; a mean or median describes the recorded distribution.\n\nDo not select the statistic after seeing which one flatters the training plan. Predeclare the purpose and retain the individual observations. The four swings without tracked contact belong in the denominator audit, even though they have no exit-speed value to average. Record whether they were misses, fouls, failed tracking or another event; those categories answer different hitting questions.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Connect the ball result with the task",
+      "text": "A ball's exit speed is an outcome of a contact event. It is not a direct measurement of the hitter's muscle power. To explain a change, the staff also needs task information such as pitch delivery, bat, contact conditions and execution. A sensor can report a number while leaving the explanation unresolved. The two synthetic ten-contact samples are too limited to establish stable game ability or a training effect.\n\nRetain the standardized contact distribution and ask the hitting coach which additional execution observations matter. A useful review might examine whether a stable task is being performed more consistently while preserving the ability to produce strong contacts. Training decisions should follow that question, not automatically chase the single largest value at the expense of the rest of the session.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 18, pp. 666–672 and 674–677: association, prediction and causal inference.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "contact-sample",
+     "title": "Two summaries tell different stories",
+     "type": "bars",
+     "caption": "Synthetic exit-speed summaries in mph; bars share a zero baseline. Ten tracked contacts per session. Four additional swings per session have no tracked-contact value.",
+     "alt": "Two summaries tell different stories: Maximum A: 104 mph. Maximum B: 101 mph. Mean A: 94.0 mph. Mean B: 95.5 mph",
+     "mnemonic": {
+      "cue": "PEAK ≠ PATTERN",
+      "meaning": "Keep the best attempt and the distribution in view."
+     },
+     "items": [
+      {
+       "label": "Maximum A",
+       "detail": "104 mph",
+       "value": 104
+      },
+      {
+       "label": "Maximum B",
+       "detail": "101 mph",
+       "value": 101
+      },
+      {
+       "label": "Mean A",
+       "detail": "94.0 mph",
+       "value": 94
+      },
+      {
+       "label": "Mean B",
+       "detail": "95.5 mph",
+       "value": 95.5
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which interpretation best fits these data?",
+     "options": [
+      {
+       "text": "Power decreased because the maximum fell by three mph.",
+       "feedback": "That describes the highest observed contact, not a direct measurement of muscular power or a stable change in the athlete."
+      },
+      {
+       "text": "Hitting improved by 1.5 mph because the mean rose; no further review is needed.",
+       "feedback": "The arithmetic is correct for tracked contacts, but it does not establish game transfer, measurement stability or the reasons for missing contacts."
+      },
+      {
+       "text": "Report the lower maximum and higher center of the contact distribution; audit untracked swings and repeat the matched task.",
+       "feedback": "Best answer. It preserves the conflicting but valid summaries and identifies the next information needed for a baseball decision."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow."
+    },
+    "worked": [
+     "A concise staff message is: “In ten tracked contacts, the mean increased 1.5 mph while the maximum decreased 3 mph. Four additional swings per session lack a contact measurement. We need the event categories and repeated matched sessions before changing the development conclusion.”"
+    ],
+    "handoffPrompt": "Write the denominator and a follow-up question that would matter to the hitting coach but is absent from this list of exit speeds.",
+    "transfer": "Session B actually used a faster pitch delivery. Which inference must be removed, and what comparison could still be described honestly?"
+   },
+   {
+    "id": "first-base",
+    "title": "Acceleration and top speed answer different questions",
+    "brief": "The same synthetic outfielder has a 10 m electronic-gate time of 1.88 s at baseline and 1.82 s at follow-up with a fixed start setup. A separate home-to-first video task remains 4.25 s. The staff also has a season-level game running-speed summary, but its qualifying opportunities and aggregation differ. No local test-retest error estimate has been completed.",
+    "teaching": [
+     {
+      "heading": "Preserve the start and the clock",
+      "text": "The 10 m time changed by −0.06 s, or a 3.2% time reduction relative to baseline. That is a descriptive result, not yet proof of meaningful adaptation. Gate height, first movement relative to the beam, stance, surface, footwear and timing rules can all change the interpretation. A standing sprint and a run that begins after a swing are different tasks.\n\nMap the home-to-first sequence into leaving the box, accelerating and continuing toward the base. The official Baseball Savant teaching example illustrates why a sustained fastest-window statistic does not describe every earlier part of that sequence. It does not supply an intervention prescription or a universal threshold for this athlete.",
+      "sourceRefs": [
+       {
+        "id": "bb-savant-running",
+        "locator": "A Story of Sprint Speed and Burst: Statcast Data and Components of Speed; historical 2017 illustration."
+       }
+      ]
+     },
+     {
+      "heading": "Use matched physical and baseball observations",
+      "text": "The fixed-start sprint helps examine a repeatable physical task. The home-to-first task includes transition from the hitting action and its own timing rules. An unchanged total does not show which component stayed the same or offset another. Work with the baserunning and hitting coaches to observe the transition and running path; do not infer a leg-strength deficit from the total alone.\n\nChoose a training target that the athlete can understand: for example, improve the consistency of an agreed box-exit task while retaining acceleration work that fits the weekly schedule. Then define how each task will be observed again. This links physical preparation with baseball execution without assuming a laboratory or field-test gain will automatically appear in competition.",
+      "sourceRefs": [
+       {
+        "id": "depth-cscs-strength",
+        "locator": "Chapter 19, pp. 538–545 and 549–551: sprint mechanics, planned change of direction and reactive agility.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "first-base",
+     "title": "A run has more than one component",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "A run has more than one component: Leave the box: Transition after the swing. Accelerate: Build speed from the actual start. Continue: Sustain useful speed and path. Measure: Use a clock that matches the question",
+     "mnemonic": {
+      "cue": "EXIT → BUILD → RUN",
+      "meaning": "A fastest window does not describe the whole journey."
+     },
+     "items": [
+      {
+       "label": "Leave the box",
+       "detail": "Transition after the swing"
+      },
+      {
+       "label": "Accelerate",
+       "detail": "Build speed from the actual start"
+      },
+      {
+       "label": "Continue",
+       "detail": "Sustain useful speed and path"
+      },
+      {
+       "label": "Measure",
+       "detail": "Use a clock that matches the question"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "bb-savant-running",
+       "locator": "A Story of Sprint Speed and Burst: Statcast Data and Components of Speed; historical 2017 illustration."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which next assessment best addresses the mismatch?",
+     "options": [
+      {
+       "text": "Keep both time records, check their reliability and start rules, and inspect the home-to-first transition with the skill coaches.",
+       "feedback": "Best answer. It investigates the actual baseball sequence while retaining the controlled acceleration measure."
+      },
+      {
+       "text": "Replace the home-to-first measure with the improved 10 m score because gates are more objective than video.",
+       "feedback": "Instrumentation does not make two tasks equivalent. Reliability matters, but so does whether the measurement addresses the baseball question."
+      },
+      {
+       "text": "Remove acceleration training because the unchanged home-to-first time proves it did not transfer.",
+       "feedback": "The unchanged total does not reveal individual components, measurement error or causal effects of training."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "depth-cscs-strength",
+     "locator": "Chapter 19, pp. 538–545 and 549–551: sprint mechanics, planned change of direction and reactive agility."
+    },
+    "worked": [
+     "Report the 3.2% time reduction as observed, pending reliability context. The next baseball review separates the start transition from later running rather than collapsing every form of speed into one ranking."
+    ],
+    "handoffPrompt": "Write a repeatable start/stop definition for each timing task and name who will review box-exit execution.",
+    "transfer": "The hitter changes batting side between sessions. Which starting geometry and interpretation issues would you revisit before comparing home-to-first times?"
+   },
+   {
+    "id": "training-choice",
+    "title": "Allocate scarce time to an explicit baseball question",
+    "brief": "The next series permits two supervised 20-minute preparation windows. The athlete already has a hitting plan and usual team field work. You can preserve a short strength exposure, provide an acceleration practice, or collect a focused hitting assessment, but cannot fit every optional item. The standardized hitting and running results remain uncertain, and the next three games matter more than finishing a testing checklist.",
+    "teaching": [
+     {
+      "heading": "Choose the decision before adding the session",
+      "text": "Start with the next decision that could reasonably change the plan. If the staff needs to know whether a recent swing cue remains workable against varied delivery, that belongs with the hitting coach's practice. If it needs a repeatable acceleration observation, collect it within an appropriate running session. An extra generic test is not automatically the best use of limited preparation time.\n\nA short maintenance exposure and a specific acceleration session may be defensible here, with the contact audit handled from existing records. Another allocation could be better if the athlete's current status or playing assignment changes. State the priority, what you defer and the cost of deferral. The case does not establish a universal twenty-minute program.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Evaluate the plan across the actual baseball week",
+      "text": "The training dose includes more than the supervised window. Count scheduled running, swings and field repetitions by task, preserving unknowns. Coordinate timing so the athlete understands which session emphasizes development and which prepares the next task. The S&C practitioner should not independently rewrite the hitting program in order to improve a dashboard number.\n\nDefine a small review package: what was completed, the athlete's response, whether the intended baseball work remained available, and one matched observation when feasible. A plan that fits the week and generates interpretable feedback is more useful than an ambitious plan whose dose, purpose and consequences cannot be reconstructed.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 3, pp. 132–133 and 145–155: programming, microcycles and schedule constraints.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "training-choice",
+     "title": "Spend time where it changes a decision",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Spend time where it changes a decision: Question: What baseball decision is pending?. Window: What can this week support?. Choice: Keep, adapt or defer with a reason. Review: Dose, response and task availability",
+     "mnemonic": {
+      "cue": "Q–W–C–R",
+      "meaning": "Question, Window, Choice, Review."
+     },
+     "items": [
+      {
+       "label": "Question",
+       "detail": "What baseball decision is pending?"
+      },
+      {
+       "label": "Window",
+       "detail": "What can this week support?"
+      },
+      {
+       "label": "Choice",
+       "detail": "Keep, adapt or defer with a reason"
+      },
+      {
+       "label": "Review",
+       "detail": "Dose, response and task availability"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which proposal best fits the evidence and constraints?",
+     "options": [
+      {
+       "text": "Use both windows to repeat every test so the staff has more data before doing any training.",
+       "feedback": "More observations can help, but this allocation ignores opportunity cost and does not specify which result would change the plan."
+      },
+      {
+       "text": "Agree one development priority with the skill staff, retain a feasible supporting strength exposure, and schedule only the assessment that could change the next decision.",
+       "feedback": "Best answer. It connects limited preparation time with a useful baseball question and preserves accountability for what is deferred."
+      },
+      {
+       "text": "Use both windows for the athlete’s weakest percentile score, regardless of whether it relates to current baseball tasks.",
+       "feedback": "A reference ranking alone does not identify the highest-value target for this athlete or this week."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions."
+    },
+    "worked": [
+     "A defensible plan might preserve one brief strength exposure, place an appropriate acceleration practice in the other window, and ask the hitting coach to review existing contact-event records. The justification matters more than this illustrative allocation; it must change when the task or athlete response changes."
+    ],
+    "handoffPrompt": "Write the two-window plan, one deliberate deferral and the observation that would cause you to revise it.",
+    "transfer": "The player is unexpectedly assigned designated hitter for the entire series. Which planned work remains valuable, and which timing or task assumptions change?"
+   }
+  ],
+  "assignment": {
+   "prompt": "Build a two-week observation and training brief for the hitter. Prioritize one hitting question and one baserunning question; include the limited preparation windows.",
+   "deliverables": [
+    "A named local swing protocol with implement, task, device and summary rule.",
+    "A contact-distribution summary with all arithmetic and missing-event categories.",
+    "Separate start/stop rules for the 10 m sprint and home-to-first task.",
+    "A feasible two-window plan with a deliberate deferral and a revision trigger."
+   ],
+   "rubric": [
+    "Incompatible protocols are not compared as adaptation.",
+    "Means, medians, maximums and denominators are correctly described.",
+    "A physical test is not presented as a complete baseball-performance measure.",
+    "The plan coordinates with skill staff and clearly states what would change it."
+   ],
+   "model": [
+    "Withdraw the four-mph bat-speed gain because the original tests differ. Repeat the game-bat protocol for its own question and retain the training-bat exercise under its own name.",
+    "Show that the supplied contact sample has a lower maximum but a higher mean and median. Preserve the four untracked-contact swings. Report the 10 m time reduction descriptively and examine the baseball start transition before asserting transfer."
+   ],
+   "transferPrompt": "The player becomes a regular pinch-runner and defensive replacement. Rebuild the observation priorities without assuming that hitting work disappears."
+  },
+  "recall": {
+   "prompt": "What does “same units, different task” mean in this case?",
+   "answer": "Two values in mph or seconds may come from different implements, starts, instruments, opportunities or summary rules. Matching the units does not make them comparable."
+  },
+  "sourceRefs": [
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 8 pp. 292–302, 307–313; Chapter 18 pp. 666–672, 674–677; Chapter 3 pp. 132–133, 145–155.",
+    "application": "Protocol design, distribution and denominator audit, inference and feasible programming.",
+    "limit": "Multi-sport foundations; synthetic cases do not validate a baseball test or intervention.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "depth-cscs-strength",
+    "locator": "Chapter 19 pp. 538–545, 549–551.",
+    "application": "Distinguish acceleration, planned directional movement and reactive task execution.",
+    "limit": "General S&C synthesis, not a professional-baseball treatment effect.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "bb-savant-bat-tracking",
+    "locator": "Introductory bat-tracking definitions and glossary.",
+    "application": "Identify the official metric’s measurement point and selection convention; distinguish the local test.",
+    "limit": "Official descriptive documentation, not device validation or training efficacy."
+   },
+   {
+    "id": "bb-savant-running",
+    "locator": "Statcast Data and Components of Speed.",
+    "application": "Illustrate separate components of a run to first base.",
+    "limit": "Historical MLB example; not a universal training prescription."
+   }
+  ],
+  "tags": [
+   "hitting",
+   "bat speed",
+   "exit speed",
+   "baserunning",
+   "acceleration",
+   "protocol",
+   "sample"
+  ]
+ },
+ {
+  "id": "bb-catching-fielding",
+  "title": "Catching, fielding and the reserve role",
+  "track": "demands",
+  "subtitle": "Keep timing, execution, duty records and unpredictable assignments connected.",
+  "context": "You support two synthetic players: a catcher working on a throwing cue and a utility reserve who sometimes catches and also plays the infield. Staff time is limited, duties vary and some practice records are incomplete. Neither player is currently in a prescribed rehabilitation pathway.\n\nThe case moves from a controlled throw sequence to a duty ledger, a fielding assessment and a travel-week plan. You must keep physical preparation useful without turning every measurement into a medical conclusion or every baseball drill into a complete test.",
+  "outcomes": [
+   "Interpret the components of a catcher’s throw alongside target execution.",
+   "Record receiving, blocking and throwing without invented fatigue conversions.",
+   "Distinguish planned movement from fielding and build a revisable reserve plan."
+  ],
+  "scope": "All players, schedules, observations and numerical values are synthetic teaching examples. These decisions practice interpretation and coordination, not medical clearance, a validated injury-prediction system or an experimentally optimal training plan.",
+  "links": [
+   {
+    "route": "#unit/m06-u5",
+    "label": "Catcher and reserve programming"
+   },
+   {
+    "route": "#lesson/strength-sprint-brake",
+    "label": "Movement and braking foundation"
+   },
+   {
+    "route": "#lesson/science-workload-limits",
+    "label": "Exposure and uncertainty"
+   }
+  ],
+  "stages": [
+   {
+    "id": "throw-sequence",
+    "title": "The catcher’s throw is a sequence",
+    "brief": "In a synthetic catcher drill, Protocol A averages 0.72 s from receipt to release and 1.36 s from release to the fixed receiving plane: 2.08 s total. A new cue produces 0.64 s plus 1.36 s: 2.00 s total. Eight of ten A throws enter the predeclared target zone, compared with five of ten under the new cue. Trial conditions and target geometry are unchanged.",
+    "teaching": [
+     {
+      "heading": "Decompose time without losing the task",
+      "text": "The new cue reduces the measured total by 0.08 s, entirely within the receipt-to-release interval in this example. That identifies where the observed difference occurred; it does not identify the muscular or technical cause. Keep the timestamp definitions and camera or sensor method fixed. A club's local receipt-to-plane task should be named as such rather than automatically labeled the official game metric.\n\nOfficial Statcast documentation describes pop time using a projected receiving point at the base and distinguishes exchange from throw speed. The synthetic drill uses a fixed target-plane timing method. Its decomposition is useful locally, but official leaderboards are not interchangeable reference values for this custom task.",
+      "sourceRefs": [
+       {
+        "id": "bb-savant-pop-time",
+        "locator": "Pop Time Leaderboard: opening definition and exchange/throw metrics; checked October 13, 2026."
+       }
+      ]
+     },
+     {
+      "heading": "Make speed and execution visible together",
+      "text": "The target-zone count fell from 80% to 50%: a 30 percentage-point difference. In ten trials per condition, that is three additional misses, not a stable estimate of future game performance. The staff cannot describe the faster total as an uncomplicated improvement while omitting the target result. Conversely, it should not declare the cue permanently ineffective from this small sample.\n\nDiscuss the drill's purpose with the catching coach. A constrained practice may intentionally explore a faster movement option before integrating accuracy, but the progression should say so. Record the cue, timing distribution, target result, pitch location and athlete response. The next assessment should examine whether the combination can be reproduced under the intended task constraints.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "throw-sequence",
+     "title": "Faster time, different execution",
+     "type": "compare",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Faster time, different execution: Protocol A: 0.72 + 1.36 = 2.08 s; target 8/10. New cue: 0.64 + 1.36 = 2.00 s; target 5/10. Decision: Review the speed–execution combination",
+     "mnemonic": {
+      "cue": "TIME + TARGET",
+      "meaning": "Report where time changed and whether the throw did its job."
+     },
+     "items": [
+      {
+       "label": "Protocol A",
+       "detail": "0.72 + 1.36 = 2.08 s; target 8/10"
+      },
+      {
+       "label": "New cue",
+       "detail": "0.64 + 1.36 = 2.00 s; target 5/10"
+      },
+      {
+       "label": "Decision",
+       "detail": "Review the speed–execution combination"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "bb-savant-pop-time",
+       "locator": "Pop Time Leaderboard: opening definition and exchange/throw metrics; checked October 13, 2026."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "How should the staff describe the new cue?",
+     "options": [
+      {
+       "text": "A successful improvement because the total is 0.08 s faster.",
+       "feedback": "This omits a relevant task outcome. Faster time alone cannot establish that the overall throwing task improved."
+      },
+      {
+       "text": "A failed cue that should never be used again because accuracy fell.",
+       "feedback": "The small sample raises a useful concern but does not settle the value of a coaching experiment across contexts."
+      },
+      {
+       "text": "A faster local sequence with fewer target hits in this sample; review the cue’s purpose and repeat the combined task with the catching coach.",
+       "feedback": "Best answer. It reports both observations and keeps the next action tied to the actual throwing task."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow."
+    },
+    "worked": [
+     "The useful handoff is not “arm strength increased.” No ball-speed change was supplied. It is “the receipt-to-release interval shortened, flight time was unchanged, and target hits were fewer.” That wording helps the catching coach select the next investigation."
+    ],
+    "handoffPrompt": "Write a task-specific success criterion that preserves both timing and execution without inventing a universal professional cutoff.",
+    "transfer": "The new cue is tested only on pitches high in the strike zone while Protocol A includes low pitches. Which interpretation needs to be revised?"
+   },
+   {
+    "id": "catching-duty",
+    "title": "Receiving, blocking and throwing need different records",
+    "brief": "A synthetic catcher completes two games in three days. The log records 165 pitches received, 11 blocked-ball events, eight competitive throws to bases and 35 pregame practice throws. Some receiving work in the bullpen is uncounted. The team asks for a single “catching load” score to select tomorrow's lower-body training dose.",
+    "teaching": [
+     {
+      "heading": "Describe the work before assigning weights",
+      "text": "These categories describe different tasks. Receiving a pitch is not one strength repetition; a block is not a validated equivalent number of squats; a throw to a base is not interchangeable with a pregame throw. Adding all categories as if they were equal creates a count with unclear meaning. Multiplying them by invented fatigue weights only hides the problem behind arithmetic.\n\nKeep the categories alongside duration or innings, task intensity descriptions when available, surfaces, positions used and athlete response. This lets the staff ask practical questions: which duties were actually performed, which were absent from the record, and what is scheduled next? The athlete's own report complements the exposure ledger; neither is a stand-alone diagnosis.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 2, pp. 94–96 and 118–122: training dose, response and monitoring components.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Support the next baseball task",
+      "text": "The next day's preparation must account for planned catching, hitting, running and strength work. Review whether a lower-body session serves a current development need and how it fits the athlete's response and schedule. A changed session can preserve useful training without treating a game count as an automatic prohibition or permission.\n\nThe receiving and blocking technique plan belongs with the catching staff, and symptom assessment belongs with the medical team. The S&C contribution includes physical preparation, dose organization and communication. A concise handoff names the next intended task, the known exposure categories and the missing bullpen record. That is more actionable than a red or green score whose weighting nobody can defend.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "catching-duty",
+     "title": "Separate tasks, then review the next day",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "Separate tasks, then review the next day: Receive / block: Record task and opportunity. Throw: Record purpose and measured count. Player response: Ask what changed from usual. Next task: Coordinate the training decision",
+     "mnemonic": {
+      "cue": "DUTY",
+      "meaning": "Describe tasks, Understand gaps, Team review, Your next action."
+     },
+     "items": [
+      {
+       "label": "Receive / block",
+       "detail": "Record task and opportunity"
+      },
+      {
+       "label": "Throw",
+       "detail": "Record purpose and measured count"
+      },
+      {
+       "label": "Player response",
+       "detail": "Ask what changed from usual"
+      },
+      {
+       "label": "Next task",
+       "detail": "Coordinate the training decision"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "What should the S&C coach provide for tomorrow’s review?",
+     "options": [
+      {
+       "text": "A category ledger and athlete-response summary, with uncounted work visible and two feasible session options for the planned baseball duties.",
+       "feedback": "Best answer. This preserves usable information and makes the practical choice explicit without invented conversions."
+      },
+      {
+       "text": "One score using receiving = one unit, blocking = five units and throwing = three units, because weighted totals are easier to track.",
+       "feedback": "Ease of tracking does not validate these invented weights or their relationship with tomorrow’s capacity."
+      },
+      {
+       "text": "Only the number of games caught, because collecting categories is too complicated to be useful.",
+       "feedback": "Games may be a useful context field, but they discard available differences in duties and leave uncounted work invisible."
+      }
+     ],
+     "answer": 0,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions."
+    },
+    "worked": [
+     "A useful review note states the categories as supplied and marks bullpen receiving as unknown. It then offers a shorter maintenance option and the planned session, with the final choice linked to the next task and current staff assessment. It does not calculate a physiological fatigue percentage."
+    ],
+    "handoffPrompt": "Write a ledger heading for each duty and one sentence explaining why their counts cannot be converted into equivalent strength repetitions.",
+    "transfer": "The catcher reports an unusual symptom despite low recorded exposure. Who owns the next assessment, and what does that change about the planned training decision?"
+   },
+   {
+    "id": "fielding",
+    "title": "A fast cone drill is not yet game fielding",
+    "brief": "The organization has a synthetic utility player who catches occasionally and also plays infield. His planned change-of-direction drill improves from 5.10 to 4.95 s under the same local timing protocol. In a separate coach-rated ground-ball drill, he completes the agreed field-and-throw task on six of ten randomized feeds before and after the block. Feed speed and difficulty were not standardized.",
+    "teaching": [
+     {
+      "heading": "Keep planned movement and perception separate",
+      "text": "The planned drill improved by 0.15 s, a 2.9% time reduction relative to baseline. The athlete knew the route in advance. A baseball fielding task also requires detecting the ball, selecting a route, arranging the body for the fielding action and executing a throw. A prescribed route can help train a component without measuring that whole sequence.\n\nThe strength-and-conditioning text distinguishes planned change of direction from agility that responds to a stimulus. Apply that distinction to the assessment label. Call the cone result a planned-drill result. Do not rename it “baseball agility improved” unless the additional task evidence supports that broader claim.",
+      "sourceRefs": [
+       {
+        "id": "depth-cscs-strength",
+        "locator": "Chapter 19, pp. 538–545 and 549–551: sprint mechanics, planned change of direction and reactive agility.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Make the field task observable",
+      "text": "The unchanged six-of-ten count is difficult to interpret because the feeds differed. Preserve it as a practice observation, not a reliable performance test. With the infield coach, define the start position, feed categories, task success, timing events and sufficient repeatable opportunities. Keep representative uncertainty in skill practice, but identify which comparison is controlled enough to answer a measurement question.\n\nA useful next block may combine physical braking or acceleration work with coach-led reactive fielding practice. The two components should have distinct purposes and review measures. A better cone time cannot establish superior perception, and a missed difficult feed cannot by itself diagnose insufficient strength. The plan should test the chosen explanation instead of assuming it.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 8, pp. 292–302 and 307–313: measurement quality, data preparation and workflow.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "fielding",
+     "title": "From movement component to baseball sequence",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "From movement component to baseball sequence: Read: Detect the relevant ball cue. Move: Accelerate, brake and organize. Field: Complete the ball-handling task. Throw: Execute the intended play",
+     "mnemonic": {
+      "cue": "R–M–F–T",
+      "meaning": "Read, Move, Field, Throw: do not test only the middle."
+     },
+     "items": [
+      {
+       "label": "Read",
+       "detail": "Detect the relevant ball cue"
+      },
+      {
+       "label": "Move",
+       "detail": "Accelerate, brake and organize"
+      },
+      {
+       "label": "Field",
+       "detail": "Complete the ball-handling task"
+      },
+      {
+       "label": "Throw",
+       "detail": "Execute the intended play"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "depth-cscs-strength",
+       "locator": "Chapter 19, pp. 538–545 and 549–551: sprint mechanics, planned change of direction and reactive agility.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which assessment change would best clarify the next baseball decision?",
+     "options": [
+      {
+       "text": "Rank the player using only the cone time because the other task is too variable.",
+       "feedback": "The planned test can stay, but dropping the baseball task prevents the staff from evaluating the transfer question."
+      },
+      {
+       "text": "Retain the planned test and develop a documented field-and-throw observation with the infield coach, recording feed difficulty and execution separately.",
+       "feedback": "Best answer. It preserves the physical component while improving the relevance and interpretability of the baseball assessment."
+      },
+      {
+       "text": "Replace all physical work with random ground balls because only unpredictable drills have baseball value.",
+       "feedback": "Representative skill practice matters, but this does not show that targeted physical preparation has no value or should be abandoned."
+      }
+     ],
+     "answer": 1,
+     "sourceId": "depth-cscs-strength",
+     "locator": "Chapter 19, pp. 538–545 and 549–551: sprint mechanics, planned change of direction and reactive agility."
+    },
+    "worked": [
+     "The report can say: “The planned drill was 2.9% quicker. Baseball fielding transfer is unresolved because the separate task had unstandardized difficulty.” The next step is a better joint assessment, not a stronger causal claim."
+    ],
+    "handoffPrompt": "Write one metric for a physical component and one for field-and-throw execution, including what each deliberately leaves unmeasured.",
+    "transfer": "The player moves to the outfield. Which start positions, ball-flight cues, running paths and throwing tasks should change in the assessment?"
+   },
+   {
+    "id": "reserve",
+    "title": "A reserve needs preparation for duties not yet performed",
+    "brief": "For the next road series, the utility player may catch one game, enter late as a defensive replacement and pinch-run. Over the previous week, he had little game action. Team practice logs are incomplete, so “no game sprints” does not mean “no sprint exposure.” There is one supervised preparation window before departure and uncertain access to the field afterward.",
+    "teaching": [
+     {
+      "heading": "Plan for plausible duties and actual recent work",
+      "text": "A reserve's immediate need is to remain prepared for an unpredictable assignment while continuing development when opportunity allows. Start by confirming recent practice, current athlete response, the likely duties and available facilities. A low game count is not evidence of complete recovery, nor proof that the player requires a large compensatory workout.\n\nCreate a short menu that preserves the qualities needed for likely tasks: an appropriate acceleration opportunity, a feasible strength exposure and coordinated fielding or catching practice. The exact dose depends on the athlete's established program and response. These are categories for planning, not a universal reserve prescription or a claim that every duty should be rehearsed maximally before travel.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 3, pp. 132–133 and 145–155: microcycle planning and constraints; Chapter 1, pp. 86–89: coordinated decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     },
+     {
+      "heading": "Use a trigger, an owner and a review",
+      "text": "Specify which change in assignment will alter the menu. If the player is named the next day's catcher, the catching and performance staff can revise timing and optional work. If field access disappears, record the substitution and what baseball-specific exposure it did not reproduce. A gym session can support physical preparation without pretending to replace a reactive fielding or baserunning task.\n\nEnd the week by reviewing completed work, not just planned work. The ledger should make missed opportunities visible so the next week is informed rather than reactive. The most useful reserve plan is both ready to run and easy to revise: the athlete knows today's purpose, the staff knows who can change it, and everyone can see why it changed.",
+      "sourceRefs": [
+       {
+        "id": "perf-nsca",
+        "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+        "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+       }
+      ]
+     }
+    ],
+    "graphic": {
+     "id": "reserve",
+     "title": "A reserve plan has branches",
+     "type": "flow",
+     "caption": "Original conceptual diagram for this synthetic case. Boxes organize a decision; arrows do not establish causation.",
+     "alt": "A reserve plan has branches: Likely duty: Catch, field, run or develop. Recent work: Confirm practice as well as games. Available window: Choose a feasible prepared option. Assignment changes: Named owner revises and records",
+     "mnemonic": {
+      "cue": "ROLE",
+      "meaning": "Role, Observed work, Logistics, Edit when duties change."
+     },
+     "items": [
+      {
+       "label": "Likely duty",
+       "detail": "Catch, field, run or develop"
+      },
+      {
+       "label": "Recent work",
+       "detail": "Confirm practice as well as games"
+      },
+      {
+       "label": "Available window",
+       "detail": "Choose a feasible prepared option"
+      },
+      {
+       "label": "Assignment changes",
+       "detail": "Named owner revises and records"
+      }
+     ],
+     "sourceRefs": [
+      {
+       "id": "perf-nsca",
+       "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions.",
+       "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+      }
+     ]
+    },
+    "decision": {
+     "prompt": "Which plan best handles this uncertain week?",
+     "options": [
+      {
+       "text": "Complete a large catch-up session now to replace every missed game exposure.",
+       "feedback": "Game absence does not define an exposure deficit or validate one large replacement dose. The incomplete practice log matters."
+      },
+      {
+       "text": "Avoid all development work until the lineup becomes predictable.",
+       "feedback": "This preserves flexibility at the cost of abandoning useful preparation. A bounded, revisable menu can accommodate uncertainty."
+      },
+      {
+       "text": "Confirm recent work and likely duties, select a feasible preparation menu, and assign a clear revision trigger if the lineup or facilities change.",
+       "feedback": "Best answer. It prepares the athlete for plausible baseball tasks while keeping the plan responsive to actual information."
+      }
+     ],
+     "answer": 2,
+     "sourceId": "perf-nsca",
+     "locator": "Chapter 1, pp. 75–81 and 86–89: performance roles, interdisciplinary interpretation and decisions."
+    },
+    "worked": [
+     "A suitable handoff lists today’s chosen option, what practice exposure remains uncertain, who can revise tomorrow’s work and the next review time. It does not label the reserve “fresh” merely because the box score is empty."
+    ],
+    "handoffPrompt": "Write a reserve plan with two branches, the trigger for changing branches and the staff member responsible for communicating the change.",
+    "transfer": "The player enters unexpectedly after four innings and catches the rest of the game. What newly completed work must enter the next morning’s review?"
+   }
+  ],
+  "assignment": {
+   "prompt": "Prepare a shared catching-and-utility-player handoff sheet for the road series. It must support a decision even when game assignments change.",
+   "deliverables": [
+    "A throwing summary with interval arithmetic and target results.",
+    "Separate duty categories with unknown and estimated fields.",
+    "A planned movement test and a field-and-throw observation with different purposes.",
+    "Two reserve-program branches with clear owners and revision triggers."
+   ],
+   "rubric": [
+    "Timing and execution are reported together.",
+    "No invented conversion maps catches or blocks to fatigue, strength repetitions or clearance.",
+    "The fielding assessment distinguishes perception, movement and ball execution.",
+    "The reserve plan responds to actual duties and preserves completed-work records."
+   ],
+   "model": [
+    "Describe the cue as 0.08 s faster locally with three fewer target hits in ten trials; do not invent an arm-strength gain. Keep receipt, block and throw categories separate.",
+    "Retain the improved cone-drill time while calling fielding transfer unresolved. Prepare a bounded menu for likely duties and revise it when actual catching, fielding or running work changes."
+   ],
+   "transferPrompt": "The utility player is moved to the outfield midway through the trip. Identify the task observations and training assumptions that need revision."
+  },
+  "recall": {
+   "prompt": "Recall TIME + TARGET, then ROLE. What does each protect you from?",
+   "answer": "TIME + TARGET prevents a faster throw from hiding poorer execution. ROLE—Role, Observed work, Logistics, Edit—prevents the reserve plan from being based only on an empty box score."
+  },
+  "sourceRefs": [
+   {
+    "id": "bb-savant-pop-time",
+    "locator": "Opening definition and exchange/throw-speed documentation.",
+    "application": "Distinguish the official projected-base statistic from a local timed throwing task.",
+    "limit": "Official descriptive documentation; no independent validation of the synthetic drill."
+   },
+   {
+    "id": "perf-nsca",
+    "locator": "Chapter 1 pp. 75–81, 86–89; Chapter 2 pp. 94–96, 118–122; Chapter 3 pp. 132–133, 145–155; Chapter 8 pp. 292–302.",
+    "application": "Coordination, exposure/response distinction, programming and test interpretation.",
+    "limit": "Foundational multi-sport synthesis; original cases are not universal prescriptions.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   },
+   {
+    "id": "depth-cscs-strength",
+    "locator": "Chapter 19 pp. 538–545, 549–551.",
+    "application": "Planned movement versus reactive agility.",
+    "limit": "Cross-sport foundation; not proof that a cone test predicts baseball fielding.",
+    "access": "Paid textbook. Cited by chapter and page; no text, tables or figures are reproduced."
+   }
+  ],
+  "tags": [
+   "catching",
+   "pop time",
+   "receiving",
+   "blocking",
+   "fielding",
+   "reserve",
+   "utility player"
+  ]
+ }
+]

@@ -1,0 +1,31 @@
+row_id,athlete_id,date,event_id,category,count,source,status,note
+RAW-01,SYN-P07,2026-07-01,D1-game,game,18,official_game_feed,recorded,Counted event; category excludes other event categories.
+RAW-02,SYN-P07,2026-07-01,D1-bullpen,bullpen,24,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-03,SYN-P07,2026-07-01,D1-between_innings,between_innings,6,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-04,SYN-P07,2026-07-01,D1-flat_ground,flat_ground,12,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-05,SYN-P07,2026-07-02,D2-game,game,0,official_game_feed,recorded,Staff verified no throws in this category.
+RAW-06,SYN-P07,2026-07-02,D2-bullpen,bullpen,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-07,SYN-P07,2026-07-02,D2-between_innings,between_innings,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-08,SYN-P07,2026-07-02,D2-flat_ground,flat_ground,20,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-09,SYN-P07,2026-07-03,D3-game,game,0,official_game_feed,recorded,Staff verified no throws in this category.
+RAW-10,SYN-P07,2026-07-03,D3-bullpen,bullpen,18,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-11,SYN-P07,2026-07-03,D3-between_innings,between_innings,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-12,SYN-P07,2026-07-03,D3-flat_ground,flat_ground,,staff_throw_log,unresolved,Log absent; count unknown; do not enter zero.
+RAW-13,SYN-P07,2026-07-04,D4-game,game,27,official_game_feed,recorded,Counted event; category excludes other event categories.
+RAW-14,SYN-P07,2026-07-04,D4-bullpen,bullpen,22,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-15,SYN-P07,2026-07-04,D4-between_innings,between_innings,9,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-16,SYN-P07,2026-07-04,D4-flat_ground,flat_ground,16,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-17,SYN-P07,2026-07-05,D5-game,game,0,official_game_feed,recorded,Staff verified no throws in this category.
+RAW-18,SYN-P07,2026-07-05,D5-bullpen,bullpen,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-19,SYN-P07,2026-07-05,D5-between_innings,between_innings,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-20,SYN-P07,2026-07-05,D5-flat_ground,flat_ground,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-21,SYN-P07,2026-07-06,D6-game,game,12,official_game_feed,recorded,Counted event; category excludes other event categories.
+RAW-22,SYN-P07,2026-07-06,D6-bullpen,bullpen,,staff_throw_log,unresolved,Log absent; count unknown; do not enter zero.
+RAW-23,SYN-P07,2026-07-06,D6-between_innings,between_innings,3,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-24,SYN-P07,2026-07-06,D6-flat_ground,flat_ground,14,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-25,SYN-P07,2026-07-07,D7-game,game,0,official_game_feed,recorded,Staff verified no throws in this category.
+RAW-26,SYN-P07,2026-07-07,D7-bullpen,bullpen,26,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-27,SYN-P07,2026-07-07,D7-between_innings,between_innings,0,staff_throw_log,recorded,Staff verified no throws in this category.
+RAW-28,SYN-P07,2026-07-07,D7-flat_ground,flat_ground,18,staff_throw_log,recorded,Counted event; category excludes other event categories.
+RAW-29,SYN-P07,2026-07-04,D4-game,game,27,repeat_import,verified_duplicate,"Import audit confirms this repeats RAW-13; retain original event once, not both rows."
+RAW-30,SYN-P07,2026-07-07,D7-bullpen,bullpen,26,repeat_import,verified_duplicate,"Import audit confirms this repeats RAW-26; retain original event once, not both rows."
